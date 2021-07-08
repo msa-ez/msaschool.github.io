@@ -1,0 +1,24 @@
+.DS_Store
+node_modules
+dist
+
+# local env files
+.env.local
+.env.*.local
+
+
+
+*.log
+.cache
+src/.temp
+!.env.example
+.env.*
+src/.env
+
+
+
+
+
+
+
+
