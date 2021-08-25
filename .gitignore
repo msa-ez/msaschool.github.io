@@ -6,7 +6,8 @@ dist
 .env.local
 .env.*.local
 
-
+.env
+.env.test
 
 *.log
 .cache

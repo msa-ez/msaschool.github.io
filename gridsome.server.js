@@ -8,7 +8,7 @@
 // const nodeExternals = require('webpack-node-externals')
 const VuetifyLoaderPlugin = require("vuetify-loader/lib/plugin");
 
-module.exports = function (api) {
+module.exports = function (api, options) {
     // api.chainWebpack((config, { isServer }) => {
     //     if (isServer) {
     //         config.externals([
@@ -18,6 +18,7 @@ module.exports = function (api) {
     //         ])
     //     }
     // })
+    api.setClientOptions(options)
 
     api.chainWebpack((config, {isServer}) => {
         config.plugin('vuetify-loader').use(VuetifyLoaderPlugin);
