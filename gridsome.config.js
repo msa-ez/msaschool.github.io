@@ -13,7 +13,7 @@ module.exports = {
     },
 
     runtimeCompiler: true,
-    siteUrl: "https://example.com",
+    siteUrl: "https://msaschool.io",
     settings: {
         web: process.env.URL_WEB || false,
         twitter: process.env.URL_TWITTER || false,
