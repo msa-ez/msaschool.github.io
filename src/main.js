@@ -2,6 +2,8 @@
 
 import Vuetify from "vuetify/lib/framework";
 import "vuetify/dist/vuetify.min.css";
+import VueAnalytics from 'vue-analytics'
+
 
 
 import DefaultLayout from "~/layouts/Default.vue";
@@ -51,6 +53,10 @@ export default function (Vue, {appOptions, head}) {
     firebase.initializeApp(firebaseConfig);
 
 
+
+    Vue.use(VueAnalytics, {
+        id: 'UA-153107610-2',
+    })
 
     Vue.use(VueYouTubeEmbed, {global: true, componentId: "youtube-media"})
 
