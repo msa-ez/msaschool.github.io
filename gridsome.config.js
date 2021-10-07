@@ -99,6 +99,12 @@ module.exports = {
             use: "@gridsome/plugin-sitemap",
             options: {}
         },
+        {
+            use: '@gridsome/plugin-google-analytics',
+            options: {
+            id: 'UA-153107610-2'
+            }
+        },
     ],
     // transformers: {
     //   remark: {
