@@ -75,6 +75,25 @@
         },
         mounted(){
         },
+        watch: {
+            "$page.markdownPage.content":function(newvalue){
+                this.track()
+            }
+        },
+        methods:{
+            track() {
+                var getTitle = this.$page.markdownPage && this.$page.markdownPage.title ?
+                    this.$page.markdownPage.title : this.$route.path
+                var location = window.location.hostname
+                if (location && location != 'localhost') {
+                    getTitle = `${location}_${getTitle}`
+                }
+                this.$ga.page({
+                    page: this.$route.path,
+                    title: getTitle
+                })
+            },
+        },
         computed: {
             getComponentName() {
 
