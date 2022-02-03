@@ -63,7 +63,7 @@
                     <h3 style="margin-bottom:0;">김상훈 매니저</h3>
                     <p style="margin-bottom:0;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     <div style=" height:100%; float:left; padding:10px 10px 10px 0;">
-                        <g-image src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
+                        <g-image style="width:220px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
                     <div style="float:left;">
                         <p>
