@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h1 style="margin-top:20px;">참고도서</h1>
+        <h2 style="margin-top:20px;">참고도서</h2>
 
         <div>
                 <div class="clearfix">
-                        <h2 class="float-left">[Overall MSA Design patterns]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h3>
+                        <h3 class="float-left">[Overall MSA Design patterns]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image1.jpg"></g-image>
@@ -21,8 +21,8 @@
 
         <div style="margin-top:50px;">
                 <div class="clearfix">
-                        <h2 class="float-left">[Microservice decomposition strategy]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">구매링크</a></h3>
+                        <h3 class="float-left">[Microservice decomposition strategy]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">구매링크</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image2.jpg"></g-image>
@@ -39,8 +39,8 @@
 
         <div style="margin-top:50px;">
                 <div class="clearfix">
-                        <h2 class="float-left">[Event Storming]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://leanpub.com/introducing_eventstorming">구매링크</a></h3>
+                        <h3 class="float-left">[Event Storming]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://leanpub.com/introducing_eventstorming">구매링크</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image3.jpg"></g-image>
@@ -56,8 +56,8 @@
 
         <div style="margin-top:50px;">
                 <div class="clearfix">
-                        <h2 class="float-left">[Database Design in MSA]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.confluent.io/wp-content/uploads/2016/08/Making_Sense_of_Stream_Processing_Confluent_1.pdf">무료버전</a></h3>
+                        <h3 class="float-left">[Database Design in MSA]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.confluent.io/wp-content/uploads/2016/08/Making_Sense_of_Stream_Processing_Confluent_1.pdf">무료버전</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image4.jpg"></g-image>
@@ -72,8 +72,8 @@
 
         <div style="margin-top:50px;">
                 <div class="clearfix">
-                        <h2 class="float-left">[Deep dive]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM">구매링크</a></h3>
+                        <h3 class="float-left">[Deep dive]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM">구매링크</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image5.jpg"></g-image>
@@ -89,8 +89,8 @@
 
         <div style="margin-top:50px;">
                 <div class="clearfix">
-                        <h2 class="float-left">[API design and REST]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://pepa.holla.cz/wp-content/uploads/2016/01/REST-in-Practice.pdf">무료버전</a></h3>
+                        <h3 class="float-left">[API design and REST]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://pepa.holla.cz/wp-content/uploads/2016/01/REST-in-Practice.pdf">무료버전</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image6.jpg"></g-image>
@@ -105,9 +105,9 @@
 
         <div style="margin:50px 0 100px 0;">
                 <div class="clearfix">
-                        <h2 class="float-left">[Saga]</h2>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://eventuate.io/">eventuate 링크</a></h3>
-                        <h3 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://vladmihalcea.com/how-to-extract-change-data-events-from-mysql-to-kafka-using-debezium/?fbclid=IwAR33Spb4jPBNI6VNHuCxdu_BxpWdzOLzMvbCtHHvJrRmJPfiEoXwM1qWYBs">구매링크</a></h3>
+                        <h3 class="float-left">[Saga]</h3>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://eventuate.io/">eventuate 링크</a></h4>
+                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://vladmihalcea.com/how-to-extract-change-data-events-from-mysql-to-kafka-using-debezium/?fbclid=IwAR33Spb4jPBNI6VNHuCxdu_BxpWdzOLzMvbCtHHvJrRmJPfiEoXwM1qWYBs">구매링크</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin:0 0 20px 0;" src="~/img/04_Library/05_부가자료/01_참고 도서/image7.jpg"></g-image>
