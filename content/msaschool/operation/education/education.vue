@@ -331,10 +331,9 @@
             return {}
         },
         props: {
-            "교육과정(9 days)": {
+            "엔터프라이즈 강의": {
                 type: String
             },
         },
-
     }
 </script>
