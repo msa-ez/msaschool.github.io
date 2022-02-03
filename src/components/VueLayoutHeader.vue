@@ -32,9 +32,30 @@
 
                 <div class="flex flex-col items-center px-3   mr-auto  sm:flex-row"
                      style="justify-content:flex-end;margin-right:5%;">
-                    <!-- <ClientOnly>
-                        <login/>
-                    </ClientOnly> -->
+                    <div class="modal-container">
+                        <input id="modal-toggle" type="checkbox">
+                        <label class="modal-btn"
+                            for="modal-toggle" 
+                            style="height: 36px;
+                            line-height: 36px;
+                            font-weight: 400;
+                            font-size: 0.875rem;
+                            width: 120px;" 
+                            >커리큘럼 보기</label> 
+                        <label class="modal-backdrop" for="modal-toggle"></label>
+                        <div class="modal-content">
+                            <label class="modal-close" for="modal-toggle">&#x2715;</label>
+                            <h2>Cloud Native Modeling & Application 구현과정 교안</h2><hr />
+                            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image7.png"></g-image>
+                            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image8.png"></g-image>
+                            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image9.png"></g-image>
+                            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image10.png"></g-image>
+                        </div>
+                    </div> 
+                    <v-btn class="application-btn"
+                        :href="'http://www.msaschool.io/operation/education/schedule/'"
+                    ><span style="color:white;">교육 신청하기</span>
+                    </v-btn>
                 </div>
 
             </div>
@@ -105,6 +126,21 @@
     };
 </script>
 
+
+<style scoped>
+    .application-btn{
+        background-color:#5a67d8 !important;
+        border-radius: 4px;
+        margin-left:-10px;
+    }
+    .g-images {
+        margin:20px 0 20px 0;
+    }
+
+    .modal-container #modal-toggle.active ~ .modal-content, .modal-container #modal-toggle:checked ~ .modal-content {
+        margin-top:80px;
+    }
+</style>
 <style lang="scss">
     header {
         svg:not(.feather-search) {

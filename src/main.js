@@ -3,11 +3,13 @@
 import Vue from 'vue'
 import Vuetify from "vuetify/lib/framework";
 import "vuetify/dist/vuetify.min.css";
-import VueAnalytics from 'vue-analytics'
+import VueAnalytics from 'vue-analytics';
 
 Vue.use(VueAnalytics, {
     id: 'UA-153107610-2',
 })
+
+require('./global.css');
 
 
 import DefaultLayout from "~/layouts/Default.vue";

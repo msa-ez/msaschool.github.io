@@ -221,8 +221,9 @@ MSASchool 컨텐츠는 BizDevOps 라이프사이클에 맞는 직관적인 메�
 <mark-down class="content">
 ### MSASchool의 MSA 수업 시간표
 </mark-down>
+<br>
 
-<mark-down style="margin-top: -70px;" class="content" source='
+<!-- <mark-down style="margin-top: -70px;" class="content" source='
 <h5>
     <table>
         <thead>
@@ -281,15 +282,17 @@ MSASchool 컨텐츠는 BizDevOps 라이프사이클에 맞는 직관적인 메�
     </table>
 </h5>
 
-- MSASchool 은 마이크로서비스 구현 라이프사이클에 맞는 단계별 교육을 제공합니다. 
-    - 분석/설계(2일), 구현(3일), 배포(1일), 운영(3일)의 총 9일간의 일정으로 기업이 요구하는 클라우드 플랫폼(AWS, Azure, Google Cloud Platform)을 활용하여 비대면/대면 온디멘드 교육을 수강할 수 있습니다.
-    - 교육 기간은 협의하여 단기과정(1일, 3일)으로 진행될 수 있습니다.
-* 교육관련 연락처 : help@uengine.org | 전화 : 02-556-3400 | 팩스: 02-567-8305
-- 온라인 교육신청 : <a href="https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=sf_link" target="_blank" style="color:blue">신청서 작성하기</a>
 
-    '></mark-down>
-    <br /> <br /> <br />
-        
+    '></mark-down> -->
+
+<g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image7.png"></g-image><br>
+<g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image8.png"></g-image><br>
+<g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image9.png"></g-image><br>
+<g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image10.png"></g-image><br>
+
+* 교육관련 연락처 : help@uengine.org | 전화 : 02-556-3400 | 팩스: 02-567-8305<br>
+* 온라인 교육신청 : <a href="http://www.msaschool.io/operation/education/schedule/" target="_blank" style="color:blue">신청서 작성하기</a>
+<br><br><br><br><br><br>
     </div>
 </template>
 

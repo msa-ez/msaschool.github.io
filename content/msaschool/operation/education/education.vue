@@ -318,18 +318,20 @@
 </h5>
         '></mark-down>
 <br /><br />
+
+
     </div>
 </template>
 
 <script>
-        // @group 05_02_02
+        // @group 05_02_06
     export default {
         name:'education',
         data() {
             return {}
         },
         props: {
-            "교육과정": {
+            "교육과정(9 days)": {
                 type: String
             },
         },
