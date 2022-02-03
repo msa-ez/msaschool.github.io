@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 style="margin-top:20px;">참고도서</h2>
+        <h2 style="margin-top:50px;">참고도서</h2>
 
         <div>
                 <div class="clearfix">
