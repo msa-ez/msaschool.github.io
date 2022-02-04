@@ -3,13 +3,13 @@
         <h2 style="margin-top:50px;">참고도서</h2>
 
         <div>
-                <div class="clearfix">
-                        <h3 style="float:left !important;">[Overall MSA Design patterns]</h3>
-                        <h4 style="float:left !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[Overall MSA Design patterns]</h3>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h4>
                 </div>
-                <div class="clearfix">
-                        <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image1.jpg"></g-image>
-                        <p style="display:contents;" class="float-left">
+                <div style="display:inline-flex;">
+                        <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image1.jpg"></g-image>
+                        <p>
                                 • 전반적으로 마이크로서비스의 아키텍처 패턴에 대해 총정리하고 있는 책입니다.<br><br>
                                 • 여러 마이크로서비스에 대한 적용전략들을 디자인 패턴으로 소개하고,<br>
                                 마이크로서비스 디컴포지션 방법과 서비스간의 커뮤니케이션 기법 및 트랜잭션 이슈에 대해 심도 있게 다루고 있습니다.<br><br>
@@ -20,13 +20,13 @@
         </div>
 
         <div style="margin-top:50px;">
-                <div class="clearfix">
-                        <h3 class="float-left">[Microservice decomposition strategy]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">구매링크</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[Microservice decomposition strategy]</h3>
+                        <h4 style="margin:5px 0 0 20px !important; display:inline-block !important;"><a style="color:#5a67d8;" href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">구매링크</a></h4>
                 </div>
-                <div class="clearfix">
-                        <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image2.jpg"></g-image>
-                        <p style="display:contents;" class="float-left">
+                <div style="display:inline-flex;">
+                        <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image2.jpg"></g-image>
+                        <p>
                                 • Domain Driven Design의 여러 패턴을 설명하는 책 중 모호한 설명을 배제,<br>
                                 가장 쉽게 설명하고 있는 책으로 책의 분량도 적당하여 개념 정립하는데 도움이 됩니다.<br><br>
                                 • DDD의 핵심인 바운디드 컨텍스트와 유비쿼터스 언어의 적용전략,<br>
@@ -38,13 +38,13 @@
 
 
         <div style="margin-top:50px;">
-                <div class="clearfix">
-                        <h3 class="float-left">[Event Storming]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://leanpub.com/introducing_eventstorming">구매링크</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[Event Storming]</h3>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://leanpub.com/introducing_eventstorming">구매링크</a></h4>
                 </div>
-                <div class="clearfix">
-                        <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image3.jpg"></g-image>
-                        <p style="display:contents;" class="float-left">
+                <div style="display:inline-flex;">
+                        <g-image style="margin-right:10px; " src="~/img/04_Library/05_부가자료/01_참고 도서/image3.jpg"></g-image>
+                        <p>
                                 • DDD를 쉽게 하는 방법인 이벤트스토밍에 대해 기술한 책입니다.<br><br>
                                 • 책값 대신 기부를 하면, 기부 받은 금액만큼 기술해 나가는<br>
                                   도서로 이탈리아의 Alberto brandolini가 저자로 실제 이벤트스토밍을 고안한 창시자입니다.<br><br>
@@ -55,13 +55,13 @@
         </div>
 
         <div style="margin-top:50px;">
-                <div class="clearfix">
-                        <h3 class="float-left">[Database Design in MSA]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.confluent.io/wp-content/uploads/2016/08/Making_Sense_of_Stream_Processing_Confluent_1.pdf">무료버전</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[Database Design in MSA]</h3>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://www.confluent.io/wp-content/uploads/2016/08/Making_Sense_of_Stream_Processing_Confluent_1.pdf">무료버전</a></h4>
                 </div>
-                <div class="clearfix">
-                        <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image4.jpg"></g-image>
-                        <p style="display:contents;" class="float-left">
+                <div style="display:inline-flex;">
+                        <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image4.jpg"></g-image>
+                        <p>
                                 • 이븐트-드리븐한 기법으로 데이터를 분산하는 기법에 대한 책입니다.<br><br>
                                 • 무료로 읽을 수 있는 Light한 버전으로 마틴 크레만이 지은 스트림 프로세싱에 대한 내용입니다.<br><br>
                                 • 굳이 비싼 RDBMS를 사용하지 않더라도 스케일러블한 데이터베이스 구조를 만들고,<br>
@@ -71,13 +71,13 @@
         </div>
 
         <div style="margin-top:50px;">
-                <div class="clearfix">
-                        <h3 class="float-left">[Deep dive]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM">구매링크</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[Deep dive]</h3>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM">구매링크</a></h4>
                 </div>
-                <div class="clearfix">
-                        <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image5.jpg"></g-image>
-                        <p style="display:contents;" class="float-left">
+                <div style="display:inline-flex;">
+                        <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image5.jpg"></g-image>
+                        <p>
                                 • MSA 현장에서 서비스 분리보다 더 큰 이슈는 데이터베이스를 어떻게 쪼개는가 하는 것입니다.<br><br>
                                 • 데이터 처리 및 저장을 위한 다양한 기술의 장단점을 검토하여 다양한 환경에서 어플리케이션이 이를 탐색할 수 있도록 가이드하고 있습니다.<br><br>
                                 • RDBMS, NoSQL, Stream, 메시지 브로커 등 다양한 도구들이 어떤 응용분야에 적합한지도 기술합니다.<br><br>
@@ -88,13 +88,13 @@
 
 
         <div style="margin-top:50px;">
-                <div class="clearfix">
-                        <h3 class="float-left">[API design and REST]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://pepa.holla.cz/wp-content/uploads/2016/01/REST-in-Practice.pdf">무료버전</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[API design and REST]</h3>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://pepa.holla.cz/wp-content/uploads/2016/01/REST-in-Practice.pdf">무료버전</a></h4>
                 </div>
-                <div class="clearfix">
-                        <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image6.jpg"></g-image>
-                        <p style="display:contents;" class="float-left">
+                <div style="display:inline-flex;">
+                        <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image6.jpg"></g-image>
+                        <p>
                                 • REST API를 어떻게 디자인하고 그것을 확장하는 가에 대한 책입니다.<br><br>
                                 • JSON 기반 REST 프로토콜이 나오기 이전 SOAP은 데이터를 하나로 합쳐 통째로 담아 전달하는 방식이었는데,<br>
                                 이를 HTTP 메소드(POST, GET, PATCH, DELETE)와 URI 링크구조를 기반으로 RDBMS 처럼 구동할 수 있다는 것에 저자는 착안했습니다.
@@ -104,12 +104,12 @@
 
 
         <div style="margin:50px 0 100px 0;">
-                <div class="clearfix">
-                        <h3 class="float-left">[Saga]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://eventuate.io/">eventuate 링크</a></h4>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://vladmihalcea.com/how-to-extract-change-data-events-from-mysql-to-kafka-using-debezium/?fbclid=IwAR33Spb4jPBNI6VNHuCxdu_BxpWdzOLzMvbCtHHvJrRmJPfiEoXwM1qWYBs">구매링크</a></h4>
+                <div>
+                        <h3 style="display:inline-block !important;">[Saga]</h3>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://eventuate.io/">eventuate 링크</a></h4>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://vladmihalcea.com/how-to-extract-change-data-events-from-mysql-to-kafka-using-debezium/?fbclid=IwAR33Spb4jPBNI6VNHuCxdu_BxpWdzOLzMvbCtHHvJrRmJPfiEoXwM1qWYBs">구매링크</a></h4>
                 </div>
-                <div class="clearfix">
+                <div>
                         <g-image style="margin:0 0 20px 0;" src="~/img/04_Library/05_부가자료/01_참고 도서/image7.jpg"></g-image>
                         <p style="display:contents;">
                                 • 마이크로 서비스는 개발을 가속화하고 기업이 더 빠르게 혁신하고 경쟁 우위를 유지할 수 있도록 합니다.<br><br>
@@ -143,5 +143,10 @@
 <style scoped>
         .float-left {
                 float:left !important;
+        }
+        .clearfix::after {
+                content: "" !important;
+                display: block !important;
+                clear: both !important;
         }
 </style>
