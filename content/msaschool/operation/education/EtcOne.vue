@@ -4,8 +4,8 @@
 
         <div>
                 <div class="clearfix">
-                        <h3 class="float-left">[Overall MSA Design patterns]</h3>
-                        <h4 class="float-left" style="margin:5px 0 0 20px;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h4>
+                        <h3 style="float:left !important;">[Overall MSA Design patterns]</h3>
+                        <h4 style="float:left !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h4>
                 </div>
                 <div class="clearfix">
                         <g-image style="margin-right:10px;" class="float-left" src="~/img/04_Library/05_부가자료/01_참고 도서/image1.jpg"></g-image>
@@ -142,6 +142,6 @@
 
 <style scoped>
         .float-left {
-                float:left;
+                float:left !important;
         }
 </style>

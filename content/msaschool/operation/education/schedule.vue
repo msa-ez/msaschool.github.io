@@ -170,14 +170,14 @@
 
 <style scoped>
     .btn-box {
-        margin:20px 0 0 20px;
-        display:inline-grid;
+        margin:20px 0 0 20px !important;
+        display:inline-grid !important;
     }
 
     .g-images {
-        margin:20px 0 20px 0;
-        float: left;
-        width:40%;
+        margin:20px 0 20px 0 !important;
+        float: left !important;
+        width:40% !important;
     }
 
 
@@ -190,13 +190,13 @@
     }
 
     .default-button:nth-child(1) {
-        margin-bottom:10px;
+        margin-bottom:10px !important;
     }
 
 /* 버튼 텍스트 */
     .default-button span {
-        font-size:24px;
-        font-weight: 500;
+        font-size:24px !important;
+        font-weight: 500 !important;
     }
 
 </style>

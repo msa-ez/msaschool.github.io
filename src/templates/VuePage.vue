@@ -96,19 +96,20 @@
         },
         methods: {
             track() {
+                if (typeof window !== "undefined") {
+                    var getTitle = this.$page.thisPage && this.$page.thisPage.props[0] ?
+                        this.$page.thisPage.props[0].name :
+                        (this.$page.thisPage.name ? this.$page.thisPage.name : this.$route.path)
+                    var location = window.location.hostname
+                    if (location && location != 'localhost') {
+                        getTitle = `${location}_${getTitle}`
+                    }
 
-                var getTitle = this.$page.thisPage && this.$page.thisPage.props[0] ?
-                    this.$page.thisPage.props[0].name :
-                    (this.$page.thisPage.name ? this.$page.thisPage.name : this.$route.path)
-                var location = window.location.hostname
-                if (location && location != 'localhost') {
-                    getTitle = `${location}_${getTitle}`
+                    this.$ga.page({
+                        page: this.$route.path,
+                        title: getTitle
+                    })
                 }
-
-                this.$ga.page({
-                    page: this.$route.path,
-                    title: getTitle
-                })
             },
         },
         data() {
