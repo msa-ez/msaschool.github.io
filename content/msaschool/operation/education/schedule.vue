@@ -69,8 +69,6 @@
 - **교육시간** : 4일, 28시간 (비용 : 160만 원/인당)
 - MSA School이 제공하는 PaaS 플랫폼을 활용하여 도메인 분석에서 MSA 패턴을 적용한 실전 활용 가능한 구현까지 이론과 실습을 통한 클라우드 네이티브 애플리케이션 Dev Ops 전 과정 학습
         </mark-down>
-
-        
 <!-- 클라우드 네이티브 앱구현 실전 교육 끝 -->
 
 
@@ -90,10 +88,19 @@
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
-                <v-btn class="default-button"
-                        :href="``"
-                        ><span style="color:white !important;">커리큘럼 보기</span>
-                </v-btn>
+                <div class="modal-container">
+                    <input id="modal-toggle" type="checkbox">
+                    <label class="modal-btn" for="modal-toggle">커리큘럼 보기</label> 
+                    <label class="modal-backdrop" for="modal-toggle"></label>
+                    <div class="modal-content">
+                        <label class="modal-close" for="modal-toggle">&#x2715;</label>
+                        <h2>MSA 커리큘럼</h2><hr />
+                        <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image7.png"></g-image>
+                        <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image8.png"></g-image>
+                        <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image9.png"></g-image>
+                        <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image10.png"></g-image>
+                    </div>          
+                </div> 
             </div>
         </div>
 
@@ -103,9 +110,7 @@
 - **교육시간** : 4일, 28시간 (비용 : 100만 원/인당)
 - 분석/설계(Day 1)를 제외한 구현/배포 과정(Day2~Day4)은 본사 MSA 플랫폼 개발자의 실습 주도형 MSA 교육으로 진행되며, 주강사의 최종 랩업을 포함하는 과정
         </mark-down>
-
-        
-<!-- 실전교육 끝 -->
+<!-- 클라우드 네이티브 데브옵스 실전교육(50%off) 끝 -->
 
 
 
@@ -135,10 +140,9 @@
 - **교육시간** : 제한 없음, (비용 : 시간당 40만 원)
 - 신청회사의 업무 도메인을 활용하여 마이크로 서비스로의 전환 및 신규 MSA 도입을 직접 시뮬레이션해 보는 마스트플랜 또는 PoC 레벨의 컨설팅
         </mark-down>
-
-        
 <!-- MSA 원 포인트 레슨 끝 -->
 
+<!-- 달력 -->
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-bottom:100px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
         
     </div>

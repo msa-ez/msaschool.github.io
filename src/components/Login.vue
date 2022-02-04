@@ -88,9 +88,9 @@
     import Logo from "./Logo";
     import StorageBase from "./stroage/StorageBase";
     import {UserIcon, XIcon} from 'vue-feather-icons'
-    import firebase from "firebase/app";
-    import "firebase/auth";
-    import "firebase/database";
+    import firebase from "firebase/compat/app";
+    import "firebase/compat/auth";
+    import "firebase/compat/database";
 
     export default {
         name: 'Login',

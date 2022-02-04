@@ -22,7 +22,7 @@ import VueDialog from "./components/VueDialog";
 import VueSearch from "./components/VueSearch";
 import 'prismjs/themes/prism.css'
 import Login from "./components/Login";
-import firebase from "firebase/app";
+import firebase from "firebase/compat/app";
 import VueYouTubeEmbed from 'vue-youtube-embed'
 import VueSubLayoutCard from "./components/VueSubLayoutCard";
 import SideMarkDown from "./components/SideMarkDown"
