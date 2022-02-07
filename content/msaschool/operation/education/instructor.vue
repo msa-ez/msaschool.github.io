@@ -49,7 +49,7 @@
                             • ’21. 06 : KT Microservice 직무전환과정 강사<br>
                             • ’20. 09 : Doosan Microservices 교육 강사<br>
                             • ’19. 09 : KOSTA Microservices 교육 강사<br>
-                            • ‘19. 02 : LG C&S 이벤트스토밍 교육 강사<br>
+                            • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                         </p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             • ’21. 06 : KT Microservice 직무전환과정 보조강사<br>
                             • ’20. 09 : Doosan Microservices 교육 보조강사 외<br>
                             • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
-                            • ‘19. 02 : LG C&S 이벤트스토밍 교육<br>
+                            • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                         </p>
                     </div>
                 </div>

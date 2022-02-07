@@ -5,7 +5,7 @@
         <div>
                 <div>
                         <h3 style="display:inline-block !important;">[Overall MSA Design patterns]</h3>
-                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">구매링크</a></h4>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://www.manning.com/books/microservices-patterns">상세보기</a></h4>
                 </div>
                 <div style="display:inline-flex;">
                         <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image1.jpg"></g-image>
@@ -22,7 +22,7 @@
         <div style="margin-top:50px;">
                 <div>
                         <h3 style="display:inline-block !important;">[Microservice decomposition strategy]</h3>
-                        <h4 style="margin:5px 0 0 20px !important; display:inline-block !important;"><a style="color:#5a67d8;" href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">구매링크</a></h4>
+                        <h4 style="margin:5px 0 0 20px !important; display:inline-block !important;"><a style="color:#5a67d8;" href="https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/">상세보기</a></h4>
                 </div>
                 <div style="display:inline-flex;">
                         <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image2.jpg"></g-image>
@@ -40,7 +40,7 @@
         <div style="margin-top:50px;">
                 <div>
                         <h3 style="display:inline-block !important;">[Event Storming]</h3>
-                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://leanpub.com/introducing_eventstorming">구매링크</a></h4>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://leanpub.com/introducing_eventstorming">상세보기</a></h4>
                 </div>
                 <div style="display:inline-flex;">
                         <g-image style="margin-right:10px; " src="~/img/04_Library/05_부가자료/01_참고 도서/image3.jpg"></g-image>
@@ -73,7 +73,7 @@
         <div style="margin-top:50px;">
                 <div>
                         <h3 style="display:inline-block !important;">[Deep dive]</h3>
-                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM">구매링크</a></h4>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM">상세보기</a></h4>
                 </div>
                 <div style="display:inline-flex;">
                         <g-image style="margin-right:10px;" src="~/img/04_Library/05_부가자료/01_참고 도서/image5.jpg"></g-image>
@@ -107,7 +107,7 @@
                 <div>
                         <h3 style="display:inline-block !important;">[Saga]</h3>
                         <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://eventuate.io/">eventuate 링크</a></h4>
-                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://vladmihalcea.com/how-to-extract-change-data-events-from-mysql-to-kafka-using-debezium/?fbclid=IwAR33Spb4jPBNI6VNHuCxdu_BxpWdzOLzMvbCtHHvJrRmJPfiEoXwM1qWYBs">구매링크</a></h4>
+                        <h4 style="display:inline-block !important; margin:5px 0 0 20px !important;"><a style="color:#5a67d8;" href="https://vladmihalcea.com/how-to-extract-change-data-events-from-mysql-to-kafka-using-debezium/?fbclid=IwAR33Spb4jPBNI6VNHuCxdu_BxpWdzOLzMvbCtHHvJrRmJPfiEoXwM1qWYBs">상세보기</a></h4>
                 </div>
                 <div>
                         <g-image style="margin:0 0 20px 0;" src="~/img/04_Library/05_부가자료/01_참고 도서/image7.jpg"></g-image>

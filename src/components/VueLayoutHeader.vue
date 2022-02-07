@@ -137,9 +137,6 @@
 
 
 <style scoped>
-    .application-btn{
-        
-    }
     .g-images {
         margin:20px 0 20px 0;
     }

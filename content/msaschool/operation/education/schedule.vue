@@ -5,22 +5,43 @@
 ## 클라우드 네이티브 앱구현 맛보기 웨비나(무료)
         </mark-down>
 
-        <div class="clearfix">
-            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image3.png"></g-image>
-            <div class="btn-box">
-                <v-btn class="default-button" style="width:160px;"
+        <div>
+            <g-image style="display:inline-block !important;
+                margin:20px 0 20px 0 !important;
+                width:40% !important;"
+                src="~/img/05_Community/04_교육상담_및_신청/image3.png"></g-image>
+            <div style="margin:20px 0 0 20px !important;
+                    display:inline-grid !important;
+                    position:absolute;"
+            >
+                <v-btn style="padding: 10px !important;
+                    background-color:#5a67d8 !important;
+                    color:white !important;
+                    width:160px !important;
+                    height:60px !important;
+                    text-align-center !important;
+                    line-height:60px !important;
+                    margin-bottom:10px; !important;
+                    font-size:20px;"
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EC%95%B1%EA%B5%AC%ED%98%84+%EB%A7%9B%EB%B3%B4%EA%B8%B0+%EC%9B%A8%EB%B9%84%EB%82%98(%EB%AC%B4%EB%A3%8C)`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
-                <v-btn class="default-button"
+                <v-btn v-btn style="padding: 10px !important;
+                    background-color:#5a67d8 !important;
+                    color:white !important;
+                    width:160px !important;
+                    height:60px !important;
+                    text-align-center !important;
+                    line-height:60px !important;
+                    margin-bottom:10px; !important;
+                    font-size:20px;"
                     ><span style="color:white !important;">티저영상시청</span>
                 </v-btn>
             </div>
         </div>
 
         <mark-down class="content">
-
 - 매월 2주 차 수요일, 비대면 화상교육 방식
 - **교육인원** : 최대 20명
 - **교육시간** : 4시간, (비용 : 무료)
@@ -38,28 +59,52 @@
 ## 클라우드 네이티브 앱구현 실전 교육
         </mark-down>
 
-        <div class="clearfix">
-            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image4.png"></g-image>
-            <div class="btn-box">
-                <v-btn class="default-button"
+        <div>
+            <g-image style="display:inline-block !important;
+                margin:20px 0 20px 0 !important;
+                width:40% !important;"
+                src="~/img/05_Community/04_교육상담_및_신청/image4.png"></g-image>
+            <div style="margin:20px 0 0 20px !important;
+                    display:inline-grid !important;
+                    position:absolute;"
+            >
+                <v-btn style="padding: 10px !important;
+                    background-color:#5a67d8 !important;
+                    color:white !important;
+                    width:160px !important;
+                    height:60px !important;
+                    text-align-center !important;
+                    line-height:60px !important;
+                    margin-bottom:10px; !important;
+                    font-size:20px;"
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EC%95%B1%EA%B5%AC%ED%98%84+%EC%8B%A4%EC%A0%84+%EA%B5%90%EC%9C%A1`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
                 <div class="modal-container">
                     <input id="modal-toggle" type="checkbox">
-                    <label class="modal-btn" for="modal-toggle">커리큘럼 보기</label> 
+                    <label class="modal-btn"
+                        for="modal-toggle" 
+                        style="padding: 10px !important;
+                            background-color:#5a67d8 !important;
+                            color:white !important;
+                            width:160px !important;
+                            height:60px !important;
+                            text-align-center !important;
+                            line-height:42px !important;
+                            margin-bottom:10px; !important;
+                            font-size:20px;"
+                    >커리큘럼 보기</label> 
                     <label class="modal-backdrop" for="modal-toggle"></label>
                     <div class="modal-content">
                         <label class="modal-close" for="modal-toggle">&#x2715;</label>
-                        <h2>MSA 커리큘럼</h2><hr />
+                        <h2>Cloud Native Modeling & Application 구현과정 교안</h2><hr />
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image7.png"></g-image>
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image8.png"></g-image>
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image9.png"></g-image>
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image10.png"></g-image>
-                    </div>          
-                </div> 
-                
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -80,27 +125,52 @@
 ## 클라우드 네이티브 데브옵스 실전교육(50% 할인)
         </mark-down>
 
-        <div class="clearfix">
-            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image5.png"></g-image>
-            <div class="btn-box">
-                <v-btn class="default-button"
+        <div>
+            <g-image style="display:inline-block !important;
+                margin:20px 0 20px 0 !important;
+                width:40% !important;"
+                src="~/img/05_Community/04_교육상담_및_신청/image5.png"></g-image>
+            <div style="margin:20px 0 0 20px !important;
+                    display:inline-grid !important;
+                    position:absolute;"
+            >
+                <v-btn style="padding: 10px !important;
+                    background-color:#5a67d8 !important;
+                    color:white !important;
+                    width:160px !important;
+                    height:60px !important;
+                    text-align-center !important;
+                    line-height:60px !important;
+                    margin-bottom:10px; !important;
+                    font-size:20px;"
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4+%EC%8B%A4%EC%A0%84%EA%B5%90%EC%9C%A1(50%25+%ED%95%A0%EC%9D%B8)`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
                 <div class="modal-container">
                     <input id="modal-toggle" type="checkbox">
-                    <label class="modal-btn" for="modal-toggle">커리큘럼 보기</label> 
+                    <label class="modal-btn"
+                        for="modal-toggle" 
+                        style="padding: 10px !important;
+                            background-color:#5a67d8 !important;
+                            color:white !important;
+                            width:160px !important;
+                            height:60px !important;
+                            text-align-center !important;
+                            line-height:42px !important;
+                            margin-bottom:10px; !important;
+                            font-size:20px;"
+                    >커리큘럼 보기</label> 
                     <label class="modal-backdrop" for="modal-toggle"></label>
                     <div class="modal-content">
                         <label class="modal-close" for="modal-toggle">&#x2715;</label>
-                        <h2>MSA 커리큘럼</h2><hr />
+                        <h2>Cloud Native Modeling & Application 구현과정 교안</h2><hr />
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image7.png"></g-image>
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image8.png"></g-image>
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image9.png"></g-image>
                         <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image10.png"></g-image>
-                    </div>          
-                </div> 
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -122,11 +192,24 @@
 ### 원 포인트 레슨
         </mark-down>
 
-        <div class="clearfix">
-            <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image6.png"></g-image>
-            <div class="btn-box">
-                <v-btn class="default-button"
-                    style="width:160px;"
+        <div>
+            <g-image style="display:inline-block !important;
+                margin:20px 0 20px 0 !important;
+                width:40% !important;"
+                src="~/img/05_Community/04_교육상담_및_신청/image6.png"></g-image>
+            <div style="margin:20px 0 0 20px !important;
+                    display:inline-grid !important;
+                    position:absolute;"
+            >
+                <v-btn style="padding: 10px !important;
+                    background-color:#5a67d8 !important;
+                    color:white !important;
+                    width:160px !important;
+                    height:60px !important;
+                    text-align-center !important;
+                    line-height:60px !important;
+                    margin-bottom:10px; !important;
+                    font-size:20px;"
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.539880325=%EC%9B%90+%ED%8F%AC%EC%9D%B8%ED%8A%B8+%EB%A0%88%EC%8A%A8(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
@@ -144,7 +227,6 @@
 
 <!-- 달력 -->
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-bottom:100px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
-        
     </div>
 </template>
 
@@ -169,18 +251,6 @@
 
 
 <style scoped>
-    .btn-box {
-        margin:20px 0 0 20px !important;
-        display:inline-grid !important;
-    }
-
-    .g-images {
-        margin:20px 0 20px 0 !important;
-        float: left !important;
-        width:40% !important;
-    }
-
-
 /* 버튼 스타일 */
     .default-button {
         padding: 10px !important;
