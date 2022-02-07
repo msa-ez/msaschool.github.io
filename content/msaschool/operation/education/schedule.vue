@@ -23,7 +23,7 @@
                     line-height:60px !important;
                     margin-bottom:10px; !important;
                     font-size:20px;"
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EC%95%B1%EA%B5%AC%ED%98%84+%EB%A7%9B%EB%B3%B4%EA%B8%B0+%EC%9B%A8%EB%B9%84%EB%82%98(%EB%AC%B4%EB%A3%8C)`"
+                    :href="` https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EC%95%B1%EA%B5%AC%ED%98%84+%EB%A7%9B%EB%B3%B4%EA%B8%B0+%EC%9B%A8%EB%B9%84%EB%82%98(%EB%AC%B4%EB%A3%8C)`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
@@ -35,7 +35,8 @@
                     text-align-center !important;
                     line-height:60px !important;
                     margin-bottom:10px; !important;
-                    font-size:20px;"
+                    font-size:20px;
+                    display:none;"
                     ><span style="color:white !important;">티저영상시청</span>
                 </v-btn>
             </div>
@@ -77,7 +78,7 @@
                     line-height:60px !important;
                     margin-bottom:10px; !important;
                     font-size:20px;"
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EC%95%B1%EA%B5%AC%ED%98%84+%EC%8B%A4%EC%A0%84+%EA%B5%90%EC%9C%A1`"
+                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EC%95%B1%EA%B5%AC%ED%98%84+%EC%8B%A4%EC%A0%84+%EA%B5%90%EC%9C%A1`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
@@ -143,7 +144,7 @@
                     line-height:60px !important;
                     margin-bottom:10px; !important;
                     font-size:20px;"
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4+%EC%8B%A4%EC%A0%84%EA%B5%90%EC%9C%A1(50%25+%ED%95%A0%EC%9D%B8)`"
+                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSdlJAdOfPn-ET4maXP2M585OknGQwCgQsPQxUyRziAu6Q3GIw/viewform?usp=pp_url&entry.1858868603=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C+%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4+%EC%8B%A4%EC%A0%84%EA%B5%90%EC%9C%A1(50%25+%ED%95%A0%EC%9D%B8)`"
                     ><span style="color:white !important;">신청하기</span>
                 </v-btn>
 
