@@ -3,8 +3,9 @@
 <!-- 강사진 소개 -->
         <div style="margin-top:50px;">
             <h2>강사진 소개</h2>
-            <!-- 대표님 -->
+            <!-- 대표님, 이사님 -->
             <div class="clearfix" >
+                <!-- 대표님 -->
                 <div class="clearfix" style="width:50%; float:left;">
                     <h3 style="margin-bottom:0;">장진영 대표</h3>
                     <p style="margin-bottom:0;">uEngineSolutions CEO & President</p>
