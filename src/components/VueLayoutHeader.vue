@@ -36,11 +36,22 @@
                         <input id="modal-toggle" type="checkbox">
                         <label class="modal-btn"
                             for="modal-toggle" 
-                            style="height: 36px;
-                            line-height: 36px;
-                            font-weight: 400;
-                            font-size: 0.875rem;
-                            width: 120px;" 
+                            style="display: block;
+                                width:120px;
+                                height:36px;
+                                line-height: 36px;
+                                margin: 0 auto;
+                                font-weight: 500;
+                                font-size:24px;
+                                color: #fff;
+                                background: #5a67d8;
+                                font-size: 14px;
+                                border: 0;
+                                border-radius: 4px;
+                                cursor: pointer;
+                                text-align: center;
+                                box-shadow: 0 5px 5px -5px #333;
+                                transition: background 0.3s ease-in;" 
                             >커리큘럼 보기</label> 
                         <label class="modal-backdrop" for="modal-toggle"></label>
                         <div class="modal-content">
@@ -58,7 +69,6 @@
                         height: 36px;
                         width: 120px;
                         text-align: center;
-                        lineheight: 50%;
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 400;"

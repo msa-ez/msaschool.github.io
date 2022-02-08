@@ -10,7 +10,7 @@
                 <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
             </header>
 
-            <main class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background">
+            <main style="max-width:1500px;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background">
                 <aside
                         v-if="hasSidebar"
                         class="sidebar"
