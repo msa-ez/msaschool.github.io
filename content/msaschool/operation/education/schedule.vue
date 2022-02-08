@@ -1,6 +1,23 @@
 <template>
     <div>
 <!-- 클라우드 네이티브 앱구현 맛보기 웨비나(무료) -->
+        <table class="schedule-table">
+            <tr>
+                <td>Lorem</td>
+                <td>Ipsum</td>
+                <td>Dolor</td>
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Ipsum</td>
+                <td>Dolor</td>
+            </tr>
+            <tr>
+                <td>Lorem</td>
+                <td>Ipsum</td>
+                <td>Dolor</td>
+            </tr>
+        </table>
         <mark-down class="content">
 ## 클라우드 네이티브 앱구현 맛보기 웨비나(무료)
         </mark-down>
@@ -253,6 +270,20 @@
     }
 </script>
 
+<style>
+    .schedule-table {
+        width: 100%;
+        border: 1px solid #D8D8D8;
+        margin-top:50px;
+    }
+  
+    .schedule-table td {
+        border: 1px solid #D8D8D8;
+    }
+    .schedule-table:nth-child(1) td{
+        padding-left:10px;
+    }
+</style>
 
 <style scoped>
 /* 버튼 스타일 */
