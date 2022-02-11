@@ -374,7 +374,7 @@
         </div>
         <!-- 커리큘럼 끝 -->
 
-        <div style="margin-top:100px;">
+        <div style="margin:100px 0 50px 0;">
             <h2 style="display:inline-block !important;">강사진 소개</h2>
             <v-btn style="background-color:#5a67d8 !important;
                 color:white !important;
@@ -391,7 +391,6 @@
                         강의신청
                     </span>
             </v-btn>
-        </div>
 
         <div style="display:inline-flex; width:100%;">
         <!-- 대표님, 이사님 시작-->
@@ -408,7 +407,7 @@
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
                     <div style="width:80%;
-                        height:55px;
+                        height:50px;
                         background-color:#e6e9f9 !important;
                         margin:0 auto;
                         border-radius:10px;
@@ -417,7 +416,7 @@
                         position:relative;"
                     >
                         <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
-                        <p style="color:gray;">uEngineSolutions CEO & President</p>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA 교육, 기업 컨설팅<br>
@@ -448,7 +447,7 @@
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
                     <div style="width:80%;
-                        height:55px;
+                        height:50px;
                         background-color:#e6e9f9 !important;
                         margin:0 auto;
                         border-radius:10px;
@@ -457,7 +456,7 @@
                         position:relative;"
                     >
                         <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
-                        <p style="color:gray;">uEngineSolutions Director & MSA Consultant</p>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA DT 마스터플랜 수립 Project<br>
@@ -493,7 +492,7 @@
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
                     <div style="width:80%;
-                        height:55px;
+                        height:50px;
                         background-color:#e6e9f9 !important;
                         margin:0 auto;
                         border-radius:10px;
@@ -502,7 +501,7 @@
                         position:relative;"
                     >
                         <h3 style="margin-bottom:0; color:gray;">김상훈 매니저</h3>
-                        <p style="color:gray;">uEngineSolutions Cloud Platform Developer & Manager</p>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA PoC/ 마스터플랜 수립 Project Developer<br>
@@ -534,7 +533,7 @@
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
                     <div style="width:80%;
-                        height:55px;
+                        height:50px;
                         background-color:#e6e9f9 !important;
                         margin:0 auto;
                         border-radius:10px;
@@ -543,7 +542,7 @@
                         position:relative;"
                     >
                         <h3 style="margin-bottom:0; color:gray;">이진수 매니저</h3>
-                        <p style="color:gray;">uEngineSolutions Cloud Platform Developer & Manager</p>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA PoC/ 마스터플랜 수립 Project Developer  <br>
@@ -557,8 +556,9 @@
                         • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
                     </div>
                 </div>
-            <!-- 이진수 매니저 끝 -->
-        <!-- 김상훈 매니저 대표, 이진수 매니저 끝 -->
+                <!-- 이진수 매니저 끝 -->
+            <!-- 김상훈 매니저 대표, 이진수 매니저 끝 -->
+            </div>
         </div>
     </div>
 </template>

@@ -138,7 +138,7 @@
                             <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                         </div>
                         <div style="width:80%;
-                            height:55px;
+                            height:50px;
                             background-color:#e6e9f9 !important;
                             margin:0 auto;
                             border-radius:10px;
@@ -147,7 +147,7 @@
                             position:relative;"
                         >
                             <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
-                            <p style="color:gray;">uEngineSolutions CEO & President</p>
+                            <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                         </div>
                         <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                             • MSA 교육, 기업 컨설팅<br>
@@ -178,7 +178,7 @@
                             <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                         </div>
                         <div style="width:80%;
-                            height:55px;
+                            height:50px;
                             background-color:#e6e9f9 !important;
                             margin:0 auto;
                             border-radius:10px;
@@ -187,7 +187,7 @@
                             position:relative;"
                         >
                             <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
-                            <p style="color:gray;">uEngineSolutions Director & MSA Consultant</p>
+                            <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                         </div>
                         <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                             • MSA DT 마스터플랜 수립 Project<br>

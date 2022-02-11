@@ -225,7 +225,7 @@
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
                     <div style="width:80%;
-                        height:55px;
+                        height:50px;
                         background-color:#e6e9f9 !important;
                         margin:0 auto;
                         border-radius:10px;
@@ -234,7 +234,7 @@
                         position:relative;"
                     >
                         <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
-                        <p style="color:gray;">uEngineSolutions CEO & President</p>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA 교육, 기업 컨설팅<br>
@@ -265,7 +265,7 @@
                         <g-image src="~/img/05_Community/02_MSA_교육과정/img6.png"></g-image>
                     </div>
                     <div style="width:80%;
-                        height:55px;
+                        height:50px;
                         background-color:#e6e9f9 !important;
                         margin:0 auto;
                         border-radius:10px;
@@ -274,7 +274,7 @@
                         position:relative;"
                     >
                         <h3 style="margin-bottom:0; color:gray;">이수헌 매니저</h3>
-                        <p style="color:gray;">uEngineSolutions Cloud Platform Developer & Manager</p>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • Legacy MSA DT Project AA & Developer  <br>
