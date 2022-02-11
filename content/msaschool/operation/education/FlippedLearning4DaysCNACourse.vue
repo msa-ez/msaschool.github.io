@@ -100,7 +100,7 @@
             </table>
 
 
-            <h4 style="margin-top:50px;">Day3 – DevOps</h4>
+            <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
             <table style="width:100%; border : 1px solid black;">
                 <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
@@ -233,7 +233,7 @@
                         text-align:center;
                         position:relative;"
                     >
-                        <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
+                        <h3 style="margin-bottom:0; color:gray;">장진영(주강사 / 1일차 진행)</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
@@ -252,7 +252,7 @@
                 </div>
                 <!-- 대표님 끝 -->
 
-                <!-- 이수헌 매니저 시작 -->
+                <!-- 김상훈 매니저 시작 -->
                 <div style="width:49%;
                     margin-right:2%;
                     background-color: white;
@@ -262,7 +262,7 @@
                     height:500px;"
                 >
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image src="~/img/05_Community/02_MSA_교육과정/img6.png"></g-image>
+                        <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
                     <div style="width:80%;
                         height:50px;
@@ -273,21 +273,24 @@
                         text-align:center;
                         position:relative;"
                     >
-                        <h3 style="margin-bottom:0; color:gray;">이수헌 매니저</h3>
+                        <h3 style="margin-bottom:0; color:gray;">김상훈(실습강사 / 2~4일차 진행)</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • Legacy MSA DT Project AA & Developer  <br>
+                        • MSA PoC/ 마스터플랜 수립 Project Developer<br>
                         • Eventstorming online platform 개발<br>
-                        • MSA Pattern(Service Composition, Oauth) Expert<br>
-                        • Event Sourcing & EDA Expert<br>
-                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • Cloud Native App. PaaS platform 개발<br>
+                        • Open Cloud Engine Project TA<br>
+                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 uEngine MSA 정규 교과정 보조강사<br>
                         • 現 MSA App. Engineering 기업과정 보조강사<br>
                         • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
-                        • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
+                        • ’21. 06 : KT Microservice 직무전환과정 보조강사<br>
+                        • ’20. 09 : Doosan Microservices 교육 보조강사 외<br>
+                        • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
+                        • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                     </div>
-                    <!-- 이수헌 매니저 끝 -->
+                    <!-- 김상훈 매니저 끝 -->
                 </div>
                 <!-- 대표님, 이수헌 매니저 끝 -->
             </div>

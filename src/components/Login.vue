@@ -288,16 +288,3 @@
 
     };
 </script>
-
-<style>
-    .v-dialog__container {
-        display: inline-table;
-        position: absolute;
-        overflow: auto;
-        margin-top: 400px;
-    }
-
-    .v-dialog {
-        overflow-y: inherit;
-    }
-</style>

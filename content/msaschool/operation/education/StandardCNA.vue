@@ -100,7 +100,7 @@
             </table>
 
 
-            <h4 style="margin-top:50px;">Day3 – DevOps</h4>
+            <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
             <table style="width:100%; border : 1px solid black;">
                 <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>

@@ -579,14 +579,3 @@
 
     }
 </script>
-
-<style scoped>
-        .float-left {
-                float:left !important;
-        }
-        .clearfix::after {
-                content: "" !important;
-                display: block !important;
-                clear: both !important;
-        }
-</style>

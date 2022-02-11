@@ -40,7 +40,7 @@
                         line-height:36px !important;
                         font-size:20px;"
                         :href="`http://www.msaschool.io/operation/education/quick-understanding-cna/`"
-                        ><span style="color:white !important;">신청하기</span>
+                        ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         line-height:36px !important;
                         font-size:20px;"
                         :href="`https://www.msaschool.io/operation/education/standard-cna/`"
-                        ><span style="color:white !important;">신청하기</span>
+                        ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         line-height:36px !important;
                         font-size:20px;"
                         :href="`http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/`"
-                        ><span style="color:white !important;">신청하기</span>
+                        ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
             </div>
@@ -192,7 +192,7 @@
                         line-height:36px !important;
                         font-size:20px;"
                         :href="`http://www.msaschool.io/operation/education/one-point-lesson/`"
-                        ><span style="color:white !important;">신청하기</span>
+                        ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
             </div>
@@ -243,7 +243,7 @@
                         line-height:36px !important;
                         font-size:20px;"
                         :href="`http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/`"
-                        ><span style="color:white !important;">신청하기</span>
+                        ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
             </div>
@@ -272,25 +272,3 @@
 
     }
 </script>
-
-
-<style scoped>
-/* 버튼 스타일 */
-    .default-button {
-        padding: 10px !important;
-        background-color:#5a67d8 !important;
-        color:white !important;
-        height:60px !important;
-    }
-
-    .default-button:nth-child(1) {
-        margin-bottom:10px !important;
-    }
-
-/* 버튼 텍스트 */
-    .default-button span {
-        font-size:24px !important;
-        font-weight: 500 !important;
-    }
-
-</style>

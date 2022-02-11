@@ -1,6 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
+            <div class="test">test</div>
             <h2 style="display:inline-block !important;">Quick Understanding CNA 과정</h2>
             <v-btn style="background-color:#5a67d8 !important;
                 color:white !important;
@@ -213,3 +214,11 @@
 
     }
 </script>
+
+<style>
+    .test {
+        background-color:red;
+        width:100px;
+        height:100px;
+    }
+</style>

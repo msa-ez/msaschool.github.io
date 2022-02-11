@@ -90,19 +90,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-/*header {*/
-/*  svg:not(.feather-search) {*/
-/*    &:hover {*/
-/*      @apply text-ui-primary;*/
-/*    }*/
-/*  }*/
-/*}*/
-
-/*.nav-link {*/
-/*  &.active {*/
-/*    @apply text-ui-primary font-bold border-ui-primary;*/
-/*  }*/
-/*}*/
-</style>
