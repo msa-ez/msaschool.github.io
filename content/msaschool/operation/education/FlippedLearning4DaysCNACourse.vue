@@ -206,7 +206,7 @@
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                     >
                         <span style="color:white !important;">
-                            강의신청
+                            신청하기
                         </span>
                 </v-btn>
             </div>

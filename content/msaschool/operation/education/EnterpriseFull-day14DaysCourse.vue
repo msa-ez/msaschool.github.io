@@ -388,7 +388,7 @@
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform?usp=pp_url&entry.1858868603=Enterprise+Full-day+%EA%B3%BC%EC%A0%95`"
                 >
                     <span style="color:white !important;">
-                        강의신청
+                        신청하기
                     </span>
             </v-btn>
 

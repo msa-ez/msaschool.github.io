@@ -73,7 +73,7 @@
                         font-size: 14px;
                         font-weight: 400;"
                         :href="'http://www.msaschool.io/operation/education/schedule/'"
-                    ><span style="color:white;">교육 신청하기</span>
+                    ><span style="color:white;">교과정 안내</span>
                     </v-btn>
                 </div>
 

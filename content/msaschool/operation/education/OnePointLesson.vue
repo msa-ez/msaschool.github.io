@@ -116,7 +116,7 @@
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.539880325=One+Point+Lesson+%EA%B3%BC%EC%A0%95`"
                     >
                         <span style="color:white !important;">
-                            강의신청
+                            신청하기
                         </span>
                 </v-btn>
             </div>
