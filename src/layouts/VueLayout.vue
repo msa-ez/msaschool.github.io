@@ -10,7 +10,7 @@
                 <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
             </header>
 
-            <main style="max-width:1500px;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background">
+            <main style="max-width:1900px; margin-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background">
                 <aside
                         v-if="hasSidebar"
                         class="sidebar"
@@ -33,14 +33,14 @@
             </main>
         </div>
 
-        <div  v-if="floatMenu" class=" bottom-5 right-55 z-100 p-8 " style="position: fixed; z-index:999;">
+        <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
             <button class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
                     @click="openComplexBtn()">
                 <MenuIcon/>
             </button>
         </div>
 
-        <div class=" bottom-0 right-0 z-50 p-8 " style="position: fixed; z-index:999;">
+        <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
             <button class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
                     @mouseover="openMenuList()"
                     @mouseleave="closeMenuList()"
@@ -99,7 +99,7 @@
         },
         watch: {
             sidebarOpen: function (isOpen) {
-                document.body.classList.toggle("overflow-hidden", isOpen);
+                document.body.classList.toggle("", isOpen);
             }
         },
         methods: {
@@ -142,7 +142,7 @@
                 if (this.small) {
                     return "max-width: 90% !important; margin-top: -10% !important;"
                 } else {
-                    return "max-width: 90% !important; margin-top: 3% !important;"
+                    return "max-width: 90% !important; margin-top: 3% !important; margin-left:-1%;"
                 }
             },
             headStyleBySize() {
@@ -157,7 +157,7 @@
                     // top: "0px",
                     // height: `calc(100vh - ${this.headerHeight}px)`
                     top: this.headerHeight + 'px',
-                    height: `calc(100vh - ${this.headerHeight}px)`,
+                    height: `calc(100vh - ${this.headerHeight}px)`
                 };
             },
             hasSidebar() {

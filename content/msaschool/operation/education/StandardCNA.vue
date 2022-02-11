@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Flipped Learning CNA 과정</h2>
+            <h2 style="display:inline-block !important;">Standard CNA 과정</h2>
             <v-btn style="background-color:#5a67d8 !important;
                 color:white !important;
                 width:130px !important;
@@ -11,15 +11,15 @@
                 font-size:24px;
                 margin:-7px 0 0 10px;"
                 target='_blank'
-                :href="`https://docs.google.com/forms/d/e/1FAIpQLSdlJAdOfPn-ET4maXP2M585OknGQwCgQsPQxUyRziAu6Q3GIw/viewform?usp=pp_url&entry.1858868603=Flipped+Learning+CNA+%EA%B3%BC%EC%A0%95`"
+                :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                 >
                     <span style="color:white !important;">신청하기</span>
             </v-btn>
         </div>
-        <h4 style="font-weight:500; opacity:0.8;">Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
+        <h4 style="font-weight:500; opacity:0.8;">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
         <div style="font-weight:700; display:inline-flex;">
             <h2 color>비용:</h2>
-            <h2>&nbsp; 1인당 100만원(4일), Biz/Dev만 수강시 1인당 60만원(2일)</h2>
+            <h2>&nbsp; 1인당 160만원(4일), Biz/Dev만 수강시 1인당 80만원(2일)</h2>
         </div>
 
         <!-- 커리큘럼 시작 -->
@@ -63,7 +63,7 @@
             <table style="width:100%; border : 1px solid black;">
                 <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
                     <td style="border : 1px solid black; font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
@@ -104,7 +104,7 @@
             <table style="width:100%; border : 1px solid black;">
                 <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~10:30</td>
                     <td style="border : 1px solid black; font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
@@ -148,7 +148,7 @@
             <table style="width:100%; border : 1px solid black;">
                 <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
                     <td style="border : 1px solid black; font-weight:700;">운영: 쿠버네티스 상세</td>
@@ -210,7 +210,7 @@
                         </span>
                 </v-btn>
             </div>
-            <!-- 장진영 대표, 이수헌 매니저 시작-->
+            <!-- 장진영 대표, 김상훈 매니저 시작-->
             <div style="display:inline-flex; width:100%;">
                 <!-- 장진영 대표 -->
                 <div style="width:49%;
@@ -241,7 +241,7 @@
                         • MSAEz, MSA School, CNA PaaS Platform<br>
                         • Open Source Open Cloud Engine<br>
                         • uEngine BPM, SNS(Process CODI), ALM(ESSENCIA)<br>
-                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 유엔진솔루션즈 대표이사<br>
                         • 現 MSA 교육, 기업 컨설팅<br>
                         • 現 MSA Facebook 운영<br>(https://www.facebook.com/groups/cloudswmoding)<br>
@@ -252,7 +252,7 @@
                 </div>
                 <!-- 대표님 끝 -->
 
-                <!-- 이수헌 매니저 시작 -->
+                <!-- 김상훈 매니저 시작 -->
                 <div style="width:49%;
                     margin-right:2%;
                     background-color: white;
@@ -262,7 +262,7 @@
                     height:500px;"
                 >
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image src="~/img/05_Community/02_MSA_교육과정/img6.png"></g-image>
+                        <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
                     <div style="width:80%;
                         height:55px;
@@ -273,39 +273,41 @@
                         text-align:center;
                         position:relative;"
                     >
-                        <h3 style="margin-bottom:0; color:gray;">이수헌 매니저</h3>
+                        <h3 style="margin-bottom:0; color:gray;">김상훈 매니저</h3>
                         <p style="color:gray;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • Legacy MSA DT Project AA & Developer  <br>
+                        • MSA PoC/ 마스터플랜 수립 Project Developer<br>
                         • Eventstorming online platform 개발<br>
-                        • MSA Pattern(Service Composition, Oauth) Expert<br>
-                        • Event Sourcing & EDA Expert<br>
-                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • Cloud Native App. PaaS platform 개발<br>
+                        • Open Cloud Engine Project TA<br>
+                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 uEngine MSA 정규 교과정 보조강사<br>
                         • 現 MSA App. Engineering 기업과정 보조강사<br>
                         • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
-                        • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
+                        • ’21. 06 : KT Microservice 직무전환과정 보조강사<br>
+                        • ’20. 09 : Doosan Microservices 교육 보조강사 외<br>
+                        • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
+                        • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                     </div>
-                    <!-- 이수헌 매니저 끝 -->
+                    <!-- 김상훈 매니저 끝 -->
                 </div>
-                <!-- 대표님, 이수헌 매니저 끝 -->
+                <!-- 대표님, 김상훈 매니저 끝 -->
             </div>
             <!-- 강사진 소개 끝 -->
         </div>
     </div>
 </template>
 
-
 <script>
-        // @group 05_02_05
+        // @group 05_02_04
     export default {
-        name:'FlippedLearning4DaysCNACourse',
+        name:'StandardCNA',
         data() {
             return {}
         },
         props: {
-            "3. Flipped Learning CNA 과정": {
+            "2. Standard CNA 과정": {
                 type: String
             },
         },

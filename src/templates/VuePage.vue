@@ -1,7 +1,7 @@
 <template>
     <vueLayout>
         <div class="flex flex-wrap items-start justify-start">
-            <div class="order-1 w-full " style="width:90%; margin-left: 5%; margin-right: 2%;">
+            <div class="order-1 w-full " style="width:96%; margin-right: 2%; margin-top:-2%;">
                 <v-runtime-template :template="getComponentName"/>
             </div>
         </div>
