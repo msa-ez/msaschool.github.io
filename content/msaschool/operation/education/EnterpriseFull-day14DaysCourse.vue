@@ -555,8 +555,8 @@
                         • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
                         • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
                     </div>
+                    <!-- 이진수 매니저 끝 -->
                 </div>
-                <!-- 이진수 매니저 끝 -->
             <!-- 김상훈 매니저 대표, 이진수 매니저 끝 -->
             </div>
         </div>

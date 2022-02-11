@@ -90,7 +90,7 @@
                         text-align-center !important;
                         line-height:36px !important;
                         font-size:20px;"
-                        :href="`http://www.msaschool.io/operation/education/standard4-days-cna-course/`"
+                        :href="`https://www.msaschool.io/operation/education/standard-cna/`"
                         ><span style="color:white !important;">신청하기</span>
                     </v-btn>
                 </div>
