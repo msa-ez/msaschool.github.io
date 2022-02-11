@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="flex flex-col items-center px-3   mr-auto  sm:flex-row"
-                     style="justify-content:flex-end;margin-right:5%;">
+                     style="justify-content:flex-end;margin-right:1.5%;">
                     <!-- <div class="modal-container">
                         <input id="modal-toggle" type="checkbox">
                         <label class="modal-btn"
