@@ -13,7 +13,7 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform?usp=pp_url&entry.1858868603=Enterprise+Full-day+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important;">신청하기</span>
+                    <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Couse입니다.</h4>
@@ -387,7 +387,7 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform?usp=pp_url&entry.1858868603=Enterprise+Full-day+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important;">
+                    <span style="color:white !important; font-size:16px;">
                         신청하기
                     </span>
             </v-btn>

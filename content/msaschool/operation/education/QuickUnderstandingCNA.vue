@@ -13,7 +13,7 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important;">신청하기</span>
+                    <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h4>
@@ -103,7 +103,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
                     >
-                        <span style="color:white !important;">
+                        <span style="color:white !important; font-size:16px;">
                             신청하기
                         </span>
                 </v-btn>

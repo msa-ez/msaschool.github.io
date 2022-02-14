@@ -13,7 +13,7 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important;">신청하기</span>
+                    <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
@@ -205,7 +205,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                     >
-                        <span style="color:white !important;">
+                        <span style="color:white !important; font-size:16px;">
                             신청하기
                         </span>
                 </v-btn>

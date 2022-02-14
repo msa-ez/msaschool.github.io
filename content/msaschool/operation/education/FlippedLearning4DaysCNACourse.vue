@@ -13,7 +13,7 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdlJAdOfPn-ET4maXP2M585OknGQwCgQsPQxUyRziAu6Q3GIw/viewform?usp=pp_url&entry.1858868603=Flipped+Learning+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important;">신청하기</span>
+                    <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
@@ -205,7 +205,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                     >
-                        <span style="color:white !important;">
+                        <span style="color:white !important; font-size:16px;">
                             신청하기
                         </span>
                 </v-btn>

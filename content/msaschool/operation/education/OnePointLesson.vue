@@ -13,7 +13,7 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.539880325=One+Point+Lesson+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important;">신청하기</span>
+                    <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인텐시브하게 진행되는 MSA 교육 과정으로 기본 5시간으로 구성됩니다.</h4>
@@ -115,7 +115,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.539880325=One+Point+Lesson+%EA%B3%BC%EC%A0%95`"
                     >
-                        <span style="color:white !important;">
+                        <span style="color:white !important; font-size:16px;">
                             신청하기
                         </span>
                 </v-btn>
