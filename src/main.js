@@ -84,7 +84,7 @@ export default function (Vue, {appOptions, head}) {
     Vue.component("MobileMarkDown", MobileMarkDown);
 
     //content
-    const files = require.context("../content", true, /\.vue$/i);
+    const files = require.context("../src/content", true, /\.vue$/i);
     files.keys().map(key => {
 
         if (files(key).default.name == "index") {

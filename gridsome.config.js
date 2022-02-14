@@ -67,7 +67,7 @@ module.exports = {
             use: "@gridsome/source-filesystem",
             options: {
                 typeName: "VuePage",
-                baseDir: "./content/msaschool",
+                baseDir: "./src/content/msaschool",
                 path: "**/*.vue",
                 plugins: ["@gridsome/remark-prismjs"]
                 // remark: {
