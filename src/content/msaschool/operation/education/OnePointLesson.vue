@@ -11,7 +11,7 @@
                 font-size:24px;
                 margin:-7px 0 0 10px;"
                 target='_blank'
-                :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.539880325=One+Point+Lesson+%EA%B3%BC%EC%A0%95`"
+                :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
                 >
                     <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
@@ -113,7 +113,7 @@
                     font-size:20px;
                     margin:-7px 0 0 10px;"
                     target='_blank'
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.539880325=One+Point+Lesson+%EA%B3%BC%EC%A0%95`"
+                    :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
                     >
                         <span style="color:white !important; font-size:16px;">
                             신청하기
