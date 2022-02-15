@@ -220,7 +220,7 @@
                 </div>
                 <div style="font-size:14px; font-weight:900; opacity:0.9; padding-left:5px; height:30px; margin-top:5px; line-height:15px;">Enterprise Full-day</div>
                 <div style="font-size:11px; opacity:0.8;  padding:5px; height:100px;">
-                    MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인터랙티브하게 진행되는 MSA 교육
+                    마이크로서비스의 전 과정을 심도있게 학습할 수 있는 과정으로 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 Course
                 </div>
                 <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
                     <div style="font-size:24px; font-weight:900;">560만원</div>
