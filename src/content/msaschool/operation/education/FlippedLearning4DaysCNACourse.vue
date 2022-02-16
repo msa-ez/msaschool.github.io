@@ -17,10 +17,7 @@
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
-        <div style="font-weight:700; display:inline-flex;">
-            <h2 color>비용:</h2>
-            <h2>&nbsp; 1인당 100만원(4일), Biz/Dev만 수강시 1인당 60만원(2일)</h2>
-        </div>
+        <h2>비용: 1인당 100만원(4일), Biz/Dev만 수강시 1인당 60만원(2일)</h2>
 
         <!-- 커리큘럼 시작 -->
         <div>
@@ -209,27 +206,12 @@
                 </v-btn>
             </div>
             <h3 style="margin-top:20px;">1일차 진행(장진영 / 박용주)</h3>
-            <div style="display:inline-flex; width:100%;"><!-- 장진영 대표, 박용주 이사 시작-->
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                ><!-- 장진영 대표 -->
+            <div class="the-entire-package"><!-- 장진영 대표, 박용주 이사 시작-->
+                <div class="instructor-card"><!-- 장진영 대표 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
+                    <div class="instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
@@ -248,26 +230,11 @@
                     </div>
                 </div><!-- 장진영 대표 끝 -->
 
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                ><!-- 박용주 이사 시작 -->
+                <div class="instructor-card"><!-- 박용주 이사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
+                    <div class="instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                     </div>
@@ -290,28 +257,13 @@
             <!-- 장진영 대표, 박용주 이사 끝 -->
             </div>
             <h3 style="margin-top:50px;">2 ~ 4일차 진행(김상훈 / 이진수)</h3>
-            <div style="display:inline-flex; width:100%;"><!-- 김상훈 실습강사, 이진수 실습강사 시작-->
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                ><!-- 김상훈 실습강사 시작 -->
+            <div class="the-entire-package"><!-- 김상훈 실습강사, 이진수 실습강사 시작-->
+                <div class="instructor-card"><!-- 김상훈 실습강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
-                        <h3 style="margin-bottom:0; color:gray;">김상훈(실습강사 / 2~4일차 진행)</h3>
+                    <div class="instructor-card-name">
+                        <h3 style="margin-bottom:0; color:gray;">김상훈 실습강사</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
@@ -330,26 +282,11 @@
                     </div>
                 </div><!-- 김상훈 실습강사 끝 -->
                 
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                ><!-- 이진수 실습강사 시작 -->
+                <div class="instructor-card"><!-- 이진수 실습강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
+                    <div class="instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">이진수 실습강사</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>

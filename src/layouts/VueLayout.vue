@@ -10,7 +10,7 @@
                 <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
             </header>
 
-            <main style="max-width:1900px; margin-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background is-mobile-main">
+            <main style="max-width:1900px; padding-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background is-mobile-main">
                 <aside
                         v-if="hasSidebar"
                         class="sidebar"
@@ -33,14 +33,14 @@
         </div>
 
         <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
-            <button class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
+            <button class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
                     @click="openComplexBtn()">
                 <MenuIcon/>
             </button>
         </div>
 
         <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
-            <button class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
+            <button class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
                     @mouseover="openMenuList()"
                     @mouseleave="closeMenuList()"
                     @click="openComplexBtn()">
@@ -139,9 +139,9 @@
         computed: {
             mainStyleBySize() {
                 if (this.small) {
-                    return "max-width: 90%; margin-top: -10% !important;"
+                    return "max-width: 100%; margin-top: -10% !important;"
                 } else {
-                    return "max-width: 90% !important; margin-top: 3% !important; margin-left:-1%;"
+                    return "max-width: 100% !important; margin-top: 3% !important; margin-left:-1%;"
                 }
             },
             headStyleBySize() {
@@ -1331,12 +1331,6 @@
     @media only screen and (max-width:1023px) {
         .is-mobile-main {
             margin-top:5% !important;
-            padding-right:-2.5% !important;
-        }
-    }
-    @media only screen and (max-width:720px) {
-        .is-mobile-contents {
-            max-width:100% !important;
         }
     }
 </style>

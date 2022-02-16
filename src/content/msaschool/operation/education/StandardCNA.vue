@@ -13,14 +13,11 @@
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                    <span style="color:white !important; font-size:20px;">신청하기</span>
+                    <span class="bottom-apply-btn" style="">신청하기</span>
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
-        <div style="font-weight:700; display:inline-flex;">
-            <h2 color>비용:</h2>
-            <h2>&nbsp; 1인당 160만원(4일), Biz/Dev만 수강시 1인당 80만원(2일)</h2>
-        </div>
+        <h2>비용: 1인당 160만원(4일), Biz/Dev만 수강시 1인당 80만원(2일)</h2>
 
         <!-- 커리큘럼 시작 -->
         <div>
@@ -187,53 +184,29 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        <!-- 커리큘럼 끝 -->
+        </div><!-- 커리큘럼 끝 -->
+        
 
-        <!-- 강사진 소개 시작 -->
-        <div style="margin:100px 0 50px 0;">
+        
+        <div style="margin:100px 0 50px 0;"><!-- 강사진 소개 시작 -->
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn style="background-color:#5a67d8 !important;
-                    color:white !important;
-                    width:90px !important;
-                    height:30px !important;
-                    text-align-center !important;
-                    line-height:30px !important;
-                    font-size:20px;
-                    margin:-7px 0 0 10px;"
+                <v-btn class="top-apply-btn"
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
-                    >
+                >
                         <span style="color:white !important; font-size:16px;">
                             신청하기
                         </span>
                 </v-btn>
             </div>
             <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
-            <div style="display:inline-flex; width:100%;">
-            <!-- 대표님, 이사님 시작-->
-            <!-- 대표님 -->
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                >
+            <div class="the-entire-package"><!-- 대표님, 이사님 시작-->
+                <div class="instructor-card"><!-- 대표님 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
+                    <div class="instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
@@ -250,30 +223,14 @@
                         • 객체지향 프로그래밍 University 강의<br>
                         • 한국소프트웨어기술진흥협회 전문강사<br>
                     </div>
-                </div>
-            <!-- 대표님 끝 -->
-
-            <!-- 박용주 이사 시작 -->
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                >
+                </div><!-- 대표님 끝 -->
+            
+            
+                <div class="instructor-card"><!-- 박용주 이사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
+                    <div class="instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                     </div>
@@ -291,35 +248,18 @@
                         • ’19. 09 : KOSTA Microservices 교육 강사<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
-                </div>
-                <!-- 박용주 이사 끝 -->
-            <!-- 장진영 대표, 박용주 이사 끝 -->
-            </div>
-            <!-- 장진영 대표, 이수헌 매니저 시작-->
+                </div><!-- 박용주 이사 끝 -->
+            </div><!-- 장진영 대표, 박용주 이사 끝 -->
+
+
             <h3 style="margin-top:50px;">보조강사(김상훈 / 이진수)</h3>
-            <div style="display:inline-flex; width:100%;">
-                <!-- 김상훈 매니저 시작 -->
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                >
+            <div class="the-entire-package"><!-- 보조강사(김상훈 / 이진수) 시작-->
+                <div class="instructor-card"><!-- 김상훈 보조강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
-                        <h3 style="margin-bottom:0; color:gray;">김상훈(실습강사 / 2~4일차 진행)</h3>
+                    <div class="instructor-card-name">
+                        <h3 style="margin-bottom:0; color:gray;">김상훈 보조강사</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
@@ -336,30 +276,15 @@
                         • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                     </div>
-                </div>
-                <!-- 김상훈 매니저 끝 -->
-                <!-- 이진수 매니저 시작 -->
-                <div style="width:49%;
-                    margin-right:2%;
-                    background-color: white;
-                    border: 1px solid #e5e5e5;
-                    border-radius: 10px;
-                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                    height:500px;"
-                >
+                </div><!-- 김상훈 보조강사 끝 -->
+                
+                
+                <div class="instructor-card"><!-- 이진수 보조강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
-                    <div style="width:80%;
-                        height:50px;
-                        background-color:#e6e9f9 !important;
-                        margin:0 auto;
-                        border-radius:10px;
-                        margin-top:-25px;
-                        text-align:center;
-                        position:relative;"
-                    >
-                        <h3 style="margin-bottom:0; color:gray;">이진수 매니저</h3>
+                    <div class="instructor-card-name">
+                        <h3 style="margin-bottom:0; color:gray;">이진수 보조강사</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
@@ -373,11 +298,9 @@
                         • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
                         • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
                     </div>
-                    <!-- 이진수 매니저 끝 -->
-                </div>
-            </div>
-            <!-- 강사진 소개 끝 -->
-        </div>
+                </div><!-- 이진수 보조강사 끝 -->
+            </div><!-- 보조강사(김상훈 / 이진수) 끝-->
+        </div><!-- 강사진 소개 끝 -->
     </div>
 </template>
 

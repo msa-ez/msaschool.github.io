@@ -17,10 +17,7 @@
             </v-btn>
         </div>
         <h4 style="font-weight:500; opacity:0.8;">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h4>
-        <div style="font-weight:700; display:inline-flex;">
-            <h2 color>비용:</h2>
-            <h2>&nbsp; 무료</h2>
-        </div>
+        <h2 color>비용: 무료</h2>
         
         <!-- 커리큘럼 시작 -->
         <div>
@@ -86,8 +83,8 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        <!-- 커리큘럼 끝 -->
+        </div><!-- 커리큘럼 끝 -->
+        
 
         <div style="margin:100px 0 50px 0;">
             <div>
@@ -108,29 +105,12 @@
                         </span>
                 </v-btn>
             </div>
-            <div style="display:inline-flex; width:100%;">
-            <!-- 대표님, 이사님 시작-->
-                <!-- 대표님 -->
-                    <div style="width:49%;
-                        margin-right:2%;
-                        background-color: white;
-                        border: 1px solid #e5e5e5;
-                        border-radius: 10px;
-                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                        height:500px;"
-                    >
+            <div class="the-entire-package"><!-- 대표님, 이사님 시작-->
+                    <div class="instructor-card"><!-- 대표님 -->
                         <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                             <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                         </div>
-                        <div style="width:80%;
-                            height:50px;
-                            background-color:#e6e9f9 !important;
-                            margin:0 auto;
-                            border-radius:10px;
-                            margin-top:-25px;
-                            text-align:center;
-                            position:relative;"
-                        >
+                        <div class="instructor-card-name">
                             <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
                             <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                         </div>
@@ -151,26 +131,11 @@
                 <!-- 대표님 끝 -->
 
                 <!-- 박용주 이사 시작 -->
-                    <div style="width:49%;
-                        margin-right:2%;
-                        background-color: white;
-                        border: 1px solid #e5e5e5;
-                        border-radius: 10px;
-                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-                        height:500px;"
-                    >
+                    <div class="instructor-card">
                         <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                             <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                         </div>
-                        <div style="width:80%;
-                            height:50px;
-                            background-color:#e6e9f9 !important;
-                            margin:0 auto;
-                            border-radius:10px;
-                            margin-top:-25px;
-                            text-align:center;
-                            position:relative;"
-                        >
+                        <div class="instructor-card-name">
                             <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
                             <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                         </div>
