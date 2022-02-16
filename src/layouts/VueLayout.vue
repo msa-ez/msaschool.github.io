@@ -10,7 +10,7 @@
                 <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
             </header>
 
-            <main style="max-width:1900px; margin-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background">
+            <main style="max-width:1900px; margin-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background is-mobile-main">
                 <aside
                         v-if="hasSidebar"
                         class="sidebar"
@@ -24,12 +24,11 @@
                     </div>
                 </aside>
 
-                <div :class="{ 'pl-0 lg:pl-12 lg:w-3/4': hasSidebar }"
+                <div class="is-mobile-contents"
+                    :class="{ 'pl-0 lg:pl-12 lg:w-3/4': hasSidebar }"
                      :style="mainStyleBySize">
                     <slot/>
                 </div>
-
-
             </main>
         </div>
 
@@ -140,7 +139,7 @@
         computed: {
             mainStyleBySize() {
                 if (this.small) {
-                    return "max-width: 90% !important; margin-top: -10% !important;"
+                    return "max-width: 90%; margin-top: -10% !important;"
                 } else {
                     return "max-width: 90% !important; margin-top: 3% !important; margin-left:-1%;"
                 }
@@ -1327,3 +1326,18 @@
         }
     }
 </style>
+
+<style scoped>
+    @media only screen and (max-width:1023px) {
+        .is-mobile-main {
+            margin-top:5% !important;
+            padding-right:-2.5% !important;
+        }
+    }
+    @media only screen and (max-width:720px) {
+        .is-mobile-contents {
+            max-width:100% !important;
+        }
+    }
+</style>
+

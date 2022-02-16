@@ -16,14 +16,21 @@
                     <span style="color:white !important; font-size:20px;">신청하기</span>
             </v-btn>
         </div>
-        <h4 style="font-weight:500; opacity:0.8;">MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인텐시브하게 진행되는 MSA 교육 과정으로 기본 5시간으로 구성됩니다.</h4>
+        <h4 style="font-weight:500; opacity:0.8;">MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인텐시브하게 진행되는 MSA 교육 과정으로 기본 1시간으로 구성됩니다.</h4>
+        <div>
+            • 선정한 도메인 기반의 Event storming 예시<br><br>
+            • Cloud Native Application 구현 예시<br><br>
+            • 컨설팅 및 질의응답<br><br>
+            • 유사 사례를 통한 컨설팅<br><br>
+            • 자유 질의응답<br><br>
+        </div>
         <div style="font-weight:700; display:inline-flex;">
             <h2 color>비용:</h2>
-            <h2>&nbsp; 1인당 1시간당 40만원</h2>
+            <h2>&nbsp; 시간당 100만원</h2>
         </div>
         
         <!-- 커리큘럼 시작 -->
-        <div>
+        <!-- <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <table style="width:100%; border : 1px solid black;">
                 <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
@@ -98,7 +105,7 @@
                     </td>
                 </tr>
             </table>
-        </div>
+        </div> -->
         <!-- 커리큘럼 끝 -->
 
         <div style="margin:100px 0 50px 0;">

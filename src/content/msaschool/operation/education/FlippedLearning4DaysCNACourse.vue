@@ -187,11 +187,9 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        <!-- 커리큘럼 끝 -->
+        </div><!-- 커리큘럼 끝 -->
 
-        <!-- 강사진 소개 시작 -->
-        <div style="margin:100px 0 50px 0;">
+        <div style="margin:100px 0 50px 0;"><!-- 강사진 소개 시작 -->
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
                 <v-btn style="background-color:#5a67d8 !important;
@@ -210,9 +208,8 @@
                         </span>
                 </v-btn>
             </div>
-            <!-- 장진영 대표, 이수헌 매니저 시작-->
-            <div style="display:inline-flex; width:100%;">
-                <!-- 장진영 대표 -->
+            <h3 style="margin-top:20px;">1일차 진행(장진영 / 박용주)</h3>
+            <div style="display:inline-flex; width:100%;"><!-- 장진영 대표, 박용주 이사 시작-->
                 <div style="width:49%;
                     margin-right:2%;
                     background-color: white;
@@ -220,7 +217,7 @@
                     border-radius: 10px;
                     box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
                     height:500px;"
-                >
+                ><!-- 장진영 대표 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
@@ -233,7 +230,7 @@
                         text-align:center;
                         position:relative;"
                     >
-                        <h3 style="margin-bottom:0; color:gray;">장진영(주강사 / 1일차 진행)</h3>
+                        <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
@@ -241,7 +238,7 @@
                         • MSAEz, MSA School, CNA PaaS Platform<br>
                         • Open Source Open Cloud Engine<br>
                         • uEngine BPM, SNS(Process CODI), ALM(ESSENCIA)<br>
-                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 유엔진솔루션즈 대표이사<br>
                         • 現 MSA 교육, 기업 컨설팅<br>
                         • 現 MSA Facebook 운영<br>(https://www.facebook.com/groups/cloudswmoding)<br>
@@ -249,10 +246,8 @@
                         • 객체지향 프로그래밍 University 강의<br>
                         • 한국소프트웨어기술진흥협회 전문강사<br>
                     </div>
-                </div>
-                <!-- 대표님 끝 -->
+                </div><!-- 장진영 대표 끝 -->
 
-                <!-- 김상훈 매니저 시작 -->
                 <div style="width:49%;
                     margin-right:2%;
                     background-color: white;
@@ -260,7 +255,50 @@
                     border-radius: 10px;
                     box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
                     height:500px;"
-                >
+                ><!-- 박용주 이사 시작 -->
+                    <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                        <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
+                    </div>
+                    <div style="width:80%;
+                        height:50px;
+                        background-color:#e6e9f9 !important;
+                        margin:0 auto;
+                        border-radius:10px;
+                        margin-top:-25px;
+                        text-align:center;
+                        position:relative;"
+                    >
+                        <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
+                    </div>
+                    <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                        • MSA DT 마스터플랜 수립 Project<br>
+                        • MSA PoC/ Pilot 수행<br>
+                        • 다수 MSA 제안 작업 및 컨설팅 <br>
+                        • 마이크로서비스 교육과정 교안/교재 집필  <br>
+                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • 現 uEngine MSA 정규 교과정 전문강사<br>
+                        • 現 MSA App. Engineering 기업과정 강사<br>
+                        • ‘21 : SK MSA App. Engineering 과정 강사 외<br>
+                        • ’21. 06 : KT Microservice 직무전환과정 강사<br>
+                        • ’20. 09 : Doosan Microservices 교육 강사<br>
+                        • ’19. 09 : KOSTA Microservices 교육 강사<br>
+                        • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
+                    </div>
+                </div>
+                <!-- 박용주 이사 끝 -->
+            <!-- 장진영 대표, 박용주 이사 끝 -->
+            </div>
+            <h3 style="margin-top:50px;">2 ~ 4일차 진행(김상훈 / 이진수)</h3>
+            <div style="display:inline-flex; width:100%;"><!-- 김상훈 실습강사, 이진수 실습강사 시작-->
+                <div style="width:49%;
+                    margin-right:2%;
+                    background-color: white;
+                    border: 1px solid #e5e5e5;
+                    border-radius: 10px;
+                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
+                    height:500px;"
+                ><!-- 김상훈 실습강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
@@ -290,12 +328,45 @@
                         • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                     </div>
-                    <!-- 김상훈 매니저 끝 -->
+                </div><!-- 김상훈 실습강사 끝 -->
+                
+                <div style="width:49%;
+                    margin-right:2%;
+                    background-color: white;
+                    border: 1px solid #e5e5e5;
+                    border-radius: 10px;
+                    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
+                    height:500px;"
+                ><!-- 이진수 실습강사 시작 -->
+                    <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                        <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
+                    </div>
+                    <div style="width:80%;
+                        height:50px;
+                        background-color:#e6e9f9 !important;
+                        margin:0 auto;
+                        border-radius:10px;
+                        margin-top:-25px;
+                        text-align:center;
+                        position:relative;"
+                    >
+                        <h3 style="margin-bottom:0; color:gray;">이진수 실습강사</h3>
+                        <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
+                    </div>
+                    <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                        • MSA PoC/ 마스터플랜 수립 Project Developer  <br>
+                        • Eventstorming online platform 개발<br>
+                        • Model driven Polyglot Language Expert<br>
+                        • AI, 자연어처리, Tensorflow기반 모델 Expert<br>
+                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • 現 uEngine MSA 정규 교과정 보조강사<br>
+                        • 現 MSA App. Engineering 기업과정 보조강사<br>
+                        • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
+                        • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
+                    </div><!-- 이진수 실습강사 끝 -->
                 </div>
-                <!-- 대표님, 이수헌 매니저 끝 -->
-            </div>
-            <!-- 강사진 소개 끝 -->
-        </div>
+            </div><!-- 대표님, 이진수 실습강사 끝 -->
+        </div><!-- 강사진 소개 끝 -->
     </div>
 </template>
 
