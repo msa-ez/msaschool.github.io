@@ -2,34 +2,29 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">Quick Understanding CNA 과정</h2>
-            <v-btn style="background-color:#5a67d8 !important;
-                color:white !important;
-                width:130px !important;
-                height:40px !important;
-                text-align-center !important;
-                line-height:24px !important;
-                font-size:24px;
-                margin:-7px 0 0 10px;"
+            <v-btn class="gs-top-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
-                >
-                    <span style="color:white !important; font-size:20px;">신청하기</span>
+            >
+                <span style="color:white !important; font-size:20px;">
+                    신청하기
+                </span>
             </v-btn>
         </div>
-        <h4 style="font-weight:500; opacity:0.8;">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h4>
+        <h4 class="gs-course-content">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h4>
         <h2 color>비용: 무료</h2>
         
         <!-- 커리큘럼 시작 -->
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
-            <table style="width:100%; border : 1px solid black;">
-                <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
+            <table class="gs-table-default">
+                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td  rowspan="2" style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~14:00</td>
-                    <td style="border : 1px solid black; font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
-                    <td style="border : 1px solid black;">
+                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~14:00</td>
+                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td>
                         • 애자일 기업에 필요한 것들 - Microservice, DevOps, Container<br>
                         • 모노리스와 마이크로서비스의 비교<br>
                         • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
@@ -37,8 +32,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; padding-left:15px; font-weight:700;">마이크로서비스의 분석/설계 - 이벤트스토밍 소개</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; font-weight:700;">마이크로서비스의 분석/설계 - 이벤트스토밍 소개</td>
+                    <td>
                         • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
                         • DDD 구성요소 소개<br>
                         • 서비스 식별과 분해방법들 - Core / Supporting Domain Bounded Context, Aggregate, Business Capability, Mini Service<br>
@@ -48,22 +43,22 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>14:00~15:00</td>
-                    <td style="border : 1px solid black; font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리 소개</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>14:00~15:00</td>
+                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리 소개</td>
+                    <td>
                         • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
                         • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
                         • Spring Data REST + JPA 를 통한 RESTful API 노출 (HATEOAS)<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>15:00~16:00</td>
-                    <td style="border : 1px solid black; font-weight:700;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>15:00~16:00</td>
+                    <td style="font-weight:700;">
                         인터-마이크로서비스의<br>
                         통합 1:Request-Response 방식<br>
                         통합 2:Event-driven 방식<br>
                     </td>
-                    <td style="border : 1px solid black;">
+                    <td>
                         • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
                         • 서킷브레이커를 통한 장애회피<br>
                         • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
@@ -75,9 +70,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>16:00~17:00</td>
-                    <td style="border : 1px solid black; font-weight:700;">도커라이징, 배포 및 컨테이너 오케스트레이션</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>16:00~17:00</td>
+                    <td style="font-weight:700;">도커라이징, 배포 및 컨테이너 오케스트레이션</td>
+                    <td>
                         • Dockerfile을 활용한 마이크로서비스 패키징 및 도커 이미지 생성<br>
                         • 쿠베네티스 배포 및 컨테이너 오케스트레이션 소개<br>
                     </td>
@@ -89,28 +84,21 @@
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn style="background-color:#5a67d8 !important;
-                    color:white !important;
-                    width:90px !important;
-                    height:30px !important;
-                    text-align-center !important;
-                    line-height:30px !important;
-                    font-size:20px;
-                    margin:-7px 0 0 10px;"
+                <v-btn class="gs-bottom-apply-btn"
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
-                    >
+                >
                         <span style="color:white !important; font-size:16px;">
                             신청하기
                         </span>
                 </v-btn>
             </div>
-            <div class="the-entire-package"><!-- 대표님, 이사님 시작-->
-                    <div class="instructor-card"><!-- 대표님 -->
+            <div class="gs-the-entire-package"><!-- 대표님, 이사님 시작-->
+                    <div class="gs-instructor-card"><!-- 대표님 -->
                         <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                             <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                         </div>
-                        <div class="instructor-card-name">
+                        <div class="gs-instructor-card-name">
                             <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
                             <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                         </div>
@@ -131,11 +119,11 @@
                 <!-- 대표님 끝 -->
 
                 <!-- 박용주 이사 시작 -->
-                    <div class="instructor-card">
+                    <div class="gs-instructor-card">
                         <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                             <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                         </div>
-                        <div class="instructor-card-name">
+                        <div class="gs-instructor-card-name">
                             <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
                             <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                         </div>

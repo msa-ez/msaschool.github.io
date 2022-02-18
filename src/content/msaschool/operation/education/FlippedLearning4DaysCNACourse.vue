@@ -2,35 +2,30 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">Flipped Learning CNA 과정</h2>
-            <v-btn style="background-color:#5a67d8 !important;
-                color:white !important;
-                width:130px !important;
-                height:40px !important;
-                text-align-center !important;
-                line-height:24px !important;
-                font-size:24px;
-                margin:-7px 0 0 10px;"
+            <v-btn class="gs-top-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdlJAdOfPn-ET4maXP2M585OknGQwCgQsPQxUyRziAu6Q3GIw/viewform?usp=pp_url&entry.1858868603=Flipped+Learning+CNA+%EA%B3%BC%EC%A0%95`"
-                >
-                    <span style="color:white !important; font-size:20px;">신청하기</span>
+            >
+                <span style="color:white !important; font-size:20px;">
+                    신청하기
+                </span>
             </v-btn>
         </div>
-        <h4 style="font-weight:500; opacity:0.8;">Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
+        <h4 class="gs-course-content">Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
         <h2>비용: 1인당 100만원(4일), Biz/Dev만 수강시 1인당 60만원(2일)</h2>
 
         <!-- 커리큘럼 시작 -->
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
-            <table style="width:100%; border : 1px solid black;">
-                <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
+            <table class="gs-table-default">
+                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
+                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td>
                         • 애자일 기업에 필요한 것들 – Microservice, DevOps, Container<br>
                         • 모노리스와 마이크로서비스의 비교<br>
                         • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
@@ -39,13 +34,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="border : 1px solid black; padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">11:30~13:00</td>
+                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">마이크로서비스의 분석/설계</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td style="font-weight:700;">마이크로서비스의 분석/설계</td>
+                    <td>
                         • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
                         • DDD 구성요소 - 서브도메인, 바운디드 컨텍스트, 도메인 이벤트, 어그리게잇, 뷰<br>
                         • 서비스 식별과 분해방법들 - Core / Supporting Domain, Bounded Context, Aggregate, Business Capability, Mini Service<br>
@@ -57,14 +52,14 @@
             </table>
 
             <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
-            <table style="width:100%; border : 1px solid black;">
-                <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+            <table class="gs-table-default">
+                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
+                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
+                    <td>
                         • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
                         • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
                         • Spring Data REST + JPA 를 통한  RESTful API 노출 (HATEOAS)<br>
@@ -72,13 +67,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="border : 1px solid black; padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">11:30~13:00</td>
+                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
-                    <td style="border : 1px solid black;">
+                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td style="font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
+                    <td>
                         • UI 를 기반한 서비스 통합 전략:  Client-side Rendering, SPA, MVVM, HATEOAS<br>
                         • OAuth2 와 JWT 통한 Stateless 한 토큰 기반 접근과  인증<br>
                         • Front-end 기반 통합의 한계: 트랜잭션 이슈와 성능 문제<br>
@@ -86,8 +81,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
-                    <td style="border : 1px solid black;">
+                    <td style="font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
+                    <td>
                         • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
                         • 서킷브레이커를 통한 장애회피<br>
                         • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
@@ -98,14 +93,14 @@
 
 
             <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
-            <table style="width:100%; border : 1px solid black;">
-                <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+            <table class="gs-table-default">
+                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~10:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~10:30</td>
+                    <td style="font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
+                    <td>
                         • Event-driven 방식의 연동(Pub/Sub + Async + Choreography)<br>
                         • 이벤트의 서브스크립션 - Spring Cloud Streams 와 kafka client 를 통한 이벤트의 수신과 처리<br>
                         • 쓰기관점 - 트랜잭션 이슈: Eventual Transaction 와 Saga, Compensation<br>
@@ -114,22 +109,22 @@
                 </tr>
 
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>10:30~11:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">점진적인 Microservice 전환</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>10:30~11:30</td>
+                    <td style="font-weight:700;">점진적인 Microservice 전환</td>
+                    <td>
                         • Strangler Pattern을 적용한 단계적 DT(Digital Transformation)  전략<br>
                         • CDC (Change Data Capture)를 활용한 Event Shunting<br>
                         • Kafka Connector 소개<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="border : 1px solid black; padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">11:30~13:00</td>
+                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td style="font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
+                    <td>
                         • DevOps 기반의 프로세스 변화와 MSA<br>
                         • 클라우드 애플리케이션 배포 전략 - 무정지(카나리) 배포, A/B 테스팅, Shadow 배포<br>
                         • DevOps 툴체인 - 컨테이너와 컨테이너 오케스트레이터, 그리고 CI/CD<br>
@@ -142,14 +137,14 @@
 
 
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
-            <table style="width:100%; border : 1px solid black;">
-                <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+            <table class="gs-table-default">
+                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">운영: 쿠버네티스 상세</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
+                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td>
                         • Kubernetes 를 통한 애플리케이션 디플로이, 인터넷으로의 서비스 노출과정<br>
                         • Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet 등 객체 세부<br>
                         • Self healing, Auto Scaling, Zero-Down time Deployment<br>
@@ -157,29 +152,29 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="border : 1px solid black; padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center; text-align:center;">11:30~13:00</td>
+                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">운영: 쿠버네티스 상세</td>
-                    <td style="border : 1px solid black;">
+                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td>
                         • Persistence Volume 통한 파일시스템 연계<br>
                         • Secrets, ConfigMap 통한 Configuration Externalization<br>
                         • 예제 스프링 애플리케이션의 패키징과 파일시스템 연동, 회복자동화, 자동확장 테스트<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; font-weight:700; padding-left:15px;">운영: CI/CD</td>
-                    <td style="border : 1px solid black;">
+                    <td style="font-weight:700; padding-left:15px;">운영: CI/CD</td>
+                    <td>
                         • Argo Workflow / Rollouts / CD 를 이용한 CI/CD 자동화<br>
                         • Spring Cloud Contract 를 통한 Consumer-driven / Contract Testing<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>17:00~17:30</td>
-                    <td style="border : 1px solid black; font-weight:700;">설문작성 및 테스트</td>
-                    <td style="border : 1px solid black;">
+                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>17:00~17:30</td>
+                    <td style="font-weight:700;">설문작성 및 테스트</td>
+                    <td>
                         • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
                     </td>
                 </tr>
@@ -189,29 +184,22 @@
         <div style="margin:100px 0 50px 0;"><!-- 강사진 소개 시작 -->
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn style="background-color:#5a67d8 !important;
-                    color:white !important;
-                    width:90px !important;
-                    height:30px !important;
-                    text-align-center !important;
-                    line-height:30px !important;
-                    font-size:20px;
-                    margin:-7px 0 0 10px;"
+                <v-btn class="gs-bottom-apply-btn"
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
-                    >
-                        <span style="color:white !important; font-size:16px;">
-                            신청하기
-                        </span>
+                >
+                    <span style="color:white !important; font-size:16px;">
+                        신청하기
+                    </span>
                 </v-btn>
             </div>
             <h3 style="margin-top:20px;">1일차 진행(장진영 / 박용주)</h3>
-            <div class="the-entire-package"><!-- 장진영, 박용주 시작-->
-                <div class="instructor-card"><!-- 장진영 -->
+            <div class="gs-the-entire-package"><!-- 장진영, 박용주 시작-->
+                <div class="gs-instructor-card"><!-- 장진영 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
@@ -230,11 +218,11 @@
                     </div>
                 </div><!-- 장진영 끝 -->
 
-                <div class="instructor-card"><!-- 박용주 시작 -->
+                <div class="gs-instructor-card"><!-- 박용주 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                     </div>
@@ -257,12 +245,12 @@
             <!-- 장진영, 박용주 끝 -->
             </div>
             <h3 style="margin-top:50px;">2 ~ 4일차 진행(김상훈 / 이진수)</h3>
-            <div class="the-entire-package"><!-- 김상훈, 이진수 시작-->
-                <div class="instructor-card"><!-- 김상훈 시작 -->
+            <div class="gs-the-entire-package"><!-- 김상훈, 이진수 시작-->
+                <div class="gs-instructor-card"><!-- 김상훈 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">김상훈</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
@@ -282,11 +270,11 @@
                     </div>
                 </div><!-- 김상훈 끝 -->
                 
-                <div class="instructor-card"><!-- 이진수 시작 -->
+                <div class="gs-instructor-card"><!-- 이진수 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">이진수</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>

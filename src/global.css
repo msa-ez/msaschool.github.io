@@ -1,54 +1,84 @@
-.bottom-apply-btn {
-    color:white !important; font-size:20px;
+.gs-top-apply-btn {
+    background-color:#5a67d8 !important;
+    color:white !important;
+    width:130px !important;
+    height:40px !important;
+    text-align:center !important;
+    line-height:24px !important;
+    font-size:24px !important;
+    margin:-7px 0 0 10px !important;
 }
-.top-apply-btn {
+.gs-bottom-apply-btn {
     background-color:#5a67d8 !important;
     color:white !important;
     width:90px !important;
     height:30px !important;
     text-align:center !important;
     line-height:30px !important;
-    font-size:20px;
-    margin:-7px 0 0 10px;
+    font-size:20px !important;
+    margin:-7px 0 0 10px !important;
 }
 
-.instructor-card {
-    width:49%;
-    margin-right:2%;
-    background-color: white;
-    border: 1px solid #e5e5e5;
-    border-radius: 10px;
-    box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-    height:500px;
+.gs-instructor-card {
+    width:49% !important;
+    margin-right:2% !important;
+    background-color: white !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
+    height:500px !important;
 }
-.instructor-card-name {
-    width:80%;
-    height:50px;
+.gs-instructor-card-name {
+    width:80% !important;
+    height:50px !important;
     background-color:#e6e9f9 !important;
-    margin:0 auto;
-    border-radius:10px;
-    margin-top:-25px;
-    text-align:center;
-    position:relative;
+    margin:0 auto !important;
+    border-radius:10px !important;
+    margin-top:-25px !important;
+    text-align:center !important;
+    position:relative !important;
 }
 
-.the-entire-package {
-    display:inline-flex; width:100%;
+.gs-the-entire-package {
+    display:inline-flex; width:100% !important;
+}
+
+
+.gs-course-content {
+    font-weight:500 !important;
+    opacity:0.8 !important;
+}
+
+.gs-table-default {
+    width:100% !important;
+    border : 1px solid black !important;
+}
+
+.gs-table-default th {
+    border : 1px solid black !important;
+    border-collapse : collapse !important;
+    margin: auto !important;
+    text-align: center !important; 
+}
+
+.gs-table-default td {
+    border : 1px solid black !important;
 }
 
 @media only screen and (max-width:750px){
-    .the-entire-package {
-        display:block; width:100%;
+    .gs-the-entire-package {
+        display:block !important;
+        width:100% !important;
     }
 
-    .instructor-card {
-        width:100%;
-        margin-right:0%;
-        margin-top:10px;
-        background-color: white;
-        border: 1px solid #e5e5e5;
-        border-radius: 10px;
-        box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
-        height:500px;
+    .gs-instructor-card {
+        width:100% !important;
+        margin-right:0% !important;
+        margin-top:10px !important;
+        background-color: white !important;
+        border: 1px solid #e5e5e5 !important;
+        border-radius: 10px !important;
+        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
+        height:500px !important;
     }
 }

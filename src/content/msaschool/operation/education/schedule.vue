@@ -440,12 +440,10 @@
         </div><!-- 720px 아래 상태(모바일) 끝 -->
         
         
-        <!-- 이메일 + 카카오톡 링크 시작 -->
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육관련 연락처 : help@uengine.org</div>
-            <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">오픈 카카오톡</a>
+            <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">카카오톡 오픈채팅</a>
         </div>
-        <!-- 이메일 + 카카오톡 링크 끝 -->
 
 <!-- 달력 -->
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-bottom:100px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>

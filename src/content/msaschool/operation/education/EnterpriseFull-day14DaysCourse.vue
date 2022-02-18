@@ -2,21 +2,16 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">Enterprise Full-day 과정</h2>
-            <v-btn style="background-color:#5a67d8 !important;
-                color:white !important;
-                width:130px !important;
-                height:40px !important;
-                text-align-center !important;
-                line-height:24px !important;
-                font-size:24px;
-                margin:-7px 0 0 10px;"
+            <v-btn class="gs-top-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform?usp=pp_url&entry.1858868603=Enterprise+Full-day+%EA%B3%BC%EC%A0%95`"
-                >
-                    <span style="color:white !important; font-size:20px;">신청하기</span>
+            >
+                <span style="color:white !important; font-size:20px;">
+                    신청하기
+                </span>
             </v-btn>
         </div>
-        <h4 style="font-weight:500; opacity:0.8;">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Couse입니다.</h4>
+        <h4 class="gs-course-content">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Couse입니다.</h4>
         <h2>비용:1인당 560만원(14일)</h2>
 
         <!-- 커리큘럼 시작 -->
@@ -374,7 +369,7 @@
         <div style="margin:100px 0 50px 0;"><!-- 강사진 소개 시작 -->
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn class="top-apply-btn"
+                <v-btn class="gs-bottom-apply-btn"
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                 >
@@ -384,12 +379,12 @@
                 </v-btn>
             </div>
             <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
-            <div class="the-entire-package"><!-- 대표님, 이사님 시작-->
-                <div class="instructor-card"><!-- 대표님 -->
+            <div class="gs-the-entire-package"><!-- 대표님, 이사님 시작-->
+                <div class="gs-instructor-card"><!-- 대표님 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
@@ -409,11 +404,11 @@
                 </div><!-- 대표님 끝 -->
             
             
-                <div class="instructor-card"><!-- 박용주 시작 -->
+                <div class="gs-instructor-card"><!-- 박용주 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                     </div>
@@ -436,12 +431,12 @@
 
 
             <h3 style="margin-top:50px;">보조강사(김상훈 / 이진수)</h3>
-            <div class="the-entire-package"><!-- 보조강사(김상훈 / 이진수) 시작-->
-                <div class="instructor-card"><!-- 김상훈 보조강사 시작 -->
+            <div class="gs-the-entire-package"><!-- 보조강사(김상훈 / 이진수) 시작-->
+                <div class="gs-instructor-card"><!-- 김상훈 보조강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">김상훈</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>
@@ -462,11 +457,11 @@
                 </div><!-- 김상훈 보조강사 끝 -->
                 
                 
-                <div class="instructor-card"><!-- 이진수 보조강사 시작 -->
+                <div class="gs-instructor-card"><!-- 이진수 보조강사 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">이진수</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
                     </div>

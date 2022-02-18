@@ -2,28 +2,28 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">One Point Lesson 과정</h2>
-            <v-btn style="background-color:#5a67d8 !important;
-                color:white !important;
-                width:130px !important;
-                height:40px !important;
-                text-align-center !important;
-                line-height:24px !important;
-                font-size:24px;
-                margin:-7px 0 0 10px;"
+            <v-btn class="gs-top-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
-                >
-                    <span style="color:white !important; font-size:20px;">신청하기</span>
+            >
+                    <span style="color:white !important; font-size:20px;">
+                        신청하기
+                    </span>
             </v-btn>
         </div>
-        <h4 style="font-weight:500; opacity:0.8;">MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인텐시브하게 진행되는 MSA 교육 과정으로 기본 1시간으로 구성됩니다.</h4>
-        <div>
-            • 선정한 도메인 기반의 Event storming 예시<br><br>
-            • Cloud Native Application 구현 예시<br><br>
-            • 컨설팅 및 질의응답<br><br>
-            • 유사 사례를 통한 컨설팅<br><br>
-            • 자유 질의응답<br><br>
-        </div>
+        <h4 class="gs-course-content">MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인텐시브하게 진행되는 MSA 교육 과정으로 기본 1시간으로 구성됩니다.</h4>
+        <table style="border : 1px solid black;">
+            <tr>
+                <td rowspan="5" style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:1%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">Agenda</td>
+                <td class="one-point-lesson-td">
+                    • 선정한 도메인 기반의 Event storming 예시<br><br>
+                    • Cloud Native Application 구현 예시<br><br>
+                    • 컨설팅 및 질의응답<br><br>
+                    • 유사 사례를 통한 컨설팅<br><br>
+                    • 자유 질의응답
+                </td>
+            </tr>
+        </table>
         <h2>비용: 시간당 100만원</h2>
         
         <!-- 커리큘럼 시작 -->
@@ -126,12 +126,12 @@
             </div>
 
             
-            <div class="the-entire-package"><!-- 대표님, 이사님 시작-->
-                <div class="instructor-card"><!-- 대표님 -->
+            <div class="gs-the-entire-package"><!-- 대표님, 이사님 시작-->
+                <div class="gs-instructor-card"><!-- 대표님 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
                     </div>
@@ -150,11 +150,11 @@
                     </div>
                 </div><!-- 대표님 끝 -->
             
-                <div class="instructor-card"><!-- 박용주 시작 -->
+                <div class="gs-instructor-card"><!-- 박용주 시작 -->
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
-                    <div class="instructor-card-name">
+                    <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
                         <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
                     </div>
@@ -193,3 +193,13 @@
 
     }
 </script>
+
+<style>
+    .one-point-lesson-td {
+        border : 1px solid black !important;
+        width:20% !important;
+    }
+    .one-point-lesson-td:nth-child(1) {
+        padding-left:15px;
+    }
+</style>
