@@ -441,7 +441,7 @@
         
         
         <div style="margin-top:20px; display:inline-flex;">
-            <div style="margin-right:20px;">교육관련 연락처 : help@uengine.org</div>
+            <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
             <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">카카오톡 오픈채팅</a>
         </div>
