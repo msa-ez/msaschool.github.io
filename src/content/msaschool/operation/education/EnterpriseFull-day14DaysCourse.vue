@@ -12,8 +12,16 @@
             </v-btn>
         </div>
         <h4 class="gs-course-content">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Couse입니다.</h4>
-        <h2>비용:1인당 560만원(14일)</h2>
-
+        <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+        <table class="gs-table-default">
+            <tr>
+                <td rowspan="2" style="width:13.5%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
+            </tr>
+            <tr>
+                <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">1인당 560만원(14일)</td>
+            </tr>    
+        </table>    
+        <!-- 커리큘럼 시작 -->
         <!-- 커리큘럼 시작 -->
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>

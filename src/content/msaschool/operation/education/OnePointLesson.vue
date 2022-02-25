@@ -12,7 +12,16 @@
             </v-btn>
         </div>
         <h4 class="gs-course-content">MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인텐시브하게 진행되는 MSA 교육 과정으로 기본 1시간으로 구성됩니다.</h4>
-        <table style="border : 1px solid black;">
+        <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+        <table class="gs-table-default">
+            <tr>
+                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
+            </tr>
+            <tr>
+                <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">시간당 100만원</td>
+            </tr>    
+        </table>    
+        <table style="margin-top:50px; border : 1px solid black;">
             <tr>
                 <td rowspan="5" style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:1%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">Agenda</td>
                 <td class="one-point-lesson-td">
@@ -24,8 +33,6 @@
                 </td>
             </tr>
         </table>
-        <h2>비용: 시간당 100만원</h2>
-        
         <!-- 커리큘럼 시작 -->
         <!-- <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
