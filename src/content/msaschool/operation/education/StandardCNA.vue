@@ -21,8 +21,8 @@
             <tr>  
                 <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
             </tr>
-        </table>    
-        <!-- 커리큘럼 시작 -->
+        </table>
+
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
@@ -142,8 +142,6 @@
                 </tr>
             </table>
 
-
-
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
@@ -187,11 +185,9 @@
                     </td>
                 </tr>
             </table>
-        </div><!-- 커리큘럼 끝 -->
+        </div>
         
-
-        
-        <div style="margin:100px 0 50px 0;"><!-- 강사진 소개 시작 -->
+        <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
                 <v-btn class="gs-bottom-apply-btn"
@@ -204,8 +200,8 @@
                 </v-btn>
             </div>
             <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
-            <div class="gs-the-entire-package"><!-- 장진영, 박용주 시작-->
-                <div class="gs-instructor-card"><!-- 장진영 -->
+            <div class="gs-the-entire-package">
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
@@ -226,10 +222,9 @@
                         • 객체지향 프로그래밍 University 강의<br>
                         • 한국소프트웨어기술진흥협회 전문강사<br>
                     </div>
-                </div><!-- 대표님 끝 -->
+                </div>
             
-            
-                <div class="gs-instructor-card"><!-- 박용주 시작 -->
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
@@ -251,13 +246,12 @@
                         • ’19. 09 : KOSTA Microservices 교육 강사<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
-                </div><!-- 박용주 끝 -->
-            </div><!-- 장진영, 박용주 끝 -->
-
+                </div>
+            </div>
 
             <h3 style="margin-top:50px;">보조강사(김상훈 / 이진수)</h3>
-            <div class="gs-the-entire-package"><!-- 보조강사(김상훈 / 이진수) 시작-->
-                <div class="gs-instructor-card"><!-- 김상훈 시작 -->
+            <div class="gs-the-entire-package">
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
@@ -279,10 +273,9 @@
                         • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                     </div>
-                </div><!-- 김상훈 끝 -->
+                </div>
                 
-                
-                <div class="gs-instructor-card"><!-- 이진수 시작 -->
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
@@ -301,9 +294,9 @@
                         • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
                         • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
                     </div>
-                </div><!-- 이진수 끝 -->
-            </div><!-- 보조강사(김상훈 / 이진수) 끝-->
-        </div><!-- 강사진 소개 끝 -->
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

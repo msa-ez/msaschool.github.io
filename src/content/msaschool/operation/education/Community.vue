@@ -134,18 +134,6 @@
                         </p>
                 </div>
         </div>
-<!-- 
-<mark-down class="content" source='
-* **클라우드 네이티브 개발 커뮤니티 <a href="https://spectrum.chat/cna-assessment/operator?tab=posts" target="_blank">(바로가기)</a>**
-'></mark-down>
-
-        <br />
-        <g-image src="~/img/05_Community/06_커뮤니티/image2.png"></g-image>
-        <br/>
-        <mark-down class="content">
-- Cloud Native Applicaion 구현 시 참고해야 될 분석/설계, 구현, 운영 단계에 걸친 주제별 FAQ 열람 및 Q&A가 가능한 커뮤니티
----
-</mark-down> -->
     </div>
 </template>
 

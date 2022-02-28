@@ -33,84 +33,6 @@
                 </td>
             </tr>
         </table>
-        <!-- 커리큘럼 시작 -->
-        <!-- <div>
-            <h3 style="margin-top:50px;">커리큘럼 소개</h3>
-            <table style="width:100%; border : 1px solid black;">
-                <th style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="border : 1px solid black; border-collapse : collapse;  margin: auto; text-align: center; width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td  rowspan="2" style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">1 Hour</td>
-                    <td style="border : 1px solid black; font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
-                    <td style="border : 1px solid black;">
-                        • 모노리스와 마이크로서비스의 비교
-                        • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴
-                        • 최신 마이크로서비스 아키텍쳐의 경향 – Event-driven (Reactive) Microservices
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border : 1px solid black; padding-left:15px; font-weight:700;">마이크로서비스의 분석/설계 – 이벤트스토밍 소개</td>
-                    <td style="border : 1px solid black;">
-                        • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
-                        • DDD 구성요소 소개<br>
-                        • 서비스 식별과 분해방법들 - Core / Supporting Domain Bounded Context, Aggregate, Business Capability, Mini Service<br>
-                        • 이벤트스토밍 소개<br>
-                        • DDD 와 이벤트 스토밍의 결과를 헥사고날 아키텍처로 매핑하는 방법<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">1.5 Hour</td>
-                    <td style="border : 1px solid black; font-weight:700;">도메인 주제 공유 및 DDD 설계 이벤트스토밍</td>
-                    <td style="border : 1px solid black;">
-                        • 적용하려는 도메인 주제를 공유하고 이벤트스토밍<br>
-                        • Big Picture/ Pivotal Event 도출<br>
-                        • Process Level 이벤트스토밍<br>
-                        • Design Level 이벤트스토밍 심화<br>
-                        • 이벤트스토밍 모델 검증/ Narration<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td  rowspan="2" style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">1.5 Hour</td>
-                    <td style="border : 1px solid black; font-weight:700;">마이크로서비스 구현</td>
-                    <td style="border : 1px solid black;">
-                        • Spring Boot를 이용한 단위 서비스 포장<br>
-                        • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
-                        • Spring Data REST + JPA 를 통한  RESTful API 노출 (HATEOAS)<br>
-                        • Clean Architecture를 적용한 도메인과 인프라 분리<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border : 1px solid black; padding-left:15px; font-weight:700;">
-                        인터-마이크로서비스의<br>
-                        통합 1:Request-Response 방식<br>
-                        통합 2:Event-driven 방식<br>
-                    </td>
-                    <td style="border : 1px solid black;">
-                        • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
-                        • 서킷브레이커를 통한 장애회피<br>
-                        • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
-                        • 읽기관점 - Composite-Service 구현방법: 동시 REST 호출 사용<br>
-                        • Event-driven 방식의 연동(Pub/Sub + Async + Choreography)<br>
-                        • 이벤트 서브스크립션 - Spring Cloud Streams 와 kafka client 를 통한 이벤트 처리<br>
-                        • 쓰기관점 - 트랜잭션 이슈: Eventual Transaction 와 Saga, Compensation<br>
-                        • 읽기관점 - CQRS 구현방법<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border : 1px solid black; margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">1 Hour</td>
-                    <td style="border : 1px solid black; font-weight:700;">컨설팅 & 질의응답</td>
-                    <td style="border : 1px solid black;">
-                        • Wrap up 및 Case Study를 통한 구현 컨설팅
-                        • 표준 아키텍처 및 데이터 아키텍처링
-                        • CSP Managed Service & CNCF OSS를 통한 대안 아키텍처 구성방안
-                        • 인증 및 CI/CD 구성
-                        • 질의 응답 및 가이드 제공
-                    </td>
-                </tr>
-            </table>
-        </div> -->
-        <!-- 커리큘럼 끝 -->
 
         <div style="margin:100px 0 50px 0;">
             <div>
@@ -133,8 +55,8 @@
             </div>
 
             
-            <div class="gs-the-entire-package"><!-- 대표님, 이사님 시작-->
-                <div class="gs-instructor-card"><!-- 대표님 -->
+            <div class="gs-the-entire-package">
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
@@ -155,9 +77,9 @@
                         • 객체지향 프로그래밍 University 강의<br>
                         • 한국소프트웨어기술진흥협회 전문강사<br>
                     </div>
-                </div><!-- 대표님 끝 -->
+                </div>
             
-                <div class="gs-instructor-card"><!-- 박용주 시작 -->
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
@@ -179,8 +101,8 @@
                         • ’19. 09 : KOSTA Microservices 교육 강사<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
-                </div><!-- 박용주 끝 -->
-            </div><!-- 장진영, 박용주 끝 -->
+                </div>
+            </div>
         </div>
     </div>
 </template>

@@ -20,9 +20,7 @@
             <tr>
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">1인당 560만원(14일)</td>
             </tr>    
-        </table>    
-        <!-- 커리큘럼 시작 -->
-        <!-- 커리큘럼 시작 -->
+        </table>
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <div name="Microservice Modeling">
@@ -71,9 +69,6 @@
                 </table>
             </div>
 
-
-
-            <!-- Developing Cloud Native Application 시작 -->
             <div name="Developing Cloud Native Application">
                 <h4 style="margin:50px 0 0 0;">Developing Cloud Native Application / 4일, 28시간</h4>
                 <h5 style="font-weight:700;">교육목표 : Cloud 플랫폼과 Core 서비스를 이해하고 시스템을 구성하고 클라우드 애플리케이션을 개발 · 운영</h5>
@@ -126,8 +121,6 @@
                         </td>
                     </tr>
 
-
-                    <!-- 3일차 시작 -->
                     <tr>
                         <td rowspan="4" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">3일</td>
                         <td style="border : 1px solid black;  font-weight:700;">인터-마이크로서비스의<br> 통합 1: Request-Response 방식</td>
@@ -167,7 +160,6 @@
                             • CQRS / GraphQL 구현 방법<br>
                         </td>
                     </tr>
-                    <!-- 3일차 끝 -->
 
                     <tr>
                         <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">4일</td>
@@ -283,10 +275,7 @@
                     </tr>
                 </table>
             </div>
-            <!-- DevOps: Container Orchestration-Docker & Kubernetes 끝 -->
 
-
-            <!-- Capstone Project: Developing on Cloud 시작 -->
             <div name="Capstone Project: Developing on Cloud">
                 <h4 style="margin:50px 0 0 0;">Capstone Project: Developing on Cloud / 4일, 28시간</h4>
                 <h5 style="font-weight:700;">교육목표 : 클라우드 플랫폼에서 마이크로서비스 아키텍처 기반으로 클라우드 네이티브 애플리케이션을  개발 하는 프로젝트 수행 방식의 교육</h5>
@@ -372,9 +361,8 @@
                 </table>
             </div>
         </div>
-        <!-- 커리큘럼 끝 -->
 
-        <div style="margin:100px 0 50px 0;"><!-- 강사진 소개 시작 -->
+        <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
                 <v-btn class="gs-bottom-apply-btn"
@@ -387,8 +375,8 @@
                 </v-btn>
             </div>
             <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
-            <div class="gs-the-entire-package"><!-- 대표님, 이사님 시작-->
-                <div class="gs-instructor-card"><!-- 대표님 -->
+            <div class="gs-the-entire-package">
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                     </div>
@@ -409,10 +397,9 @@
                         • 객체지향 프로그래밍 University 강의<br>
                         • 한국소프트웨어기술진흥협회 전문강사<br>
                     </div>
-                </div><!-- 대표님 끝 -->
+                </div>
             
-            
-                <div class="gs-instructor-card"><!-- 박용주 시작 -->
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                     </div>
@@ -434,13 +421,12 @@
                         • ’19. 09 : KOSTA Microservices 교육 강사<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
-                </div><!-- 박용주 끝 -->
-            </div><!-- 장진영, 박용주 끝 -->
-
+                </div>
+            </div>
 
             <h3 style="margin-top:50px;">보조강사(김상훈 / 이진수)</h3>
-            <div class="gs-the-entire-package"><!-- 보조강사(김상훈 / 이진수) 시작-->
-                <div class="gs-instructor-card"><!-- 김상훈 보조강사 시작 -->
+            <div class="gs-the-entire-package">
+                <div class="gs-instructor-card">=
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
@@ -462,10 +448,10 @@
                         • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                     </div>
-                </div><!-- 김상훈 보조강사 끝 -->
+                </div>
                 
                 
-                <div class="gs-instructor-card"><!-- 이진수 보조강사 시작 -->
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
                     </div>
@@ -484,9 +470,9 @@
                         • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
                         • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
                     </div>
-                </div><!-- 이진수 보조강사 끝 -->
-            </div><!-- 보조강사(김상훈 / 이진수) 끝-->
-        </div><!-- 강사진 소개 끝 -->
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

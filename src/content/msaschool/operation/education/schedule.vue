@@ -1,8 +1,8 @@
 <template>
     <div style="margin-top:80px;">
         <h2 style = "margin:0 0 10px 0;">MSA School 교과정 안내</h2>
-        <div class="basics-box" style="display:inline-flex; width:100%; height:550px;"><!-- 기본 상태 -->
-            <div class="card-box"><!-- Quick Understanding CNA 시작 -->
+        <div class="basics-box" style="display:inline-flex; width:100%; height:550px;">
+            <div class="card-box">
                 <div class="card-title">Quick</div>
                 <div class="card-subtitle">Quick Understanding CNA</div>
                 <div class="card-contents">
@@ -21,11 +21,9 @@
                         ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
-            </div><!-- Quick Understanding CNA 끝 -->
+            </div>
             
-
-            
-            <div class="card-box"><!-- Standard CNA 시작 -->
+            <div class="card-box">
                 <div class="card-title"
                 >Standard
                 </div>
@@ -52,11 +50,11 @@
                         ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
-            </div><!-- Standard CNA 끝 -->
+            </div>
             
 
             
-            <div class="card-box"><!-- Flipped Learning CNA 시작 -->
+            <div class="card-box">
                 <div class="card-title"
                 >Flipped
                 </div>
@@ -83,10 +81,9 @@
                         ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
-            </div><!-- Flipped Learning CNA 끝 -->
+            </div>
             
-            
-            <div class="card-box"><!-- One Point Lesson 시작 -->
+            <div class="card-box">
                 <div class="card-title"
                 >One Point
                 </div>
@@ -112,10 +109,10 @@
                         ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
-            </div><!-- One Point Lesson 끝 -->
+            </div>
             
 
-            <div class="card-box"><!-- Enterprise Full-day 시작 -->
+            <div class="card-box">
                 <div class="card-title"
                 >Enterprise
                 </div>
@@ -141,14 +138,14 @@
                         ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
-            </div><!-- Enterprise Full-day 끝 -->
-        </div><!-- 기본 상태 끝 -->
+            </div>
+        </div>
 
 
 
-        <div class="middle-box"><!-- 1280px ~ 720px 상태 -->
+        <div class="middle-box">
             <div style="display:inline-flex;">
-                <div class="card-box"><!-- Quick Understanding CNA 시작 -->
+                <div class="card-box">
                     <div class="card-title">Quick</div>
                     <div class="card-subtitle">Quick Understanding CNA</div>
                     <div class="card-contents">
@@ -167,11 +164,9 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Quick Understanding CNA 끝 -->
+                </div>
                 
-
-                
-                <div class="card-box"><!-- Standard CNA 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >Standard
                     </div>
@@ -198,11 +193,9 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Standard CNA 끝 -->
+                </div>
                 
-
-                
-                <div class="card-box"><!-- Flipped Learning CNA 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >Flipped
                     </div>
@@ -229,11 +222,11 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Flipped Learning CNA 끝 -->
+                </div>
             </div>
             
             <div style="display:inline-flex;">
-                <div class="card-box"><!-- One Point Lesson 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >One Point
                     </div>
@@ -259,10 +252,9 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- One Point Lesson 끝 -->
-                
+                </div>
 
-                <div class="card-box"><!-- Enterprise Full-day 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >Enterprise
                     </div>
@@ -288,14 +280,14 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Enterprise Full-day 끝 -->
+                </div>
             </div>
-        </div><!-- 1280px ~ 720px 상태 끝 -->
+        </div>
 
 
-        <div class="mobile-box"><!-- 720px 아래 상태(모바일) -->
+        <div class="mobile-box">
             <div style="display:inline-flex">
-                <div class="card-box"><!-- Quick Understanding CNA 시작 -->
+                <div class="card-box">
                     <div class="card-title">Quick</div>
                     <div class="card-subtitle">Quick Understanding CNA</div>
                     <div class="card-contents">
@@ -314,11 +306,9 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Quick Understanding CNA 끝 -->
+                </div>
                 
-
-                
-                <div class="card-box"><!-- Standard CNA 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >Standard
                     </div>
@@ -345,12 +335,11 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Standard CNA 끝 -->
+                </div>
             </div>
             
-
             <div style="display:inline-flex">
-                <div class="card-box"><!-- Flipped Learning CNA 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >Flipped
                     </div>
@@ -377,10 +366,9 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- Flipped Learning CNA 끝 -->
+                </div>
                 
-                
-                <div class="card-box"><!-- One Point Lesson 시작 -->
+                <div class="card-box">
                     <div class="card-title"
                     >One Point
                     </div>
@@ -406,11 +394,10 @@
                             ><span style="color:white !important;">세부사항</span>
                         </v-btn>
                     </div>
-                </div><!-- One Point Lesson 끝 -->
+                </div>
             </div>
-            
 
-            <div class="card-box"><!-- Enterprise Full-day 시작 -->
+            <div class="card-box">
                 <div class="card-title"
                 >Enterprise
                 </div>
@@ -436,9 +423,8 @@
                         ><span style="color:white !important;">세부사항</span>
                     </v-btn>
                 </div>
-            </div><!-- Enterprise Full-day 끝 -->
-        </div><!-- 720px 아래 상태(모바일) 끝 -->
-        
+            </div>
+        </div>
         
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
@@ -446,7 +432,6 @@
             <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">카카오톡 오픈채팅</a>
         </div>
 
-<!-- 달력 -->
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-bottom:100px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
     </div>
 </template>
