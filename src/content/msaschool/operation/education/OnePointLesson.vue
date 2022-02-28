@@ -18,7 +18,7 @@
                 <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
             </tr>
             <tr>
-                <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">시간당 100만원</td>
+                <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">시간당 50만원</td>
             </tr>    
         </table>    
         <table style="margin-top:50px; border : 1px solid black;">

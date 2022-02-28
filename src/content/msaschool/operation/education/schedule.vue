@@ -377,11 +377,11 @@
                         MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 정한 도메인 주제를 기반으로 인터랙티브하게 진행되는 MSA 교육
                     </div>
                     <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
-                        <div style="font-size:24px; font-weight:900;">100만원</div>
+                        <div style="font-size:24px; font-weight:900;">50만원</div>
                         <div style="margin:3px 0 0 3px; font-size:14px;">/ 시간</div>
                     </div>
                     <div class="card-second-contents">
-                        • 5시간 단위<br>
+                        • 1시간 단위<br>
                         • 일정 선택 가능<br>
                         • 비대면 화상교육 (Zoom)<br>
                         • 교재, 클라우드 IDE/계정 제공<br>
