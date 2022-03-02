@@ -155,11 +155,43 @@
             </div>
         </div>
 
+
         <div id="review" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
-            <table style="border:0px;">
+        <div style="margin:10px 10px 10px 0; width:100%;">
+            <div class="clearfix gs-review-box">
+                <div style="width:45px; height:45px; border-radius:100%; overflow:hidden; float:left; margin-right:10px;">
+                    <g-image src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
+                </div>
+                <div>
+                    <div>박**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>멀티 PC 활용이 가능한 점이 좋았고, 강의 자체에 대한 전달력이 좋으셔서</p>
+            </div>
+
+            <div class="clearfix gs-review-box">
+                <div class="gs-review-background" style="background-color:#1565C0;">김</div>
+                <div>
+                    <div>김**</div>
+                    <div class="gs-review-star-color">★★★★<span class="gs-review-star-color mdi mdi-star-half"></span></div>
+                </div>
+                <p>멀티 PC 활용이 가능한 점이 좋았고, 강의 자체에 대한 전달력이 좋으셔서</p>
+            </div>
+
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#FF1744;">박</div>
+                <div>
+                    <div>박**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>멀티 PC 활용이 가능한 점이 좋았고, 강의 자체에 대한 전달력이 좋으셔서</p>
+            </div>
+        </div>
+        
+            <!-- <table style="border:0px;">
                 <tr>
                     <td style="width:10%;">
                         <div style="width:50px; height:50px; border-radius:100%; margin:0 auto; margin-top:10px; margin-bottom:10px; overflow:hidden;">
@@ -196,7 +228,7 @@
                         <p></p>
                     </td>
                 </tr>
-            </table>    
+            </table>     -->
         
         <!-- <div id="review" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
@@ -243,7 +275,6 @@
                 </td>
             </tr>    
         </table>     -->
-        
     </div>
 </template>
 

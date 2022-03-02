@@ -1,3 +1,5 @@
+.clearfix::after{content:""; display:block; clear:both;}
+
 .gs-top-apply-btn {
     background-color:#5a67d8 !important;
     color:white !important;
@@ -17,6 +19,28 @@
     line-height:30px !important;
     font-size:20px !important;
     margin:-7px 0 0 10px !important;
+}
+
+.gs-review-background {
+    width:45px;
+    height:45px;
+    border-radius:100%;
+    overflow:hidden;
+    float:left;
+    margin-right:10px;
+    text-align:center;
+    line-height:45px;
+    color:white;
+    font-weight:700;
+    font-size:24px;
+}
+
+.gs-review-star-color {
+    color:#5a67d8;
+}
+
+.gs-review-box {
+    margin-top:20px;
 }
 
 .gs-instructor-card {
@@ -42,6 +66,8 @@
 .gs-the-entire-package {
     display:inline-flex; width:100% !important;
 }
+
+
 
 
 .gs-course-content {
