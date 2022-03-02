@@ -2,16 +2,23 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">Quick Understanding CNA 과정</h2>
-            <v-btn class="gs-top-apply-btn"
+            <v-btn class="gs-bottom-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
             >
-                <span style="color:white !important; font-size:20px;">
+                <span style="color:white !important; font-weight:700; font-size:14px;">
                     신청하기
                 </span>
             </v-btn>
+            <v-btn class="gs-bottom-apply-btn"
+                target='_blank'
+            >
+                <a href="/operation/education/quick-understanding-cna/#review" style="color:white !important; font-weight:700; font-size:14px;">
+                    후기보기
+                </a>
+            </v-btn>
         </div>
-        <h4 class="gs-course-content">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h4>
+        <h6 class="gs-course-content">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h6>
         <div class="gs-manager"></div>
         <table class="gs-table-default">
             <tr>
@@ -21,7 +28,6 @@
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">무료</td>
             </tr>    
         </table>    
-        
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <table class="gs-table-default">
@@ -94,7 +100,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                        <span style="color:white !important; font-size:16px;">
+                        <span style="color:white !important; font-weight:700; font-size:14px;">
                             신청하기
                         </span>
                 </v-btn>
@@ -148,6 +154,96 @@
                 </div>
             </div>
         </div>
+
+        <div id="review" class="gs-manager">
+            <h3 style="margin-top:50px;">교육 후기</h3>
+        </div>
+        <hr>
+            <table style="border:0px;">
+                <tr>
+                    <td style="width:10%;">
+                        <div style="width:50px; height:50px; border-radius:100%; margin:0 auto; margin-top:10px; margin-bottom:10px; overflow:hidden;">
+                            <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
+                        </div>
+                        <p style="text-align:center;">박**</p>  
+                    </td>
+                    <td style="color:#5a67d8;">
+                        ★★★★★<br><br>
+                        <p>멀티 PC 활용이 가능한 점이 좋았고, 강의 자체에 대한 전달력이 좋으셔서 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:10%;">
+                        <div style="width:50px; height:50px; border-radius:100%; margin:0 auto; margin-top:10px; margin-bottom:10px; overflow:hidden;">
+                            <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
+                        </div>
+                    </td>
+                    <td style="color:#5a67d8;">
+                        김**<br>
+                        ★★★★★<br><br>
+                        <p>이동 시간 및 공간의 제약이 없어 좋습니다. 또한 MSA기반으로 구축시 필요한 분석/설계 방법에 대해 도움이 되고 있는것 같아서 만족스러운 교육이었습니다.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:10%;">
+                        <div style="width:50px; height:50px; border-radius:100%; margin:0 auto; margin-top:10px; margin-bottom:10px; overflow:hidden;">
+                            <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
+                        </div>
+                    </td>
+                    <td style="color:#5a67d8;">
+                        강**<br>
+                        ★★★★★<br><br>
+                        <p></p>
+                    </td>
+                </tr>
+            </table>    
+        
+        <!-- <div id="review" class="gs-manager">
+            <h3 style="margin-top:50px;">교육 후기</h3>
+        </div>
+        <table class="gs-table-default">
+            <tr>
+                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">교육 환경</td>
+            </tr>
+            <tr>
+                <td style="padding-left:15px; text-align:left;">
+                    • ★★★★★<br>
+                    • 이동 시간 및 공간의 제약이 없어 좋습니다.<br>
+                    • 멀티 PC 활용이 가능한 점이 좋았습니다.<br>
+                    • 강사의 실습 내용을 확인하기에 용이하다.<br>
+                    • 해당 강의와 같은 방식이라면 온라인이 더 좋다고 느껴진다.<br>
+                      (msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)<br>
+                    • 녹화본을 제공해주어 복습에 용이합니다.<br>
+                    • 일괄적인 환경 셋팅 지원이 좋음.<br>
+                </td>
+            </tr>    
+            <tr>
+                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">교육 내용</td>
+            </tr>
+            <tr>
+                <td style="padding-left:15px; text-align:left;">
+                    • EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이됩니다.<br>
+                    • MSA기반으로 구축시 필요한 분석/설계 방법에 대해 도움이 되고 있는것 같아서 만족스러운 교육이었습니다.<br>
+                    • 이벤트 스토밍을 통해 두 시간 만에 새로운 서비스를 설계할 수 있다는 점<br>
+                    • 도구와 강의내용이 잘 맞아떨어져 알기 쉬운 교육진행이었습니다.<br>
+                    • 이론 뿐만아니라 실습을 병행 하며 설명 들은 내용을 직접 구현해보고 참여할 수 있어서 좋았음.<br>
+                    • 실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.<br>
+                </td>
+            </tr>    
+            <tr>
+                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">강사 관련</td>
+            </tr>
+            <tr>
+                <td style="padding-left:15px; text-align:left;">
+                    • 강의 자체에 대한 전달력이 좋음.<br>
+                    • 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋다.<br>
+                    • 교육 과정을 잘 구성한 것 같다.<br>
+                    • 강의 진행 중 편안한 분위기를 조성해 주어 집중이 잘 됩니다.<br>
+                    • 앞으로도 많은 강좌 개설 부탁 드립니다.<br>
+                </td>
+            </tr>    
+        </table>     -->
+        
     </div>
 </template>
 

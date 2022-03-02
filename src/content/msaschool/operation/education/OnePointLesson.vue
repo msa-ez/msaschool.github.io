@@ -20,7 +20,25 @@
             <tr>
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">시간당 50만원</td>
             </tr>    
-        </table>    
+        </table>  
+
+         <div class="gs-manager">
+            <h3 style="margin-top:50px;">교육사 평가 - 위니텍</h3>
+                <div style="font-weight:400">
+                    • 기존 설계 내용을 되짚어보고 문제점 및 개선사항들을 살펴 볼 수 있는 소중한 시간이었어요.<br><br>
+
+                    • MSA에 대한 빠른 이해를 돕는 강좌, 툴을 활용한 실습 구현이 아주 좋았습니다.<br><br>
+
+                    • MSA 기반 설계를 많이 진행하셔서 우리 도메인에 MSA를 도입할 때 생길수 있는 이슈 사항들을 사전에 알려주신 것이 많은 도움이 되었습니다.<br><br>
+
+                    • 회사에서 함께 일하는 동료들도 레슨 과정을 통해 짧은 시간에 주요 흐름을 파악할 수 있어서, MSA 설계에 대한 포괄적인 이해도를 높일 수 있는 계기가 되었어요.<br><br>
+
+                    • 설계 뿐만 아니라 Kafka 토픽 사용시 발생할 수 있는 이슈 사항이나, 운영쪽 yaml 파일 설정 등 실무 개발에 활용할 수 있는 깨알 팁들도 좋았던 것 같아요.<br><br>
+
+                    • 코어와 서브를 분리하여 설계 에너지를 절감(?)하는 개념도 너무 좋았습니다.<br><br>
+                </div>
+        </div>
+
         <table style="margin-top:50px; border : 1px solid black;">
             <tr>
                 <td rowspan="5" style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:1%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">Agenda</td>
