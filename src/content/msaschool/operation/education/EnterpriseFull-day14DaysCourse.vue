@@ -2,16 +2,23 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">Enterprise Full-day 과정</h2>
-            <v-btn class="gs-top-apply-btn"
+            <v-btn class="gs-bottom-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform?usp=pp_url&entry.1858868603=Enterprise+Full-day+%EA%B3%BC%EC%A0%95`"
             >
-                <span style="color:white !important; font-size:20px;">
+                <span style="color:white !important; font-weight:700; font-size:14px;">
                     신청하기
                 </span>
             </v-btn>
+            <v-btn class="gs-bottom-apply-btn"
+                target='_blank'
+            >
+                <a href="/operation/education/enterprise-full-day14-days-course/#review5" style="color:white !important; font-weight:700; font-size:14px;">
+                    후기보기
+                </a>
+            </v-btn>
         </div>
-        <h4 class="gs-course-content">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Couse입니다.</h4>
+        <h6 class="gs-course-content">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Course입니다.</h6>
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
@@ -21,52 +28,6 @@
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">1인당 560만원(14일)</td>
             </tr>    
         </table>
-
-        <div class="gs-manager">
-            <h3 style="margin-top:50px;">교육생 교육 평가</h3>
-        </div>
-        <table class="gs-table-default">
-            <tr>
-                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">교육 환경</td>
-            </tr>
-            <tr>
-                <td style="padding-left:15px; text-align:left;">
-                    • 이동 시간 및 공간의 제약이 없어 좋습니다.<br>
-                    • 멀티 PC 활용이 가능한 점이 좋았습니다.<br>
-                    • 강사의 실습 내용을 확인하기에 용이하다.<br>
-                    • 해당 강의와 같은 방식이라면 온라인이 더 좋다고 느껴진다.<br>
-                      (msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)<br>
-                    • 녹화본을 제공해주어 복습에 용이합니다.<br>
-                    • 일괄적인 환경 셋팅 지원이 좋음.<br>
-                </td>
-            </tr>    
-            <tr>
-                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">교육 내용</td>
-            </tr>
-            <tr>
-                <td style="padding-left:15px; text-align:left;">
-                    • EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이됩니다.<br>
-                    • MSA기반으로 구축시 필요한 분석/설계 방법에 대해 도움이 되고 있는것 같아서 만족스러운 교육이었습니다.<br>
-                    • 이벤트 스토밍을 통해 두 시간 만에 새로운 서비스를 설계할 수 있다는 점<br>
-                    • 도구와 강의내용이 잘 맞아떨어져 알기 쉬운 교육진행이었습니다.<br>
-                    • 이론 뿐만아니라 실습을 병행 하며 설명 들은 내용을 직접 구현해보고 참여할 수 있어서 좋았음.<br>
-                    • 실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.<br>
-                </td>
-            </tr>    
-            <tr>
-                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">강사 관련</td>
-            </tr>
-            <tr>
-                <td style="padding-left:15px; text-align:left;">
-                    • 강의 자체에 대한 전달력이 좋음.<br>
-                    • 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋다.<br>
-                    • 교육 과정을 잘 구성한 것 같다.<br>
-                    • 강의 진행 중 편안한 분위기를 조성해 주어 집중이 잘 됩니다.<br>
-                    • 앞으로도 많은 강좌 개설 부탁 드립니다.<br>
-                </td>
-            </tr>    
-        </table>    
-        
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <div name="Microservice Modeling">
@@ -414,7 +375,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                        <span style="color:white !important; font-size:16px;">
+                        <span style="color:white !important; font-weight:700; font-size:14px;">
                             신청하기
                         </span>
                 </v-btn>
@@ -471,7 +432,7 @@
 
             <h3 style="margin-top:50px;">보조강사(김상훈 / 이진수)</h3>
             <div class="gs-the-entire-package">
-                <div class="gs-instructor-card">=
+                <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
                     </div>
@@ -518,6 +479,61 @@
                 </div>
             </div>
         </div>
+
+        <div id="review5" class="gs-manager">
+            <h3 style="margin-top:50px;">교육 후기</h3>
+        </div>
+        <hr>
+        <div class="gs-review-full-box">
+            <div class="clearfix gs-review-box">
+                <div class="gs-review-background" style="background-color:#00838F;">이</div>
+                <div>
+                    <div>이**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>MSAEZ 라는 좋은 툴로 실습을 진행한 점이 좋았습니다.</p>
+            </div>
+
+            <div class="clearfix gs-review-box">
+                <div class="gs-review-background" style="background-color:#2E7D32;">변</div>
+                <div>
+                    <div>변**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>스티커로 구조 모델링하는 툴이 정말 인상 깊었고(이름을 까먹었습니다..), 강의 환경도 온라인을 감안하면 매우 좋았습니다.</p>
+            </div>
+
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#EF6C00;">김</div>
+                <div>
+                    <div>김**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>모델링과 개발을 동시에 진행하는 체계적인 교육 과정과 강사진의 전달력이 어우러져 좋은 강의를 들을 수 있었던 것 같습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#37474F;">전</div>
+                <div>
+                    <div>전**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>실습을 진행함에 따라 즉각적으로 피드백을 받을 수 있어 보다 효율적인 교육이 되었습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#9E9D24;">김</div>
+                <div>
+                    <div>김**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>이벤트스토밍 기법을 활용한 MSA 기반 설계 과정을 배울 수 있는 유익한 시간이었습니다.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <a id="1" @click="paging(1)" class="gs-review-page-number">
+                    <span v-if="page==1" class="mdi mdi-numeric-1-box"></span>
+                    <span v-else class="mdi mdi-numeric-1-box-outline"></span>
+            </a>
+        </div>
     </div>
 </template>
 
@@ -527,13 +543,19 @@
     export default {
         name:'EnterpriseFull-day14DaysCourse',
         data() {
-            return {}
+            return {
+                page:1
+            }
         },
         props: {
             " 5. Enterprise Full-day 과정": {
                 type: String
             },
         },
-
+         method: {
+            paging(value) {
+                this.page = value
+            }
+        },
     }
 </script>

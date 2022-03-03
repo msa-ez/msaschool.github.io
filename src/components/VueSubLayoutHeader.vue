@@ -21,7 +21,7 @@
             sidebarOpen: false,
             smallSize: false,
             linkLists: [],
-            baseLabUrl: 'http://www.msaez.io/#/courses/cna-full-msaschool/running@cna-full',
+            baseLabUrl: 'http://labs.msaez.io/#/courses/cna-full-msaschool/f2d61030-2b3c-11ec-aec9-271650cd7592',
             allLinkLists: [
                 {key: 'ExampleApplication', title: 'end-to-end', desc: 'Quick PreView', lab: 'end-to-end', url: null},
                 {key: 'TestMeasures', title: 'contract-test', desc: null, lab: 'contract-test', url: null},

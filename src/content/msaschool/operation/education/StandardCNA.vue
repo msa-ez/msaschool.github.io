@@ -2,16 +2,23 @@
     <div style="margin-top:80px;">
         <div>
             <h2 style="display:inline-block !important;">Standard CNA 과정</h2>
-            <v-btn class="gs-top-apply-btn"
+            <v-btn class="gs-bottom-apply-btn"
                 target='_blank'
                 :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
             >
-                <span style="color:white !important; font-size:20px;">
+                <span style="color:white !important; font-weight:700; font-size:14px;">
                     신청하기
                 </span>
             </v-btn>
+            <v-btn class="gs-bottom-apply-btn"
+                target='_blank'
+            >
+                <a href="/operation/education/standard-cna/#review2" style="color:white !important; font-weight:700; font-size:14px;">
+                    후기보기
+                </a>
+            </v-btn>
         </div>
-        <h4 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h4>
+        <h6 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CAN구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
@@ -22,52 +29,6 @@
                 <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
             </tr>
         </table>
-
-        <div class="gs-manager">
-            <h3 style="margin-top:50px;">교육생 교육 평가</h3>
-        </div>
-        <table class="gs-table-default">
-            <tr>
-                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">교육 환경</td>
-            </tr>
-            <tr>
-                <td style="padding-left:15px; text-align:left;">
-                    • 이동 시간 및 공간의 제약이 없어 좋습니다.<br>
-                    • 멀티 PC 활용이 가능한 점이 좋았습니다.<br>
-                    • 강사의 실습 내용을 확인하기에 용이하다.<br>
-                    • 해당 강의와 같은 방식이라면 온라인이 더 좋다고 느껴진다.<br>
-                      (msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)<br>
-                    • 녹화본을 제공해주어 복습에 용이합니다.<br>
-                    • 일괄적인 환경 셋팅 지원이 좋음.<br>
-                </td>
-            </tr>    
-            <tr>
-                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">교육 내용</td>
-            </tr>
-            <tr>
-                <td style="padding-left:15px; text-align:left;">
-                    • EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이됩니다.<br>
-                    • MSA기반으로 구축시 필요한 분석/설계 방법에 대해 도움이 되고 있는것 같아서 만족스러운 교육이었습니다.<br>
-                    • 이벤트 스토밍을 통해 두 시간 만에 새로운 서비스를 설계할 수 있다는 점<br>
-                    • 도구와 강의내용이 잘 맞아떨어져 알기 쉬운 교육진행이었습니다.<br>
-                    • 이론 뿐만아니라 실습을 병행 하며 설명 들은 내용을 직접 구현해보고 참여할 수 있어서 좋았음.<br>
-                    • 실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.<br>
-                </td>
-            </tr>    
-            <tr>
-                <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">강사 관련</td>
-            </tr>
-            <tr>
-                <td style="padding-left:15px; text-align:left;">
-                    • 강의 자체에 대한 전달력이 좋음.<br>
-                    • 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋다.<br>
-                    • 교육 과정을 잘 구성한 것 같다.<br>
-                    • 강의 진행 중 편안한 분위기를 조성해 주어 집중이 잘 됩니다.<br>
-                    • 앞으로도 많은 강좌 개설 부탁 드립니다.<br>
-                </td>
-            </tr>    
-        </table>    
-        
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
@@ -239,7 +200,7 @@
                     target='_blank'
                     :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
                 >
-                        <span style="color:white !important; font-size:16px;">
+                        <span style="color:white !important; font-weight:700; font-size:14px;">
                             신청하기
                         </span>
                 </v-btn>
@@ -342,6 +303,76 @@
                 </div>
             </div>
         </div>
+
+        <div id="review2" class="gs-manager">
+            <h3 style="margin-top:50px;">교육 후기</h3>
+        </div>
+        <hr>
+        <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
+            <div class="clearfix gs-review-box">
+                <div class="gs-review-background" style="background-color:#F9A825;">김</div>
+                <div>
+                    <div>김**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box">
+                <div class="gs-review-background" style="background-color:#9E9D24;">김</div>
+                <div>
+                    <div>김**</div>
+                    <div class="gs-review-star-color">★★★★</div>
+                </div>
+                <p>
+                    본 강의와 같은 진행 및 교육 방식이라면 온라인 강의여서 더 좋다고 느꼈습니다.(msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)
+                </p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#4E342E;">이</div>
+                <div>
+                    <div>이**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>강의 내용은 물론이고 이슈 발생 시 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋았습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#37474F;">최</div>
+                <div>
+                    <div>최**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>양질의 교육과정을 통해 이벤트스토밍을 이용한 새로운 서비스를 2시간 만에 설계할 수 있었습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#4527A0;">백</div>
+                <div>
+                    <div>백**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이 됩니다.</p>
+            </div>
+        </div>
+        <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#FF1744;">권</div>
+                <div>
+                    <div>권**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>이론과 실습을 병행하는 알찬 교육과정과 전문적인 툴을 이용한 설계와 구현까지! 좋은 강의 감사합니다.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <a id="1" @click="paging(1)" class="gs-review-page-number">
+                    <span v-if="page==1" class="mdi mdi-numeric-1-box"></span>
+                    <span v-else class="mdi mdi-numeric-1-box-outline"></span>
+            </a>
+            <a id="2" @click="paging(2)" class="gs-review-page-number">
+                    <span v-if="page==2" class="mdi mdi-numeric-2-box"></span>
+                    <span v-else class="mdi mdi-numeric-2-box-outline"></span>
+            </a>
+        </div>
+        <br>
     </div>
 </template>
 
@@ -350,13 +381,19 @@
     export default {
         name:'StandardCNA',
         data() {
-            return {}
+            return {
+                page:1
+            }
         },
         props: {
             "2. Standard CNA 과정": {
                 type: String
             },
         },
-
+        methods: {
+            paging(value) {
+                this.page = value
+            }
+        },
     }
 </script>

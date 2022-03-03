@@ -39,8 +39,17 @@
     color:#5a67d8;
 }
 
+.gs-review-full-box {
+    margin:10px 10px 10px 0; 
+    width:100%;
+}
 .gs-review-box {
     margin-top:20px;
+}
+.gs-review-page-number {
+    font-size:35px; 
+    color:#5a67d8 !important; 
+    cursor:pointer;
 }
 
 .gs-instructor-card {
