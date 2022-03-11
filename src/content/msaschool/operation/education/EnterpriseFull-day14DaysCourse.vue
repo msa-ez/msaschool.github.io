@@ -188,7 +188,7 @@
             </div>
 
             <div name="DevOps: Container Orchestration-Docker & Kubernetes">
-                <h4 style="margin:50px 0 0 0;">Container Orchestration-Docker & Kubernetes / 4일, 21시간</h4>
+                <h4 style="margin:50px 0 0 0;">Container Orchestration-Docker & Kubernetes / 4일, 28시간</h4>
                 <h5 style="font-weight:700;">교육목표 : Kubernetes와 Docker 의 설치, 애플리케이션 배포, 무정지 재배포, 운영자동화의 실습 및 학습</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
