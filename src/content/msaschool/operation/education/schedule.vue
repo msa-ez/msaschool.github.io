@@ -121,7 +121,7 @@
                     마이크로서비스의 전 과정을 심도있게 학습할 수 있는 과정으로 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 Course
                 </div>
                 <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
-                    <div style="font-size:24px; font-weight:900;">560만원</div>
+                    <div style="font-size:18px; font-weight:900;">247.5만원 ~ 420만원</div>
                     <div style="margin:3px 0 0 3px; font-size:14px;">/1인 14일</div>
                 </div>
                 <div class="card-second-contents">
@@ -263,7 +263,7 @@
                         마이크로서비스의 전 과정을 심도있게 학습할 수 있는 과정으로 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 Course
                     </div>
                     <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
-                        <div style="font-size:24px; font-weight:900;">560만원</div>
+                        <div style="font-size:18px; font-weight:900;">247.5만원 ~ 420만원</div>
                         <div style="margin:3px 0 0 3px; font-size:14px;">/1인 14일</div>
                     </div>
                     <div class="card-second-contents">
@@ -399,14 +399,14 @@
 
             <div class="card-box">
                 <div class="card-title"
-                >Enterprise
+                >test
                 </div>
                 <div class="card-subtitle">Enterprise Full-day</div>
                 <div class="card-contents">
                     마이크로서비스의 전 과정을 심도있게 학습할 수 있는 과정으로 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 Course
                 </div>
                 <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
-                    <div style="font-size:24px; font-weight:900;">560만원</div>
+                    <div style="font-size:14px; font-weight:900;">247.5만원 ~ 420만원</div>
                     <div style="margin:3px 0 0 3px; font-size:14px;">/1인 14일</div>
                 </div>
                 <div class="card-second-contents">

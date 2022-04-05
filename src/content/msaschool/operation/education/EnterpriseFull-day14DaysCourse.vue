@@ -25,9 +25,11 @@
                 <td rowspan="2" style="width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
             </tr>
             <tr>
-                <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">1인당 560만원(14일)</td>
+                <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">1인당 최소 247.5만원(30명) ~ 최대 420만원(10명)(14일)</td>
             </tr>    
         </table>
+        <div>* Volume Discount 정책 : 10명 이상 신청 시 11명 째부터 20명까지 10%, 20명 이상 시 21명 째부터 25명까지 20%, 26명 째부터 30명까지 30% 비용 할인이 적용됩니다.</div><br>
+        <div>** 캡스톤 프로젝트를 제외시킨 옵션(4일 제외)으로 신청 시 추가로 할인된 비용으로 교육을 접해보실 수 있습니다.</div>
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <div name="Microservice Modeling">

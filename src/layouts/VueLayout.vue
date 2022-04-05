@@ -32,19 +32,28 @@
             </main>
         </div>
 
-        <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
+        <!-- <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
             <button class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
                     @click="openComplexBtn()">
                 <MenuIcon/>
             </button>
-        </div>
+        </div> -->
+                    <!-- @mouseover="openMenuList()"
+                    @mouseleave="closeMenuList()" -->
 
         <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
-            <button class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
-                    @mouseover="openMenuList()"
-                    @mouseleave="closeMenuList()"
+            <button v-if="small" class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white;"
                     @click="openComplexBtn()">
-                <MenuIcon/>
+                    <div v-if="sidebarOpen">
+                        <XIcon/>
+                    </div>
+                    <div v-else>
+                        <MenuIcon/>
+                    </div>
+            </button>
+            <button v-else style="background-color:gold; color:#4E342E; border-radius:100%; height:40px; width:40px; border:0; outline:0;"
+                    @click="openComplexBtn()">
+                <span class="mdi mdi-wechat" style="font-size:30px;"></span>
             </button>
         </div>
     </div>
@@ -102,15 +111,15 @@
             }
         },
         methods: {
-            openMenuList(newVal){
-                console.log(newVal)
-                var me = this
-                me.floatMenu = true
-            },
-            closeMenuList(){
-                var me = this
-                me.floatMenu = false
-            },
+            // openMenuList(newVal){
+            //     console.log(newVal)
+            //     var me = this
+            //     me.floatMenu = true
+            // },
+            // closeMenuList(){
+            //     var me = this
+            //     me.floatMenu = false
+            // },
             setSmall(newVal) {
                 this.small = newVal
             },
