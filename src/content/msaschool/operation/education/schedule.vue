@@ -345,7 +345,7 @@
                     </div>
                     <div class="card-subtitle">Flipped Learning CNA</div>
                     <div class="card-contents">
-                        Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고,  Dev 및 Ops Part는 주강사의 영상 학습 후 보조강사가 실습을 주도하는 full Couse 
+                        Standard CNA과정 중 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고,  Dev 및 Ops Part는 주강사의 영상 학습 후 보조강사가 실습을 주도하는 full Course 
                     </div>
                     <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
                         <div style="font-size:24px; font-weight:900;">100만원</div>
