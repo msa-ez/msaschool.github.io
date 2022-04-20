@@ -399,7 +399,7 @@
 
             <div class="card-box">
                 <div class="card-title"
-                >test
+                >Enterprise
                 </div>
                 <div class="card-subtitle">Enterprise Full-day</div>
                 <div class="card-contents">
