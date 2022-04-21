@@ -10,7 +10,7 @@
                 </div>
                 <div style="padding-left:5px; font-size:24px; font-weight:900; height:60px; line-height:40px;">Free</div>
                 <div class="card-second-contents">
-                    • 3~4 hour<br>
+                    • 3~4 hours<br>
                     • 매월 2주차 수요일<br>
                     • 비대면 화상교육<br>
                     • 최대인원 20명<br>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="card-subtitle">Flipped Learning CNA</div>
                 <div class="card-contents">
-                    Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고,  Dev 및 Ops Part는 주강사의 영상 학습 후 보조강사가 실습을 주도하는 full Couse 
+                    Standard CNA 과정 중 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고,  Dev 및 Ops Part는 주강사의 영상 학습 후 보조강사가 실습을 주도하는 full Course 
                 </div>
                 <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
                     <div style="font-size:24px; font-weight:900;">100만원</div>
@@ -153,7 +153,7 @@
                     </div>
                     <div style="padding-left:5px; font-size:24px; font-weight:900; height:60px; line-height:40px;">Free</div>
                     <div class="card-second-contents">
-                        • 3~4 hour<br>
+                        • 3~4 hours<br>
                         • 매월 2주차 수요일<br>
                         • 비대면 화상교육<br>
                         • 최대인원 20명<br>
@@ -201,7 +201,7 @@
                     </div>
                     <div class="card-subtitle">Flipped Learning CNA</div>
                     <div class="card-contents">
-                        Standard CNA과정에서 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고,  Dev 및 Ops Part는 주강사의 영상 학습 후 보조강사가 실습을 주도하는 full Couse 
+                        Standard CNA 과정 중 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고,  Dev 및 Ops Part는 주강사의 영상 학습 후 보조강사가 실습을 주도하는 full Course 
                     </div>
                     <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
                         <div style="font-size:24px; font-weight:900;">100만원</div>
@@ -295,7 +295,7 @@
                     </div>
                     <div style="padding-left:5px; font-size:24px; font-weight:900; height:60px; line-height:40px;">Free</div>
                     <div class="card-second-contents">
-                        • 3~4 hour<br>
+                        • 3~4 hours<br>
                         • 매월 2주차 수요일<br>
                         • 비대면 화상교육<br>
                         • 최대인원 20명<br>
@@ -406,8 +406,8 @@
                     마이크로서비스의 전 과정을 심도있게 학습할 수 있는 과정으로 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 Course
                 </div>
                 <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
-                    <div style="font-size:14px; font-weight:900;">247.5만원 ~ 420만원</div>
-                    <div style="margin:3px 0 0 3px; font-size:14px;">/1인 14일</div>
+                    <div style="font-size:12px; font-weight:900;">247.5만원 ~ 420만원</div>
+                    <div style="margin:3px 0 0 3px; font-size:12px;">/1인 14일</div>
                 </div>
                 <div class="card-second-contents">
                     • 14 days<br>
@@ -492,7 +492,7 @@
     .card-second-contents {
         background-color:#F5F5F5;
         padding:20px 5px 20px 5px;
-        font-size:13px;
+        font-size:11px;
         height:220px;
     }
     .card-details-btn {
