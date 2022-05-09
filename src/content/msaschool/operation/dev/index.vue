@@ -1,19 +1,18 @@
 <template>
-    <div>
-    </div>
+    
 </template>
 
 
 <script>
-    // @group 03_03_01
+    // @group 07_02_01
     export default {
         name:'index',
-        directory:'operation_tool',
+        directory:'operation_dev',
         data() {
             return {}
         },
         props: {
-            "MSA 도구": {
+            "Development": {
                 type: String
             },
         },
