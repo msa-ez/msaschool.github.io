@@ -12,6 +12,7 @@
 1. 대시보드에서는 업로드 시킨 파일의 상태 (파일사이즈, 파일명, 인덱싱여부, 업로드여부, 비디오 url) 가 표시된다.
 
 #### Project Name : google drive
+
 #### 바운디드 컨텍스트
 1. dashboard
 2. drive
