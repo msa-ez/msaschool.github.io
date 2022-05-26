@@ -1,10 +1,10 @@
 <template>
     <div
             ref="sidebar"
-            class="px-4 pt-8 lg:pt-12"
+            class="px-4 pt-4 lg:pt-12"
     >
         <ClientOnly>
-            <VueSearch v-if="small"></VueSearch>
+            <VueSearch v-if="small" style="margin-bottom:20px;"></VueSearch>
         </ClientOnly>
         <div
                 v-if="thisSides"
@@ -43,6 +43,14 @@
                     </g-link>
                 </li>
             </ul>
+        </div>
+        <div style="margin-top:5px; margin-bottom:30px;">
+            <g-link
+                to="http://instruction.msaschool.io/business/"
+                style="font-weight: 900; font-size: 17.5px;"
+            >
+            실습 컨텐츠
+            </g-link>
         </div>
     </div>
 
@@ -93,7 +101,7 @@
         computed: {
             styleBySize() {
                 if (this.small) {
-                    return 'justify-content:flex-end;'
+                    return 'justify-content:flex-start;'
                 } else {
                     return null
                 }

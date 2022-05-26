@@ -4,7 +4,7 @@
             @keydown.up="decrement"
             @keydown.enter="go"
             class="relative"
-            style="margin: 5px; width: 80%"
+            style="margin: 5px; width: 100%"
     >
         <label class="relative block">
             <span class="sr-only">Search Documentation</span>
