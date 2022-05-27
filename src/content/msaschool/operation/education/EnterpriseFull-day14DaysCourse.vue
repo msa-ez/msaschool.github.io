@@ -486,7 +486,7 @@
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
-        <div class="gs-review-full-box">
+        <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
                 <div class="gs-review-background" style="background-color:#00838F;">이</div>
                 <div>
@@ -495,7 +495,6 @@
                 </div>
                 <p>MSAEZ 라는 좋은 툴로 실습을 진행한 점이 좋았습니다.</p>
             </div>
-
             <div class="clearfix gs-review-box">
                 <div class="gs-review-background" style="background-color:#2E7D32;">변</div>
                 <div>
@@ -504,7 +503,6 @@
                 </div>
                 <p>스티커로 구조 모델링하는 툴이 정말 인상 깊었고(이름을 까먹었습니다..), 강의 환경도 온라인을 감안하면 매우 좋았습니다.</p>
             </div>
-
             <div class="clearfix gs-review-box" >
                 <div class="gs-review-background" style="background-color:#EF6C00;">김</div>
                 <div>
@@ -530,10 +528,102 @@
                 <p>이벤트스토밍 기법을 활용한 MSA 기반 설계 과정을 배울 수 있는 유익한 시간이었습니다.</p>
             </div>
         </div>
+        <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#FF1744;">이</div>
+                <div>
+                    <div>이**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>msa 전반적인 교육수강에 대해서 커리큘럼이 잘갖춰져있고 탄탄한 강사님들로 인한 교육내용은 best였다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#AD1457;">이</div>
+                <div>
+                    <div>이**</div>
+                    <div class="gs-review-star-color">★★★★</div>
+                </div>
+                <p>인프라 앞 단의 레벨에서의 아키텍트 구성/운영 과정을 알 수 있어서 좋았다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#283593;">박</div>
+                <div>
+                    <div>박**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>MSA라는 기술스택에 대한 정보를 집약적으로 교육받을 수 있는 환경이 많이 없다고 생각했는데 그런 점을 충족시켜주셔서 매우 유용하다고 생각했습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#558B2F;">전</div>
+                <div>
+                    <div>전**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>평소에 관심이 있었던 AWS, 클라우드네이티브, 쿠버네티스 등에 대한 내용을 포괄적으로 배울 수 있어 좋았습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#00838F;">신</div>
+                <div>
+                    <div>신**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>MSA 개념 및 DDD기반 모델링을 실습과 같이 진행해서 좀 더 이해가 쉬웠습니다.</p>
+            </div>
+        </div>
+        <div v-else-if="page==3" id="reviewPage3" class="gs-review-full-box">
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#EF6C00;">홍</div>
+                <div>
+                    <div>홍**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>주업무가 인프라 담당으로 MSA의 DEV 단계까지 경험해 볼 수 있는 점이 좋았습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#4E342E;">송</div>
+                <div>
+                    <div>송**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>jpa 에 대한 설계 방법을 배울 수 있어서 좋았습니다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#37474F;">백</div>
+                <div>
+                    <div>백**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>설계를 메모지를 통해 실습해보고 코드도 확인해볼 수 있었던 점이 좋았다.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#00695C;">남</div>
+                <div>
+                    <div>남**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>강사님이 논리적 흐름이 이해되게끔 진행해주셨고, 실습 환경이 잘 되어 있음.</p>
+            </div>
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#4527A0;">신</div>
+                <div>
+                    <div>신**</div>
+                    <div class="gs-review-star-color">★★★★</div>
+                </div>
+                <p>MSA 모델링과 연계된 테크니컬 요소(kafka 등)에 대한 전반적인 이해가 가능하다.</p>
+            </div>
+        </div>
         <div class="text-center">
             <a id="1" @click="paging(1)" class="gs-review-page-number">
                     <span v-if="page==1" class="mdi mdi-numeric-1-box"></span>
                     <span v-else class="mdi mdi-numeric-1-box-outline"></span>
+            </a>
+            <a id="2" @click="paging(2)" class="gs-review-page-number">
+                    <span v-if="page==2" class="mdi mdi-numeric-2-box"></span>
+                    <span v-else class="mdi mdi-numeric-2-box-outline"></span>
+            </a>
+            <a id="3" @click="paging(3)" class="gs-review-page-number">
+                    <span v-if="page==3" class="mdi mdi-numeric-3-box"></span>
+                    <span v-else class="mdi mdi-numeric-3-box-outline"></span>
             </a>
         </div>
     </div>
@@ -554,7 +644,7 @@
                 type: String
             },
         },
-         method: {
+        methods: {
             paging(value) {
                 this.page = value
             }

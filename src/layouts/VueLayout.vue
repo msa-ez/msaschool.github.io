@@ -42,8 +42,10 @@
                     @mouseleave="closeMenuList()" -->
 
         <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
-            <button v-if="small" class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white;"
-                    @click="openComplexBtn()">
+            <button v-if="small" 
+                    class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
+                    @click="openComplexBtn()"
+                    style="margin: 0 27px 27px 0;">
                     <div v-if="sidebarOpen">
                         <XIcon/>
                     </div>
