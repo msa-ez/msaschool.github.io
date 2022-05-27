@@ -44,13 +44,11 @@
                 </li>
             </ul>
         </div>
-        <div style="margin-top:5px; margin-bottom:30px;">
-            <g-link
-                to="http://instruction.msaschool.io/business/"
-                style="font-weight: 900; font-size: 17.5px;"
-            >
+        <div style="margin-top:5px; margin-bottom:30px;"
+            onclick="location.href='http://instruction.msaschool.io/business/'">
+            <span style="font-weight: 900; font-size: 17.5px; cursor:pointer;">
             실습 컨텐츠
-            </g-link>
+            </span>
         </div>
     </div>
 
