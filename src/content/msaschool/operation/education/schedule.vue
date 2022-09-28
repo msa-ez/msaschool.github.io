@@ -17,7 +17,7 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <button class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/quick-understanding-cna/`"
+                        onclick = "location.href = 'http://www.msaschool.io/operation/education/quick-understanding-cna/'"
                         >세부사항
                     </button>
                 </div>
@@ -46,7 +46,7 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <button class="card-details-btn"
-                        :href="`https://www.msaschool.io/operation/education/standard-cna/`"
+                        onclick = "location.href = 'https://www.msaschool.io/operation/education/standard-cna/'"
                         >세부사항
                     </button>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <button class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/`"
+                        onclick = "location.href = 'http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/'"
                         >세부사항
                     </button>
                 </div>
@@ -105,7 +105,7 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <button class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/one-point-lesson/`"
+                        onclick = "location.href = 'http://www.msaschool.io/operation/education/one-point-lesson/'"
                         >세부사항
                     </button>
                 </div>
@@ -134,7 +134,7 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <button class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/`"
+                        onclick = "location.href = 'http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/'"
                         >세부사항
                     </button>
                 </div>
