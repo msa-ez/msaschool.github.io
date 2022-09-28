@@ -18,7 +18,15 @@
     text-align:center !important;
     line-height:30px !important;
     font-size:20px !important;
-    margin:-7px 0 0 10px !important;
+    margin:0 0 10px 10px !important;
+}
+.gs-review-btn {
+    width:90px !important;
+    height:30px !important;
+    text-align:center !important;
+    line-height:30px !important;
+    font-size:20px !important;
+    margin:-7px 0 10px 0 !important;
 }
 
 .gs-review-background {

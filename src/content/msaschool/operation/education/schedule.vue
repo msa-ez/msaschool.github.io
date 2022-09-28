@@ -306,5 +306,14 @@
             font-size:18px;
             height:220px;
         }
+        .card-details-btn {
+            font-weight: 900;
+            width:110px !important;
+            height:36x !important;
+            text-align : center !important;
+            line-height:36px !important;
+            font-size:20px;
+            margin-bottom: 20px;
+        }
     }
 </style>

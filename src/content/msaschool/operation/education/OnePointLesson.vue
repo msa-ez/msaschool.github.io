@@ -1,20 +1,13 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">One Point Lesson 과정</h2>
-            <v-btn class="gs-bottom-apply-btn"
+            <h2 style="display:inline-block !important;">One Point Lesson 과정</h2><br>
+            <v-btn class="gs-review-btn"
                 target='_blank'
-                :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
+                text
             >
-                    <span style="color:white !important; font-weight:700; font-size:14px;">
-                        신청하기
-                    </span>
-            </v-btn>
-            <v-btn class="gs-bottom-apply-btn"
-                target='_blank'
-            >
-                <a href="/operation/education/one-point-lesson/#review4" style="color:white !important; font-weight:700; font-size:14px;">
-                    후기보기
+                <a href="/operation/education/one-point-lesson/#review4" style="color:black !important; font-weight:700; font-size:14px;">
+                    ▼ 후기보기
                 </a>
             </v-btn>
         </div>
@@ -69,7 +62,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
+                        <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA 교육, 기업 컨설팅<br>
@@ -92,7 +85,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
+                        <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA DT 마스터플랜 수립 Project<br>
