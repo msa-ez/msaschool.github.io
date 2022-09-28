@@ -15,12 +15,11 @@
                     • 비대면 화상교육<br>
                     • 최대인원 20명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        outlined 
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <button class="card-details-btn"
                         :href="`http://www.msaschool.io/operation/education/quick-understanding-cna/`"
                         >세부사항
-                    </v-btn>
+                    </button>
                 </div>
             </div>
             
@@ -45,12 +44,11 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 25명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        outlined
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <button class="card-details-btn"
                         :href="`https://www.msaschool.io/operation/education/standard-cna/`"
                         >세부사항
-                    </v-btn>
+                    </button>
                 </div>
             </div>
             
@@ -77,12 +75,11 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 25명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        outlined
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <button class="card-details-btn"
                         :href="`http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/`"
                         >세부사항
-                    </v-btn>
+                    </button>
                 </div>
             </div>
             
@@ -106,12 +103,11 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 10명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        outlined
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <button class="card-details-btn"
                         :href="`http://www.msaschool.io/operation/education/one-point-lesson/`"
                         >세부사항
-                    </v-btn>
+                    </button>
                 </div>
             </div>
             
@@ -136,12 +132,11 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 25명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        outlined
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <button class="card-details-btn"
                         :href="`http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/`"
                         >세부사항
-                    </v-btn>
+                    </button>
                 </div>
             </div>
         </div>
@@ -197,16 +192,16 @@
         font-size:26px;
     }
     .card-subtitle {
-        font-size:14px;
+        font-size:20px;
         font-weight:900;
         opacity:0.9;
         padding-left:5px;
         height:30px;
-        margin-top:5px;
+        margin-top:20px;
         line-height:15px;
     }
     .card-contents {
-        font-size:11px;
+        font-size:14px;
         opacity:0.8;
         padding:5px;
         height:100px;
@@ -214,16 +209,19 @@
     .card-second-contents {
         background-color:#F5F5F5;
         padding:20px 5px 20px 5px;
-        font-size:11px;
+        font-size:15px;
         height:220px;
     }
     .card-details-btn {
-        font-weight: 900;
         width:110px !important;
-        height:36x !important;
+        height:36px !important;
         text-align : center !important;
         line-height:36px !important;
-        font-size:20px;
+        font-size:15px;
+        border-radius: 5px;
+        border:black solid;
+        margin-top: -20px;
+        padding-bottom: 37px;
     }
     .enterprise-cost-text {
         font-size:14px;
@@ -307,12 +305,11 @@
             height:220px;
         }
         .card-details-btn {
-            font-weight: 900;
             width:110px !important;
-            height:36x !important;
+            height:36px !important;
             text-align : center !important;
             line-height:36px !important;
-            font-size:20px;
+            font-size:18px;
             margin-bottom: 20px;
         }
     }
