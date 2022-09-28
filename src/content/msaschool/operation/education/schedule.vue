@@ -17,8 +17,9 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:90px;">
                     <v-btn class="card-details-btn"
+                        outlined 
                         :href="`http://www.msaschool.io/operation/education/quick-understanding-cna/`"
-                        ><span style="color:white !important;">세부사항</span>
+                        >세부사항
                     </v-btn>
                 </div>
             </div>
@@ -46,8 +47,9 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:90px;">
                     <v-btn class="card-details-btn"
+                        outlined
                         :href="`https://www.msaschool.io/operation/education/standard-cna/`"
-                        ><span style="color:white !important;">세부사항</span>
+                        >세부사항
                     </v-btn>
                 </div>
             </div>
@@ -77,8 +79,9 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:90px;">
                     <v-btn class="card-details-btn"
+                        outlined
                         :href="`http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/`"
-                        ><span style="color:white !important;">세부사항</span>
+                        >세부사항
                     </v-btn>
                 </div>
             </div>
@@ -105,8 +108,9 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:90px;">
                     <v-btn class="card-details-btn"
+                        outlined
                         :href="`http://www.msaschool.io/operation/education/one-point-lesson/`"
-                        ><span style="color:white !important;">세부사항</span>
+                        >세부사항
                     </v-btn>
                 </div>
             </div>
@@ -134,8 +138,9 @@
                 </div>
                 <div style="text-align:center; height:90px; line-height:90px;">
                     <v-btn class="card-details-btn"
+                        outlined
                         :href="`http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/`"
-                        ><span style="color:white !important;">세부사항</span>
+                        >세부사항
                     </v-btn>
                 </div>
             </div>
@@ -174,6 +179,7 @@
         width:19.5%;
         height:550px;
         margin-right:0.5%;
+        margin-bottom: 6px;
         background-color: white;
         border: 1px solid #e5e5e5;
         border-radius: 5px;
@@ -212,8 +218,7 @@
         height:220px;
     }
     .card-details-btn {
-        background-color:#0073ec !important;
-        color:white !important;
+        font-weight: 900;
         width:110px !important;
         height:36x !important;
         text-align : center !important;
@@ -273,11 +278,33 @@
             width:100%;
             height:550px;
             margin-right:0.5%;
+            margin-bottom: 50px;
             background-color: white;
             border: 1px solid #e5e5e5;
             border-radius: 5px;
             box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
             float:left;
+        }
+        .card-subtitle {
+            font-size:20px;
+            font-weight:900;
+            opacity:0.9;
+            padding-left:5px;
+            height:30px;
+            margin-top:20px;
+            line-height:15px;
+        }
+        .card-contents {
+            font-size:15px;
+            opacity:0.8;
+            padding:5px;
+            height:100px;
+        }
+        .card-second-contents {
+            background-color:#F5F5F5;
+            padding:20px 5px 20px 5px;
+            font-size:18px;
+            height:220px;
         }
     }
 </style>
