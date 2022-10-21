@@ -22,6 +22,14 @@
                 <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
             </tr>
         </table>
+        <v-btn class="gs-bottom-apply-btn"
+            target='_blank'
+            :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
+        >
+            <span style="color:white !important; font-weight:700; font-size:20px;">
+                교육 신청하기
+            </span>
+        </v-btn>
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
@@ -189,14 +197,6 @@
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn class="gs-bottom-apply-btn"
-                    target='_blank'
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
-                >
-                        <span style="color:white !important; font-weight:700; font-size:14px;">
-                            신청하기
-                        </span>
-                </v-btn>
             </div>
             <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
             <div class="gs-the-entire-package">

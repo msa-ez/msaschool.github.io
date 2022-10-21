@@ -16,10 +16,9 @@
                     • 최대인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <button class="card-details-btn"
-                        onclick = "location.href = 'http://www.msaschool.io/operation/education/quick-understanding-cna/'"
-                        >세부사항
-                    </button>
+                    <a href="/operation/education/quick-understanding-cna/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -45,10 +44,9 @@
                     • 최대인원 25명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <button class="card-details-btn"
-                        onclick = "location.href = 'https://www.msaschool.io/operation/education/standard-cna/'"
-                        >세부사항
-                    </button>
+                    <a href="/operation/education/standard-cna/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -76,10 +74,9 @@
                     • 최대인원 25명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <button class="card-details-btn"
-                        onclick = "location.href = 'http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/'"
-                        >세부사항
-                    </button>
+                    <a href="/operation/education/flipped-learning4-days-cna-course/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -104,10 +101,9 @@
                     • 최대인원 10명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <button class="card-details-btn"
-                        onclick = "location.href = 'http://www.msaschool.io/operation/education/one-point-lesson/'"
-                        >세부사항
-                    </button>
+                    <a href="/operation/education/one-point-lesson/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -133,10 +129,9 @@
                     • 최대인원 25명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <button class="card-details-btn"
-                        onclick = "location.href = 'http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/'"
-                        >세부사항
-                    </button>
+                    <a href="/operation/education/enterprise-full-day14-days-course/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
         </div>

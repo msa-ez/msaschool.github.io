@@ -20,7 +20,15 @@
             <tr>
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">무료</td>
             </tr>    
-        </table>    
+        </table>
+            <v-btn class="gs-bottom-apply-btn"
+                target='_blank'
+                :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
+            >
+                <span style="color:white !important; font-weight:700; font-size:20px;">
+                    교육 신청하기
+                </span>
+            </v-btn>    
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <table class="gs-table-default">
@@ -89,14 +97,6 @@
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn class="gs-bottom-apply-btn"
-                    target='_blank'
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
-                >
-                        <span style="color:white !important; font-weight:700; font-size:14px;">
-                            신청하기
-                        </span>
-                </v-btn>
             </div>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">

@@ -23,7 +23,7 @@
     export default {
         data() {
             return {
-                baseLabUrl: 'http://labs.msaez.io/#/courses/cna-full-msaschool/f2d61030-2b3c-11ec-aec9-271650cd7592',
+                baseLabUrl: 'https://labs.msaez.io/#/courses/cna-full/public-full-2022-hw',
             };
         },
         components:{
