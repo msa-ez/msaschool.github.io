@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="oauth2"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="token-based-auth-2022"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## 마이크로서비스 보안설계

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-            <VueSubLayoutCard lab="front-end"></VueSubLayoutCard>
+            <VueSubLayoutCard lab="dp-frontend-2022"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## 프론트-엔드 설계
