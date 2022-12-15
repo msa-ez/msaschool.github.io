@@ -49,7 +49,7 @@ MSA팀 내에서 코드의 구현 Role을 가진 개발자 과정으로, 업무�
 
 
 <script>
-    // @group 07_02_01
+    // @group 06_02_01
     export default {
         name:'index',
         directory:'operation_education',
@@ -57,7 +57,7 @@ MSA팀 내에서 코드의 구현 Role을 가진 개발자 과정으로, 업무�
             return {}
         },
         props: {
-            "DevOps 개발자 과정": {
+            "기본(Fundamental) 과정": {
                 type: String
             },
         },

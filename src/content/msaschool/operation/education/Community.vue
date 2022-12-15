@@ -138,7 +138,7 @@
 </template>
 
 <script>
-    // @group 05_02_09
+    // @group 07_02_09
     export default {
         name:'Community',
         data() {

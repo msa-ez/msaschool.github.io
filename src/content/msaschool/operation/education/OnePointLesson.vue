@@ -168,7 +168,7 @@
 </template>
 
 <script>
-        // @group 05_02_06
+        // @group 07_02_06
     export default {
         name:'OnePointLesson',
         data() {

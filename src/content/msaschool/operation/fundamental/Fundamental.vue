@@ -1,17 +1,17 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Standard CNA(Intermediate) 과정</h2><br>
+            <h2 style="display:inline-block !important;">Standard CNA(Fundamental) 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
             >
-                <a href="/operation/education/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <a href="/operation/education/fundamental/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
                 </a>
             </v-btn>
         </div>
-        <h6 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>
+        <h6 class="gs-course-content">Monolith / VM 기반 Web Application 구현을 목표로 UML과 객체 지향 디자인 패턴을 적용하여  프로그램을 설계하고, Java 언어와 스프링 라이브러리를 통해 웹 애플리케이션을 개발한 다음 Cloud VM을 생성하고 배포하는 과정으로 구성된 교육과정입니다.</h6>
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
@@ -24,7 +24,7 @@
         </table>
         <v-btn class="gs-bottom-apply-btn"
             target='_blank'
-            :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
+            :href="`https://docs.google.com/forms/d/e/1FAIpQLSfpsq7Dc1W13UiJAK1016zsBoNkDmgKzqjVZuGCXN2UZD2jWQ/viewform?usp=sf_link`"
         >
             <span style="color:white !important; font-weight:700; font-size:20px;">
                 교육 신청하기
@@ -39,13 +39,17 @@
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td style="font-weight:700;">객체지향 설계</td>
                     <td>
-                        • 애자일 기업에 필요한 것들 – Microservice, DevOps, Container<br>
-                        • 모노리스와 마이크로서비스의 비교<br>
-                        • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
-                        • 최신 마이크로서비스 아키텍쳐의 경향 – Event-driven (Reactive) Microservices<br>
-                        • 사례 – 당근마켓과 11번가<br>
+                        • 객체지향의 기본 개념<br>
+                        • OOP(Object Oriented Programming)와 개발조직<br>
+                        • Java언어 실습 환경 사용법<br>
+                        • Maven 개념과 라이브러리 디펜던시(pom.xml)의 구조 이해<br>
+                        • 상속과 다형성을 적용한 자동차 시뮬레이션 프로그래밍<br>
+                        • 객체지향 실습 - Separation of Concerns<br>
+                        • Class Diagram으로 SoC Layered Architecture 이해<br>
+                        • Sequence Diagram으로 SoC Layered Architecture의 동작구조 이해<br>
+
                     </td>
                 </tr>
                 <tr>
@@ -54,14 +58,17 @@
                 </tr>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">마이크로서비스의 분석/설계</td>
+                    <td style="font-weight:700;">UML 언어와 디자인 패턴</td>
                     <td>
-                        • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
-                        • DDD 구성요소 - 서브도메인, 바운디드 컨텍스트, 도메인 이벤트, 어그리게잇, 뷰<br>
-                        • 서비스 식별과 분해방법들 - Core / Supporting Domain, Bounded Context, Aggregate, Business Capability, Mini Service<br>
-                        • 이벤트스토밍 - DDD 를 쉽게하는 워크숍 실천법<br>
-                        • MSA Design Patterns – Strangler with API G/W, 서킷브레이커, 토큰기반 인증, 클라이언트-사이드 렌더링, 서비스 프록시, 이벤트션팅<br>
-                        • DDD 와 이벤트 스토밍의 결과를 헥사고날 아키텍처로 매핑하는 방법<br>
+                        • 팩토리, 프록시 패턴의 이해<br>
+                        • how to draw UML<br>
+                        • uml2code<br>
+                        • Class diagram relations<br>
+                        • Sequence diagram and Code<br>
+                        • 디자인 패턴을 적용한 네트워크 뱅킹 시스템 구현<br>
+                        • Remote Proxy의 개념과 동작<br>
+                        • 서버 및 클라이언트 만들기<br>
+
                     </td>
                 </tr>
             </table>
@@ -73,12 +80,13 @@
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
+                    <td style="font-weight:700;">객체 지향 프레임워크의 개념과 구현방법 – Spring프레임워크 </td>
                     <td>
-                        • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
-                        • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
-                        • Spring Data REST + JPA 를 통한  RESTful API 노출 (HATEOAS)<br>
-                        • Spring Gateway 를 통한 서비스 분리후 진입점 통일<br>
+                        • 디자인 패턴 - 싱글톤 패턴의 필요성, 싱글톤 패턴의 직접 구현, 프록시 패턴<br>
+                        • Spring프레임워크 사용과 따라 만들기<br>
+                        • 스프링 프레임워크, 스프링 부트의 기동<br>
+                        • 스프링을 통한 싱글톤 패턴 적용과 Rest API<br>
+                        • 스프링 AOP를 통한 Proxy 생성<br>
                     </td>
                 </tr>
                 <tr>
@@ -87,21 +95,21 @@
                 </tr>
                 <tr>
                     <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
+                    <td style="font-weight:700;">자바 확장 클래스 타입</td>
                     <td>
-                        • UI 를 기반한 서비스 통합 전략:  Client-side Rendering, SPA, MVVM, HATEOAS<br>
-                        • OAuth2 와 JWT 통한 Stateless 한 토큰 기반 접근과  인증<br>
-                        • Front-end 기반 통합의 한계: 트랜잭션 이슈와 성능 문제<br>
-                        • 마이크로 프론트엔드<br>
+                        • 자바 확장 클래스 타입의 이해<br>
+                        • Anonymous Class Observer Pattern<br>
+                        • Abstract Class, 접근자와 접근권한<br>
+                        • Interface Class<br>
+                        • Lambda Expression과 Stream<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style=" font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
+                    <td style=" font-weight:700; padding-left:15px;">객체 지향 프레임워크 -Spring을 통한 RESTful서비스</td>
                     <td>
-                        • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
-                        • 서킷브레이커를 통한 장애회피<br>
-                        • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
-                        • 읽기관점 - Composite-Service 구현방법: 동시 REST 호출 사용<br>
+                        • Repository 패턴 그리고 RESTful API<br>
+                        • Database 접근과 Repository Pattern 의 직접 구현<br>
+                        • CRUD Full Cycle 을 지원하는 Repository pattern 으로 적용<br>
                     </td>
                 </tr>
             </table>
@@ -113,38 +121,31 @@
                 <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~10:30</td>
-                    <td style="font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
+                    <td style="font-weight:700;">객체 지향 프로그래밍 :<br>Database, JPA</td>
                     <td>
-                        • Event-driven 방식의 연동(Pub/Sub + Async + Choreography)<br>
-                        • 이벤트의 서브스크립션 - Spring Cloud Streams 와 kafka client 를 통한 이벤트의 수신과 처리<br>
-                        • 쓰기관점 - 트랜잭션 이슈: Eventual Transaction 와 Saga, Compensation<br>
-                        • 읽기관점 - CQRS 구현방법<br>
+                        • JDBC Application 구현 - MySQL 을 이용한 RDBMS 접속<br>
+                        • 복잡한 SQL 질의어 구현<br>
+                        • JPA를 기반한 Repository pattern 구현체 자동생성<br>
+                        • REST 개념<br>
+                        • Spring Data REST Repository 를 사용한 RESTful API 생성<br>
+                        • HATEOAS 이해와 HATEOAS link 추가하기<br>
                     </td>
                 </tr>
 
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>10:30~11:30</td>
-                    <td style="font-weight:700;">점진적인 Microservice 전환</td>
-                    <td>
-                        • Strangler Pattern을 적용한 단계적 DT(Digital Transformation)  전략<br>
-                        • CDC (Change Data Capture)를 활용한 Event Shunting<br>
-                        • Kafka Connector 소개<br>
-                    </td>
-                </tr>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
                     <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
+                    <td style="font-weight:700;">다양한 객체 지향 언어 :TypeScript, Vue JS</td>
                     <td>
-                        • DevOps 기반의 프로세스 변화와 MSA<br>
-                        • 클라우드 애플리케이션 배포 전략 - 무정지(카나리) 배포, A/B 테스팅, Shadow 배포<br>
-                        • DevOps 툴체인 - 컨테이너와 컨테이너 오케스트레이터, 그리고 CI/CD<br>
-                        • Kubernetes Object Model 과 Declarative Configuration 개념<br>
-                        • Kubernetes 기본 명령과 Kubectl 를 통한 객체 다루기<br>
+                        • Javascript를 이용한 Pet Store 요구사항 이해 그리고 관련 환경 설치<br>
+                        • Vue JS 컴포넌트 생성하기<br>
+                        • VueJS 에서의 상속과 재정의, 상위메서드 호출 그리고 템플릿 재사용<br>
+                        • VueJS를 통한 웹 UI에서의 컴포넌트 개발<br>
+                        • VueJS 컴포넌트의 다이나믹 캐스팅<br>
                     </td>
                 </tr>
             </table>
@@ -156,12 +157,11 @@
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td style="font-weight:700;">CSP managed VM</td>
                     <td>
-                        • Kubernetes 를 통한 애플리케이션 디플로이, 인터넷으로의 서비스 노출과정<br>
-                        • Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet 등 객체 세부<br>
-                        • Self healing, Auto Scaling, Zero-Down time Deployment<br>
-                        • Liveness & Readiness 의 설정, 트러블슈팅 방법<br>
+                        • 클라우드 인프라 개요 - CSP 소개<br>
+                        • VM 생성 how to<br>
+                        • 클라우드 환경에서의 배포 - VM, Database 프로비저닝, WAS 배포, Network 설정으로 통한 서비스 접속<br>
                     </td>
                 </tr>
                 <tr>
@@ -170,22 +170,16 @@
                 </tr>
                 <tr>
                     <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td style="font-weight:700;">Mini Project, Deploy to VM</td>
                     <td>
-                        • Persistence Volume 통한 파일시스템 연계<br>
-                        • Secrets, ConfigMap 통한 Configuration Externalization<br>
-                        • 예제 스프링 애플리케이션의 패키징과 파일시스템 연동, 회복자동화, 자동확장 테스트<br>
+                        • 쇼핑몰 어플리케이션 구현 – 요건 정의와 시스템설계 (UML)<br>
+                        • 쇼핑몰 기능의 요구사항 정의와 도메인 클래스 정의 유비쿼터스 언어<br>
+                        • 백엔드 서버에서 데이터를 얻어오기 위한 API Gateway 설정과 AJAX 호출<br>
+                        • 클라우드에 배포<br> 
                     </td>
                 </tr>
+                
                 <tr>
-                    <td style=" font-weight:700; padding-left:15px;">운영: CI/CD</td>
-                    <td>
-                        • Argo Workflow / Rollouts / CD 를 이용한 CI/CD 자동화<br>
-                        • Spring Cloud Contract 를 통한 Consumer-driven / Contract Testing<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>17:00~17:30</td>
                     <td style="font-weight:700;">설문작성 및 테스트</td>
                     <td>
                         • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
@@ -198,7 +192,7 @@
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
             </div>
-            <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
+            <h3 style="margin-top:20px;">주강사(장진영 / 박용주 / 윤성렬)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
@@ -246,34 +240,31 @@
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
                 </div>
-            </div>
 
-            <h3 style="margin-top:50px;">보조강사(김상훈)</h3>
-            <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
+                        <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
                     </div>
                     <div class="gs-instructor-card-name">
-                        <h3 style="margin-bottom:0; color:gray;">김상훈</h3>
-                        <p style="color:gray; font-size:12px;">uEngine Cloud Platform Developer & Manager</p>
+                        <h3 style="margin-bottom:0; color:gray;">윤성렬</h3>
+                        <p style="color:gray; font-size:12px;">uEngine Manager & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • MSA PoC/ 마스터플랜 수립 Project Developer<br>
-                        • Eventstorming online platform 개발<br>
-                        • Cloud Native App. PaaS platform 개발<br>
-                        • Open Cloud Engine Project TA<br>
-                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
-                        • 現 uEngine MSA 정규 교과정 보조강사<br>
-                        • 現 MSA App. Engineering 기업과정 보조강사<br>
-                        • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
-                        • ’21. 06 : KT Microservice 직무전환과정 보조강사<br>
-                        • ’20. 09 : Doosan Microservices 교육 보조강사 외<br>
-                        • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
-                        • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
+                        • MSA 개발 및 네트워크 인프라 구축<br>
+                        • Domain 분석설계 및 서버 개발 project<br>
+                        • 다수 MSA 제안 작업 및 컨설팅 <br>
+                        • 다수 마이크로서비스 교육 진행  <br>
+                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • 現 네비웍스 연구소장/상무이사<br>
+                        • 現 드림플로우 연구소장/이사<br>
+                        • 現 한국소프트웨어기술진흥협회 BAPF 포럼,<br>교육과정위원회 및 전문강사<br>
+                        • ’17. 03 : 가천대학교 겸임교수<br>
+                        • ’18. 04 : TTA 사물인터넷 특별기술위원회 사물인터넷<br>융합서비스 프로젝트그룹 (SPG11) 부의장<br>
+                        • ’18. 10 : 원오원글로벌 디지털팀 팀장<br>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div id="review2" class="gs-manager">
@@ -349,16 +340,16 @@
 </template>
 
 <script>
-        // @group 07_02_04
+        // @group 06_02_02
     export default {
-        name:'StandardCNA',
+        name:'Fundamental',
         data() {
             return {
                 page:1
             }
         },
         props: {
-            "2. Standard CNA 과정": {
+            "Standard CNA 과정": {
                 type: String
             },
         },

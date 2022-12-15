@@ -603,7 +603,7 @@
 
 
 <script>
-        // @group 05_02_07
+        // @group 07_02_07
     export default {
         name:'EnterpriseFull-day14DaysCourse',
         data() {

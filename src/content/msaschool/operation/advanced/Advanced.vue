@@ -1,17 +1,17 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Standard CNA(Intermediate) 과정</h2><br>
+            <h2 style="display:inline-block !important;">Standard CNA(Advanced) 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
             >
-                <a href="/operation/education/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <a href="/operation/education/advanced-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
                 </a>
             </v-btn>
         </div>
-        <h6 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>
+        <h6 class="gs-course-content">다양한 도메인에 대한 심화된 이벤트스토밍 기법과 EDA환경에 최적화된 프레임워크 및 실전에 적용 가능한 구현 요소들을 포함하고 있으며, 서비스 메시의 확장, GitOps, 서버리스(Serverless) 운영 등 BizDevOps 전 영역에 걸쳐 한차원 높은 전문가 수준의 내용으로 구성된 교육과정입니다.</h6>
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
@@ -24,7 +24,7 @@
         </table>
         <v-btn class="gs-bottom-apply-btn"
             target='_blank'
-            :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
+            :href="`https://docs.google.com/forms/d/e/1FAIpQLSdR9TvgNr10wmWVgZxCkIIRBzFUV6bCISrNyUkm3sN89xbB5w/viewform?usp=sf_link`"
         >
             <span style="color:white !important; font-weight:700; font-size:20px;">
                 교육 신청하기
@@ -39,13 +39,14 @@
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td style="font-weight:700;">도메인 주도 SW설계의<br>확장</td>
                     <td>
-                        • 애자일 기업에 필요한 것들 – Microservice, DevOps, Container<br>
-                        • 모노리스와 마이크로서비스의 비교<br>
-                        • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
-                        • 최신 마이크로서비스 아키텍쳐의 경향 – Event-driven (Reactive) Microservices<br>
-                        • 사례 – 당근마켓과 11번가<br>
+                        • 애자일 기업에 필요한 구현 기술<br>
+                        • 금융기관과 테크기업의 진화, 테크 기업들의 Agile Delivery<br>
+                        • 복잡한 모델의 분리기준 – 바운디드 컨텍스트<br>
+                        • 가치사슬 분석전략 기법 이해 - 워들리 매핑(Wardley Mapping)<br>
+                        • Impact Mapping을 활용한 이벤트스토밍<br>
+                        • 다양한 비즈니스 도메인 이벤트스토밍 적용사례<br>
                     </td>
                 </tr>
                 <tr>
@@ -54,14 +55,18 @@
                 </tr>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">마이크로서비스의 분석/설계</td>
+                    <td style="font-weight:700;">마이크로서비스의<br>분석/설계 심화</td>
                     <td>
-                        • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
-                        • DDD 구성요소 - 서브도메인, 바운디드 컨텍스트, 도메인 이벤트, 어그리게잇, 뷰<br>
-                        • 서비스 식별과 분해방법들 - Core / Supporting Domain, Bounded Context, Aggregate, Business Capability, Mini Service<br>
-                        • 이벤트스토밍 - DDD 를 쉽게하는 워크숍 실천법<br>
-                        • MSA Design Patterns – Strangler with API G/W, 서킷브레이커, 토큰기반 인증, 클라이언트-사이드 렌더링, 서비스 프록시, 이벤트션팅<br>
-                        • DDD 와 이벤트 스토밍의 결과를 헥사고날 아키텍처로 매핑하는 방법<br>
+                        • 이벤트스토밍 레벨 – Big Picture, Process Modeling, Software Design<br>
+                        • DDD(도메인 주도 설계) 설계전략 <br>
+                        • Customer Journey Map – Identifies(Personas), Derives(Possible solutions, Opportunities), Relation to(Business Model, Software Design)<br> 
+                        • Impact Mapping - Identifies(Goals, Actors, Impact), Relation to(Business Model) <br>
+                        • 비즈니스 모델 캔버스 응용<br>
+                        • 도메인 클래스 모델링 with UML<br>
+                        • 도메인 모델패턴(Domain Model)과 트랜잭션 스크립트 (Transaction Script) 패턴<br>
+                        • 중요도에 따른 구현 구현전략- 트랜잭션 스크립트 적용<br>
+                        • 이벤트스토밍 모델과 유비쿼터스 언어(Ubiquitous Language)<br>
+                        • 다양한 도메인기반 실전 이벤트스토밍<br> 
                     </td>
                 </tr>
             </table>
@@ -73,12 +78,13 @@
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
+                    <td style="font-weight:700;">구현: 마이크로 서비스<br>트랜잭션과 데드라인</td>
                     <td>
-                        • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
-                        • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
-                        • Spring Data REST + JPA 를 통한  RESTful API 노출 (HATEOAS)<br>
-                        • Spring Gateway 를 통한 서비스 분리후 진입점 통일<br>
+                        • Event driven Microservice 확장 구현<br>
+                        • Exactly-Once 및 멱등성(Idempotency)을 적용한 중복처리 방지<br>
+                        • 단위 마이크로서비스와 메시징 채널 트랜잭션 관리<br>
+                        • 마이크로서비스 트랜잭션에 Deadline 적용<br>
+                        • Kafka Parallel Processing & DLQ (Dead Letter Queue)<br>
                     </td>
                 </tr>
                 <tr>
@@ -87,21 +93,20 @@
                 </tr>
                 <tr>
                     <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
+                    <td style="font-weight:700;">EDA에 최적화된<br>MSA Chassis</td>
                     <td>
-                        • UI 를 기반한 서비스 통합 전략:  Client-side Rendering, SPA, MVVM, HATEOAS<br>
-                        • OAuth2 와 JWT 통한 Stateless 한 토큰 기반 접근과  인증<br>
-                        • Front-end 기반 통합의 한계: 트랜잭션 이슈와 성능 문제<br>
-                        • 마이크로 프론트엔드<br>
+                        • 이벤트스토밍 모델에서 Eventuate, Axon코드 생성<br>
+                        • Eventuate Tram 애플리케이션 아키텍처와 CDC<br>
+                        • Axon Framework와 Axon Server<br>
+                        • Sprng boot기반 Axon으로 구현하는 Saga마이크로서비스<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style=" font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
+                    <td style=" font-weight:700; padding-left:15px;">인터-마이크로서비스 통신 : gRPC, Spring Reactor</td>
                     <td>
-                        • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
-                        • 서킷브레이커를 통한 장애회피<br>
-                        • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
-                        • 읽기관점 - Composite-Service 구현방법: 동시 REST 호출 사용<br>
+                        • gRPC로 통신하는 마이크로서비스<br>
+                        • HTTP/2 프로토콜 버퍼기반 바이너리 프로토콜 적용<br>
+                        • Spring Reactor와 Spring WebFlux로 리엑티브 마이크로서비스 구현 예시<br>
                     </td>
                 </tr>
             </table>
@@ -113,38 +118,28 @@
                 <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~10:30</td>
-                    <td style="font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
+                    <td style="font-weight:700;">Kafka CDC와<br>마이크로서비스 보안</td>
                     <td>
-                        • Event-driven 방식의 연동(Pub/Sub + Async + Choreography)<br>
-                        • 이벤트의 서브스크립션 - Spring Cloud Streams 와 kafka client 를 통한 이벤트의 수신과 처리<br>
-                        • 쓰기관점 - 트랜잭션 이슈: Eventual Transaction 와 Saga, Compensation<br>
-                        • 읽기관점 - CQRS 구현방법<br>
+                        • Kafka CDC를 활용한 인터-마이크로서비스 데이터 연동<br>
+                        • OAuth2 와 JWT를 활용하는 Stateless 한 토큰기반 접근과 인증<br>
+                        • 게이트웨이로부터 토큰 릴레이를 통한 Fine-grained ACL 설정<br>
                     </td>
                 </tr>
 
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>10:30~11:30</td>
-                    <td style="font-weight:700;">점진적인 Microservice 전환</td>
-                    <td>
-                        • Strangler Pattern을 적용한 단계적 DT(Digital Transformation)  전략<br>
-                        • CDC (Change Data Capture)를 활용한 Event Shunting<br>
-                        • Kafka Connector 소개<br>
-                    </td>
-                </tr>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
                     <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
+                    <td style="font-weight:700;">운영: Service Mesh deep dive</td>
                     <td>
-                        • DevOps 기반의 프로세스 변화와 MSA<br>
-                        • 클라우드 애플리케이션 배포 전략 - 무정지(카나리) 배포, A/B 테스팅, Shadow 배포<br>
-                        • DevOps 툴체인 - 컨테이너와 컨테이너 오케스트레이터, 그리고 CI/CD<br>
-                        • Kubernetes Object Model 과 Declarative Configuration 개념<br>
-                        • Kubernetes 기본 명령과 Kubectl 를 통한 객체 다루기<br>
+                        • advanced Service Mesh(Istio) features<br>
+                        • Istio가 제공하는 보안, 모니터링, Envoy필터, 추적 기능<br>
+                        • Istio기반 서비스간 인증 및 End-user authentication<br>
+                        • Istio add-on 서버기반 마이크로서비스 모니터링 & Alerting to Slack 채널<br>
+                        • Spring sleuth와 Jaeger를 통한 마이크로서비스 Tracing<br>
                     </td>
                 </tr>
             </table>
@@ -156,12 +151,11 @@
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td style="font-weight:700;">GitOps</td>
                     <td>
-                        • Kubernetes 를 통한 애플리케이션 디플로이, 인터넷으로의 서비스 노출과정<br>
-                        • Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet 등 객체 세부<br>
-                        • Self healing, Auto Scaling, Zero-Down time Deployment<br>
-                        • Liveness & Readiness 의 설정, 트러블슈팅 방법<br>
+                        • 데브옵스의 확장 모델 깃옵스(GitOps) 이해<br>
+                        • Workflow with Jenkins & ArgoCD<br>
+                        • Canary Deployment with Canary Scoring<br>
                     </td>
                 </tr>
                 <tr>
@@ -170,22 +164,16 @@
                 </tr>
                 <tr>
                     <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td style="font-weight:700;">Serverless</td>
                     <td>
-                        • Persistence Volume 통한 파일시스템 연계<br>
-                        • Secrets, ConfigMap 통한 Configuration Externalization<br>
-                        • 예제 스프링 애플리케이션의 패키징과 파일시스템 연동, 회복자동화, 자동확장 테스트<br>
+                        • Serverless를 위한 오픈소스 Knative<br>
+                        • Stateless 웹서비스 구축을 위한 서비리스 프레임워크 - Serving<br>
+                        • Istio와 Knative serving을 활용한 마이크로서비스 배포와 접근<br>
+                        • Kubernetes CRD 기반 CI/CD 오픈소스 프레임워크 - Tekton <br>
+                        • Tekton으로 구현하는 Serverless CI/CD 파이프라인<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style=" font-weight:700; padding-left:15px;">운영: CI/CD</td>
-                    <td>
-                        • Argo Workflow / Rollouts / CD 를 이용한 CI/CD 자동화<br>
-                        • Spring Cloud Contract 를 통한 Consumer-driven / Contract Testing<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>17:00~17:30</td>
                     <td style="font-weight:700;">설문작성 및 테스트</td>
                     <td>
                         • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
@@ -198,7 +186,7 @@
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
             </div>
-            <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
+            <h3 style="margin-top:20px;">주강사(장진영 / 박용주 / 윤성렬)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
@@ -246,34 +234,31 @@
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
                 </div>
-            </div>
 
-            <h3 style="margin-top:50px;">보조강사(김상훈)</h3>
-            <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image style="margin-top:-10px;" src="~/img/05_Community/02_MSA_교육과정/img5.png"></g-image>
+                        <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
                     </div>
                     <div class="gs-instructor-card-name">
-                        <h3 style="margin-bottom:0; color:gray;">김상훈</h3>
-                        <p style="color:gray; font-size:12px;">uEngine Cloud Platform Developer & Manager</p>
+                        <h3 style="margin-bottom:0; color:gray;">윤성렬</h3>
+                        <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • MSA PoC/ 마스터플랜 수립 Project Developer<br>
-                        • Eventstorming online platform 개발<br>
-                        • Cloud Native App. PaaS platform 개발<br>
-                        • Open Cloud Engine Project TA<br>
-                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
-                        • 現 uEngine MSA 정규 교과정 보조강사<br>
-                        • 現 MSA App. Engineering 기업과정 보조강사<br>
-                        • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
-                        • ’21. 06 : KT Microservice 직무전환과정 보조강사<br>
-                        • ’20. 09 : Doosan Microservices 교육 보조강사 외<br>
-                        • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
-                        • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
+                        • MSA DT 마스터플랜 수립 Project<br>
+                        • MSA PoC/ Pilot 수행<br>
+                        • 다수 MSA 제안 작업 및 컨설팅 <br>
+                        • 마이크로서비스 교육과정 교안/교재 집필  <br>
+                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • 現 네비웍스 연구소장/상무이사<br>
+                        • 現 드림플로우 연구소장/이사<br>
+                        • 現 한국소프트웨어기술진흥협회 BAPF 포럼,<br>교육과정위원회 및 전문강사<br>
+                        • ’17. 03 : 가천대학교 겸임교수<br>
+                        • ’18. 04 : TTA 사물인터넷 특별기술위원회 사물인터넷<br>융합서비스 프로젝트그룹 (SPG11) 부의장<br>
+                        • ’18. 10 : 원오원글로벌 디지털팀 팀장<br>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div id="review2" class="gs-manager">
@@ -349,16 +334,16 @@
 </template>
 
 <script>
-        // @group 07_02_04
+        // @group 08_02_02
     export default {
-        name:'StandardCNA',
+        name:'Advanced',
         data() {
             return {
                 page:1
             }
         },
         props: {
-            "2. Standard CNA 과정": {
+            "Standard CNA 과정": {
                 type: String
             },
         },

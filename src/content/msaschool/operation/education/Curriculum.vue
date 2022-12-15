@@ -1,6 +1,6 @@
 <template>
     <div style="margin-top:80px;">
-        <h2 style = "margin:0 0 10px 0;">MSA School 교과정 안내</h2>
+        <h2 style = "margin:0 0 10px 0;">DevOps 개발자 과정</h2>
         <div class="basics-box clearfix">
             <div class="card-box">
                 <div class="card-title">Quick</div>
@@ -147,16 +147,16 @@
 </template>
 
 <script>
-        // @group 05_02_02
+        // @group 07_02_02
     export default {
-        name:'schedule',
+        name:'Curriculum',
         data() {
             return {
-                dialog: false,
+                page:1
             }
         },
         props: {
-            "MSA School 교과정 안내": {
+            "커리큘럼": {
                 type: String
             },
         },
@@ -179,7 +179,7 @@
     .card-title {
         line-height:50px;
         text-align:center;
-        background-color:#0073ec;
+        background-color:#5a67d8;
         color:white;
         border-radius:5px 5px 0 0;
         font-weight:700;
