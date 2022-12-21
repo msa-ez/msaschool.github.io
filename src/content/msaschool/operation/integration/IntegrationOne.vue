@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-            <VueSubLayoutCard lab="front-end"></VueSubLayoutCard>
+            <VueSubLayoutCard lab="dp-frontend-2022"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## Microservice Integration by UI 마이크로 서비스의 통합을 위하여
@@ -33,6 +33,7 @@ facebook 이나 amazon 같은 site 는 겉보기에는 하나의 통합된 site 
 * **HTML 템플릿**: <template> 과 <slot> 엘리먼트는 렌더링된 페이지에 나타나지 않는 마크업 템플릿을 작성할 수 있게 해준다. 그 후, 커스텀 엘리먼트의 구조를 기반으로 여러번 재사용할 수 있습니다.
 
 > 자세한 설명은 https://developer.mozilla.org/ko/docs/Web/Web_Components 를 참고
+
 "
         ></mark-down>
 
@@ -58,11 +59,11 @@ facebook 이나 amazon 같은 site 는 겉보기에는 하나의 통합된 site 
         <g-image
             src="~/img/03_Bizdevops/04_통합/01_Front-End에서의 통합/image3.png"
         ></g-image>
-
+<br/>
         <mark-down
                 class="content"
             source="
-* <template> 을 사용하여 소스코드는 템플릿화 시켜서 중복 사용하거나, 필요한 화면에서 태그로 호출하여 사용하도록 설정함
+- \<template\> 을 사용하여 소스코드는 템플릿화 시켜서 중복 사용하거나, 필요한 화면에서 태그로 호출하여 사용하도록 설정함
 
 ```
 <template>
@@ -91,14 +92,16 @@ facebook 이나 amazon 같은 site 는 겉보기에는 하나의 통합된 site 
 ## UI 통합 개발시 주의 사항
 
 UI 개발시 가장 하지 말아야 할 안티패턴으로 UI 에서 순차적인 호출로 트랜잭션을 묶으려는 방법입니다.
-주문이 성공 하고 난 후에 상품의 재고량을 바꾼다는 프로세스가 있을시, 클라이언트에서 순차적으로 호출을 한다면 위와 같은 그림이 나올 것입니다. 클라이언트의 네트워크는 언제든 끈길수 있고, 해킹의 가능성이 있으니 운이 좋으면 성공 할수도 있지만 **실패한다면 영원한 데이터의 불일치가 나올수 있으니 절대로 하면 안됩니다**. 두번째 호출시 네트워크가 끈긴다면 재고량이 수정이 안될것이고, 두번째 호출 url 만 알아내어 악의적으로 호출을 할 수도 있으니, 트랜잭션 관련한 호출은 서버단에서 한번에 처리를 해야 합니다.
+주문이 성공 하고 난 후에 상품의 재고량을 바꾼다는 프로세스가 있을시, 클라이언트에서 순차적으로 호출을 한다면 위와 같은 그림이 나올 것입니다. 
+클라이언트의 네트워크는 언제든 끈길수 있고, 해킹의 가능성이 있으니 운이 좋으면 성공 할수도 있지만 **실패한다면 영원한 데이터의 불일치가 나올수 있으니 절대로 하면 안됩니다**. 
+두번째 호출시 네트워크가 끈긴다면 재고량이 수정이 안될것이고, 두번째 호출 url 만 알아내어 악의적으로 호출을 할 수도 있으니, 트랜잭션 관련한 호출은 서버단에서 한번에 처리를 해야 합니다.
 
 "
-        >
+        ></mark-down>
             <g-image
                 src="~/img/03_Bizdevops/04_통합/01_Front-End에서의 통합/image4.png"
             ></g-image>
-        </mark-down>
+        
     </div>
 </template>
 

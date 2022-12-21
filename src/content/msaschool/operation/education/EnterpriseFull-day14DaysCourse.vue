@@ -1,20 +1,13 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Enterprise Full-day 과정</h2>
-            <v-btn class="gs-bottom-apply-btn"
+            <h2 style="display:inline-block !important;">Enterprise Full-day 과정</h2><br>
+            <v-btn class="gs-review-btn"
                 target='_blank'
-                :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform?usp=pp_url&entry.1858868603=Enterprise+Full-day+%EA%B3%BC%EC%A0%95`"
+                text
             >
-                <span style="color:white !important; font-weight:700; font-size:14px;">
-                    신청하기
-                </span>
-            </v-btn>
-            <v-btn class="gs-bottom-apply-btn"
-                target='_blank'
-            >
-                <a href="/operation/education/enterprise-full-day14-days-course/#review5" style="color:white !important; font-weight:700; font-size:14px;">
-                    후기보기
+                <a href="/operation/education/enterprise-full-day14-days-course/#review5" style="color:black !important; font-weight:700; font-size:14px;">
+                    ▼ 후기보기
                 </a>
             </v-btn>
         </div>
@@ -28,6 +21,15 @@
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">1인당 최소 247.5만원(30명) ~ 최대 420만원(10명)(14일)</td>
             </tr>    
         </table>
+        <v-btn class="gs-bottom-apply-btn"
+            target='_blank'
+            :href="`https://docs.google.com/forms/d/e/1FAIpQLSdvP9ec6MLiPTZMVseaJiFTcO6Fkj-ts9BtfazA_nAhyIEcHw/viewform`"
+        >
+            <span style="color:white !important; font-weight:700; font-size:20px;">
+                교육 신청하기
+            </span>
+        </v-btn>
+        <br></br>
         <div>* Volume Discount 정책 : 10명 이상 신청 시 11명 째부터 20명까지 10%, 20명 이상 시 21명 째부터 25명까지 20%, 26명 째부터 30명까지 30% 비용 할인이 적용됩니다.</div><br>
         <div>** 캡스톤 프로젝트를 제외시킨 옵션(4일 제외)으로 신청 시 추가로 할인된 비용으로 교육을 접해보실 수 있습니다.</div>
         <div>
@@ -373,14 +375,6 @@
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn class="gs-bottom-apply-btn"
-                    target='_blank'
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
-                >
-                        <span style="color:white !important; font-weight:700; font-size:14px;">
-                            신청하기
-                        </span>
-                </v-btn>
             </div>
             <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
             <div class="gs-the-entire-package">
@@ -390,7 +384,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
+                        <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA 교육, 기업 컨설팅<br>
@@ -413,7 +407,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
+                        <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA DT 마스터플랜 수립 Project<br>
@@ -432,7 +426,7 @@
                 </div>
             </div>
 
-            <h3 style="margin-top:50px;">보조강사(김상훈 / 이진수)</h3>
+            <h3 style="margin-top:50px;">보조강사(김상훈)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
@@ -440,7 +434,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">김상훈</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
+                        <p style="color:gray; font-size:12px;">uEngine Cloud Platform Developer & Manager</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA PoC/ 마스터플랜 수립 Project Developer<br>
@@ -455,28 +449,6 @@
                         • ’20. 09 : Doosan Microservices 교육 보조강사 외<br>
                         • ’19. 09 : KOSTA Microservices 교육 보조강사 외<br>
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
-                    </div>
-                </div>
-                
-                
-                <div class="gs-instructor-card">
-                    <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image style="margin-top:-35px;" src="~/img/05_Community/02_MSA_교육과정/img7.png"></g-image>
-                    </div>
-                    <div class="gs-instructor-card-name">
-                        <h3 style="margin-bottom:0; color:gray;">이진수</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions Cloud Platform Developer & Manager</p>
-                    </div>
-                    <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • MSA PoC/ 마스터플랜 수립 Project Developer  <br>
-                        • Eventstorming online platform 개발<br>
-                        • Model driven Polyglot Language Expert<br>
-                        • AI, 자연어처리, Tensorflow기반 모델 Expert<br>
-                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
-                        • 現 uEngine MSA 정규 교과정 보조강사<br>
-                        • 現 MSA App. Engineering 기업과정 보조강사<br>
-                        • ‘21 : SK MSA App. Engineering 과정 보조강사 외<br>
-                        • ‘20 : SK MSA App. Engineering 과정 보조강사<br>
                     </div>
                 </div>
             </div>
@@ -631,7 +603,7 @@
 
 
 <script>
-        // @group 05_02_07
+        // @group 07_02_07
     export default {
         name:'EnterpriseFull-day14DaysCourse',
         data() {

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="monolith2misvc"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="monolith-2-misvc-2022"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## Microservice Integration by REQUEST AND RESPONSE

@@ -1,6 +1,6 @@
 <template>
     <div style="margin-top:80px;">
-        <h2 style = "margin:0 0 10px 0;">MSA School 교과정 안내</h2>
+        <h2 style = "margin:0 0 10px 0;">DevOps 개발자 과정</h2>
         <div class="basics-box clearfix">
             <div class="card-box">
                 <div class="card-title">Quick</div>
@@ -15,11 +15,10 @@
                     • 비대면 화상교육<br>
                     • 최대인원 20명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/quick-understanding-cna/`"
-                        ><span style="color:white !important;">세부사항</span>
-                    </v-btn>
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <a href="/operation/education/quick-understanding-cna/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -44,11 +43,10 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 25명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        :href="`https://www.msaschool.io/operation/education/standard-cna/`"
-                        ><span style="color:white !important;">세부사항</span>
-                    </v-btn>
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <a href="/operation/education/standard-cna/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -75,11 +73,10 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 25명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/flipped-learning4-days-cna-course/`"
-                        ><span style="color:white !important;">세부사항</span>
-                    </v-btn>
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <a href="/operation/education/flipped-learning4-days-cna-course/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -103,11 +100,10 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 10명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/one-point-lesson/`"
-                        ><span style="color:white !important;">세부사항</span>
-                    </v-btn>
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <a href="/operation/education/one-point-lesson/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
             
@@ -132,11 +128,10 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                     • 최대인원 25명<br>
                 </div>
-                <div style="text-align:center; height:90px; line-height:90px;">
-                    <v-btn class="card-details-btn"
-                        :href="`http://www.msaschool.io/operation/education/enterprise-full-day14-days-course/`"
-                        ><span style="color:white !important;">세부사항</span>
-                    </v-btn>
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <a href="/operation/education/enterprise-full-day14-days-course/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -152,16 +147,16 @@
 </template>
 
 <script>
-        // @group 05_02_02
+        // @group 07_02_02
     export default {
-        name:'schedule',
+        name:'Curriculum',
         data() {
             return {
-                dialog: false,
+                page:1
             }
         },
         props: {
-            "MSA School 교과정 안내": {
+            "커리큘럼": {
                 type: String
             },
         },
@@ -174,6 +169,7 @@
         width:19.5%;
         height:550px;
         margin-right:0.5%;
+        margin-bottom: 6px;
         background-color: white;
         border: 1px solid #e5e5e5;
         border-radius: 5px;
@@ -183,7 +179,7 @@
     .card-title {
         line-height:50px;
         text-align:center;
-        background-color:#0073ec;
+        background-color:#5a67d8;
         color:white;
         border-radius:5px 5px 0 0;
         font-weight:700;
@@ -191,16 +187,16 @@
         font-size:26px;
     }
     .card-subtitle {
-        font-size:14px;
+        font-size:20px;
         font-weight:900;
         opacity:0.9;
         padding-left:5px;
         height:30px;
-        margin-top:5px;
+        margin-top:20px;
         line-height:15px;
     }
     .card-contents {
-        font-size:11px;
+        font-size:14px;
         opacity:0.8;
         padding:5px;
         height:100px;
@@ -208,17 +204,19 @@
     .card-second-contents {
         background-color:#F5F5F5;
         padding:20px 5px 20px 5px;
-        font-size:11px;
+        font-size:15px;
         height:220px;
     }
     .card-details-btn {
-        background-color:#0073ec !important;
-        color:white !important;
         width:110px !important;
-        height:36x !important;
+        height:36px !important;
         text-align : center !important;
         line-height:36px !important;
-        font-size:20px;
+        font-size:15px;
+        border-radius: 5px;
+        border:black solid;
+        margin-top: -20px;
+        padding-bottom: 37px;
     }
     .enterprise-cost-text {
         font-size:14px;
@@ -273,11 +271,41 @@
             width:100%;
             height:550px;
             margin-right:0.5%;
+            margin-bottom: 50px;
             background-color: white;
             border: 1px solid #e5e5e5;
             border-radius: 5px;
             box-shadow: 0 1px 8px rgba(22,22,22, 0.1);
             float:left;
+        }
+        .card-subtitle {
+            font-size:20px;
+            font-weight:900;
+            opacity:0.9;
+            padding-left:5px;
+            height:30px;
+            margin-top:20px;
+            line-height:15px;
+        }
+        .card-contents {
+            font-size:15px;
+            opacity:0.8;
+            padding:5px;
+            height:100px;
+        }
+        .card-second-contents {
+            background-color:#F5F5F5;
+            padding:20px 5px 20px 5px;
+            font-size:18px;
+            height:220px;
+        }
+        .card-details-btn {
+            width:110px !important;
+            height:36px !important;
+            text-align : center !important;
+            line-height:36px !important;
+            font-size:18px;
+            margin-bottom: 20px;
         }
     }
 </style>

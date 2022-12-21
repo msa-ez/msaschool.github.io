@@ -41,14 +41,14 @@
                     lab: 'oauth2',
                     url: null
                 },
-                {
-                    key: 'ImplementationOne',
-                    title: 'pre-lab-linux',
-                    desc: 'Container Orchestration 운영에 필요한 기본 Linux 명령어 대해 학습한다.',
-                    lab: 'pre-lab-linux',
-                    url: null
-                },
-                {key: 'ImplementationOne', title: 'default-env', desc: null, lab: 'default-env', url: null},
+                // {
+                //     key: 'ImplementationOne',
+                //     title: 'pre-lab-linux',
+                //     desc: 'Container Orchestration 운영에 필요한 기본 Linux 명령어 대해 학습한다.',
+                //     lab: 'pre-lab-linux',
+                //     url: null
+                // },
+                // {key: 'ImplementationOne', title: 'default-env', desc: null, lab: 'default-env', url: null},
                 {key: 'implementationFour', title: 'design-to-code', desc: null, lab: 'design-to-code', url: null},
                 {key: 'implementationFive', title: 'monolith2misvc', desc: null, lab: 'monolith2misvc', url: null},
                 {key: 'ImplementationSix', title: 'gateway', desc: null, lab: 'gateway', url: null},

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="cna-pubsub"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="pub-sub-2022"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## Microservice Integration by EVENT-DRIVEN

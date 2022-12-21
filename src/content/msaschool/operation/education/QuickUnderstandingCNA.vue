@@ -1,20 +1,13 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Quick Understanding CNA 과정</h2>
-            <v-btn class="gs-bottom-apply-btn"
+            <h2 style="display:inline-block !important;">Quick Understanding CNA 과정</h2><br>
+            <v-btn class="gs-review-btn"
                 target='_blank'
-                :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
+                text
             >
-                <span style="color:white !important; font-weight:700; font-size:14px;">
-                    신청하기
-                </span>
-            </v-btn>
-            <v-btn class="gs-bottom-apply-btn"
-                target='_blank'
-            >
-                <a href="/operation/education/quick-understanding-cna/#review" style="color:white !important; font-weight:700; font-size:14px;">
-                    후기보기
+                <a href="/operation/education/quick-understanding-cna/#review" style="color:black !important; font-weight:700; font-size:14px;">
+                    ▼ 후기보기
                 </a>
             </v-btn>
         </div>
@@ -27,7 +20,15 @@
             <tr>
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">무료</td>
             </tr>    
-        </table>    
+        </table>
+            <v-btn class="gs-bottom-apply-btn"
+                target='_blank'
+                :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
+            >
+                <span style="color:white !important; font-weight:700; font-size:20px;">
+                    교육 신청하기
+                </span>
+            </v-btn>    
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <table class="gs-table-default">
@@ -96,14 +97,6 @@
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn class="gs-bottom-apply-btn"
-                    target='_blank'
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLSeP2H2XbO_hkgfKRPme5PW9M8DCNBP9noZjjYmXOykd8zyBiA/viewform?usp=pp_url&entry.1858868603=Quick+Understanding+CNA+%EA%B3%BC%EC%A0%95`"
-                >
-                        <span style="color:white !important; font-weight:700; font-size:14px;">
-                            신청하기
-                        </span>
-                </v-btn>
             </div>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
@@ -112,7 +105,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영 대표</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
+                        <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA 교육, 기업 컨설팅<br>
@@ -135,7 +128,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주 이사</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
+                        <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA DT 마스터플랜 수립 Project<br>
@@ -215,7 +208,7 @@
 
 
 <script>
-        // @group 05_02_03
+        // @group 07_02_03
     export default {
         name:'QuickUnderstandingCNA',
         data() {

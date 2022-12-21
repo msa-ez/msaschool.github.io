@@ -1,20 +1,13 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">One Point Lesson 과정</h2>
-            <v-btn class="gs-bottom-apply-btn"
+            <h2 style="display:inline-block !important;">One Point Lesson 과정</h2><br>
+            <v-btn class="gs-review-btn"
                 target='_blank'
-                :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
+                text
             >
-                    <span style="color:white !important; font-weight:700; font-size:14px;">
-                        신청하기
-                    </span>
-            </v-btn>
-            <v-btn class="gs-bottom-apply-btn"
-                target='_blank'
-            >
-                <a href="/operation/education/one-point-lesson/#review4" style="color:white !important; font-weight:700; font-size:14px;">
-                    후기보기
+                <a href="/operation/education/one-point-lesson/#review4" style="color:black !important; font-weight:700; font-size:14px;">
+                    ▼ 후기보기
                 </a>
             </v-btn>
         </div>
@@ -28,6 +21,14 @@
                 <td style="padding-left:15px; font-weight:700; font-size:20px; text-align:center;">시간당 50만원</td>
             </tr>    
         </table>  
+        <v-btn class="gs-bottom-apply-btn"
+            target='_blank'
+            :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
+        >
+            <span style="color:white !important; font-weight:700; font-size:20px;">
+                교육 신청하기
+            </span>
+        </v-btn>
         <table style="margin-top:50px; border : 1px solid black;">
             <tr>
                 <td rowspan="5" style="border : 1px solid black; border-collapse : collapse; margin: auto; text-align: center; width:1%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">Agenda</td>
@@ -44,21 +45,6 @@
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
-                <v-btn style="background-color:#5a67d8 !important;
-                    color:white !important;
-                    width:90px !important;
-                    height:30px !important;
-                    text-align-center !important;
-                    line-height:30px !important;
-                    font-size:20px;
-                    margin:-7px 0 0 10px;"
-                    target='_blank'
-                    :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
-                    >
-                        <span style="color:white !important; font-weight:700; font-size:14px;">
-                            신청하기
-                        </span>
-                </v-btn>
             </div>
 
             
@@ -69,7 +55,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions CEO & President</p>
+                        <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA 교육, 기업 컨설팅<br>
@@ -92,7 +78,7 @@
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
-                        <p style="color:gray; font-size:12px;">uEngineSolutions Director & MSA Consultant</p>
+                        <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                         • MSA DT 마스터플랜 수립 Project<br>
@@ -182,7 +168,7 @@
 </template>
 
 <script>
-        // @group 05_02_06
+        // @group 07_02_06
     export default {
         name:'OnePointLesson',
         data() {
