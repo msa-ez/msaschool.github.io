@@ -53,7 +53,7 @@
                         <MenuIcon/>
                     </div>
             </button>
-            <button v-else style="background-color:gold; color:#4E342E; border-radius:100%; height:40px; width:40px; border:0; outline:0;"
+            <button v-else style="background-color:rgb(90, 103, 216) !important; color:white; border-radius:100%; height:40px; width:40px; border:0; outline:0;"
                     @click="openComplexBtn()">
                 <span class="mdi mdi-wechat" style="font-size:30px;"></span>
             </button>

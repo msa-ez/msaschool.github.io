@@ -1,236 +1,223 @@
 <template>
-    <div>
-        <!-- // -->
-<!--        <div  style="width: 100%" class="introduction-page">-->
-<!--            <div class="hero-section">-->
-<!--                <div class="container">-->
-<!--                    <div class="hero-section__left">-->
-<!--                        <h2 class="hero-section-title">험난한 MSA 구축 여정의 길라잡이</h2>-->
-<!--                        &lt;!&ndash;accordion&ndash;&gt;-->
-<!--                        <div class="mat-accordion accordion" id="accordion">-->
-<!--                            <div class="card">-->
-<!--                                <div class="card-header card-header" id="headingOne">-->
-<!--                                    <button type="button" class="card-header-title" data-toggle="collapse"-->
-<!--                                            data-target="#collapseOne">-->
-<!--                                        <img src="/img/icons/img/ic-carousel-3.png"-->
-<!--                                             srcset="/img/icons/img/ic-carousel-3.png 1x, /img/icons/img/ic-carousel-3@2x.png 2x, /img/icons/img/ic-carousel-3@3x.png 3x"-->
-<!--                                             alt="carousel-item">-->
-<!--                                        &lt;!&ndash;<i class="fa fa-plus"></i>&ndash;&gt;BizDevOps 풀 지원-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"-->
-<!--                                     data-parent="#accordion">-->
-<!--                                    <div class="card-body">-->
-<!--                                        <p>계획에서 운영까지 End-to-End 학습을 위한 단계별 효율적인 실천법 제시</p>-->
-<!--                                        <img class="carousel-item_img"-->
-<!--                                             src="/img/icons/img/introduction-1.png"-->
-<!--                                             srcset="/img/icons/img/introduction-1.png 1x, /img/icons/img/introduction-1@2x.png 2x, /img/icons/img/introduction-1@3x.png 3x"-->
-<!--                                             alt="carousel-item">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="card">-->
-<!--                                <div class="card-header card-header" id="headingTwo">-->
-<!--                                    <button type="button" class="card-header-title collapsed"-->
-<!--                                            data-toggle="collapse"-->
-<!--                                            data-target="#collapseTwo">-->
-<!--                                        <img src="/img/icons/img/ic-carousel-2.png"-->
-<!--                                             srcset="/img/icons/img/ic-carousel-2.png 1x, /img/icons/img/ic-carousel-2@2x.png 2x, /img/icons/img/ic-carousel-2@3x.png 3x"-->
-<!--                                             alt="carousel-item">-->
-<!--                                        &lt;!&ndash;<i class="fa fa-plus"></i>&ndash;&gt;실전 MSA 코드 활용-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"-->
-<!--                                     data-parent="#accordion">-->
-<!--                                    <div class="card-body">-->
-<!--                                        <p>실행 가능한 E-Commerce 실전 코드 중심의 디자인 패턴, 구현 전략, 적용 사례 소개</p>-->
-<!--                                        <img class="carousel-item_img"-->
-<!--                                             src="/img/icons/img/introduction-2.png"-->
-<!--                                             srcset="/img/icons/img/introduction-2.png 1x, /img/icons/img/introduction-2@2x.png 2x, /img/icons/img/introduction-2@3x.png 3x"-->
-<!--                                             alt="carousel-item">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="card">-->
-<!--                                <div class="card-header card-header" id="headingThree">-->
-<!--                                    <button type="button" class="card-header-title collapsed"-->
-<!--                                            data-toggle="collapse"-->
-<!--                                            data-target="#collapseThree">-->
-<!--                                        <img src="/img/icons/img/ic-carousel-1.png"-->
-<!--                                             srcset="/img/icons/img/ic-carousel-1.png 1x, /img/icons/img/ic-carousel-1@2x.png 2x, /img/icons/img/ic-carousel-1@3x.png 3x"-->
-<!--                                             alt="carousel-item">-->
-<!--                                        &lt;!&ndash;<i class="fa fa-plus"></i>&ndash;&gt;특화된 MSA 교육-->
-<!--                                    </button>-->
-<!--                                </div>-->
-<!--                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"-->
-<!--                                     data-parent="#accordion">-->
-<!--                                    <div class="card-body">-->
-<!--                                        <p>주제 영역별 4개 과정, 담당 역할별 3개 과정, 교육신청을 통한 맞춤 교육 실시</p>-->
-<!--                                        <img class="carousel-item_img"-->
-<!--                                             src="/img/icons/img/introduction-3.png"-->
-<!--                                             srcset="/img/icons/img/introduction-3.png 1x, /img/icons/img/introduction-3@2x.png 2x, /img/icons/img/introduction-3@3x.png 3x"-->
-<!--                                             alt="carousel-item">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>&lt;!&ndash;//accordion&ndash;&gt;-->
-<!--                    </div>&lt;!&ndash;//left&ndash;&gt;-->
-<!--                    <div class="hero-section__right">-->
-<!--                        <div class="variable slider">-->
-<!--                            <div class="carousel-item item">-->
-<!--                                <div class="carousel-item_inner">-->
-<!--                                    <img class="carousel-item_img"-->
-<!--                                         src="/img/icons/img/introduction-1.png"-->
-<!--                                         srcset="/img/icons/img/introduction-1.png 1x, /img/icons/img/introduction-1@2x.png 2x, /img/icons/img/introduction-1@3x.png 3x"-->
-<!--                                         alt="carousel-item">-->
-<!--                                    <div style="margin-top: 244px;">-->
-<!--                                        <p class="carousel-item_line1">계획에서 운영까지 End-to-End 학습을 위한 단계별 효율적인 실천법 제시</p>-->
-<!--                                        &lt;!&ndash;p class="carousel-item_line2">체계적 학습</p&ndash;&gt;-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="carousel-item item">-->
-<!--                                <div class="carousel-item_inner">-->
-<!--                                    <img class="carousel-item_img"-->
-<!--                                         src="/img/icons/img/introduction-2.png"-->
-<!--                                         srcset="/img/icons/img/introduction-2.png 1x, /img/icons/img/introduction-2@2x.png 2x, /img/icons/img/introduction-2@3x.png 3x"-->
-<!--                                         alt="carousel-item">-->
-<!--                                    <div style="margin-top: 304px;">-->
-<!--                                        <p class="carousel-item_line1">실행 가능한 E-Commerce 실전 코드 중심의 디자인 패턴, 구현 전략, 적용 사례 소개</p>-->
-<!--                                        &lt;!&ndash;p class="carousel-item_line2">and release Design Fixation</p&ndash;&gt;-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="carousel-item item">-->
-<!--                                <div class="carousel-item_inner">-->
-<!--                                    <img class="carousel-item_img"-->
-<!--                                         src="/img/icons/img/introduction-3.png"-->
-<!--                                         srcset="/img/icons/img/introduction-3.png 1x, /img/icons/img/introduction-3@2x.png 2x, /img/icons/img/introduction-3@3x.png 3x"-->
-<!--                                         alt="carousel-item">-->
-<!--                                    <div style="margin-top: 350px;">-->
-<!--                                        <p class="carousel-item_line1" style="max-width: 424px;">주제 영역별 4개 과정, 담당 역할별 3개 과정, 교육신청을 통한 맞춤 교육 실시</p>-->
-<!--                                        &lt;!&ndash;p class="carousel-item_line2" style="max-width: 147px;">and test it-->
-<!--                                            fast</p&ndash;&gt;-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
+  <div style=" margin-top:100px;">
+    <v-row style="background-color:#E9E6F8; padding:30px; padding-left:30px; height:390px;">
+      <div style="float: left;">
+        <h2 style="color:rgba(107, 59, 165, 1);
+          font-family:system-ui,-apple-system;
+          line-height:55px;
+          font-size:40px;
+          font-weight:500;
+          margin-bottom:18px;"
+        >험난한  <br/>MSA구축 여정의 <br/> 길라잡이
+        </h2>
+        <div style="position:relative;">
+          <span class="clearfix">
+            <button @click="slideClickBtn1"
+              :style="slideBtn1 == true ? 'background-color:white;':''"
+              class="clearfix main-page-slide-btn"
+              type="button"
+            >BizDevOps 전 과정 지원
+              <g-image class="clearfix slide-btn-image"
+                src="./img/ic-carousel-3.png"
+              >
+              </g-image>
+            </button>
 
-<!--                        </div>-->
-<!--                    </div>&lt;!&ndash;//right&ndash;&gt;-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-    <mark-down class="content" style = "margin-bottom:-50px;">
-### MSA를 위한 온라인 학교, MSASchool 설립 배경
-마이크로서비스(Microservice)는 소프트웨어를 구축하기 위해 애플리케이션을 소규모로 분할하여 구축하고 상호 통합하여 운영하는 접근 방식입니다. 
+            <button @click="slideClickBtn2"
+              :style="slideBtn2 == true ? 'background-color:white;':''"
+              class="clearfix main-page-slide-btn"
+              type="button"
+            >EDA기반 핵심 프레임워크
+              <g-image class="clearfix slide-btn-image"
+                src="./img/ic-carousel-2.png"
+              >
+              </g-image>
+            </button>
 
-오늘날 급변하는 고객 요구에 민첩하게 대응하기 위해서는 갈수록 비대해지는 기존의 모노리식 아키텍처(Monolithic Architecture)기반 시스템으로는 한계가 있으며, 민첩한 대응이 가능한 마이크로서비스 아키텍처(Microservice Architecture)로 무장한 경쟁사와의 치열한 경쟁 구도에서 분명 뒤쳐질 수 밖에 없습니다. 
-    
-MSASchool은 이미 인터넷 시장에 깊숙하게 자리잡은 마이크로서비스를 소개하고, MSA를 적용하여 시스템을 구축하려는 기업들을 위한 든든한 길라잡이로서, 단계별 구축에 필요한 사전 지식과 전문화된 도구를 통한 실전 프랙티스, 온/오프라인 기반의 MSA 교육을 위한 기회의 장을 제공하고자 합니다.
-    </mark-down>
-<br />
-<MobileMarkDown>
+            <button @click="slideClickBtn3"
+              :style="slideBtn3 == true ? 'background-color:white;':''"
+              class="clearfix main-page-slide-btn"
+              type="button"
+            >설치 필요없는 학습교구
+              <g-image class="clearfix slide-btn-image"
+                src="./img/ic-carousel-1.png"
+              >
+              </g-image>
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <div style="">
+        <div class="clearfix image-box-all">
+          <div class="image-box-in" :style="slideBtn1 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+            <div class="image-box-text" style="margin-top:180px;"
+            >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
+            </div>
+            <g-image class="image-style" src="./img/introduction-3.png" />
+          </div>
+
+          <div class="image-box-in" :style="slideBtn2 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+            <div class="image-box-text" style="margin-top:225px;"
+            >Event driven Architecture 기반 최신 마이크로서비스<br/>
+            Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
+            </div>
+            <g-image class="image-style" src="./img/introduction-2.png"/>
+          </div>
+          
+          <div class="image-box-in" :style="slideBtn3 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+            <div class="image-box-text" style="margin-top:270px;"
+            >프로그램 설치가 필요없는<br/>
+            온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
+            </div>
+            <g-image class="image-style" src="./img/introduction-1.png"/>
+          </div>
+        </div>
+      </div>
+    </v-row>
+  <div>
+  <SideMarkDown>
     <mark-down class="content">
-### BizDevOps에 맞춘 학습 체계
+## MSA School 은
+### 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가 양성을 교육 목표로 합니다.
+MSA School은 분석, 설계에서 구현, 배포에 이르는 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
+
+Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서비스 구현에
+필수인 전용 프레임워크(Eventuate, Axon 등)와 최신 MSA 아키텍처 기술이
+반영된 실습코드로 MSA School은 항상 진화합니다.
     </mark-down>
-    <g-image stlye ="margin-top:10px; margin-bottom:10px;"
-            src="~/img/01_Introduction/01_소개/image1.png"
-        ></g-image>
-    <mark-down class="content" style = "margin-bottom:-50px;">
-데브옵스(DevOps)는 IT시스템의 개발과 운영을 통합함으로써 개발과 운영의 사일로를 제거, 애플리케이션을 안정적이고 빠르게 운영하기 위해 시스템 개발자와 운영을 담당하는 정보기술 전문가 사이의 소통, 협업을 위해 탄생한 개발 방법론입니다.
-
-여기에 비즈니스 영역(고객, Product Owner)을 데브옵스 생명주기에 통합한 데브옵스의 진화 형태인 ‘비즈데브옵스’는 비즈니스와 IT의 사일로를 제거하여 보다 신속한 제품 출시가 가능하게 되었습니다.
-
-MSASchool은 비즈데브옵스를 6단계로 나누고, 셀프 스터디가 가능한 단계별 학습 체계에 따른 컨텐츠를 제공합니다.
- </mark-down>
-</MobileMarkDown>
-<SideMarkDown>
     <g-image src="~/img/01_Introduction/01_소개/image1.png"
-                style = "margin-right:50px; margin-top:70px; height:380px !important;
-                margin-top:80px;"
-        ></g-image>
-    <mark-down class="content">
-### BizDevOps에 맞춘 학습 체계
-데브옵스(DevOps)는 IT시스템의 개발과 운영을 통합함으로써 개발과 운영의 사일로를 제거, 애플리케이션을 안정적이고 빠르게 운영하기 위해 시스템 개발자와 운영을 담당하는 정보기술 전문가 사이의 소통, 협업을 위해 탄생한 개발 방법론입니다.
-
-여기에 비즈니스 영역(고객, Product Owner)을 데브옵스 생명주기에 통합한 데브옵스의 진화 형태인 ‘비즈데브옵스’는 비즈니스와 IT의 사일로를 제거하여 보다 신속한 제품 출시가 가능하게 되었습니다.
-
-MSASchool은 비즈데브옵스를 6단계로 나누고, 셀프 스터디가 가능한 단계별 학습 체계에 따른 컨텐츠를 제공합니다.
- </mark-down>
-</SideMarkDown>
-<br />
-<MobileMarkDown>
-    <mark-down class="content">
-### 최고의 IT 및 MSA 전문가가 전하는 노하우
-MSASchool은 2000년 초반부터 쌓아온 IT 경험과 지난 10년간 다져온 클라우드 플랫폼 및 기반 기술(OCE, http://www.opence.org)을 바탕으로 MSA 현장에 즉시 적용 가능한 최신의 기술 스텍과 컨텐츠를 제공합니다.
-
-DDD(Domain Driven Design)기반 분석/설계의 가장 효율적인 방법론인 이벤트스토밍에서, Spring Boot기반 클라우드 네이티브 애플리케이션 구현, 배포 파이프라인을 거쳐 클라우드 플랫폼에 탑재되고, 컨테이너 기반 서비스 운영과 서비스 메시, 모니터링에 이르기까지... 
-
-마이크로서비스의 전 주기를 아우르는 모든 것이 여기 MSASchool에 있습니다.  
- </mark-down>
-    <g-image style="margin-bottom: -50px; margin-top:10px; margin-bottom:10px;"
-                src="~/img/01_Introduction/01_소개/image2.png"
-        ></g-image>
-</MobileMarkDown>
-<SideMarkDown>
-    <mark-down class="content">
-### 최고의 IT 및 MSA 전문가가 전하는 노하우
-MSASchool은 2000년 초반부터 쌓아온 IT 경험과 지난 10년간 다져온 클라우드 플랫폼 및 기반 기술(OCE, http://www.opence.org)을 바탕으로 MSA 현장에 즉시 적용 가능한 최신의 기술 스텍과 컨텐츠를 제공합니다.
-
-DDD(Domain Driven Design)기반 분석/설계의 가장 효율적인 방법론인 이벤트스토밍에서, Spring Boot기반 클라우드 네이티브 애플리케이션 구현, 배포 파이프라인을 거쳐 클라우드 플랫폼에 탑재되고, 컨테이너 기반 서비스 운영과 서비스 메시, 모니터링에 이르기까지... 
-
-마이크로서비스의 전 주기를 아우르는 모든 것이 여기 MSASchool에 있습니다.  
- </mark-down>
-    <g-image src="~/img/01_Introduction/01_소개/image2.png"
-            style = "margin-left:50px; height:380px !important; margin-top:80px;"
-        ></g-image>
-</SideMarkDown>
-<br />
-<MobileMarkDown>
-    <mark-down class="content">
-### 전문화된 실습환경을 통한 실전 프랙티스
+        style = "margin-right:50px; width:400px !important; margin-top:30px;"
+    ></g-image>
+  </SideMarkDown>
+  <mark-down class="content">
+## MSA School 에는
+### 클라우드 네이티브 전문가가 되는 체계적인 최고의 커리큘럼이 준비되어 있습니다.
+**- Fundamental Course**
+&nbsp;&nbsp;&nbsp;Monolith/ VM 기반 Web Application 개발자를 위한 과정
+**- Intermediate Course**
+&nbsp;&nbsp;&nbsp;Event driven MSA 기반 현장에 곧바로 적용 가능하며 차별화 될 수 있는 MSA/EDA 노하우 수록 Container기반 가용성,회복성,탄력성을 위한 DevOps 엔지니어링
+**- Advanced Course**
+&nbsp;&nbsp;&nbsp;EDA기반 확장 Eventstorming, 전용 프레임워크 및 통신 프로토콜 포함 GitOps, 서버리스 등 자동으로 관리되는 Container 배포 및 운영
     </mark-down>
-    <g-image style = "margin-top:10px; margin-bottom:10px;"
-            src="~/img/01_Introduction/01_소개/image3.png"
-        ></g-image>
-    <mark-down class="content">
-
-MSASchool 컨텐츠는 BizDevOps 라이프사이클에 맞는 직관적인 메뉴 구조를 제공합니다. 메뉴별 컨텐츠에 연결된 Quick Menu(“실습 하기”)를 통해, 사용자들은 브라우저 상에서 MSASchool이 제공하는 전문화된 PaaS 환경과 연결되어 컨텐츠에 맞는 상황별 실습이 가능합니다.
-
-이 환경에서 사용자들은  동영상과 Lab 가이드에 따라 실전 예제 코드로 개발 학습을 수행함으로써 현장 중심 마이크로서비스 구현 패턴들을 익힐 수 있습니다.
-
-※ PaaS 환경에서의 일부 LAB은 초기 지급되는 코인(Coin, default 1,000)을 차감한 뒤 이용 가능합니다.   
-</mark-down>
-</MobileMarkDown>
-<SideMarkDown>
-    <g-image style = "margin-right:50px; height:300px !important; width:600px; margin-top:80px;"
-            src="~/img/01_Introduction/01_소개/image3.png"
-        ></g-image>
-    <mark-down class="content">
-### 전문화된 실습환경을 통한 실전 프랙티스
-
-MSASchool 컨텐츠는 BizDevOps 라이프사이클에 맞는 직관적인 메뉴 구조를 제공합니다. 메뉴별 컨텐츠에 연결된 Quick Menu(“실습 하기”)를 통해, 사용자들은 브라우저 상에서 MSASchool이 제공하는 전문화된 PaaS 환경과 연결되어 컨텐츠에 맞는 상황별 실습이 가능합니다.
-
-이 환경에서 사용자들은  동영상과 Lab 가이드에 따라 실전 예제 코드로 개발 학습을 수행함으로써 현장 중심 마이크로서비스 구현 패턴들을 익힐 수 있습니다.
-
-※ PaaS 환경에서의 일부 LAB은 초기 지급되는 코인(Coin, default 1,000)을 차감한 뒤 이용 가능합니다.   
-</mark-down>
-</SideMarkDown>
+    <v-btn class="gs-bottom-apply-btn"
+      target='_blank'
+    >
+      <a href="/operation/education/enterprise-full-day14-days-course/#review5" style="color:white !important; font-weight:700; font-size:14px;">
+          자세히보기
+      </a>
+    </v-btn>
 <br><br>
-    </div>
+</div>
+</div>
 </template>
 
-
 <script>
-    // @group 01_01_01
-    export default {
-        name: 'index',
-        directory:'operation_introduction',
-        props: {
-            "소개": {
-                type: String
-            },
+  // @group 01_01_01
+  export default {
+    name: 'index',
+    directory:'operation_introduction',
+    props: {
+        "소개": {
+            type: String
         },
-
+    },
+    data() {
+      return {
+        slideBtn1:true,
+        slideBtn2:false,
+        slideBtn3:false,
+        i:0,
+      }
+    },
+    mounted() {
+      this.i = 1
+      setInterval(this.autoSlide, 5000);
+    },
+    methods: {
+      autoSlide(){
+        this.i++
+        this.slideBtn1 = 1==this.i
+        this.slideBtn2 = 2==this.i
+        this.slideBtn3 = 3==this.i
+        if(this.i==3) {
+          this.i=0
+        }
+      },
+      slideClickBtn1() {
+        if(this.slideBtn1 == false) {
+          this.slideBtn1 = true
+          this.slideBtn2 = false
+          this.slideBtn3 = false
+        }
+      },
+      slideClickBtn2() {
+        if(this.slideBtn2 == false) {
+          this.slideBtn2 = true
+          this.slideBtn1 = false
+          this.slideBtn3 = false
+        }
+      },
+      slideClickBtn3() {
+        if(this.slideBtn3 == false) {
+          this.slideBtn3 = true
+          this.slideBtn1 = false
+          this.slideBtn2 = false
+        }
+      },
     }
+  }
 </script>
+
+<style>
+  .clearfix::after{content:""; display:block; clear:both;}
+
+  button:focus{ 	
+    border: none;
+    outline:none;
+  }
+
+  .main-page-slide-btn {
+    color:rgba(107, 59, 165, 1);
+    height:50px;
+    line-height:50px;
+    font-size:20px;
+    width:360px;
+    text-align: left;
+    display: block;
+    background-color:none;
+  }
+
+  .slide-btn-image {
+    float: left; margin-right:15px; margin-left:10px; margin-top:5px; width:40px; height:40px;
+  }
+
+  /* rgiht image stlye */
+  .image-box-all {
+    position:absolute;
+    width:500px;
+    height:333px;
+    overflow: hidden;
+  }
+  .image-style {
+    margin-left:10px;
+  }
+
+  .image-box-in {
+    background-color:white;
+    float:left;
+    width:500px;
+    position: absolute;
+    transition: .5s;
+        /* Opera */
+  }
+  .image-box-text {
+    background-color:#6B3BA5;
+    color:white;
+    font-size:18px;
+    font-weight:500;
+    padding:5px;
+    position:absolute;
+    margin-left:10px;
+  }
+</style>
