@@ -234,20 +234,21 @@
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
                 </div>
-
+            </div><br><br>
+            <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
                     </div>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">윤성렬</h3>
-                        <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
+                        <p style="color:gray; font-size:12px;">uEngine Manager & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • MSA DT 마스터플랜 수립 Project<br>
-                        • MSA PoC/ Pilot 수행<br>
+                        • MSA 개발 및 네트워크 인프라 구축<br>
+                        • Domain 분석설계 및 서버 개발 project<br>
                         • 다수 MSA 제안 작업 및 컨설팅 <br>
-                        • 마이크로서비스 교육과정 교안/교재 집필  <br>
+                        • 다수 마이크로서비스 교육 진행  <br>
                         <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 네비웍스 연구소장/상무이사<br>
                         • 現 드림플로우 연구소장/이사<br>

@@ -115,7 +115,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
       margin-top: 80px;
       margin-left: 160px;"
     >
-      <a href="/operation/fundamental/fundamental/" style="color:white; font-weight:700; font-size:14px;">
+      <a href="/operation/cnacourse/schedule/" style="color:white; font-weight:700; font-size:14px;">
         자세히보기
       </a>
     </v-btn>

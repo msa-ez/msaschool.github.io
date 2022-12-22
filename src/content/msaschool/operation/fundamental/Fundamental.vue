@@ -240,7 +240,8 @@
                         • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
                     </div>
                 </div>
-
+            </div><br><br>
+            <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                         <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
