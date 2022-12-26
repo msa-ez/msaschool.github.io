@@ -1,7 +1,85 @@
 <template>
-  <div style=" margin-top:100px; margin-bottom:100px;">
-    <v-row style="background-color:#E9E6F8; padding:30px; padding-left:30px; height:390px;">
-      <div style="float: left;">
+  <div style=" margin-top:100px; margin-bottom:100px; font-family:system-ui,-apple-system;">
+    <SideMarkDown>
+      <v-row style="background-color:#E9E6F8; padding:30px; padding-left:30px; height:390px;">
+        <div style="float: left;">
+          <h2 style="color:rgba(107, 59, 165, 1);
+            font-family:system-ui,-apple-system;
+            line-height:55px;
+            font-size:40px;
+            font-weight:500;
+            margin-bottom:18px;"
+          >험난한  <br/>MSA구축 여정의 <br/> 길라잡이
+          </h2>
+          <div style="position:relative;">
+            <span class="clearfix">
+              <button @click="slideClickBtn1"
+                :style="slideBtn1 == true ? 'background-color:white;':''"
+                class="clearfix main-page-slide-btn"
+                type="button"
+              >BizDevOps 전 과정 지원
+                <g-image class="clearfix slide-btn-image"
+                  src="./img/ic-carousel-3.png"
+                >
+                </g-image>
+              </button>
+
+              <button @click="slideClickBtn2"
+                :style="slideBtn2 == true ? 'background-color:white;':''"
+                class="clearfix main-page-slide-btn"
+                type="button"
+              >EDA기반 핵심 프레임워크
+                <g-image class="clearfix slide-btn-image"
+                  src="./img/ic-carousel-2.png"
+                >
+                </g-image>
+              </button>
+
+              <button @click="slideClickBtn3"
+                :style="slideBtn3 == true ? 'background-color:white;':''"
+                class="clearfix main-page-slide-btn"
+                type="button"
+              >설치 필요없는 학습교구
+                <g-image class="clearfix slide-btn-image"
+                  src="./img/ic-carousel-1.png"
+                >
+                </g-image>
+              </button>
+            </span>
+          </div>
+        </div>
+
+        <div style="font-family:system-ui,-apple-system;">
+          <div class="clearfix image-box-all">
+            <div class="image-box-in" :style="slideBtn1 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+              <div class="image-box-text" style="margin-top:180px;"
+              >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
+              </div>
+              <g-image class="image-style" src="./img/introduction-1.png" />
+            </div>
+
+            <div class="image-box-in" :style="slideBtn2 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+              <div class="image-box-text" style="margin-top:225px;"
+              >Event driven Architecture 기반 최신 마이크로서비스<br/>
+              Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
+              </div>
+              <g-image class="image-style" src="./img/introduction-2.png"/>
+            </div>
+            
+            <div class="image-box-in" :style="slideBtn3 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+              <div class="image-box-text" style="margin-top:270px;"
+              >프로그램 설치가 필요없는<br/>
+              온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
+              </div>
+              <g-image class="image-style" src="./img/introduction-3.png"/>
+            </div>
+          </div>
+        </div>
+      </v-row>
+    </SideMarkDown>
+
+    <MobileMarkDown>
+      <div style="background-color:#E9E6F8; padding:30px; padding-left:30px;">
         <h2 style="color:rgba(107, 59, 165, 1);
           font-family:system-ui,-apple-system;
           line-height:55px;
@@ -10,71 +88,56 @@
           margin-bottom:18px;"
         >험난한  <br/>MSA구축 여정의 <br/> 길라잡이
         </h2>
-        <div style="position:relative;">
-          <span class="clearfix">
-            <button @click="slideClickBtn1"
-              :style="slideBtn1 == true ? 'background-color:white;':''"
-              class="clearfix main-page-slide-btn"
-              type="button"
-            >BizDevOps 전 과정 지원
-              <g-image class="clearfix slide-btn-image"
-                src="./img/ic-carousel-3.png"
-              >
-              </g-image>
-            </button>
 
-            <button @click="slideClickBtn2"
-              :style="slideBtn2 == true ? 'background-color:white;':''"
-              class="clearfix main-page-slide-btn"
-              type="button"
-            >EDA기반 핵심 프레임워크
-              <g-image class="clearfix slide-btn-image"
-                src="./img/ic-carousel-2.png"
-              >
-              </g-image>
-            </button>
-
-            <button @click="slideClickBtn3"
-              :style="slideBtn3 == true ? 'background-color:white;':''"
-              class="clearfix main-page-slide-btn"
-              type="button"
-            >설치 필요없는 학습교구
-              <g-image class="clearfix slide-btn-image"
-                src="./img/ic-carousel-1.png"
-              >
-              </g-image>
-            </button>
-          </span>
-        </div>
-      </div>
-
-      <div style="font-family:system-ui,-apple-system;">
-        <div class="clearfix image-box-all">
-          <div class="image-box-in" :style="slideBtn1 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-            <div class="image-box-text" style="margin-top:180px;"
+        <button @click="mobileClickBtn1"
+          class="clearfix main-page-slide-mobile-btn"
+          type="button"
+        >BizDevOps 전 과정 지원
+          <g-image class="clearfix mobile-btn-image"
+            src="./img/ic-carousel-3.png"
+          >
+          </g-image>
+          <div v-if="mobileBtn1">
+            <div class="mobile-btn-text"
             >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
             </div>
-            <g-image class="image-style" src="./img/introduction-3.png" />
+            <g-image class="mobile-image-style" src="./img/introduction-1.png" />
           </div>
+        </button>
 
-          <div class="image-box-in" :style="slideBtn2 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-            <div class="image-box-text" style="margin-top:225px;"
-            >Event driven Architecture 기반 최신 마이크로서비스<br/>
-            Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
+        <button @click="mobileClickBtn2"
+          class="clearfix main-page-slide-mobile-btn"
+          type="button"
+        >EDA기반 핵심 프레임워크
+          <g-image class="clearfix mobile-btn-image"
+            src="./img/ic-carousel-3.png"
+          >
+          </g-image>
+          <div v-if="mobileBtn2">
+            <div class="mobile-btn-text"
+            >Event driven Architecture 기반 최신 마이크로서비스<br/>Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
             </div>
-            <g-image class="image-style" src="./img/introduction-2.png"/>
+            <g-image class="mobile-image-style" src="./img/introduction-2.png" />
           </div>
-          
-          <div class="image-box-in" :style="slideBtn3 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-            <div class="image-box-text" style="margin-top:270px;"
-            >프로그램 설치가 필요없는<br/>
-            온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
+        </button>
+
+        <button @click="mobileClickBtn3"
+          class="clearfix main-page-slide-mobile-btn"
+          type="button"
+        >설치 필요없는 학습교구
+          <g-image class="clearfix mobile-btn-image"
+            src="./img/ic-carousel-3.png"
+          >
+          </g-image>
+          <div v-if="mobileBtn3">
+            <div class="mobile-btn-text"
+            >프로그램 설치가 필요없는<br/>온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
             </div>
-            <g-image class="image-style" src="./img/introduction-1.png"/>
+            <g-image class="mobile-image-style" src="./img/introduction-3.png" />
           </div>
-        </div>
+        </button>
       </div>
-    </v-row>
+    </MobileMarkDown>
   <div>
 <MobileMarkDown>
     <mark-down class="content">
@@ -361,6 +424,9 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
         slideBtn2:false,
         slideBtn3:false,
         i:0,
+        mobileBtn1:true,
+        mobileBtn2:false,
+        mobileBtn3:false,
       }
     },
     mounted() {
@@ -376,7 +442,6 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
         if(this.i==3) {
           this.i=0
         }
-        console.log(this.i)
       },
       slideClickBtn1() {
         if(this.slideBtn1 == false) {
@@ -397,6 +462,27 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
           this.slideBtn3 = true
           this.slideBtn1 = false
           this.slideBtn2 = false
+        }
+      },
+      mobileClickBtn1() {
+        if(this.mobileBtn1 == false) {
+          this.mobileBtn1 = true
+          this.mobileBtn2 = false
+          this.mobileBtn3 = false
+        }
+      },
+      mobileClickBtn2() {
+        if(this.mobileBtn2 == false) {
+          this.mobileBtn1 = false
+          this.mobileBtn2 = true
+          this.mobileBtn3 = false
+        }
+      },
+      mobileClickBtn3() {
+        if(this.mobileBtn3 == false) {
+          this.mobileBtn1 = false
+          this.mobileBtn2 = false
+          this.mobileBtn3 = true
         }
       },
     }
@@ -438,8 +524,37 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     background-color:none;
   }
 
+  .main-page-slide-mobile-btn {
+    color:rgba(107, 59, 165, 1);
+    line-height:70px;
+    font-size:20px;
+    text-align: left;
+    display: block;
+    width:100%;
+    background-color:white;
+    border-radius: 5px;
+    overflow:hidden;
+    margin-bottom:20px;
+  }
+
+  .mobile-btn-text {
+    font-size:16px; 
+    line-height:20px; 
+    margin:-10px 0px 20px 65px;
+  }
+
   .slide-btn-image {
-    float: left; margin-right:15px; margin-left:10px; margin-top:5px; width:40px; height:40px;
+    float: left;
+    margin:5px 15px 0px 10px;
+    width:40px; 
+    height:40px;
+  }
+
+  .mobile-btn-image {
+    float: left;
+    margin:15px 15px 15px 10px;
+    width:40px; 
+    height:40px;
   }
 
   /* rgiht image stlye */
@@ -451,6 +566,10 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
   }
   .image-style {
     margin-left:10px;
+  }
+
+  .mobile-image-style {
+    width:100%;
   }
 
   .image-box-in {
