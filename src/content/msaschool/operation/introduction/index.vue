@@ -218,154 +218,157 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     </mark-down>
 
     <mark-down class="content">
-### MSA School 교과정 티저영상 보기
+### MSA School 교과정 TUTORIALS 보기
     </mark-down>
-    <v-row class="title-page-card-box-row">
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-ddd-google-drive" target="_blank">
-          <v-card
-            class="title-page-card-box"
+    
+      <v-row style="margin:0;">
+        <!-- 1번 카드 -->
+        <a href="https://www.msaez.io:8081/#/courses/cna-full-english/cna-full-english/en-ddd-google-drive" target="_blank">
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-            <v-img style="height:218px;"
-                src="https://user-images.githubusercontent.com/113568664/203213772-a3e19070-ff12-4ae0-a473-9a3209ea14ae.png">
-            </v-img>
-            <v-card-title class="home-card-title"><br>[Biz] DDD-Eventstorming<br>&nbsp;</v-card-title>
-            <v-card-subtitle>An eventstorming example based on Google Drive scenario</v-card-subtitle>
-          </v-card>
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/113568664/203213772-a3e19070-ff12-4ae0-a473-9a3209ea14ae.png">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Biz] DDD-Eventstorming</div>
+              <div class="tutorials-card-sub-text">An eventstorming example based on Google Drive scenario</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
+
+        <!-- 2번 카드 -->
         <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-cna-start-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-            <v-img style="height:218px;"
+            <g-image class="tutorials-card-image"
                 src="https://user-images.githubusercontent.com/92732781/204985669-873d62f2-4a01-4f9e-98be-46129d499337.png">
-            </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] Running unit Microservice<br>&nbsp;</v-card-title>
-            <v-card-subtitle>A gradual implementation by running Cloud IDE-based unit microservice & mutual test</v-card-subtitle>
-          </v-card>
+            </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] Running unit Microservice</div>
+              <div class="tutorials-card-sub-text">A gradual implementation by running Cloud IDE-based unit microservice & mutual test</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
+
+        <!-- 3번 카드 -->
         <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-monolith-2-misvc-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-            <v-img style="height:218px;"
-                src="https://user-images.githubusercontent.com/92732781/204982558-0fd95334-5fe6-41c9-a4c3-b4e44487c5b6.png">
-            </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] MSA Communication by Req/Res<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Applying synchronous calls between monoliths and microservices or microservices</v-card-subtitle>
-          </v-card>
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/92732781/204982558-0fd95334-5fe6-41c9-a4c3-b4e44487c5b6.png">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] MSA Communication by Req/Res</div>
+              <div class="tutorials-card-sub-text">Applying synchronous calls between monoliths and microservices or microservices</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
+
+        <!-- 4번 카드 -->
         <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-circuit-breaker-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-              <v-img style="height:218px;"
-                  src="https://user-images.githubusercontent.com/113568664/203210885-54bba436-5386-42d8-b743-96d07ddadd5c.png">
-              </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] Circuit Breaker<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Fail-Fast pattern to block fault propagation for synchronous calls between services</v-card-subtitle>
-          </v-card>
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/113568664/209039958-e6e552a0-ebe4-4cd1-b910-93d3565d3326.jpg">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] Circuit Breaker</div>
+              <div class="tutorials-card-sub-text">Fail-Fast pattern to block fault propagation for synchronous calls between services</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
+
+        <!-- 5번 카드 -->
         <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-pub-sub-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-              <v-img style="height:218px;"
-                  src="https://user-images.githubusercontent.com/92732781/204982662-5da60d59-7dea-4518-be98-b18cb7d84ad3.png">
-              </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] Pub-Sub Comunication<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Applying EDA-based message communication with no blocking & isolating disorders</v-card-subtitle>
-          </v-card>
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/113568664/209039949-43538ca4-afb2-4801-b84b-bc999dedfdf3.jpg">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] Pub-Sub Comunication</div>
+              <div class="tutorials-card-sub-text">Applying EDA-based message communication with no blocking & isolating disorders</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
+        
+        <!-- 6번 카드 -->
         <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-compensation-correlation-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-              <v-img style="height:218px;"
+              <g-image class="tutorials-card-image"
                   src="https://user-images.githubusercontent.com/92732781/204985478-f50759b3-8a36-4511-b7b2-de03e2be5f2a.png">
-              </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] Compensation & Correlation<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Matching consistency by compensation when transaction fails at MSA environment</v-card-subtitle>
-          </v-card>
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] Compensation & Correlation</div>
+              <div class="tutorials-card-sub-text">Matching consistency by compensation when transaction fails at MSA environment</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
+        
+        <!-- 7번 카드 -->
         <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-Oauth2withKeycloak" target="_blank">
-          <v-card
-            class="title-page-card-box"
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-            <v-img style="height:218px;"
-                src="https://user-images.githubusercontent.com/113568664/203212144-8df8a89b-e236-4ee3-9db0-99f1d0fe6601.png">
-            </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] JWT Token-based Authorization<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Applying total Single-Sign-On pattern for certification & authorization of microservices</v-card-subtitle>
-          </v-card>
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/113568664/203212144-8df8a89b-e236-4ee3-9db0-99f1d0fe6601.png">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] JWT Token-based Authorization</div>
+              <div class="tutorials-card-sub-text">Applying total Single-Sign-On pattern for certification & authorization of microservices</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-frontend-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
+        
+        <!-- 8번 카드 -->
+        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-graphql-2022" target="_blank">
+          <div
+            class="clearfix tutorials-card-box"
             outlined
           >
-            <v-img style="height:218px;"
-                src="https://user-images.githubusercontent.com/113568664/203211175-8ddee4f9-30f2-42c6-bdcb-ea54be501baa.png">
-            </v-img>
-            <v-card-title class="home-card-title"><br>[Dev] Data Projection w/ Frontend & HATEOAS<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Implementing HATEOAS API to deliver a link for state transition & Frontend based on it</v-card-subtitle>
-          </v-card>
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/113568664/203211175-8ddee4f9-30f2-42c6-bdcb-ea54be501baa.png">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] Data Projection w/ Frontend & HATEOAS</div>
+              <div class="tutorials-card-sub-text">Implementing HATEOAS API to deliver a link for state transition & Frontend based on it</div>
+            </div>
+          </div>
         </a>
-      </v-col>
-      <v-col
+        
+        <!-- 9번 카드 -->
+        <a href="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png" target="_blank">
+          <div
+            class="clearfix tutorials-card-box"
+            outlined
+          >
+              <g-image class="tutorials-card-image"
+                  src="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">[Dev] Data Projection w/ GraphQL</div>
+              <div class="tutorials-card-sub-text">Creating GraphQL-based backend application for data composition</div>
+            </div>
+          </div>
+        </a>
+      </v-row>
+
+
+      <!-- <v-col
         lg="4"
         md="6"
         sm="12"
@@ -375,15 +378,14 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             class="title-page-card-box"
             outlined
           >
-            <v-img style="height:218px;"
+            <g-image style="height:218px;"
                 src="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png">
-            </v-img>
+            </g-image>
             <v-card-title class="home-card-title"><br>[Dev] Data Projection w/ GraphQL<br>&nbsp;</v-card-title>
             <v-card-subtitle>Creating GraphQL-based backend application for data composition</v-card-subtitle>
           </v-card>
         </a>
-      </v-col>
-    </v-row>
+      </v-col> -->
 
     <v-btn style="background-color:#5a67d8 !important;
       text-align:center !important;
@@ -469,6 +471,8 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
           this.mobileBtn1 = true
           this.mobileBtn2 = false
           this.mobileBtn3 = false
+        } else {
+          this.mobileBtn1 = false
         }
       },
       mobileClickBtn2() {
@@ -476,6 +480,8 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
           this.mobileBtn1 = false
           this.mobileBtn2 = true
           this.mobileBtn3 = false
+        } else {
+          this.mobileBtn2 = false
         }
       },
       mobileClickBtn3() {
@@ -483,6 +489,8 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
           this.mobileBtn1 = false
           this.mobileBtn2 = false
           this.mobileBtn3 = true
+        } else {
+          this.mobileBtn3 = false
         }
       },
     }
@@ -495,17 +503,6 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
   .title-page-card-box {
     padding: 0;
     margin-bottom: 30px;
-  }
-
-  .home-card-title {
-    text-align: left;
-    display: block;
-    line-height: 10px;
-    font-size: 15px;
-  }
-
-  .title-page-card-box-row {
-    margin-top:40px;
   }
 
   button:focus{ 	
@@ -589,4 +586,33 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     position:absolute;
     margin-left:10px;
   }
+
+  .tutorials-card-box {
+    border:solid 1px #E2E8F0;
+    border-radius: 5px;
+    padding:10px;
+    margin:10px 0 0 10px;
+    width:200px;
+    height:300px;
+  }
+
+  .tutorials-card-image {
+    height:100px;
+    width:180px;
+    margin-right:10px;
+    margin-bottom:10px;
+  }
+
+  .tutorials-card-main-text {
+    font-size:14px;
+    font-weight:900;
+  }
+
+  .tutorials-card-sub-text {
+    font-size:12px;
+    margin-top:20px;
+    color:#757575;
+  }
+
+  
 </style>
