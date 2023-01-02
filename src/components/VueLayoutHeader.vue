@@ -72,7 +72,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'http://www.msaschool.io/operation/education/curriculum/'"
+                        :href="'http://www.msaschool.io/operation/cnacourse/schedule/'"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
                 </div>

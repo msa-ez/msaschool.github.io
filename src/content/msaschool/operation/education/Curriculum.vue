@@ -214,7 +214,7 @@
         line-height:36px !important;
         font-size:15px;
         border-radius: 5px;
-        border:0.5px black solid;
+        border:3px black solid;
         margin-top: -20px;
         padding-bottom: 37px;
     }

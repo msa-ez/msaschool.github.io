@@ -199,7 +199,7 @@
         line-height:36px !important;
         font-size:15px;
         border-radius: 5px;
-        border:black solid;
+        border:3px black solid;
         padding-bottom: 37px;
     }
     .enterprise-cost-text {
