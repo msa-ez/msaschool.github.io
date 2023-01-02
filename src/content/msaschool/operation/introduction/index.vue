@@ -229,7 +229,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/203213772-a3e19070-ff12-4ae0-a473-9a3209ea14ae.png">
+                  src="https://user-images.githubusercontent.com/113568664/210196675-86b2e747-84be-4dcf-864c-57b5ac3add9a.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Biz] DDD-Eventstorming</div>
@@ -245,7 +245,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
             <g-image class="tutorials-card-image"
-                src="https://user-images.githubusercontent.com/92732781/204985669-873d62f2-4a01-4f9e-98be-46129d499337.png">
+                src="https://user-images.githubusercontent.com/113568664/210196679-54676c44-dfd6-4f02-a09d-8510e5bbf920.jpg">
             </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Running unit Microservice</div>
@@ -261,7 +261,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/204982558-0fd95334-5fe6-41c9-a4c3-b4e44487c5b6.png">
+                  src="https://user-images.githubusercontent.com/113568664/210196680-cb5df0da-24c4-49cd-a9c2-1d70f880babb.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] MSA Communication by Req/Res</div>
@@ -277,7 +277,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/209039958-e6e552a0-ebe4-4cd1-b910-93d3565d3326.jpg">
+                  src="https://user-images.githubusercontent.com/113568664/210198216-1a461dcd-7bef-46eb-ba0e-c854beb2e73f.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Circuit Breaker</div>
@@ -293,7 +293,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/209039949-43538ca4-afb2-4801-b84b-bc999dedfdf3.jpg">
+                  src="https://user-images.githubusercontent.com/113568664/210198212-f3cc5b1b-a554-4c1f-952e-9bad8f48b78d.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Pub-Sub Comunication</div>
@@ -309,7 +309,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/204985478-f50759b3-8a36-4511-b7b2-de03e2be5f2a.png">
+                  src="https://user-images.githubusercontent.com/113568664/210196681-98f31119-280f-4924-8c11-3f1fdc04293c.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Compensation & Correlation</div>
@@ -325,7 +325,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/203212144-8df8a89b-e236-4ee3-9db0-99f1d0fe6601.png">
+                  src="https://user-images.githubusercontent.com/113568664/210196687-71ac6280-0d12-419f-bec4-4a2c9a29f34d.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] JWT Token-based Authorization</div>
@@ -335,13 +335,13 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
         </a>
         
         <!-- 8번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-graphql-2022" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-frontend-2022" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/203211175-8ddee4f9-30f2-42c6-bdcb-ea54be501baa.png">
+                  src="https://user-images.githubusercontent.com/113568664/210196685-7c173cef-9cdf-4764-9b3e-7d547cf7ceec.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Data Projection w/ Frontend & HATEOAS</div>
@@ -351,13 +351,13 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
         </a>
         
         <!-- 9번 카드 -->
-        <a href="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-graphql-2022" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png">
+                  src="https://user-images.githubusercontent.com/113568664/210196682-261e3f7d-827b-4599-a918-cfba8aa29c22.jpg">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Data Projection w/ GraphQL</div>
@@ -597,7 +597,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
   }
 
   .tutorials-card-image {
-    height:100px;
+    height:115px;
     width:180px;
     margin-right:10px;
     margin-bottom:10px;
