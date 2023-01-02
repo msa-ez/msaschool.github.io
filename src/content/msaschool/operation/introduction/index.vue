@@ -17,7 +17,7 @@
                 :style="slideBtn1 == true ? 'background-color:white;':''"
                 class="clearfix main-page-slide-btn"
                 type="button"
-              >BizDevOps 전 과정 지원
+              >BizDevOps 풀 라이프사이클 지원
                 <g-image class="clearfix slide-btn-image"
                   src="./img/ic-carousel-3.png"
                 >
@@ -28,7 +28,7 @@
                 :style="slideBtn2 == true ? 'background-color:white;':''"
                 class="clearfix main-page-slide-btn"
                 type="button"
-              >EDA기반 핵심 프레임워크
+              >DDD, EDA기반 핵심 프레임워크 활용
                 <g-image class="clearfix slide-btn-image"
                   src="./img/ic-carousel-2.png"
                 >
@@ -39,7 +39,7 @@
                 :style="slideBtn3 == true ? 'background-color:white;':''"
                 class="clearfix main-page-slide-btn"
                 type="button"
-              >설치 필요없는 학습교구
+              >설치가 필요없는 학습교구 지원  
                 <g-image class="clearfix slide-btn-image"
                   src="./img/ic-carousel-1.png"
                 >
@@ -92,7 +92,7 @@
         <button @click="mobileClickBtn1"
           class="clearfix main-page-slide-mobile-btn"
           type="button"
-        >BizDevOps 전 과정 지원
+        >BizDevOps 풀 라이프사이클 지원
           <g-image class="clearfix mobile-btn-image"
             src="./img/ic-carousel-3.png"
           >
@@ -108,7 +108,7 @@
         <button @click="mobileClickBtn2"
           class="clearfix main-page-slide-mobile-btn"
           type="button"
-        >EDA기반 핵심 프레임워크
+        >DDD, EDA기반 핵심 프레임워크 활용
           <g-image class="clearfix mobile-btn-image"
             src="./img/ic-carousel-3.png"
           >
@@ -124,7 +124,7 @@
         <button @click="mobileClickBtn3"
           class="clearfix main-page-slide-mobile-btn"
           type="button"
-        >설치 필요없는 학습교구
+        >설치가 필요없는 학습교구 지원
           <g-image class="clearfix mobile-btn-image"
             src="./img/ic-carousel-3.png"
           >
@@ -170,18 +170,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     ></g-image>
 </SideMarkDown>
 
-    <v-btn style="background-color:#5a67d8 !important;
-      text-align:center !important;
-      width:80px;
-      height: 25px;
-      position: absolute;
-      margin-top: 80px;
-      margin-left: 160px;"
-    >
-      <a href="/operation/cnacourse/schedule/" style="color:white; font-weight:700; font-size:14px;">
-        자세히보기
-      </a>
-    </v-btn>
+    
     <mark-down class="content">
 ### MSA School 에는
 **클라우드 네이티브 전문가가 되는 체계적인 최고의 커리큘럼이 준비되어 있습니다.**
@@ -195,6 +184,18 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
 **- Advanced Course**
 &nbsp;&nbsp;&nbsp;EDA기반 확장 Eventstorming, 전용 프레임워크 및 통신 프로토콜 포함 GitOps, 서버리스 등 자동으로 관리되는 Container 배포 및 운영
     </mark-down>
+    <v-btn style="background-color:#5a67d8 !important;
+      text-align:center !important;
+      width:80px;
+      height: 25px;
+      position: absolute;
+      margin-top: 10px;
+      right:320px;"
+    >
+      <a href="/operation/cnacourse/schedule/" style="color:white; font-weight:700; font-size:14px;">
+        자세히보기
+      </a>
+    </v-btn>
 
     <mark-down class="content">
 ### MSA School 교과정은
@@ -393,7 +394,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
       height: 25px;
       position: absolute;
       margin-top: 80px;
-      margin-left: 195px;"
+      margin-left: 200px;"
     >
       <a href="https://www.facebook.com/groups/cloudswmoding/" target="_blank" style="color:white; font-weight:700; font-size:14px;">
         자세히보기
@@ -515,7 +516,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     height:50px;
     line-height:50px;
     font-size:20px;
-    width:360px;
+    width:400px;
     text-align: left;
     display: block;
     background-color:none;

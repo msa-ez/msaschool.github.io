@@ -32,7 +32,7 @@ export default {
         innerWidth() {
             var me = this
             if (typeof window != 'undefined') {
-                if (window.innerWidth <= 1263) {
+                if (window.innerWidth <= 1300) {
                     me.small = true
                 } else {
                     me.small = false
