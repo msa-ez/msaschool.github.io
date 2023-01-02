@@ -223,7 +223,7 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     
       <v-row style="margin:0;">
         <!-- 1번 카드 -->
-        <a href="https://www.msaez.io:8081/#/courses/cna-full-english/cna-full-english/en-ddd-google-drive" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-ddd-google-drive" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
