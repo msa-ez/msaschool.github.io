@@ -187,7 +187,7 @@
         font-size:26px;
     }
     .card-subtitle {
-        font-size:20px;
+        font-size:16px;
         font-weight:900;
         opacity:0.9;
         padding-left:5px;
@@ -214,7 +214,7 @@
         line-height:36px !important;
         font-size:15px;
         border-radius: 5px;
-        border:black solid;
+        border:0.5px black solid;
         margin-top: -20px;
         padding-bottom: 37px;
     }
@@ -279,7 +279,7 @@
             float:left;
         }
         .card-subtitle {
-            font-size:20px;
+            font-size:16px;
             font-weight:900;
             opacity:0.9;
             padding-left:5px;
