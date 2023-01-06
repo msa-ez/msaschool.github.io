@@ -9,7 +9,9 @@
             font-size:40px;
             font-weight:500;
             margin-bottom:18px;"
-          >험난한  <br/>MSA구축 여정의 <br/> 길라잡이
+          >클라우드 네이티브 앱
+            <br/>구현의 전문 배움터
+            <br/>CNA Best Partner 
           </h2>
           <div style="position:relative;">
             <span class="clearfix">
@@ -86,7 +88,9 @@
           font-size:40px;
           font-weight:500;
           margin-bottom:18px;"
-        >험난한  <br/>MSA구축 여정의 <br/> 길라잡이
+        >클라우드 네이티브 앱
+          <br/>구현의 전문 배움터
+          <br/>CNA Best Partner 
         </h2>
 
         <button @click="mobileClickBtn1"
@@ -139,87 +143,158 @@
       </div>
     </MobileMarkDown>
   <div>
-<MobileMarkDown>
     <mark-down class="content">
 ### MSA School 은
-**마이크로서비스 시장을 선도할 클라우드 네이티브 전문가 양성을 교육 목표로 합니다.**
+**MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.**
 
-MSA School은 분석, 설계에서 구현, 배포에 이르는 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
+MSA School은 분석, 설계에서 구현, 배포까지 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
+Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서비스 구현에 필수인 전용 프레임워크(Eventuate, Axon 등)와 최신 MSA 기술이 반영된 실습코드로 MSA School은 항상 진화합니다.
 
-Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서비스 구현에 필수인 전용 프레임워크(Eventuate, Axon 등)와 최신 MSA 아키텍처 기술이 반영된 실습코드로 MSA School은 항상 진화합니다.
+모든 CNA 교과정은 로컬에 SW 설치없이 웹 브라우저에서 수강가능합니다. 브라우저 상에서 Domain driven Design(도메인 주도 설계)기반 분석/설계 도구인 이벤트스토밍(Eventstorming)으로 설계된 도메인 모델은 다양한 언어(Axon, Eventuate, Go, Nodejs, Python, Spring-boot, Custom Language)로 CNA Code가 생성되고, 클라우드 IDE 도구인 GitPod와 자동 연계됩니다.
 
-마이크로서비스 현장 경험, 축적된 전문 지식 및 MSA School 이 제공하는 편리한 학습 환경으로 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 재방문하고 있습니다.
- </mark-down>
-    <g-image style="margin-bottom: -50px; margin-top:10px; margin-bottom:10px;"
-                src="~/img/01_Introduction/01_소개/image1.png"
-        ></g-image>
-</MobileMarkDown>
-<SideMarkDown>
-    <mark-down class="content">
-### MSA School 은
-**마이크로서비스 시장을 선도할 클라우드 네이티브 전문가 양성을 교육 목표로 합니다.**
+MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현장 경험 및 질높은 교육 후기로 인해, 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 통해 CNA를 학습하고 재방문의 발길이 꾸준하게 이어지고 있습니다.
 
-MSA School은 분석, 설계에서 구현, 배포에 이르는 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
-
-Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서비스 구현에 필수인 전용 프레임워크(Eventuate, Axon 등)와 최신 MSA 아키텍처 기술이 반영된 실습코드로 MSA School은 항상 진화합니다.
-
-마이크로서비스 현장 경험, 축적된 전문 지식 및 MSA School 이 제공하는 편리한 학습 환경으로 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 재방문하고 있습니다.
     </mark-down>
-    <g-image src="~/img/01_Introduction/01_소개/image1.png"
-      style = "margin-left:50px; height:380px !important; margin-top:80px;"
-    ></g-image>
-</SideMarkDown>
 
     
     <mark-down class="content">
 ### MSA School 에는
-**클라우드 네이티브 전문가가 되는 체계적인 최고의 커리큘럼이 준비되어 있습니다.**
-
-**- Fundamental Course**
-&nbsp;&nbsp;&nbsp;Monolith/ VM 기반 Web Application 개발자를 위한 과정
-
-**- Intermediate Course**
-&nbsp;&nbsp;&nbsp;Event driven MSA 기반 현장에 곧바로 적용 가능하며 차별화 될 수 있는 MSA/EDA 노하우 수록 Container기반 가용성,회복성,탄력성을 위한 DevOps 엔지니어링
-
-**- Advanced Course**
-&nbsp;&nbsp;&nbsp;EDA기반 확장 Eventstorming, 전용 프레임워크 및 통신 프로토콜 포함 GitOps, 서버리스 등 자동으로 관리되는 Container 배포 및 운영
+**클라우드 네이티브 전문가가 되는 체계적인 업계 최고 커리큘럼이 준비되어 있습니다. 또한, 수강하시는 기업을 위해 다양하게 스케줄링된 학습 유형을 제공합니다.**
     </mark-down>
-    <v-btn style="background-color:#5a67d8 !important;
-      text-align:center !important;
-      width:80px;
-      height: 25px;
-      position: absolute;
-      margin-top: 10px;
-      right:320px;"
-    >
-      <a href="/operation/cnacourse/schedule/" style="color:white; font-weight:700; font-size:14px;">
-        자세히보기
-      </a>
-    </v-btn>
+    <br>
+    <div>
+        <div style = "font-size:16px; font-weight: 600;">CNA 개발자 연수과정</div>
+        <table class="gs-table-default gs-table-default">
+            <th class="main-table-title"> </th>
+            <th class="main-table-title">Fundamental</th>
+            <th class="main-table-title">Intermediate</th>
+            <th class="main-table-title">Advanced</th>
+            <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+                <td>
+                    • Object Oriented Design<br>
+                    - OOP Design Principles<br><br>
+                    • UML & Design Patterns
+                </td>
+                <td>
+                    • Eventstorming<br>
+                    - Eventstorming E-Commerce Domain<br>
+                    - Big picture & Design level Eventstorming<br>
+                    - Context Mapping, CQRS<br><br>
+                    
+                    • Aggregate Modeling<br>
+                    -  Entity Design with Class Diagrams
+                </td>
+                <td>
+                    • Eventstorming for various Domains<br><br>
+                    • Core-supporting-generic domain prioritization<br>
+                    - Wardlley mapping, Impact mapping<br><br>
+                    
+                    • 중요도에 따른 구현 전략<br>
+                    - Transaction Script<br><br>
+                    • Apply Ubiquitous Language 
+                </td>
+            </tr>
+            <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+                <td>
+                    • Obejct Oriented Programming<br>
+                    - Object Oriented Framework<br>
+                    - Spring boot, JDBC and JPA<br>
+                    - Web UI (VueJS)<br><br>
+                    • Understanding GitHub & GitPod<br><br>
+                    • Build automation tool<br>
+                    - Maven, Gradle<br><br>
+                    • Linux OS Basics
+                </td>
+                <td>
+                    • Microservice Clean Architecture<br>
+                    - ES Model and Implementation mapping<br><br>
+                    • Circuit Breaker Pattern<br>
+                    - Req/Res with FeignClient<br><br>
+                    • Event driven Microservice<br>
+                    - Event Pub/Sub, Compensation & CQRS<br><br>
+                    • Message Broker – Kafka<br><br>
+                    • Application Packaging & Dockerizing
+                </td>
+                <td>
+                    • Extending Event driven Microservice<br>
+                    - 멱등성, 트랜잭션, Kafka Parallel Processing, Deadline 처리<br>
+                    - Dedicated Framework (Eventuate, Axon)<br><br>
+                    • Inter-service communication<br>
+                    - CDC, gRPC Client/Server, Spring Reactive<br><br>
+                    • Microservice Authentication/ Authorization<br>
+                    - Centralized Session (Redis, Memcached)<br>
+                    - Client Token (JWT)
+                </td>
+            </tr>
+            <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+                <td>
+                    • Cloud Infra, VM<br>
+                    - CSP introduction<br>
+                    - VM managed Service<br><br>
+                    • Deploy to VM<br>
+                    - VM, Dabase provisioning<br>
+                    - Deploy to Cloud VM
+                </td>
+                <td>
+                    • Cloud Software Platform, Docker<br><br>
+                    • Kubernetes 인 액션<br>
+                    - Kubernetes SLA features & Telemetry<br>
+                    - Deploy manifests Diagramming<br><br>
+                    • Service Mesh (Istio)<br>
+                    - Traffic Management (Retry, Timeout, Circuit breaker)<br><br>
+                    • DevOps Pipeline (Jenkins, CSP managed)
+                </td>
+                <td>
+                    • Service Mesh deep dive<br>
+                    - Security, Monitoring, EnvoyFilter, Tracing<br><br>
+                    • GitOps Methodology<br>
+                    - Workflow with Jenkins & ArgoCD<br>
+                    - Canary Deployment with Canary Scoring<br><br>
+                    • Serverless<br>
+                    - Knative, Tekton 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <div style="text-align:center;">
+                        <a href="/operation/fundamental/fundamental/">
+                            <button class="table-details-btn">세부사항</button>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align:center;">
+                        <a href="/operation/education/curriculum/">
+                            <button class="table-details-btn">세부사항</button>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align:center;">
+                        <a href="/operation/advanced/advanced/">
+                            <button class="table-details-btn">세부사항</button>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div style="margin-top:20px; display:inline-flex;">
+            <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
+            <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+            <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">카카오톡 오픈채팅</a>
+        </div>
 
+        <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
+    </div>
+    
     <mark-down class="content">
-### MSA School 교과정은
-**수강하는 교육생들의 환경과 비용에 최적화된 학습유형을 제공합니다.**
-
-**- Quick Type**
-&nbsp;&nbsp;&nbsp;마이크로서비스를 처음 접하거나 향후 도입 예정인 기업을 위한 MSA, 클라우드 네이티브 앱에 대한 개념 정립을 위한 Half-day
-
-**- Standard Type**
-&nbsp;&nbsp;&nbsp;마이크로서비스 모델링에서 클라우드 네이티브 앱 구현까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 유형
-
-**- Flipped Type**
-&nbsp;&nbsp;&nbsp;Standard CNA 과정 중 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고 Dev/Ops Part는 영상 학습 후, 보조강사가 실습을 주도하는 유형
-
-**- One Point Lesson**
-&nbsp;&nbsp;&nbsp;MSA를 적용하려는 기업이나, 컨설팅을 수행하려는 업체가 주도적으로 선정한 도메인 주제를 기반으로 인터랙티브하게 진행되는 MSA 교육
-
-**- Enterprise type**
-&nbsp;&nbsp;&nbsp;마이크로서비스의 전 과정을 심도있게 학습할 수 있는 과정으로 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 유형
-
-    </mark-down>
-
-    <mark-down class="content">
-### MSA School 교과정 TUTORIALS 보기
+### MSA School 교과정 맛보기
     </mark-down>
     
       <v-row style="margin:0;">
@@ -388,27 +463,55 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
         </a>
       </v-col> -->
 
-    <v-btn style="background-color:#5a67d8 !important;
-      text-align:center !important;
-      width:80px;
-      height: 25px;
-      position: absolute;
-      margin-top: 80px;
-      margin-left: 200px;"
-    >
-      <a href="https://www.facebook.com/groups/cloudswmoding/" target="_blank" style="color:white; font-weight:700; font-size:14px;">
-        자세히보기
-      </a>
-    </v-btn>
-
     <mark-down class="content">
-### MSA School 커뮤니티
-**MSA and DDD Software modeling - 마이크로서비스와 도메인 주도 SW 모델링**
+### MSA School 패밀리 사이트
     </mark-down>
-    <g-image src="~/img/05_Community/06_커뮤니티/image1.png"></g-image>
-
+      
+    <div class="basics-box clearfix" style="margin-top:10px;">
+        <div class="main-card-box">
+          <div style="font-size:20px; font-weight:900;">커뮤니티</div>
+          <div style="font-size:14px; opacity:0.8;">MSA and DDD Software modeling <br/>- 마이크로서비스와 도메인 주도 SW 모델링
+            <br><br>설립년도 : 2015년
+            <br><br>맴버 : 2.5천명 (2023. 01 현재)
+            <br><br>주소 : https://www.facebook.com/groups/cloudswmoding/
+            
+          </div>
+          <div style="text-align:center; margin-top:40px;">
+            <a href="/operation/education/quick-understanding-cna/">
+              <button class="main-card-details-btn">세부사항</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="main-card-box">
+          <div style="font-size:20px; font-weight:900;">학습교구</div>
+          <div style="font-size:14px; opacity:0.8;">MSA Easy - The fastest way to build event-driven microservices
+            <br><br>EventStorming to Code Generator.
+            <br><br>주소 : https://intro-kor.msaez.io/
+          </div>
+          <br><br>
+          <div style="text-align:center; margin-top:35px;">
+            <a href="https://intro-kor.msaez.io/">
+              <button class="main-card-details-btn">세부사항</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="main-card-box">
+          <div style="font-size:20px; font-weight:900;">교육플랫폼</div>
+          <div style="font-size:14px; opacity:0.8;">오픈강좌 자유열람, 진행중 온라인 CNA 강좌 운영중
+            <br><br>설치가 필요없는 학습교구
+            <br><br>주소 : https://labs.msaez.io/#/courses
+          </div>
+          <div style="text-align:center; margin-top:105px;">
+            <a href="https://labs.msaez.io/#/courses">
+              <button class="main-card-details-btn">세부사항</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -501,9 +604,35 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
 <style>
   .clearfix::after{content:""; display:block; clear:both;}
 
+  .main-table-title {
+      line-height:40px;
+      text-align:center;
+      background-color:#5a67d8;
+      color:white;
+      border-radius:0 0 0 0;
+      font-weight:600;
+      height:40px;
+      font-size:20px;
+  }
+
+
+  .main-table-subtitle {
+    font-size:16px;
+    font-weight:700;
+    opacity:0.9;
+    padding-left:5px;
+    height:30px;
+    margin-top:16px;
+    line-height:15px;
+  }
+
   .title-page-card-box {
     padding: 0;
     margin-bottom: 30px;
+  }
+
+  .gs-table-default td {
+    font-size:14px;
   }
 
   button:focus{ 	
@@ -615,5 +744,25 @@ Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서
     color:#757575;
   }
 
+  .main-card-box {
+    width:32.5%;
+    height:300px;
+    margin-right:0.5%;
+    margin-bottom: 6px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    float:left;    
+    padding:15px;
+  }
+
+  .main-card-details-btn {
+    width:110px !important;
+    height:36px !important;
+    text-align : center !important;
+    font-size:15px;
+    border-radius: 5px;
+    border:3px black solid;
+  }
   
 </style>

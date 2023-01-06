@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Standard CNA(Fundamental) 과정</h2><br>
+            <h2 style="display:inline-block !important;">Fundamental Standard 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text

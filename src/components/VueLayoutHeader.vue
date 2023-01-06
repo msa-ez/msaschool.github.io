@@ -15,17 +15,16 @@
                 <!--                </div>-->
 
 
-                <div class="flex flex-col items-center  sm:flex-row" style="margin-left:5%; place-self:center; ">
+                <div class="flex flex-col items-center  sm:flex-row" style="margin-left:40px; place-self:center; ">
                     <!--                <div class="flex flex-col items-center px-3  mr-auto  sm:flex-row" style="margin-left:5%;">-->
                     <g-link
                             to="/operation/introduction/"
                             title="Home"
-                            style="margin-right: 30px;"
                     >
                         <Logo/>
                     </g-link>
                     <ClientOnly>
-                        <VueSearch v-if="!isSmall"></VueSearch>
+                        <VueSearch style="margin-left:235px;" v-if="!isSmall"></VueSearch>
                     </ClientOnly>
 
                 </div>
