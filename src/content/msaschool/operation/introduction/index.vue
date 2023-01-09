@@ -1,7 +1,7 @@
 <template>
-  <div style=" margin-top:100px; margin-bottom:100px; font-family:system-ui,-apple-system;">
+  <div style="margin:70px 0px 0px 0px; font-family:system-ui,-apple-system;">
     <SideMarkDown>
-      <v-row style="background-color:#E9E6F8; padding:30px; padding-left:30px; height:390px;">
+      <v-row style="background-color:#E9E6F8; padding:30px; padding-left:30px; height:390px; margin-left:10px;">
         <div style="float: left;">
           <h2 style="color:rgba(107, 59, 165, 1);
             font-family:system-ui,-apple-system;
@@ -143,7 +143,7 @@
       </div>
     </MobileMarkDown>
   <div>
-    <mark-down class="content">
+    <mark-down class="content" style="margin-top:-40px;">
 ### MSA School 은
 **MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.**
 
@@ -156,8 +156,10 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
 
     </mark-down>
 
+    <g-image style="margin:0 auto; width:700px;" src="./img/number1.png"></g-image>
+
     
-    <mark-down class="content">
+    <mark-down class="content" style="margin-top:-50px;">
 ### MSA School 에는
 **클라우드 네이티브 전문가가 되는 체계적인 업계 최고 커리큘럼이 준비되어 있습니다. 또한, 수강하시는 기업을 위해 다양하게 스케줄링된 학습 유형을 제공합니다.**
     </mark-down>
@@ -293,7 +295,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
     </div>
     
-    <mark-down class="content">
+    <mark-down style="margin-top:-50px;" class="content">
 ### MSA School 교과정 맛보기
     </mark-down>
     
@@ -463,11 +465,11 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
       </v-col> -->
 
-    <mark-down class="content">
+    <mark-down style="margin-top:-50px;" class="content">
 ### MSA School 패밀리 사이트
     </mark-down>
       
-    <div class="basics-box clearfix" style="margin-top:10px;">
+    <div class="basics-box clearfix" style="margin:10px 0px 50px 0px;">
         <div class="main-card-box">
           <div style="font-size:20px; font-weight:900;">커뮤니티</div>
           <div style="font-size:14px; opacity:0.8;">MSA and DDD Software modeling <br/>- 마이크로서비스와 도메인 주도 SW 모델링
@@ -478,7 +480,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
           </div>
           <div style="text-align:center; margin-top:40px;">
             <a href="/operation/education/quick-understanding-cna/">
-              <button class="main-card-details-btn">세부사항</button>
+              <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
         </div>
@@ -492,7 +494,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
           <br><br>
           <div style="text-align:center; margin-top:35px;">
             <a href="https://intro-kor.msaez.io/">
-              <button class="main-card-details-btn">세부사항</button>
+              <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
         </div>
@@ -505,7 +507,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
           </div>
           <div style="text-align:center; margin-top:105px;">
             <a href="https://labs.msaez.io/#/courses">
-              <button class="main-card-details-btn">세부사항</button>
+              <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
         </div>

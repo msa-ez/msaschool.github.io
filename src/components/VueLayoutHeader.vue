@@ -20,11 +20,12 @@
                     <g-link
                             to="/operation/introduction/"
                             title="Home"
+                            style="margin-right:235px;"
                     >
                         <Logo/>
                     </g-link>
                     <ClientOnly>
-                        <VueSearch style="margin-left:235px;" v-if="!isSmall"></VueSearch>
+                        <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
 
                 </div>
@@ -64,7 +65,7 @@
                     </div>  -->
                     <v-btn style="background-color:#5a67d8 !important;
                         border-radius: 4px;
-                        margin-left:-10px;
+                        margin-right:-15px;
                         height: 36px;
                         width: 120px;
                         text-align: center;
