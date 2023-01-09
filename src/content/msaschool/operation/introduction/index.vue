@@ -311,7 +311,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Biz] DDD-Eventstorming</div>
-              <div class="tutorials-card-sub-text">An eventstorming example based on Google Drive scenario</div>
+              <div class="tutorials-card-sub-text">Eventstorming example based on Google Drive scenario</div>
             </div>
           </div>
         </a>
@@ -327,7 +327,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Running unit Microservice</div>
-              <div class="tutorials-card-sub-text">A gradual implementation by running Cloud IDE-based unit microservice & mutual test</div>
+              <div class="tutorials-card-sub-text">Gradual implementation by running Cloud IDE-based unit microservices & mutual test</div>
             </div>
           </div>
         </a>
@@ -343,7 +343,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] MSA Communication by Req/Res</div>
-              <div class="tutorials-card-sub-text">Applying synchronous calls between monoliths and microservices or microservices</div>
+              <div class="tutorials-card-sub-text">Applying synchronous calls between monoliths and microservices, or between microservices</div>
             </div>
           </div>
         </a>
@@ -355,11 +355,11 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210198216-1a461dcd-7bef-46eb-ba0e-c854beb2e73f.jpg">
+                  src="https://user-images.githubusercontent.com/92732781/210290183-92e33c47-2ff1-42cb-82b7-8b2c1dfc354d.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Circuit Breaker</div>
-              <div class="tutorials-card-sub-text">Fail-Fast pattern to block fault propagation for synchronous calls between services</div>
+              <div class="tutorials-card-sub-text">Fail-Fast strategy pattern to block failure propagation in advance in synchronous communication between services</div>
             </div>
           </div>
         </a>
@@ -371,11 +371,11 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210198212-f3cc5b1b-a554-4c1f-952e-9bad8f48b78d.jpg">
+                  src="https://user-images.githubusercontent.com/92732781/210290182-fdc78b74-0eb7-418b-b8d5-3b01556fb3fe.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Pub-Sub Comunication</div>
-              <div class="tutorials-card-sub-text">Applying EDA-based message communication with no blocking & isolating disorders</div>
+              <div class="tutorials-card-sub-text">Applying EDA-based message communication with non-blocking & fault isolation</div>
             </div>
           </div>
         </a>
@@ -387,11 +387,11 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210196681-98f31119-280f-4924-8c11-3f1fdc04293c.jpg">
+                  src="https://user-images.githubusercontent.com/92732781/210290401-5d8f0f0d-a210-4a5c-9ca8-8de7b69f91a2.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Compensation & Correlation</div>
-              <div class="tutorials-card-sub-text">Matching consistency by compensation when transaction fails at MSA environment</div>
+              <div class="tutorials-card-sub-text">Managing consistency by compensation handling when transaction fails in MSA environment</div>
             </div>
           </div>
         </a>
@@ -403,11 +403,11 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210196687-71ac6280-0d12-419f-bec4-4a2c9a29f34d.jpg">
+                  src="https://user-images.githubusercontent.com/92732781/210290187-812f55d6-8f90-40d8-aa6b-e7f307fd5602.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] JWT Token-based Authorization</div>
-              <div class="tutorials-card-sub-text">Applying total Single-Sign-On pattern for certification & authorization of microservices</div>
+              <div class="tutorials-card-sub-text">Applying Single-Sign-On pattern for authentication & authorization of microservices</div>
             </div>
           </div>
         </a>
@@ -419,7 +419,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210196685-7c173cef-9cdf-4764-9b3e-7d547cf7ceec.jpg">
+                  src="https://user-images.githubusercontent.com/92732781/210290191-294113ae-e8b5-4f06-9829-5e67df42d269.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Data Projection w/ Frontend & HATEOAS</div>
@@ -435,7 +435,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210196682-261e3f7d-827b-4599-a918-cfba8aa29c22.jpg">
+                  src="https://user-images.githubusercontent.com/92732781/210290193-a2cf31f0-c15a-46c4-8b3e-6925340e4880.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Data Projection w/ GraphQL</div>
