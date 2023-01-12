@@ -307,7 +307,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210196675-86b2e747-84be-4dcf-864c-57b5ac3add9a.jpg">
+                  src="https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Biz] DDD-Eventstorming</div>
@@ -323,7 +323,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
             <g-image class="tutorials-card-image"
-                src="https://user-images.githubusercontent.com/113568664/210196679-54676c44-dfd6-4f02-a09d-8510e5bbf920.jpg">
+                src="https://user-images.githubusercontent.com/113568664/211271746-a3f5fce0-ad12-4cf3-88cb-a6348d990044.png">
             </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Running unit Microservice</div>
@@ -339,7 +339,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/210196680-cb5df0da-24c4-49cd-a9c2-1d70f880babb.jpg">
+                  src="https://user-images.githubusercontent.com/113568664/211271766-11c1234e-8ee9-4ef5-9c4a-36df00530766.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] MSA Communication by Req/Res</div>
@@ -355,7 +355,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/210290183-92e33c47-2ff1-42cb-82b7-8b2c1dfc354d.png">
+                  src="https://user-images.githubusercontent.com/113568664/211271764-07de1f1c-96de-49fe-99ea-d12c658a8644.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Circuit Breaker</div>
@@ -371,7 +371,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/210290182-fdc78b74-0eb7-418b-b8d5-3b01556fb3fe.png">
+                  src="https://user-images.githubusercontent.com/113568664/211271759-4bb531e0-e8ad-4964-a8f7-65ceae30c79c.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Pub-Sub Comunication</div>
@@ -387,7 +387,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/210290401-5d8f0f0d-a210-4a5c-9ca8-8de7b69f91a2.png">
+                  src="https://user-images.githubusercontent.com/113568664/211271747-7c7d01e4-30c6-4b44-804c-be834713d8fa.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Compensation & Correlation</div>
@@ -403,7 +403,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/210290187-812f55d6-8f90-40d8-aa6b-e7f307fd5602.png">
+                  src="https://user-images.githubusercontent.com/113568664/211271754-e0c813d9-9f85-4af5-8770-4ddce2383d90.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] JWT Token-based Authorization</div>
@@ -419,7 +419,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/210290191-294113ae-e8b5-4f06-9829-5e67df42d269.png">
+                  src="https://user-images.githubusercontent.com/113568664/211271752-19bcfa58-61f0-47ca-9e42-b3e017eda354.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Data Projection w/ Frontend & HATEOAS</div>
@@ -435,7 +435,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/92732781/210290193-a2cf31f0-c15a-46c4-8b3e-6925340e4880.png">
+                  src="https://user-images.githubusercontent.com/113568664/211271748-f3662a80-cb9b-4190-96e9-33a5b244b1f5.png">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">[Dev] Data Projection w/ GraphQL</div>
