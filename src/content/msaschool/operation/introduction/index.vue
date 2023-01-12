@@ -1,86 +1,91 @@
 <template>
   <div style="margin:70px 0px 0px 0px; font-family:system-ui,-apple-system;">
-    <SideMarkDown>
-      <v-row style="background-color:#E9E6F8; padding:30px; padding-left:30px; height:390px; margin-left:10px;">
-        <div style="float: left;">
-          <h2 style="color:rgba(107, 59, 165, 1);
-            font-family:system-ui,-apple-system;
-            line-height:55px;
-            font-size:40px;
-            font-weight:500;
-            margin-bottom:18px;"
-          >클라우드 네이티브 앱
-            <br/>구현의 전문 배움터
-            <br/>CNA Best Partner 
-          </h2>
-          <div style="position:relative;">
-            <span class="clearfix">
-              <button @click="slideClickBtn1"
-                :style="slideBtn1 == true ? 'background-color:white;':''"
-                class="clearfix main-page-slide-btn"
-                type="button"
-              >BizDevOps 풀 라이프사이클 지원
-                <g-image class="clearfix slide-btn-image"
-                  src="./img/ic-carousel-3.png"
-                >
-                </g-image>
-              </button>
+    <div class="is-not-mobile-main-top">
+      <v-row style="background-color:#E9E6F8; padding:30px; margin-left:0px; height:390px;">
+        <v-row style="position:absolute;
+          left: 49%;
+          transform: translate(-50%, 0%);
+        ">
+          <div style="float: left;">
+            <h2 style="color:rgba(107, 59, 165, 1);
+              font-family:system-ui,-apple-system;
+              line-height:55px;
+              font-size:40px;
+              font-weight:500;
+              margin-bottom:18px;"
+            >클라우드 네이티브 앱
+              <br/>구현의 전문 배움터
+              <br/>CNA Best Partner 
+            </h2>
+            <div style="position:relative;">
+              <span class="clearfix">
+                <button @click="slideClickBtn1"
+                  :style="slideBtn1 == true ? 'background-color:white;':''"
+                  class="clearfix main-page-slide-btn"
+                  type="button"
+                >BizDevOps 풀 라이프사이클 지원
+                  <g-image class="clearfix slide-btn-image"
+                    src="./img/ic-carousel-3.png"
+                  >
+                  </g-image>
+                </button>
 
-              <button @click="slideClickBtn2"
-                :style="slideBtn2 == true ? 'background-color:white;':''"
-                class="clearfix main-page-slide-btn"
-                type="button"
-              >DDD, EDA기반 핵심 프레임워크 활용
-                <g-image class="clearfix slide-btn-image"
-                  src="./img/ic-carousel-2.png"
-                >
-                </g-image>
-              </button>
+                <button @click="slideClickBtn2"
+                  :style="slideBtn2 == true ? 'background-color:white;':''"
+                  class="clearfix main-page-slide-btn"
+                  type="button"
+                >DDD, EDA기반 핵심 프레임워크 활용
+                  <g-image class="clearfix slide-btn-image"
+                    src="./img/ic-carousel-2.png"
+                  >
+                  </g-image>
+                </button>
 
-              <button @click="slideClickBtn3"
-                :style="slideBtn3 == true ? 'background-color:white;':''"
-                class="clearfix main-page-slide-btn"
-                type="button"
-              >설치가 필요없는 학습교구 지원  
-                <g-image class="clearfix slide-btn-image"
-                  src="./img/ic-carousel-1.png"
-                >
-                </g-image>
-              </button>
-            </span>
-          </div>
-        </div>
-
-        <div style="font-family:system-ui,-apple-system;">
-          <div class="clearfix image-box-all">
-            <div class="image-box-in" :style="slideBtn1 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-              <div class="image-box-text" style="margin-top:180px;"
-              >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
-              </div>
-              <g-image class="image-style" src="./img/introduction-1.png" />
-            </div>
-
-            <div class="image-box-in" :style="slideBtn2 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-              <div class="image-box-text" style="margin-top:225px;"
-              >Event driven Architecture 기반 최신 마이크로서비스<br/>
-              Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
-              </div>
-              <g-image class="image-style" src="./img/introduction-2.png"/>
-            </div>
-            
-            <div class="image-box-in" :style="slideBtn3 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-              <div class="image-box-text" style="margin-top:270px;"
-              >프로그램 설치가 필요없는<br/>
-              온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
-              </div>
-              <g-image class="image-style" src="./img/introduction-3.png"/>
+                <button @click="slideClickBtn3"
+                  :style="slideBtn3 == true ? 'background-color:white;':''"
+                  class="clearfix main-page-slide-btn"
+                  type="button"
+                >설치가 필요없는 학습교구 지원  
+                  <g-image class="clearfix slide-btn-image"
+                    src="./img/ic-carousel-1.png"
+                  >
+                  </g-image>
+                </button>
+              </span>
             </div>
           </div>
-        </div>
+
+          <div style="font-family:system-ui,-apple-system;">
+            <div class="clearfix image-box-all">
+              <div class="image-box-in" :style="slideBtn1 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+                <div class="image-box-text" style="margin-top:180px;"
+                >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
+                </div>
+                <g-image class="image-style" src="./img/introduction-1.png" />
+              </div>
+
+              <div class="image-box-in" :style="slideBtn2 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+                <div class="image-box-text" style="margin-top:225px;"
+                >Event driven Architecture 기반 최신 마이크로서비스<br/>
+                Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
+                </div>
+                <g-image class="image-style" src="./img/introduction-2.png"/>
+              </div>
+              
+              <div class="image-box-in" :style="slideBtn3 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
+                <div class="image-box-text" style="margin-top:270px;"
+                >프로그램 설치가 필요없는<br/>
+                온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
+                </div>
+                <g-image class="image-style" src="./img/introduction-3.png"/>
+              </div>
+            </div>
+          </div>
+        </v-row>
       </v-row>
-    </SideMarkDown>
+    </div>
 
-    <MobileMarkDown>
+    <div class="is-mobile-main-top">
       <div style="background-color:#E9E6F8; padding:30px; padding-left:30px;">
         <h2 style="color:rgba(107, 59, 165, 1);
           font-family:system-ui,-apple-system;
@@ -141,7 +146,7 @@
           </div>
         </button>
       </div>
-    </MobileMarkDown>
+    </div>
   <div>
     <mark-down class="content" style="margin-top:-40px;">
 ### MSA School 은
@@ -765,6 +770,22 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     font-size:15px;
     border-radius: 5px;
     border:3px black solid;
+  }
+  .is-not-mobile-main-top {
+    display:block
+  }
+
+  .is-mobile-main-top {
+    display: none;
+  }
+
+  @media only screen and (max-width:1410px){
+    .is-not-mobile-main-top {
+      display:none;
+    }
+    .is-mobile-main-top {
+      display:block;
+    }
   }
   
 </style>

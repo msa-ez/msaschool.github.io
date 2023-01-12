@@ -19,7 +19,7 @@
                 >
                     <div class="w-full pb-16 bg-ui-background">
                         <ClientOnly>
-                            <VueSidebar @navigate="sidebarOpen = false" @sidebarState="sidebarState"/>
+                            <VueSidebar style="margin-top:-25px;" @navigate="sidebarOpen = false" @sidebarState="sidebarState"/>
                         </ClientOnly>
                     </div>
                 </aside>
