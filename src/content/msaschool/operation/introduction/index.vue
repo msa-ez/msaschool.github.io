@@ -12,8 +12,9 @@
               line-height:55px;
               font-size:34px;
               font-weight:500;
-              margin: 55px 0 18px 0px;"
-            >클라우드 네이티브 앱 구현의 전문 배움터
+              margin-bottom:18px;"
+            >클라우드 네이티브 앱
+              <br/>구현의 전문 배움터
               <br/>CNA Best Partner 
             </h2>
             <div style="position:relative;">
@@ -484,7 +485,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://www.facebook.com/groups/cloudswmoding/
           </div>
           <div style="text-align:center;">
-            <a href="https://www.facebook.com/groups/cloudswmoding/" target="_blank">
+            <a href="/operation/education/quick-understanding-cna/">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -497,7 +498,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://intro-kor.msaez.io/
           </div>
           <div style="text-align:center;">
-            <a href="https://intro-kor.msaez.io/" target="_blank">
+            <a href="https://intro-kor.msaez.io/">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -510,7 +511,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://labs.msaez.io/#/courses
           </div>
           <div style="text-align:center;">
-            <a href="https://labs.msaez.io/#/courses" target="_blank">
+            <a href="https://labs.msaez.io/#/courses">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -651,7 +652,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     height:50px;
     line-height:50px;
     font-size:20px;
-    width:536px;
+    width:400px;
     text-align: left;
     display: block;
     background-color:none;
