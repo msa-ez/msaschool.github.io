@@ -10,11 +10,10 @@
             <h2 style="color:rgba(107, 59, 165, 1);
               font-family:system-ui,-apple-system;
               line-height:55px;
-              font-size:40px;
+              font-size:34px;
               font-weight:500;
-              margin-bottom:18px;"
-            >클라우드 네이티브 앱
-              <br/>구현의 전문 배움터
+              margin: 55px 0 18px 0px;"
+            >클라우드 네이티브 앱 구현의 전문 배움터
               <br/>CNA Best Partner 
             </h2>
             <div style="position:relative;">
@@ -477,7 +476,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     <div class="basics-box clearfix" style="margin:10px 0px 50px 0px;">
         <div class="main-card-box">
           <div style="font-size:20px; font-weight:900;">커뮤니티</div>
-          <div style="font-size:14px; opacity:0.8; height:210px;">
+          <div style="font-size:14px; height:210px;">
             MSA and DDD Software modeling 
             <br/>- 마이크로서비스와 도메인 주도 SW 모델링
             <br><br>설립년도 : 2015년
@@ -485,7 +484,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://www.facebook.com/groups/cloudswmoding/
           </div>
           <div style="text-align:center;">
-            <a href="/operation/education/quick-understanding-cna/">
+            <a href="https://www.facebook.com/groups/cloudswmoding/" target="_blank">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -493,12 +492,12 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         
         <div class="main-card-box">
           <div style="font-size:20px; font-weight:900;">학습교구</div>
-          <div style="font-size:14px; opacity:0.8; height:210px;">MSA Easy - The fastest way to build event-driven microservices
+          <div style="font-size:14px; height:210px;">MSA Easy - The fastest way to build event-driven microservices
             <br><br>EventStorming to Code Generator.
             <br><br>주소 : https://intro-kor.msaez.io/
           </div>
           <div style="text-align:center;">
-            <a href="https://intro-kor.msaez.io/">
+            <a href="https://intro-kor.msaez.io/" target="_blank">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -506,12 +505,12 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         
         <div class="main-card-box">
           <div style="font-size:20px; font-weight:900;">교육플랫폼</div>
-          <div style="font-size:14px; opacity:0.8; height:210px;">오픈강좌 자유열람, 진행중 온라인 CNA 강좌 운영중
+          <div style="font-size:14px; height:210px;">오픈강좌 자유열람, 진행중 온라인 CNA 강좌 운영중
             <br><br>설치가 필요없는 학습교구
             <br><br>주소 : https://labs.msaez.io/#/courses
           </div>
           <div style="text-align:center;">
-            <a href="https://labs.msaez.io/#/courses">
+            <a href="https://labs.msaez.io/#/courses" target="_blank">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -652,7 +651,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     height:50px;
     line-height:50px;
     font-size:20px;
-    width:400px;
+    width:536px;
     text-align: left;
     display: block;
     background-color:none;
