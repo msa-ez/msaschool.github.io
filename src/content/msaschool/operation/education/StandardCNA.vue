@@ -349,7 +349,7 @@
 </template>
 
 <script>
-        // @group 07_02_04
+        // @group 07_02_05
     export default {
         name:'StandardCNA',
         data() {
@@ -358,7 +358,7 @@
             }
         },
         props: {
-            "2. Standard CNA 과정": {
+            "2. Intermediate/Standard CNA": {
                 type: String
             },
         },

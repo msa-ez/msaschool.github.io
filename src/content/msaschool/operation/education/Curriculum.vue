@@ -147,7 +147,7 @@
 </template>
 
 <script>
-        // @group 07_02_02
+        // @group 07_02_03
     export default {
         name:'Curriculum',
         data() {
@@ -156,7 +156,7 @@
             }
         },
         props: {
-            "커리큘럼": {
+            "Intermediate/커리큘럼": {
                 type: String
             },
         },

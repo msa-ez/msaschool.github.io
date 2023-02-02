@@ -8,7 +8,7 @@
         y="0px"
         width="235px"
         height="50px"
-        style="margin-right: 20px; margin-left: 10px;"
+        style="margin-right: -250px; margin-left: -25px;"
         viewBox="0 0 310 72"
         enable-background="new 0 0 310 72"
         xml:space="preserve"

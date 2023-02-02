@@ -132,7 +132,7 @@
 </template>
 
 <script>
-        // @group 05_02_02
+        // @group 07_02_02
     export default {
         name:'CourseInfo',
         data() {
@@ -141,7 +141,7 @@
             }
         },
         props: {
-            "커리큘럼": {
+            "CNA 개발자 연수과정/커리큘럼": {
                 type: String
             },
         },

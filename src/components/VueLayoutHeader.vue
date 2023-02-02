@@ -65,7 +65,7 @@
                     </div>  -->
                     <v-btn style="background-color:#5a67d8 !important;
                         border-radius: 4px;
-                        margin-right:-5px;
+                        margin-right:15px;
                         height: 36px;
                         width: 120px;
                         text-align: center;

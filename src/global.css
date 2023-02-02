@@ -17,6 +17,10 @@
     height:50px !important;
     text-align:center !important;
 }
+.gs-mobile-btn-title {
+    margin-left:10px;
+    font-size:16px;
+}
 .gs-review-btn {
     width:90px !important;
     height:30px !important;

@@ -29,7 +29,7 @@
                 교육 신청하기
             </span>
         </v-btn>
-        <br></br>
+        <br><br>
         <div>* Volume Discount 정책 : 10명 이상 신청 시 11명 째부터 20명까지 10%, 20명 이상 시 21명 째부터 25명까지 20%, 26명 째부터 30명까지 30% 비용 할인이 적용됩니다.</div><br>
         <div>** 캡스톤 프로젝트를 제외시킨 옵션(4일 제외)으로 신청 시 추가로 할인된 비용으로 교육을 접해보실 수 있습니다.</div>
         <div>
@@ -603,7 +603,7 @@
 
 
 <script>
-        // @group 07_02_07
+        // @group 07_02_08
     export default {
         name:'EnterpriseFull-day14DaysCourse',
         data() {
@@ -612,7 +612,7 @@
             }
         },
         props: {
-            " 5. Enterprise Full-day 과정": {
+            " 5. Intermediate/Enterprise Full-day": {
                 type: String
             },
         },

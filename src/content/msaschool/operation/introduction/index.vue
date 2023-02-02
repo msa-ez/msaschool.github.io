@@ -89,10 +89,10 @@
       <div style="background-color:#E9E6F8; padding:30px; padding-left:30px;">
         <h2 style="color:rgba(107, 59, 165, 1);
           font-family:system-ui,-apple-system;
-          line-height:55px;
-          font-size:40px;
+          line-height:45px;
+          font-size:30px;
           font-weight:500;
-          margin-bottom:18px;"
+          margin-bottom:15px;"
         >클라우드 네이티브 앱
           <br/>구현의 전문 배움터
           <br/>CNA Best Partner 
@@ -101,11 +101,8 @@
         <button @click="mobileClickBtn1"
           class="clearfix main-page-slide-mobile-btn"
           type="button"
-        >BizDevOps 풀 라이프사이클 지원
-          <g-image class="clearfix mobile-btn-image"
-            src="./img/ic-carousel-3.png"
-          >
-          </g-image>
+        >
+        <div class="gs-mobile-btn-title">BizDevOps 풀 라이프사이클 지원</div>
           <div v-if="mobileBtn1">
             <div class="mobile-btn-text"
             >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
@@ -117,11 +114,8 @@
         <button @click="mobileClickBtn2"
           class="clearfix main-page-slide-mobile-btn"
           type="button"
-        >DDD, EDA기반 핵심 프레임워크 활용
-          <g-image class="clearfix mobile-btn-image"
-            src="./img/ic-carousel-3.png"
-          >
-          </g-image>
+        >
+        <div class="gs-mobile-btn-title">DDD, EDA기반 핵심 프레임워크 활용</div>
           <div v-if="mobileBtn2">
             <div class="mobile-btn-text"
             >Event driven Architecture 기반 최신 마이크로서비스<br/>Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
@@ -131,13 +125,10 @@
         </button>
 
         <button @click="mobileClickBtn3"
-          class="clearfix main-page-slide-mobile-btn"
+          class="clearfix main-page-slide-mobile-btn"                   
           type="button"
-        >설치가 필요없는 학습교구 지원
-          <g-image class="clearfix mobile-btn-image"
-            src="./img/ic-carousel-3.png"
-          >
-          </g-image>
+        >
+        <div class="gs-mobile-btn-title">설치가 필요없는 학습교구 지원</div>
           <div v-if="mobileBtn3">
             <div class="mobile-btn-text"
             >프로그램 설치가 필요없는<br/>온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
@@ -294,7 +285,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
-            <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">카카오톡 오픈채팅</a>
+            <a target="_blank" style="color:blue; font-size: 13px;" href="https://open.kakao.com/me/msaschool">카카오톡</a>
         </div>
 
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
@@ -661,7 +652,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
   .main-page-slide-mobile-btn {
     color:rgba(107, 59, 165, 1);
     line-height:70px;
-    font-size:20px;
+    font-size:18px;
     text-align: left;
     display: block;
     width:100%;
@@ -672,9 +663,9 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
   }
 
   .mobile-btn-text {
-    font-size:16px; 
+    font-size:14px; 
     line-height:20px; 
-    margin:-10px 0px 20px 65px;
+    margin:-10px 0px 20px 9px;
   }
 
   .slide-btn-image {
@@ -797,6 +788,12 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
 @media only screen and (max-width:1100px) {
   .main-card-box {
     width:99%;
+  }    
+}
+
+@media only screen and (max-width:676px) {
+  .tutorials-card-box {
+    width:90vw;
   }    
 }
   

@@ -382,7 +382,7 @@
 
 
 <script>
-        // @group 07_02_05
+        // @group 07_02_06
     export default {
         name:'FlippedLearning4DaysCNACourse',
         data() {
@@ -391,7 +391,7 @@
             }
         },
         props: {
-            "3. Flipped Learning CNA 과정": {
+            "3. Intermediate/Flipped Learning CNA": {
                 type: String
             },
         },
