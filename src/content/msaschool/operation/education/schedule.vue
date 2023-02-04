@@ -99,22 +99,22 @@
                 </td>
                 <td>
                     <div style="text-align:center;">
-                        <a href="/operation/fundamental/fundamental/">
-                            <button class="table-details-btn">세부사항</button>
+                        <a href="/operation/education/fundamental/">
+                            <button class="table-details-btn">세부사항1</button>
                         </a>
                     </div>
                 </td>
                 <td>
                     <div style="text-align:center;">
                         <a href="/operation/education/curriculum/">
-                            <button class="table-details-btn">세부사항</button>
+                            <button class="table-details-btn">세부사항2</button>
                         </a>
                     </div>
                 </td>
                 <td>
                     <div style="text-align:center;">
-                        <a href="/operation/advanced/advanced/">
-                            <button class="table-details-btn">세부사항</button>
+                        <a href="/operation/education/advanced/">
+                            <button class="table-details-btn">세부사항3</button>
                         </a>
                     </div>
                 </td>

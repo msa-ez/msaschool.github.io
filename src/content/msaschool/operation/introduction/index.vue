@@ -260,7 +260,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                 </td>
                 <td>
                     <div style="text-align:center;">
-                        <a href="/operation/fundamental/fundamental/">
+                        <a href="/operation/education/fundamental/">
                             <button class="table-details-btn">세부사항</button>
                         </a>
                     </div>
@@ -274,7 +274,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                 </td>
                 <td>
                     <div style="text-align:center;">
-                        <a href="/operation/advanced/advanced/">
+                        <a href="/operation/education/advanced/">
                             <button class="table-details-btn">세부사항</button>
                         </a>
                     </div>
