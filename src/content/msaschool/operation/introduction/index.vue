@@ -476,7 +476,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://www.facebook.com/groups/cloudswmoding/
           </div>
           <div style="text-align:center;">
-            <a href="/operation/education/quick-understanding-cna/">
+            <a href="https://www.facebook.com/groups/cloudswmoding/" target="_blank">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -489,7 +489,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://intro-kor.msaez.io/
           </div>
           <div style="text-align:center;">
-            <a href="https://intro-kor.msaez.io/">
+            <a href="https://intro-kor.msaez.io/" target="_blank">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
@@ -502,7 +502,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <br><br>주소 : https://labs.msaez.io/#/courses
           </div>
           <div style="text-align:center;">
-            <a href="https://labs.msaez.io/#/courses">
+            <a href="https://labs.msaez.io/#/courses" target="_blank">
               <button class="main-card-details-btn">바로가기</button>
             </a>
           </div>
