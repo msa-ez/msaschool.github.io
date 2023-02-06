@@ -4,7 +4,7 @@
             @keydown.up="decrement"
             @keydown.enter="go"
             class="relative"
-            style="margin: 5px; width: 100%"
+            style="margin: 5px; width:50%; left: 50%; transform: translate(-50%, 0%);"
     >
         <label class="relative block">
             <span class="sr-only">Search Documentation</span>
@@ -12,16 +12,16 @@
                 <SearchIcon size="1.25x" class="text-ui-typo"/>
             </div>
             <input
-                    ref="input"
-                    type="search"
-                    :value="query"
-                    class="block w-full py-2 pl-10 pr-4 border-2 rounded-lg bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
-                    :class="{'rounded-b-none': showResult,}"
-                    placeholder="Search Documentation"
-                    @focus="focused = true"
-                    @blur="focused = false"
-                    @input="focusIndex = -1; query = $event.target.value"
-                    @change="query = $event.target.value"
+                ref="input"
+                type="search"
+                :value="query"
+                class="block w-full py-2 pl-10 pr-4 border-2 rounded-lg bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
+                :class="{'rounded-b-none': showResult,}"
+                placeholder="Search Documentation"
+                @focus="focused = true"
+                @blur="focused = false"
+                @input="focusIndex = -1; query = $event.target.value"
+                @change="query = $event.target.value"
             />
         </label>
         <div

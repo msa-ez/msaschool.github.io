@@ -35,7 +35,7 @@
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <div name="Microservice Modeling">
-                <h4 style="margin:0 0 0 0;">Microservice Modeling / 2일, 14시간</h4>
+                <h4 style="margin:0 0 0 0;">Microservice Modeling</h4>
                 <h5 style="font-weight:700;">교육목표 : MSA 아키텍처의 분석,설계,구현하기 앞서  이벤트 스토밍(Event Storming) 기법을 기반한 실질적 설계, 구현, 운영 기법 학습</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
@@ -81,7 +81,7 @@
             </div>
 
             <div name="Developing Cloud Native Application">
-                <h4 style="margin:50px 0 0 0;">Developing Cloud Native Application / 4일, 28시간</h4>
+                <h4 style="margin:50px 0 0 0;">Developing Cloud Native Application</h4>
                 <h5 style="font-weight:700;">교육목표 : Cloud 플랫폼과 Core 서비스를 이해하고 시스템을 구성하고 클라우드 애플리케이션을 개발 · 운영</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
@@ -89,7 +89,7 @@
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
-                        <td rowspan="3" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">1일</td>
+                        <td rowspan="3" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">3일</td>
                         <td style="border : 1px solid black;  font-weight:700;">개발 실습 개요</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">1H</td>
                         <td style="border : 1px solid black;">
@@ -120,7 +120,7 @@
                     </tr>
 
                     <tr>
-                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">2일</td>
+                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">4일</td>
                         <td style="border : 1px solid black;  font-weight:700; padding-left:15px;">프론트엔드를 통한 마이크로 서비스 통합</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">4H</td>
                         <td style="border : 1px solid black;">
@@ -133,7 +133,7 @@
                     </tr>
 
                     <tr>
-                        <td rowspan="4" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">3일</td>
+                        <td rowspan="4" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">5일</td>
                         <td style="border : 1px solid black;  font-weight:700;">인터-마이크로서비스의<br> 통합 1: Request-Response 방식</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">2H</td>
                         <td style="border : 1px solid black;">
@@ -173,7 +173,7 @@
                     </tr>
 
                     <tr>
-                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">4일</td>
+                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">6일</td>
                         <td style="border : 1px solid black;  font-weight:700;">MSA 패턴을 적용한 샘플 마이크로서비스 구현</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">7H</td>
                         <td style="border : 1px solid black; ">
@@ -192,7 +192,7 @@
             </div>
 
             <div name="DevOps: Container Orchestration-Docker & Kubernetes">
-                <h4 style="margin:50px 0 0 0;">Container Orchestration-Docker & Kubernetes / 4일, 28시간</h4>
+                <h4 style="margin:50px 0 0 0;">Container Orchestration-Docker & Kubernetes</h4>
                 <h5 style="font-weight:700;">교육목표 : Kubernetes와 Docker 의 설치, 애플리케이션 배포, 무정지 재배포, 운영자동화의 실습 및 학습</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
@@ -200,7 +200,7 @@
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
-                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">1일</td>
+                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">7일</td>
                         <td style="border : 1px solid black;  font-weight:700;">MSA와 DevOps 그리고 Kubernetes</td>
                         <td rowspan="2" style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">7H</td>
                         <td style="border : 1px solid black;">
@@ -223,7 +223,7 @@
                     </tr>
 
                     <tr>
-                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">2일</td>
+                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">8일</td>
                         <td style="border : 1px solid black;  font-weight:700; padding-left:15px;">Kubernetes 서비스 설치와 운영</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">7H</td>
                         <td style="border : 1px solid black;">
@@ -239,7 +239,7 @@
                     </tr>
 
                     <tr>
-                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">3일</td>
+                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">9일</td>
                         <td style="border : 1px solid black;  font-weight:700; padding-left:15px;">쿠버네티스를 이용한 Micro Services and DevOps</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">7H</td>
                         <td style="border : 1px solid black;">
@@ -257,7 +257,7 @@
 
 
                     <tr>
-                        <td rowspan="3" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">4일</td>
+                        <td rowspan="3" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">10일</td>
                         <td style="border : 1px solid black;  font-weight:700;">CI/CD 프로세스와 CSP 의 대응 서비스</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">3H</td>
                         <td style="border : 1px solid black; ">
@@ -287,7 +287,7 @@
             </div>
 
             <div name="Capstone Project: Developing on Cloud">
-                <h4 style="margin:50px 0 0 0;">Capstone Project: Developing on Cloud / 4일, 28시간</h4>
+                <h4 style="margin:50px 0 0 0;">Capstone Project: Developing on Cloud</h4>
                 <h5 style="font-weight:700;">교육목표 : 클라우드 플랫폼에서 마이크로서비스 아키텍처 기반으로 클라우드 네이티브 애플리케이션을  개발 하는 프로젝트 수행 방식의 교육</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
@@ -295,7 +295,7 @@
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
-                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">1일</td>
+                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">11일</td>
                         <td style="border : 1px solid black;  font-weight:700;">평가 방법 설명 및 환경 설정</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">3H</td>
                         <td style="border : 1px solid black;">
@@ -315,7 +315,7 @@
                     </tr>
 
                     <tr>
-                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">2일</td>
+                        <td style="border : 1px solid black; padding-left:15px; text-align: center; background-color:#f2f3fc;">12일</td>
                         <td style="border : 1px solid black;  font-weight:700; padding-left:15px;">팀프로젝트 개발</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">7H</td>
                         <td style="border : 1px solid black;">
@@ -325,7 +325,7 @@
                     </tr>
 
                     <tr>
-                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">3일</td>
+                        <td rowspan="2" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">13일</td>
                         <td style="border : 1px solid black;  font-weight:700;">팀프로젝트 배포</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">4H</td>
                         <td style="border : 1px solid black;">
@@ -344,7 +344,7 @@
 
 
                     <tr>
-                        <td rowspan="3" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">4일</td>
+                        <td rowspan="3" style="border : 1px solid black; text-align: center; padding-left:15px; background-color:#f2f3fc;">14일</td>
                         <td style="border : 1px solid black;  font-weight:700;">개인개발</td>
                         <td style="border : 1px solid black; text-align: center; background-color:#f2f3fc;">3H</td>
                         <td style="border : 1px solid black; ">

@@ -141,7 +141,7 @@
             }
         },
         props: {
-            "CNA 개발자 연수과정/커리큘럼": {
+            "교육과정 Overview": {
                 type: String
             },
         },
