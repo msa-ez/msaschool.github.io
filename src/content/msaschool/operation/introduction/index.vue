@@ -160,8 +160,8 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
 **클라우드 네이티브 전문가가 되는 체계적인 업계 최고 커리큘럼이 준비되어 있습니다. 또한, 수강하시는 기업을 위해 다양하게 스케줄링된 학습 유형을 제공합니다.**
     </mark-down>
     <br>
-    <div>
-        <div style = "font-size:16px; font-weight: 600;">CNA 개발자 연수과정</div>
+    <div class="is-not-mobile-main-top">
+        <div style = "font-size:16px; font-weight: 600;">교육 과정 Overview</div>
         <table class="gs-table-default gs-table-default">
             <th class="main-table-title"> </th>
             <th class="main-table-title">Fundamental</th>
@@ -281,7 +281,159 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                 </td>
             </tr>
         </table>
-        
+      </div>
+      <div class="is-mobile-main-top">
+        <div style = "font-size:16px; font-weight: 600;">교육 과정 Overview</div>
+        <table class="gs-table-default gs-table-default">
+            <th class="main-table-title"> </th>
+            <th class="main-table-title">Fundamental</th>
+            <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+                <td>
+                    • Object Oriented Design<br>
+                    - OOP Design Principles<br><br>
+                    • UML & Design Patterns
+                </td>
+            </tr>
+            <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+                <td>
+                    • Obejct Oriented Programming<br>
+                    - Object Oriented Framework<br>
+                    - Spring boot, JDBC and JPA<br>
+                    - Web UI (VueJS)<br><br>
+                    • Understanding GitHub & GitPod<br><br>
+                    • Build automation tool<br>
+                    - Maven, Gradle<br><br>
+                    • Linux OS Basics
+                </td>
+            </tr>
+            <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+                <td>
+                    • Cloud Infra, VM<br>
+                    - CSP introduction<br>
+                    - VM managed Service<br><br>
+                    • Deploy to VM<br>
+                    - VM, Dabase provisioning<br>
+                    - Deploy to Cloud VM
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <div style="text-align:center;">
+                        <a href="/operation/education/fundamental/">
+                            <button class="table-details-btn">세부사항</button>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+              <th class="main-table-title"></th>
+              <th class="main-table-title">Intermediate</th>
+            </tr>
+            <tr>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+              <td>
+                  • Eventstorming<br>
+                  - Eventstorming E-Commerce Domain<br>
+                  - Big picture & Design level Eventstorming<br>
+                  - Context Mapping, CQRS<br><br>
+                  
+                  • Aggregate Modeling<br>
+                  -  Entity Design with Class Diagrams
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+              <td>
+                  • Microservice Clean Architecture<br>
+                  - ES Model and Implementation mapping<br><br>
+                  • Circuit Breaker Pattern<br>
+                  - Req/Res with FeignClient<br><br>
+                  • Event driven Microservice<br>
+                  - Event Pub/Sub, Compensation & CQRS<br><br>
+                  • Message Broker – Kafka<br><br>
+                  • Application Packaging & Dockerizing
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+              <td>
+                  • Cloud Software Platform, Docker<br><br>
+                  • Kubernetes 인 액션<br>
+                  - Kubernetes SLA features & Telemetry<br>
+                  - Deploy manifests Diagramming<br><br>
+                  • Service Mesh (Istio)<br>
+                  - Traffic Management (Retry, Timeout, Circuit breaker)<br><br>
+                  • DevOps Pipeline (Jenkins, CSP managed)
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <div style="text-align:center;">
+                  <a href="/operation/education/curriculum/">
+                    <button class="table-details-btn">세부사항</button>
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="main-table-title"></th>
+              <th class="main-table-title">Advanced</th>
+            </tr>
+            <tr>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+              <td>
+                  • Eventstorming for various Domains<br><br>
+                  • Core-supporting-generic domain prioritization<br>
+                  - Wardlley mapping, Impact mapping<br><br>
+                  
+                  • 중요도에 따른 구현 전략<br>
+                  - Transaction Script<br><br>
+                  • Apply Ubiquitous Language 
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+              <td>
+                  • Extending Event driven Microservice<br>
+                  - 멱등성, 트랜잭션, Kafka Parallel Processing, Deadline 처리<br>
+                  - Dedicated Framework (Eventuate, Axon)<br><br>
+                  • Inter-service communication<br>
+                  - CDC, gRPC Client/Server, Spring Reactive<br><br>
+                  • Microservice Authentication/ Authorization<br>
+                  - Centralized Session (Redis, Memcached)<br>
+                  - Client Token (JWT)
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+              <td>
+                  • Service Mesh deep dive<br>
+                  - Security, Monitoring, EnvoyFilter, Tracing<br><br>
+                  • GitOps Methodology<br>
+                  - Workflow with Jenkins & ArgoCD<br>
+                  - Canary Deployment with Canary Scoring<br><br>
+                  • Serverless<br>
+                  - Knative, Tekton 
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                  <div style="text-align:center;">
+                      <a href="/operation/education/advanced/">
+                          <button class="table-details-btn">세부사항</button>
+                      </a>
+                  </div>
+              </td>
+            </tr>
+        </table>
+      </div>
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
@@ -497,7 +649,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         
         <div class="main-card-box">
           <div style="font-size:20px; font-weight:900;">교육플랫폼</div>
-          <div style="font-size:14px; height:210px;">오픈강좌 자유열람, 진행중 온라인 CNA 강좌 운영중
+          <div style="font-size:14px; height:210px;">오픈강좌 자유열람 진행중 + 온라인 CNA 강좌 운영중
             <br><br>설치가 필요없는 학습교구
             <br><br>주소 : https://labs.msaez.io/#/courses
           </div>
@@ -794,7 +946,13 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
 @media only screen and (max-width:676px) {
   .tutorials-card-box {
     width:90vw;
-  }    
+  }   
+  .tutorials-card-image {
+    height:185px;
+    width:300px;
+    margin-left:5px;
+    margin-bottom:10px;
+  } 
 }
   
 </style>

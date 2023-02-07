@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Flipped Learning CNA 과정</h2><br>
+            <h2 style="display:inline-block !important;">Flipped Learning 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -382,7 +382,7 @@
 
 
 <script>
-        // @group 07_02_06
+        // @group 07_02_07
     export default {
         name:'FlippedLearning4DaysCNACourse',
         data() {
@@ -391,7 +391,7 @@
             }
         },
         props: {
-            "3. Intermediate/Flipped Learning CNA": {
+            "2-3. Flipped Learning(4일 or 2일)": {
                 type: String
             },
         },

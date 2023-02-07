@@ -71,7 +71,7 @@ View에서 사용자의 요청이 들어오면 Command 패턴을 통해 View-Mod
 export default {
     name: "DesignEight",
     props: {
-        "프론트-엔트 설계": {
+        "프론트엔드 설계": {
             type: String
         }
     }

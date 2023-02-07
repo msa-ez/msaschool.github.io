@@ -1,6 +1,6 @@
 <template>
     <div style="margin-top:80px;">
-        <h2 style = "margin:0 0 10px 0;">CNA 개발자 연수과정</h2>
+        <h2 style = "margin:0 0 10px 0;">교육과정 Overview</h2>
         <table class="gs-table-default">
             <th class="table-title"> </th>
             <th class="table-title">Fundamental</th>

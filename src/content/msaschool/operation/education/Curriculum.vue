@@ -1,6 +1,6 @@
 <template>
     <div style="margin-top:80px;">
-        <h2 style = "margin:0 0 10px 0;">DevOps 개발자 과정</h2>
+        <h2 style = "margin:0 0 10px 0;">Intermediate 과정</h2>
         <div class="basics-box clearfix">
             <div class="card-box">
                 <div class="card-title">Quick</div>
@@ -147,7 +147,7 @@
 </template>
 
 <script>
-        // @group 07_02_03
+        // @group 07_02_04
     export default {
         name:'Curriculum',
         data() {
@@ -156,7 +156,7 @@
             }
         },
         props: {
-            "Intermediate/커리큘럼": {
+            "2. Intermediate Course": {
                 type: String
             },
         },

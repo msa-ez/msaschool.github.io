@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Quick Understanding CNA 과정</h2><br>
+            <h2 style="display:inline-block !important;">Quick Understanding 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -208,7 +208,7 @@
 
 
 <script>
-        // @group 07_02_04
+        // @group 07_02_05
     export default {
         name:'QuickUnderstandingCNA',
         data() {
@@ -217,7 +217,7 @@
             }
         },
         props: {
-            "1. Intermediate/Quick Understanding CNA": {
+            "2-1. Quick Understanding(4시간)": {
                 type: String
             },
         },

@@ -168,7 +168,7 @@
 </template>
 
 <script>
-        // @group 07_02_07
+        // @group 07_02_08
     export default {
         name:'OnePointLesson',
         data() {
@@ -177,7 +177,7 @@
             }
         },
         props: {
-            "4. Intermediate/One Point Lesson": {
+            "2-4. One Point Lesson(협의)": {
                 type: String
             },
         },

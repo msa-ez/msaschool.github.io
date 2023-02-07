@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Fundamental Standard 과정</h2><br>
+            <h2 style="display:inline-block !important;">Fundamental 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -341,7 +341,7 @@
 </template>
 
 <script>
-        // @group 07_02_09
+        // @group 07_02_03
     export default {
         name:'Fundamental',
         data() {
@@ -350,7 +350,7 @@
             }
         },
         props: {
-            "Fundamental/Standard CNA": {
+            "1. Fundamental Course": {
                 type: String
             },
         },

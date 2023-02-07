@@ -45,7 +45,7 @@
             <button v-if="small" 
                     class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
                     @click="openComplexBtn()"
-                    style="margin: 0 27px 27px 0;">
+                    style="margin: 0 27px 27px 0; position:relative;">
                     <div v-if="sidebarOpen">
                         <XIcon/>
                     </div>

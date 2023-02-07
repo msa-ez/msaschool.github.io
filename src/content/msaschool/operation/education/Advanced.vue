@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Advanced Standard 과정</h2><br>
+            <h2 style="display:inline-block !important;">Advanced 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -344,7 +344,7 @@
             }
         },
         props: {
-            "Advanced/Standard CNA": {
+            "3. Advanced Course": {
                 type: String
             },
         },

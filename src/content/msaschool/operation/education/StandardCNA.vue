@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Standard CNA(Intermediate) 과정</h2><br>
+            <h2 style="display:inline-block !important;">Standard 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -349,7 +349,7 @@
 </template>
 
 <script>
-        // @group 07_02_05
+        // @group 07_02_06
     export default {
         name:'StandardCNA',
         data() {
@@ -358,7 +358,7 @@
             }
         },
         props: {
-            "2. Intermediate/Standard CNA": {
+            "2-2. Standard(4일 or 2일)": {
                 type: String
             },
         },
