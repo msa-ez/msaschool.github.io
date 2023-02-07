@@ -337,7 +337,7 @@
 <script>
         // @group 07_02_10
     export default {
-        name:'Advanced',
+        name:'advanced',
         data() {
             return {
                 page:1

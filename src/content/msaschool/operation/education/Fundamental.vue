@@ -343,7 +343,7 @@
 <script>
         // @group 07_02_03
     export default {
-        name:'Fundamental',
+        name:'fundamental',
         data() {
             return {
                 page:1

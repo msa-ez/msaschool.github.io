@@ -605,7 +605,7 @@
 <script>
         // @group 07_02_09
     export default {
-        name:'EnterpriseFull-day14DaysCourse',
+        name:'enterprise-full-day14-days-course',
         data() {
             return {
                 page:1

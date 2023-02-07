@@ -351,7 +351,7 @@
 <script>
         // @group 07_02_06
     export default {
-        name:'StandardCNA',
+        name:'standard-cna',
         data() {
             return {
                 page:1

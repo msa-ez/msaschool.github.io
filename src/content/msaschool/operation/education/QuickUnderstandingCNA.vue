@@ -210,7 +210,7 @@
 <script>
         // @group 07_02_05
     export default {
-        name:'QuickUnderstandingCNA',
+        name:'quick-understanding-cna',
         data() {
             return {
                 page:1

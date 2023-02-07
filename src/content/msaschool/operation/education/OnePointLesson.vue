@@ -170,7 +170,7 @@
 <script>
         // @group 07_02_08
     export default {
-        name:'OnePointLesson',
+        name:'one-point-lesson',
         data() {
             return {
                 page:1

@@ -149,7 +149,7 @@
 <script>
         // @group 07_02_04
     export default {
-        name:'Curriculum',
+        name:'curriculum',
         data() {
             return {
                 page:1

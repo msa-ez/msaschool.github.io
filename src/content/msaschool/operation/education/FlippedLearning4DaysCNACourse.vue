@@ -384,7 +384,7 @@
 <script>
         // @group 07_02_07
     export default {
-        name:'FlippedLearning4DaysCNACourse',
+        name:'flipped-learning4-days-cna-course',
         data() {
             return {
                 page:1
