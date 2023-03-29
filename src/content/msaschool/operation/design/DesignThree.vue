@@ -1,8 +1,5 @@
 <template>
     <div>
-        <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="design-event"></VueSubLayoutCard>
-        </div>
         <mark-down class="content">
 ## 이벤트스토밍
 
@@ -149,7 +146,7 @@ Bounded Context는 동일한 문맥으로 효율적으로 업무 용어(도메�
 
 
 <script>
-        // @group 02_02_04_true
+        // @group 02_02_04
     export default {
         name: 'DesignThree',
         props: {

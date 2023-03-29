@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="kafka-basic-2022"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="kafka-basic-2022-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## 이벤트 기반 메시지 채널 - 카프카(Kafka)

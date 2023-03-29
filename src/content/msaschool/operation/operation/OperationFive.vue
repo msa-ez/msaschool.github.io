@@ -1,5 +1,8 @@
 <template>
     <div>
+        <div style = "height:30px; width:100%; margin-top:20px;">
+                <VueSubLayoutCard lab="ops-service-mesh-istio-professional"></VueSubLayoutCard>
+        </div>
         <mark-down class="content">
 ## 서비스메시 이스티오
 
@@ -158,7 +161,7 @@ Metric 수집
 
 
 <script>
-        // @group 02_06_06
+        // @group 02_06_06_true
 export default {
     name: "OperationFive",
     props: {

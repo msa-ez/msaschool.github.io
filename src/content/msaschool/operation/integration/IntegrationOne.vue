@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-            <VueSubLayoutCard lab="dp-frontend-2022"></VueSubLayoutCard>
+            <VueSubLayoutCard lab="dp-frontend-2022-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## Microservice Integration by UI 마이크로 서비스의 통합을 위하여

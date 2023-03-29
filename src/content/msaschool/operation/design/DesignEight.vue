@@ -1,8 +1,5 @@
 <template>
     <div>
-        <div style = "height:30px; width:100%; margin-top:20px;">
-            <VueSubLayoutCard lab="dp-frontend-2022"></VueSubLayoutCard>
-        </div>
         <mark-down class="content">
 ## 프론트-엔드 설계
 
@@ -67,7 +64,7 @@ View에서 사용자의 요청이 들어오면 Command 패턴을 통해 View-Mod
 
 
 <script>
-    // @group 02_02_09_true
+    // @group 02_02_09
 export default {
     name: "DesignEight",
     props: {

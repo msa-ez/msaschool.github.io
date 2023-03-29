@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="ops-docker"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="ops-docker-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## 도커 이미지

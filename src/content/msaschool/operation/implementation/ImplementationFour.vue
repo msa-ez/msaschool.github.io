@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="ddd-google-drive"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="ddd-google-drive-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content" source="
 ## 구글 드라이브 예제 - 마이크로서비스 기반 구글 드라이브 서비스 개발하기

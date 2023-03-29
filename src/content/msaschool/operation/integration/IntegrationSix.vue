@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="dp-cqrs-2022"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="dp-cqrs-2022-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## 명령 및 쿼리 역할 구분 CQRS (Command and Query Responsibility Segregation)

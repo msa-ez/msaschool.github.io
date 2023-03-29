@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="compensation-correlation-2022"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="compensation-correlation-2022-associate"></VueSubLayoutCard>
         </div>
             <mark-down class="content">
 ## 최종 트랜잭션, 일관성 (Eventual Transaction, Consistency)

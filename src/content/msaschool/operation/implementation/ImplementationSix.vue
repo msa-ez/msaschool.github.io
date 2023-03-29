@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="gateway-2022"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="gateway-2022-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## 게이트웨이 구현 실습 

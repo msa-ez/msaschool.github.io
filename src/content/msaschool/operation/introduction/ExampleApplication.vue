@@ -1,9 +1,5 @@
 <template>
     <div>
-        <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="end-to-end"></VueSubLayoutCard>
-        </div>
-        
             <mark-down class="content">
 ## GCP 를 활용한 예제 어플리케이션 둘러보기
 본격적인 내용을 배우기 전에 쇼핑몰 예제 어플리케이션을 쿠버네티스에 자동으로 배포하고, 각 서비스들간의 간섭이 없는 이벤트 드리븐 아키텍처를 간단히 경험하여 보겠습니다.
@@ -208,7 +204,7 @@ helm install --name my-kafka --namespace kafka incubator/kafka
 
 
 <script>
-        // @group 01_01_04_true
+        // @group 01_01_04
 export default {
         name: "ExampleApplication",
         props: {

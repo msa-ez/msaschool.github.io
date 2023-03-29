@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="ops-readiness"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="ops-readiness-professional"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## Kubernetes Advanced 객체

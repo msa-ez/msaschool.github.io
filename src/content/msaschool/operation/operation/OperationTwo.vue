@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style = "height:30px; width:100%; margin-top:20px;">
-                <VueSubLayoutCard lab="ops-kubernetes"></VueSubLayoutCard>
+                <VueSubLayoutCard lab="ops-kubernetes-professional"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
 ## Kubernetes 오브젝트 모델

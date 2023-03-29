@@ -23,7 +23,7 @@
     export default {
         data() {
             return {
-                baseLabUrl: 'https://labs.msaez.io/#/courses/cna-full/public-full-2022-hw',
+                baseLabUrl: 'https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f',
             };
         },
         components:{
