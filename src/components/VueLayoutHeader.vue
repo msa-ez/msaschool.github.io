@@ -72,6 +72,18 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
+                        :href="'http://www.msaschool.io/operation/education/one-point-lesson/'"
+                    ><span style="color:white;">컨설팅 문의</span>
+                    </v-btn>
+                    <v-btn style="background-color:#5a67d8 !important;
+                        border-radius: 4px;
+                        margin-right:15px;
+                        height: 36px;
+                        width: 120px;
+                        text-align: center;
+                        line-height: 36px;
+                        font-size: 14px;
+                        font-weight: 700;"
                         :href="'http://www.msaschool.io/operation/education/curriculum/'"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
@@ -140,6 +152,18 @@
                             <g-image class="g-images" src="~/img/05_Community/04_교육상담_및_신청/image10.png"></g-image>
                         </div>
                     </div>  -->
+                    <v-btn style="background-color:#5a67d8 !important;
+                        border-radius: 4px;
+                        margin-right:15px;
+                        height: 36px;
+                        width: 120px;
+                        text-align: center;
+                        line-height: 36px;
+                        font-size: 14px;
+                        font-weight: 700;"
+                        :href="'http://www.msaschool.io/operation/education/curriculum/'"
+                    ><span style="color:white;">컨설팅 의뢰</span>
+                    </v-btn>
                     <v-btn style="background-color:#5a67d8 !important;
                         border-radius: 4px;
                         margin-right:15px;

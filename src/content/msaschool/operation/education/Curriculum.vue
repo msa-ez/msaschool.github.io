@@ -21,36 +21,32 @@
                     </a>
                 </div>
             </div>
-            
+
             <div class="card-box">
                 <div class="card-title"
-                >Standard
+                >On-line
                 </div>
-                <div class="card-subtitle">Standard CNA</div>
+                <div class="card-subtitle">On-line Class</div>
                 <div class="card-contents">
-                    마이크로서비스 모델링에서 클라우드 네이티브 앱 구현까지 MSA 이론과 클라우드 환경에서의 구현,배포,운영 실습을 포함하는 full Course
+                    강사 참여 없이 MSASchool의 영상강의를 통해 Biz, Dev, Ops까지의 CNA 과정을 수강생이 독자적으로 선택해서 학습하는 Course
                 </div>
                 <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
-                    <div style="font-size:24px; font-weight:900;">160만원</div>
-                    <div style="margin:3px 0 0 3px; font-size:14px;">/1인 4일</div>
+                    <div style="font-size:24px; font-weight:900;">2만원</div>
+                    <div style="margin:3px 0 0 3px; font-size:14px;">/강의당</div>
                 </div>
                 <div class="card-second-contents">
-                    • 4 days<br>
-                    • 매월 3주차 월~목요일<br>
-                    • 비대면 화상교육 (Zoom)<br>
-                    • Biz/Dev과정만 선택수강 가능<br>
-                    • 교재, 클라우드 IDE/계정 제공<br>
-                    • CSP(AWS, Azure, GCP) 택 1<br>
-                    • 최대인원 25명<br>
+                    • Biz - 3강<br>
+                    • Dev - 16강<br>
+                    • Ops - 17강<br>
+                    • 듣고싶은 강의만 선택해 수강 가능<br>
+                    • MSAEz 및 Gitpod 연동 기능 제공<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/standard-cna/">
+                    <a href="/operation/education/online-class/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
             </div>
-            
-
             
             <div class="card-box">
                 <div class="card-title"
@@ -82,6 +78,37 @@
             
             <div class="card-box">
                 <div class="card-title"
+                >Standard
+                </div>
+                <div class="card-subtitle">Standard CNA</div>
+                <div class="card-contents">
+                    마이크로서비스 모델링에서 클라우드 네이티브 앱 구현까지 MSA 이론과 클라우드 환경에서의 구현,배포,운영 실습을 포함하는 full Course
+                </div>
+                <div style="padding-left:5px;  height:60px; line-height:40px; display:flex;">
+                    <div style="font-size:24px; font-weight:900;">160만원</div>
+                    <div style="margin:3px 0 0 3px; font-size:14px;">/1인 4일</div>
+                </div>
+                <div class="card-second-contents">
+                    • 4 days<br>
+                    • 매월 3주차 월~목요일<br>
+                    • 비대면 화상교육 (Zoom)<br>
+                    • Biz/Dev과정만 선택수강 가능<br>
+                    • 교재, 클라우드 IDE/계정 제공<br>
+                    • CSP(AWS, Azure, GCP) 택 1<br>
+                    • 최대인원 25명<br>
+                </div>
+                <div style="text-align:center; height:90px; line-height:70px;">
+                    <a href="/operation/education/standard-cna/">
+                        <button class="card-details-btn">세부사항</button>
+                    </a>
+                </div>
+            </div>
+<!--             
+
+            
+            
+            <div class="card-box">
+                <div class="card-title"
                 >One Point
                 </div>
                 <div class="card-subtitle">One Point Lesson</div>
@@ -105,7 +132,7 @@
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
-            </div>
+            </div> -->
             
 
             <div class="card-box">

@@ -349,7 +349,7 @@
 </template>
 
 <script>
-        // @group 07_02_06
+        // @group 07_02_08
     export default {
         name:'standard-cna',
         data() {
@@ -358,7 +358,7 @@
             }
         },
         props: {
-            "2-2. Standard(4일 or 2일)": {
+            "2-4. Standard(4일 or 2일)": {
                 type: String
             },
         },

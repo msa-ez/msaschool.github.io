@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">One Point Lesson 과정</h2><br>
+            <h2 style="display:inline-block !important;">MSA Consulting 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -26,7 +26,7 @@
             :href="`https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)`"
         >
             <span style="color:white !important; font-weight:700; font-size:20px;">
-                교육 신청하기
+                컨설팅 문의하기
             </span>
         </v-btn>
         <table style="margin-top:50px; border : 1px solid black;">
@@ -168,7 +168,7 @@
 </template>
 
 <script>
-        // @group 07_02_08
+// @group 07_02_11
     export default {
         name:'one-point-lesson',
         data() {
@@ -177,7 +177,7 @@
             }
         },
         props: {
-            "2-4. One Point Lesson(협의)": {
+            "4. MSA Consulting(협의)": {
                 type: String
             },
         },
