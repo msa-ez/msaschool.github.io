@@ -72,7 +72,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'https://docs.google.com/forms/d/e/1FAIpQLScq7tP3_CkQN6oC5chHo-BOVM7hJneYfGOY1IQV1Lv8Tioxxg/viewform?usp=pp_url&entry.1601718327=One+Point+Lesson+%EA%B3%BC%EC%A0%95(%ED%9A%8C%EC%82%AC%EB%AA%85)'"
+                        :href="'/operation/education/one-point-lesson/'"
                     ><span style="color:white;">컨설팅 문의</span>
                     </v-btn>
                     <v-btn style="background-color:#5a67d8 !important;
@@ -84,7 +84,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'http://www.msaschool.io/operation/education/curriculum/'"
+                        :href="'/operation/education/curriculum/'"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
                 </div>
