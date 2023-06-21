@@ -2,7 +2,7 @@
     <div style="margin-top:80px;">
         <h2 style = "margin:0 0 10px 0;">Intermediate 과정</h2>
         <div class="basics-box clearfix">
-            <div class="card-box">
+            <!-- <div class="card-box">
                 <div class="card-title">Quick</div>
                 <div class="card-subtitle">Quick Understanding CNA</div>
                 <div class="card-contents">
@@ -20,7 +20,7 @@
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
-            </div>
+            </div> -->
 
             <div class="card-box">
                 <div class="card-title"
@@ -35,9 +35,10 @@
                     <div style="margin:3px 0 0 3px; font-size:14px;">/강의당</div>
                 </div>
                 <div class="card-second-contents">
-                    • Biz - 3강<br>
-                    • Dev - 16강<br>
-                    • Ops - 17강<br>
+                    • 총 36강<br>
+                        • Biz - 3강<br>
+                        • Dev - 16강<br>
+                        • Ops - 17강<br>
                     • 듣고싶은 강의만 선택해 수강 가능<br>
                     • MSAEz 및 Gitpod 연동 기능 제공<br>
                 </div>
@@ -67,7 +68,7 @@
                     • Biz/Dev과정만 선택수강 가능<br>
                     • 교재, 클라우드 IDE/계정 제공<br>
                     • CSP(AWS, Azure, GCP) 택 1<br>
-                    • 최대인원 25명<br>
+                    • 최소인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <a href="/operation/education/flipped-learning4-days-cna-course/">
@@ -95,7 +96,7 @@
                     • Biz/Dev과정만 선택수강 가능<br>
                     • 교재, 클라우드 IDE/계정 제공<br>
                     • CSP(AWS, Azure, GCP) 택 1<br>
-                    • 최대인원 25명<br>
+                    • 최소인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <a href="/operation/education/standard-cna/">
@@ -153,7 +154,6 @@
                     • 비대면 화상교육 (Zoom)<br>
                     • 교육 교재, 클라우드 IDE/계정 제공<br>
                     • CSP(AWS, Azure, GCP) 택 1<br>
-                    • 최대인원 25명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <a href="/operation/education/enterprise-full-day14-days-course/">
@@ -166,7 +166,7 @@
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
-            <a target="_blank" style="color:blue;" href="https://open.kakao.com/me/msaschool">카카오톡 오픈채팅</a>
+            <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/gwHpf2qf">카카오톡 오픈채팅</a>
         </div>
 
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-bottom:100px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
@@ -193,7 +193,7 @@
 
 <style>
     .card-box {
-        width:19.5%;
+        width:24.5%;
         height:550px;
         margin-right:0.5%;
         margin-bottom: 6px;

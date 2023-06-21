@@ -26,7 +26,9 @@
             <span style="color:white !important; font-weight:700; font-size:20px;">
                 강의장 이동하기
             </span>
-        </v-btn>  
+        </v-btn> 
+        <br>
+        <div>해당 링크에 접근하신 후 로그인을 해주시면 온라인 강의 목록 확인이 가능합니다.</div> 
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Biz</h4>
