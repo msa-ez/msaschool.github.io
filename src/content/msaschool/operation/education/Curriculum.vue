@@ -36,9 +36,9 @@
                 </div>
                 <div class="card-second-contents">
                     • 총 36강<br>
-                        • Biz - 3강<br>
-                        • Dev - 16강<br>
-                        • Ops - 17강<br>
+                    • Biz - 3강<br>
+                    • Dev - 16강<br>
+                    • Ops - 17강<br>
                     • 듣고싶은 강의만 선택해 수강 가능<br>
                     • MSAEz 및 Gitpod 연동 기능 제공<br>
                 </div>
