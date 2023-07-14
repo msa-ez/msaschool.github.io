@@ -437,7 +437,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
-            <a target="_blank" style="color:blue; font-size: 13px;" href="https://open.kakao.com/me/msaschool">카카오톡</a>
+            <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/gwHpf2qf">카카오톡 오픈채팅</a>
         </div>
 
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
