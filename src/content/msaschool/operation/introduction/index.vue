@@ -449,7 +449,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     
       <v-row style="margin:0;">
         <!-- 1번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -465,7 +465,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 2번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/cna-start-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/cna-start-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -481,7 +481,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 3번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/monolith-2-misvc-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/monolith-2-misvc-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -497,7 +497,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 4번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/circuit-breaker-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/circuit-breaker-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -513,7 +513,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 5번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/pub-sub-2022-assocaiate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/pub-sub-2022-assocaiate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -529,7 +529,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 6번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/compensation-correlation-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/compensation-correlation-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -545,7 +545,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 7번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/Oauth2withKeycloak-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/Oauth2withKeycloak-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -561,7 +561,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 8번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/dp-frontend-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/dp-frontend-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -577,7 +577,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 9번 카드 -->
-        <a href="https://dev.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/dp-graphql-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/dp-graphql-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
