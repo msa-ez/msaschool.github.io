@@ -443,13 +443,9 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
     </div>
     
-    <mark-down style="margin-top:-50px;" class="content">
-### MSA School 교과정 맛보기
-    </mark-down>
-    
       <v-row style="margin:0;">
         <!-- 1번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -465,7 +461,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 2번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/cna-start-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#cna-start-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -481,7 +477,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 3번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/monolith-2-misvc-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#monolith-2-misvc-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -497,7 +493,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 4번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/circuit-breaker-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#circuit-breaker-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -513,7 +509,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 5번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/pub-sub-2022-assocaiate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#pub-sub-2022-assocaiate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -529,7 +525,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 6번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/compensation-correlation-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#compensation-correlation-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -545,7 +541,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 7번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/Oauth2withKeycloak-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#Oauth2withKeycloak-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -561,7 +557,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 8번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/dp-frontend-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-frontend-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -577,7 +573,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
         
         <!-- 9번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/dp-graphql-2022-associate" target="_blank">
+        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-graphql-2022-associate" target="_blank">
           <div
             class="clearfix tutorials-card-box"
             outlined
@@ -613,54 +609,14 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
       </v-col> -->
 
-    <mark-down style="margin-top:-50px;" class="content">
-### MSA School 패밀리 사이트
+    <mark-down style="margin-top:-50px; margin-bottom:15px;" class="content">
+### 8월 웨비나 - Chat GPT와 MSAEZ를 활용하여 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기
+전체 재생목록 링크 : https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X
     </mark-down>
       
-    <div class="basics-box clearfix" style="margin:10px 0px 50px 0px;">
-        <div class="main-card-box">
-          <div style="font-size:20px; font-weight:900;">커뮤니티</div>
-          <div style="font-size:14px; height:210px;">
-            MSA and DDD Software modeling 
-            <br/>- 마이크로서비스와 도메인 주도 SW 모델링
-            <br><br>설립년도 : 2015년
-            <br><br>맴버 : 2.5천명 (2023. 01 현재)
-            <br><br>주소 : https://www.facebook.com/groups/cloudswmoding/
-          </div>
-          <div style="text-align:center;">
-            <a href="https://www.facebook.com/groups/cloudswmoding/" target="_blank">
-              <button class="main-card-details-btn">바로가기</button>
-            </a>
-          </div>
-        </div>
-        
-        <div class="main-card-box">
-          <div style="font-size:20px; font-weight:900;">학습교구</div>
-          <div style="font-size:14px; height:210px;">MSA Easy - The fastest way to build event-driven microservices
-            <br><br>EventStorming to Code Generator.
-            <br><br>주소 : https://intro-kor.msaez.io/
-          </div>
-          <div style="text-align:center;">
-            <a href="https://intro-kor.msaez.io/" target="_blank">
-              <button class="main-card-details-btn">바로가기</button>
-            </a>
-          </div>
-        </div>
-        
-        <div class="main-card-box">
-          <div style="font-size:20px; font-weight:900;">교육플랫폼</div>
-          <div style="font-size:14px; height:210px;">오픈강좌 자유열람 진행중 + 온라인 CNA 강좌 운영중
-            <br><br>설치가 필요없는 학습교구
-            <br><br>주소 : https://labs.msaez.io/#/courses
-          </div>
-          <div style="text-align:center;">
-            <a href="https://labs.msaez.io/#/courses" target="_blank">
-              <button class="main-card-details-btn">바로가기</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <iframe id="player" type="text/html" width="1086" height="680"
+      src="http://www.youtube.com/embed/05NOZ41wzUg"
+      frameborder="0"></iframe>
   </div>
 </template>
 
