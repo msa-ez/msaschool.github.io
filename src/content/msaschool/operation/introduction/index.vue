@@ -437,11 +437,36 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         <div style="margin-top:20px; display:inline-flex;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
-            <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/gwHpf2qf">카카오톡 오픈채팅</a>
+            <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
         </div>
 
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
     </div>
+    
+    <mark-down style="margin-top:-50px;" class="content">
+### MSA School 교육 실적 및 주요 수강 기업
+    </mark-down>
+    <v-row style="margin:0; text-align: center;">
+        <!-- 1번 카드 -->
+        <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
+            src="https://github.com/kykim97/factory-pattern/assets/113568664/00aa151a-3e17-4cc6-a2aa-c7ac25748f06">
+        </g-image>
+        <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
+            src="https://github.com/kykim97/factory-pattern/assets/113568664/dec2df52-4cd0-4ae6-b3cc-42bdd1eab7d5">
+        </g-image>
+        <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
+            src="https://github.com/kykim97/factory-pattern/assets/113568664/e406b5bd-2641-41ba-a791-00b6f0bba20c">
+        </g-image>
+    </v-row>
+    <mark-down style="margin-top:-50px;" class="content">
+### MSA School 주요 수강 기업
+    </mark-down>
+    <g-image style="margin-top: 10px;"
+        src="https://github.com/kykim97/factory-pattern/assets/113568664/8e26cbab-1ec2-459b-beee-769d8f5057d7">
+    </g-image>
+    <mark-down style="margin-top:-50px;" class="content">
+### MSA School 교과정 맛보기
+    </mark-down>
     
       <v-row style="margin:0;">
         <!-- 1번 카드 -->
