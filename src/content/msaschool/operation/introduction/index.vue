@@ -444,7 +444,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     </div>
     
     <mark-down style="margin-top:-50px;" class="content">
-### MSA School 교육 실적 및 주요 수강 기업
+### MSA School 교육 실적
     </mark-down>
     <v-row style="margin:0; text-align: center;">
         <!-- 1번 카드 -->
