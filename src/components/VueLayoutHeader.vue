@@ -155,19 +155,20 @@
                     <v-btn style="background-color:#5a67d8 !important;
                         border-radius: 4px;
                         margin-right:15px;
-                        height: 36px;
+                        margin-bottom: 4px;
+                        height: 33px;
                         width: 120px;
                         text-align: center;
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
                         :href="'http://www.msaschool.io/operation/education/curriculum/'"
-                    ><span style="color:white;">컨설팅 의뢰</span>
+                    ><span style="color:white;">컨설팅 문의</span>
                     </v-btn>
                     <v-btn style="background-color:#5a67d8 !important;
                         border-radius: 4px;
                         margin-right:15px;
-                        height: 36px;
+                        height: 33px;
                         width: 120px;
                         text-align: center;
                         line-height: 36px;

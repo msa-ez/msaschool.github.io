@@ -635,11 +635,11 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
       </v-col> -->
 
     <mark-down style="margin-top:-50px; margin-bottom:15px;" class="content">
-### 8월 웨비나 - Chat GPT와 MSAEZ를 활용하여 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기
+### 8월 웨비나 - ChatGPT와 MSAEZ를 활용하여 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기
 전체 재생목록 링크 : https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X
     </mark-down>
     <div class="clearfix video-link">
-      <iframe id="player" type="text/html"
+      <iframe id="player" type="text/html" class="clearfix video-link"
       src="http://www.youtube.com/embed/05NOZ41wzUg"
       frameborder="0"></iframe>
     </div>  
@@ -866,8 +866,8 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
   }
 
   .video-link {
-    width:"1086px"; 
-    height:"680px";
+    width:1086px; 
+    height:680px;
   }
 
   .tutorials-card-main-text {

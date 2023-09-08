@@ -1,5 +1,8 @@
 <template>
     <div>
+        <div style = "height:30px; width:100%; margin-top:20px;">
+                <VueSubLayoutCard lab="ddd-google-drive-associate"></VueSubLayoutCard>
+        </div>
         <mark-down class="content">
 ## 이벤트스토밍
 
@@ -147,20 +150,22 @@ Bounded Context는 동일한 문맥으로 효율적으로 업무 용어(도메�
 > 비즈니스 및 개인적인 용도로 많은 유저들이 사용하고 있는 구글 드라이브 서비스를 코레오그래피 방식의 이벤트스토밍을 기반한 마이크로서비스 형태로 만들어보는 과정입니다.
 > 아래 카드를 클릭해 강의실로 이동할 수 있습니다.
 </mark-down>
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate" target="_blank">
-          <v-card
-            style="margin: 10px 0 30px 10px; width: 600px; height: 400px;"
-            outlined
-          >
-              <g-image style="margin-left: 75px; width: 450px; height: 290px;"
-                  src="https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png">
-              </g-image>
-            <div>
-              <div style="margin-left: 80px; font-size:20px; font-weight:900;">[Biz] 이벤트스토밍</div>
-              <div style="margin: 10px 0 50px 80px; font-size:14px;">구글 드라이브 시나리오를 기반으로 한 이벤트스토밍 예제</div>
-            </div>
-          </v-card>
-        </a>
+        <div>
+            <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate" target="_blank">
+            <v-card
+                style="margin: 10px 0 30px 10px; width: 350px; height: 300px;"
+                outlined
+            >
+                <g-image style="margin-left: 25px; width: 300px; height: 180px;"
+                    src="https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png">
+                </g-image>
+                <div>
+                <div style="margin-left: 40px; font-size:20px; font-weight:900;">[Biz] 이벤트스토밍</div>
+                <div style="margin: 10px 40px 50px 40px; font-size:14px;">구글 드라이브 시나리오를 기반으로 한 이벤트스토밍 예제</div>
+                </div>
+            </v-card>
+            </a>
+        </div>
     </div>
 </template>
 
