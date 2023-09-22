@@ -439,31 +439,104 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
             <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
         </div>
-
-        <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
     </div>
     
     <mark-down style="margin-top:-50px;" class="content">
-### MSA School 교육 실적
+### MSA School 강사진 소개
+    </mark-down>
+        <div class="gs-the-entire-package" style="margin-top: 10px;">
+            <div class="gs-instructor-card">
+                <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                    <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
+                </div>
+                <div class="gs-instructor-card-name">
+                    <h3 style="margin-bottom:0; color:gray;">장진영</h3>
+                    <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
+                </div>
+                <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                    • MSA 교육, 기업 컨설팅<br>
+                    • MSAEz, MSA School, CNA PaaS Platform<br>
+                    • Open Source Open Cloud Engine<br>
+                    • uEngine BPM, SNS(Process CODI), ALM(ESSENCIA)<br>
+                    <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                    • 現 유엔진솔루션즈 대표이사<br>
+                    • 現 MSA 교육, 기업 컨설팅<br>
+                    • 現 MSA Facebook 운영<br>(https://www.facebook.com/groups/cloudswmoding)<br>
+                    • 클라우드(MSA, DDD) 강의 다수<br>
+                    • 객체지향 프로그래밍 University 강의<br>
+                    • 한국소프트웨어기술진흥협회 전문강사<br>
+                </div>
+            </div>
+        
+            <div class="gs-instructor-card">
+                <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                    <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
+                </div>
+                <div class="gs-instructor-card-name">
+                    <h3 style="margin-bottom:0; color:gray;">박용주</h3>
+                    <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
+                </div>
+                <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                    • MSA DT 마스터플랜 수립 Project<br>
+                    • MSA PoC/ Pilot 수행<br>
+                    • 다수 MSA 제안 작업 및 컨설팅 <br>
+                    • 마이크로서비스 교육과정 교안/교재 집필  <br>
+                    <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                    • 現 uEngine MSA 정규 교과정 전문강사<br>
+                    • 現 MSA App. Engineering 기업과정 강사<br>
+                    • ‘21 : SK MSA App. Engineering 과정 강사 외<br>
+                    • ’21. 06 : KT Microservice 직무전환과정 강사<br>
+                    • ’20. 09 : Doosan Microservices 교육 강사<br>
+                    • ’19. 09 : KOSTA Microservices 교육 강사<br>
+                    • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
+                </div>
+            </div>
+            <div class="gs-instructor-card">
+                <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                    <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
+                </div>
+                <div class="gs-instructor-card-name">
+                    <h3 style="margin-bottom:0; color:gray;">윤성렬</h3>
+                    <p style="color:gray; font-size:12px;">uEngine Manager & MSA Consultant</p>
+                </div>
+                <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                    • MSA 개발 및 네트워크 인프라 구축<br>
+                    • Domain 분석설계 및 서버 개발 project<br>
+                    • 다수 MSA 제안 작업 및 컨설팅 <br>
+                    • 다수 마이크로서비스 교육 진행  <br>
+                    <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                    • 現 네비웍스 연구소장/상무이사<br>
+                    • 現 드림플로우 연구소장/이사<br>
+                    • 現 한국소프트웨어기술진흥협회 BAPF 포럼,<br>교육과정위원회 및 전문강사<br>
+                    • ’18. 10 : 원오원글로벌 디지털팀 팀장<br>
+                    • ’18. 04 : TTA 사물인터넷 특별기술위원회 사물인터넷<br>융합서비스 프로젝트그룹 (SPG11) 부의장<br>
+                    • ’17. 03 : 가천대학교 겸임교수<br>
+                </div>
+            </div>
+          </div>
+    <mark-down style="margin-top:-50px;" class="content">
+### MSA School 교육 실적 및 주요 수강 기업
     </mark-down>
     <v-row style="margin:0; text-align: center;">
-        <!-- 1번 카드 -->
-        <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
+        <g-image style="margin: 10px 10px 0 0; width: 450px; height: 504px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/00aa151a-3e17-4cc6-a2aa-c7ac25748f06">
         </g-image>
-        <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
+        <g-image style="margin: 10px 10px 0 0; width: 700px; height: 504px;"
+            src="https://github.com/kykim97/factory-pattern/assets/113568664/25d6d172-3b23-47d3-a4ea-07e82898ad7a">
+        </g-image>
+        <!-- <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/dec2df52-4cd0-4ae6-b3cc-42bdd1eab7d5">
         </g-image>
         <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/e406b5bd-2641-41ba-a791-00b6f0bba20c">
-        </g-image>
+        </g-image> -->
     </v-row>
-    <mark-down style="margin-top:-50px;" class="content">
+    <!-- <mark-down style="margin-top:-50px;" class="content">
 ### MSA School 주요 수강 기업
     </mark-down>
     <g-image style="margin-top: 10px;"
         src="https://github.com/kykim97/factory-pattern/assets/113568664/8e26cbab-1ec2-459b-beee-769d8f5057d7">
-    </g-image>
+    </g-image> -->
     <mark-down style="margin-top:-50px;" class="content">
 ### MSA School 교과정 맛보기
     </mark-down>
@@ -635,14 +708,63 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
       </v-col> -->
 
     <mark-down style="margin-top:-50px; margin-bottom:15px;" class="content">
-### 8월 웨비나 - ChatGPT와 MSAEZ를 활용하여 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기
-전체 재생목록 링크 : https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X
+### 웨비나 영상 다시보기
     </mark-down>
-    <div class="clearfix video-link">
+    <a href="https://www.youtube.com/@uengine5309" target="_blank">
+      <v-btn style="background-color:#5a67d8 !important;
+          border-radius: 4px;
+          margin-right:15px;
+          height: 36px;
+          width: 120px;
+          text-align: center;
+          line-height: 36px;
+          font-size: 14px;
+          font-weight: 700;"
+      ><span style="color:white;">전체 영상 확인</span>
+      </v-btn>
+    </a>
+    <v-row style="margin:0;">
+        <!-- 1번 카드 -->
+        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
+          <div
+            class="clearfix youtube-card-box"
+            outlined
+          >
+              <g-image class="youtube-card-image"
+                  src="https://github.com/kykim97/factory-pattern/assets/113568664/271e0ff2-5aaf-4f73-a27b-c62e14a41fbb">
+              </g-image>
+            <div>
+              <div class="tutorials-card-main-text">7월 웨비나</div>
+              <div class="tutorials-card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- 2번 카드 -->
+        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
+          <div
+            class="clearfix youtube-card-box"
+            outlined
+          >
+            <g-image class="youtube-card-image"
+                src="https://github.com/kykim97/factory-pattern/assets/113568664/1b393e58-f09d-4fdc-9126-244ac4a5d98c">
+            </g-image>
+            <div>
+              <div class="tutorials-card-main-text">8월 웨비나</div>
+              <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
+            </div>
+          </div>
+        </a>
+    </v-row>
+    <!-- <div>
       <iframe id="player" type="text/html" class="clearfix video-link"
       src="http://www.youtube.com/embed/05NOZ41wzUg"
       frameborder="0"></iframe>
-    </div>  
+    </div>  -->
+    <mark-down style="margin-top:-50px; margin-bottom:15px;" class="content">
+### MSA School 교육 일정 확인
+    </mark-down> 
+    <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin:10px 0 10px 0;" frameborder="0" scrolling="no"></iframe>
   </div>
 </template>
 
@@ -864,10 +986,25 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     margin-right:10px;
     margin-bottom:10px;
   }
+  .youtube-card-box {
+    border:solid 1px #E2E8F0;
+    border-radius: 5px;
+    padding:10px;
+    margin:10px 0 0 10px;
+    width:300px;
+    height:300px;
+  }
+
+  .youtube-card-image {
+    height:180px;
+    width:280px;
+    margin-right:10px;
+    margin-bottom:10px;
+  }
 
   .video-link {
-    width:1086px; 
-    height:680px;
+    width:900px; 
+    height:500px;
   }
 
   .tutorials-card-main-text {
