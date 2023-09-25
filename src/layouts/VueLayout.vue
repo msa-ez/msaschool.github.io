@@ -30,6 +30,14 @@
                     <slot/>
                 </div>
             </main>
+            <footer
+                    ref="footer"
+                    class="top-0 z-10 border-b bg-ui-background border-ui-border"
+                    :style="footStyleBySize"
+                    @resize="setFooterHeight"
+            >
+                <VueLayoutFooter @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutFooter>
+            </footer>
         </div>
 
         <!-- <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
@@ -72,6 +80,7 @@
 <script>
     import VueSidebar from "../components/VueSidebar";
     import VueLayoutHeader from "../components/VueLayoutHeader";
+    import VueLayoutFooter from "../components/VueLayoutFooter";
     import VueSubLayoutHeader from "../components/VueSubLayoutHeader";
     import VueSubLayoutCard from "../components/VueSubLayoutCard";
     import {XIcon, MenuIcon} from 'vue-feather-icons'
@@ -83,6 +92,7 @@
             // Sidebar,
             VueSidebar,
             VueLayoutHeader,
+            VueLayoutFooter,
             VueSubLayoutHeader,
             VueSubLayoutCard,
             XIcon,

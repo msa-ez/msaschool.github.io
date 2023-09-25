@@ -461,7 +461,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                     <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                     • 現 유엔진솔루션즈 대표이사<br>
                     • 現 MSA 교육, 기업 컨설팅<br>
-                    • 現 MSA Facebook 운영<br>(https://www.facebook.com/groups/cloudswmoding)<br>
+                    • 現 MSA Facebook 그룹 운영<a target="_blank" style="color:blue;" href="https://www.facebook.com/groups/cloudswmoding">(링크)</a><br>
                     • 클라우드(MSA, DDD) 강의 다수<br>
                     • 객체지향 프로그래밍 University 강의<br>
                     • 한국소프트웨어기술진흥협회 전문강사<br>
@@ -483,43 +483,67 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                     • 마이크로서비스 교육과정 교안/교재 집필  <br>
                     <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                     • 現 uEngine MSA 정규 교과정 전문강사<br>
-                    • 現 MSA App. Engineering 기업과정 강사<br>
-                    • ‘21 : SK MSA App. Engineering 과정 강사 외<br>
-                    • ’21. 06 : KT Microservice 직무전환과정 강사<br>
-                    • ’20. 09 : Doosan Microservices 교육 강사<br>
-                    • ’19. 09 : KOSTA Microservices 교육 강사<br>
-                    • ‘19. 02 : LG CNS 이벤트스토밍 교육 강사<br>
+                    • 現 MSA App. Engineering 기업과정<br>
+                    • ‘21 : SK MSA App. Engineering 과정<br>
+                    • ’21. 06 : KT Microservice 직무전환과정<br>
+                    • ’20. 09 : Doosan Microservices 교육<br>
+                    • ’19. 09 : KOSTA Microservices 교육<br>
+                    • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                 </div>
-            </div>
-            <div class="gs-instructor-card">
+              </div>
+              <div class="gs-instructor-card">
+                  <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                      <g-image style="margin-top:-15px;" src="https://github.com/kykim97/factory-pattern/assets/113568664/016eba9d-600d-45b6-a8cc-8f912d7541f3"></g-image>
+                  </div>
+                  <div class="gs-instructor-card-name">
+                      <h3 style="margin-bottom:0; color:gray;">손영수</h3>
+                      <p style="color:gray; font-size:12px;">Onycom CPO</p>
+                  </div>
+                  <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                      • Onycom 성능솔루션 사업부 상무/CPO<br>
+                      • 대기업 대상 다수 소프트웨어 교육 진행<br>
+                      • 다수 소프트웨어 도서 번역 및 감수<br>
+                      <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                      • 現 어니컴 성능솔루션 사업부 상무 / CPO<br>
+                      • 前 와탭랩스 CPO<br>
+                      • 前 NHN NEXT 모바일/창업 과정 교수<br>
+                      • 前 삼성전자 소프트웨어 센터 책임<br>
+                      • IBK기업은행 Java Clean Code와 성능향상<br>
+                      • 삼성전자 삼성페이 서버 아키텍팅 과정<br>
+                      • Samsung SDS 아키텍트 과정 설계/ 평가 과정<br>
+                      • 현대 오토에버 아키텍트 설계 및 전략 과정<br>
+                      • KT CleanCode 및 소프트웨어 아키텍트 과정<br>
+                      • 그 외 다수
+                  </div>
+              </div>
+              <div class="gs-instructor-card">
                 <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                    <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
+                  <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
                 </div>
-                <div class="gs-instructor-card-name">
-                    <h3 style="margin-bottom:0; color:gray;">윤성렬</h3>
-                    <p style="color:gray; font-size:12px;">uEngine Manager & MSA Consultant</p>
-                </div>
-                <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                    • MSA 개발 및 네트워크 인프라 구축<br>
-                    • Domain 분석설계 및 서버 개발 project<br>
-                    • 다수 MSA 제안 작업 및 컨설팅 <br>
-                    • 다수 마이크로서비스 교육 진행  <br>
-                    <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
-                    • 現 네비웍스 연구소장/상무이사<br>
-                    • 現 드림플로우 연구소장/이사<br>
-                    • 現 한국소프트웨어기술진흥협회 BAPF 포럼,<br>교육과정위원회 및 전문강사<br>
-                    • ’18. 10 : 원오원글로벌 디지털팀 팀장<br>
-                    • ’18. 04 : TTA 사물인터넷 특별기술위원회 사물인터넷<br>융합서비스 프로젝트그룹 (SPG11) 부의장<br>
-                    • ’17. 03 : 가천대학교 겸임교수<br>
-                </div>
-            </div>
+                  <div class="gs-instructor-card-name">
+                      <h3 style="margin-bottom:0; color:gray;">윤성열</h3>
+                      <p style="color:gray; font-size:12px;">Dreamflow CEO</p>
+                  </div>
+                  <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                      • MSA 개발 및 네트워크 인프라 구축<br>
+                      • Domain 분석설계 및 서버 개발 project<br>
+                      • 다수 MSA 제안 작업 및 컨설팅 <br>
+                      • 다수 마이크로서비스 교육 진행  <br>
+                      <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                      • 現 드림플로우 대표이사<br>
+                      • 現 한국소프트웨어기술진흥협회 BAPF <br>포럼, 교육과정위원회 및 전문강사<br>
+                      • ’18. 10 : 원오원글로벌 디지털팀 팀장<br>
+                      • ’18. 04 : TTA 사물인터넷 특별기술위원회 사물인터넷 융합서비스 프로젝트그룹 (SPG11) 부의장<br>
+                      • ’17. 03 : 가천대학교 겸임교수<br>
+                  </div>
+              </div>
           </div>
     <mark-down style="margin-top:-50px;" class="content">
 ### MSA School 교육 실적 및 주요 수강 기업
     </mark-down>
     <v-row style="margin:0; text-align: center;">
         <g-image style="margin: 10px 10px 0 0; width: 450px; height: 504px;"
-            src="https://github.com/kykim97/factory-pattern/assets/113568664/00aa151a-3e17-4cc6-a2aa-c7ac25748f06">
+            src="https://github.com/kykim97/factory-pattern/assets/113568664/34d938cb-db22-44db-a038-7886d3a1568c">
         </g-image>
         <g-image style="margin: 10px 10px 0 0; width: 700px; height: 504px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/25d6d172-3b23-47d3-a4ea-07e82898ad7a">
