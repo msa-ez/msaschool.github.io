@@ -162,7 +162,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'http://www.msaschool.io/operation/education/curriculum/'"
+                        :href="'/operation/education/one-point-lesson/'"
                     ><span style="color:white;">컨설팅 문의</span>
                     </v-btn>
                     <v-btn style="background-color:#5a67d8 !important;
@@ -174,7 +174,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'http://www.msaschool.io/operation/education/curriculum/'"
+                        :href="'/operation/education/curriculum/'"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
                 </div>

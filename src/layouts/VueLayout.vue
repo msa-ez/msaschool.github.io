@@ -33,8 +33,6 @@
             <footer
                     ref="footer"
                     class="top-0 z-10 border-b bg-ui-background border-ui-border"
-                    :style="footStyleBySize"
-                    @resize="setFooterHeight"
             >
                 <VueLayoutFooter @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutFooter>
             </footer>

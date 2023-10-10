@@ -445,11 +445,22 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
 ### MSA School 강사진 소개
     </mark-down>
         <div class="gs-the-entire-package" style="margin-top: 10px;">
-            <div class="gs-instructor-card">
+            <div style="width:49% !important;
+                        margin-right:2% !important;
+                        background-color: white !important;
+                        border: 1px solid #e5e5e5 !important;
+                        border-radius: 10px !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
                 <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                     <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
                 </div>
-                <div class="gs-instructor-card-name">
+                <div style="width:80% !important;
+                            background-color:#e6e9f9 !important;
+                            margin:0 auto !important;
+                            border-radius:10px !important;
+                            margin-top:-25px !important;
+                            text-align:center !important;
+                            position:relative !important;">
                     <h3 style="margin-bottom:0; color:gray;">장진영</h3>
                     <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
                 </div>
@@ -468,11 +479,22 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                 </div>
             </div>
         
-            <div class="gs-instructor-card">
+            <div style="width:49% !important;
+                        margin-right:2% !important;
+                        background-color: white !important;
+                        border: 1px solid #e5e5e5 !important;
+                        border-radius: 10px !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
                 <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                     <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
                 </div>
-                <div class="gs-instructor-card-name">
+                <div style="width:80% !important;
+                            background-color:#e6e9f9 !important;
+                            margin:0 auto !important;
+                            border-radius:10px !important;
+                            margin-top:-25px !important;
+                            text-align:center !important;
+                            position:relative !important;">
                     <h3 style="margin-bottom:0; color:gray;">박용주</h3>
                     <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
                 </div>
@@ -491,11 +513,22 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                     • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                 </div>
               </div>
-              <div class="gs-instructor-card">
+              <div style="width:49% !important;
+                        margin-right:2% !important;
+                        background-color: white !important;
+                        border: 1px solid #e5e5e5 !important;
+                        border-radius: 10px !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
                   <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                       <g-image style="margin-top:-15px;" src="https://github.com/kykim97/factory-pattern/assets/113568664/016eba9d-600d-45b6-a8cc-8f912d7541f3"></g-image>
                   </div>
-                  <div class="gs-instructor-card-name">
+                  <div style="width:80% !important;
+                            background-color:#e6e9f9 !important;
+                            margin:0 auto !important;
+                            border-radius:10px !important;
+                            margin-top:-25px !important;
+                            text-align:center !important;
+                            position:relative !important;">
                       <h3 style="margin-bottom:0; color:gray;">손영수</h3>
                       <p style="color:gray; font-size:12px;">Onycom CPO</p>
                   </div>
@@ -516,11 +549,22 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                       • 그 외 다수
                   </div>
               </div>
-              <div class="gs-instructor-card">
+              <div style="width:49% !important;
+                        margin-right:2% !important;
+                        background-color: white !important;
+                        border: 1px solid #e5e5e5 !important;
+                        border-radius: 10px !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
                 <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                   <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
                 </div>
-                  <div class="gs-instructor-card-name">
+                  <div style="width:80% !important;
+                            background-color:#e6e9f9 !important;
+                            margin:0 auto !important;
+                            border-radius:10px !important;
+                            margin-top:-25px !important;
+                            text-align:center !important;
+                            position:relative !important;">
                       <h3 style="margin-bottom:0; color:gray;">윤성열</h3>
                       <p style="color:gray; font-size:12px;">Dreamflow CEO</p>
                   </div>
