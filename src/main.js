@@ -44,6 +44,18 @@ export default function (Vue, {appOptions, head}) {
             "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
     });
 
+    head.script.push({
+        src: 'https://www.googletagmanager.com/gtag/jsid=GTM-M9V65LQ5',
+        async: true
+      })
+    if (process.isClient) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'GTM-M9V65LQ5');
+      window.gtag = gtag; // expose gtag function to global scope
+    }
+
 
 
     var firebaseConfig = {
