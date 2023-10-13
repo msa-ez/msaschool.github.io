@@ -823,6 +823,22 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             </div>
           </div>
         </a>
+
+        <!-- 3번 카드 -->
+        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
+          <div
+            class="clearfix youtube-card-box"
+            outlined
+          >
+            <g-image class="youtube-card-image"
+                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/bc3467a2-2b1e-4eab-abd3-bdd490a3b6a6">
+            </g-image>
+            <div>
+              <div class="tutorials-card-main-text">10월 웨비나</div>
+              <div class="tutorials-card-sub-text">2023년 10월 웨비나 - ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
+            </div>
+          </div>
+        </a>
     </v-row>
     <!-- <div>
       <iframe id="player" type="text/html" class="clearfix video-link"
