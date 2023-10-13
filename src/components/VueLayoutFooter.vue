@@ -7,12 +7,6 @@
             </g-image> -->
             <div> Copyright © uEngine All Rights Reserved | 주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩) </div>
             <div> 사업자등록번호 : 211-87-95355 | 전화번호 : 02-567-8301 | 대표이사 : 장진영 </div>
-            <div style="text-align: center;">
-                <a href="https://labs.msaez.io/" target="_blank">
-                    <g-image src="https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png">
-                    </g-image>
-                </a>
-            </div>
         </div>
     </div>
 </template>
