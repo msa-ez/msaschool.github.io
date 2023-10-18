@@ -799,7 +799,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
               <g-image class="youtube-card-image"
-                  src="https://github.com/kykim97/factory-pattern/assets/113568664/271e0ff2-5aaf-4f73-a27b-c62e14a41fbb">
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/adc36c9d-3c4f-4918-9d41-59129a4653c6">
               </g-image>
             <div>
               <div class="tutorials-card-main-text">7월 웨비나</div>
@@ -815,7 +815,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
             <g-image class="youtube-card-image"
-                src="https://github.com/kykim97/factory-pattern/assets/113568664/1b393e58-f09d-4fdc-9126-244ac4a5d98c">
+                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/24437b45-a7da-4fd0-b276-823c44944be4">
             </g-image>
             <div>
               <div class="tutorials-card-main-text">8월 웨비나</div>
@@ -831,7 +831,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
             outlined
           >
             <g-image class="youtube-card-image"
-                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/bc3467a2-2b1e-4eab-abd3-bdd490a3b6a6">
+                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/eaff5d86-b56f-45ea-82fb-c73c3394f265">
             </g-image>
             <div>
               <div class="tutorials-card-main-text">10월 웨비나</div>
