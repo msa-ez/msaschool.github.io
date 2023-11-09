@@ -139,29 +139,31 @@
       </div>
     </div>
   <div>
-    <mark-down class="content" style="margin-top:-40px;">
-### MSA School 은
-**MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.**
-
-MSA School은 분석, 설계에서 구현, 배포까지 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
-Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서비스 구현에 필수인 전용 프레임워크(Eventuate, Axon 등)와 최신 MSA 기술이 반영된 실습코드로 MSA School은 항상 진화합니다.
-
-모든 CNA 교과정은 로컬에 SW 설치없이 웹 브라우저에서 수강가능합니다. 브라우저 상에서 Domain driven Design(도메인 주도 설계)기반 분석/설계 도구인 이벤트스토밍(Eventstorming)으로 설계된 도메인 모델은 다양한 언어(Axon, Eventuate, Go, Nodejs, Python, Spring-boot, Custom Language)로 CNA Code가 생성되고, 클라우드 IDE 도구인 GitPod와 자동 연계됩니다.
-
-MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현장 경험 및 질높은 교육 후기로 인해, 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 통해 CNA를 학습하고 재방문의 발길이 꾸준하게 이어지고 있습니다.
-
-    </mark-down>
+    <div class="content" style="margin-top:-40px;">
+      <h3>MSA School 은</h3>
+      <p style="font-weight: 700;">MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.</p>
+      <div style="margin-bottom: 15px; line-height: 1.5; color:#444d56;">
+        MSA School은 분석, 설계에서 구현, 배포까지 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
+        <br>Cloud native한 최신 컨텐츠는 물론, 이벤트 드리븐 마이크로서비스 구현에 필수인 전용 프레임워크(Eventuate, Axon 등)와 최신 MSA 기술이 반영된 실습코드로 MSA School은 항상 진화합니다.
+      </div>
+      <div style="margin-bottom: 15px; line-height: 1.5; color:#444d56;">
+        모든 CNA 교과정은 로컬에 SW 설치없이 웹 브라우저에서 수강가능합니다. 브라우저 상에서 Domain driven Design(도메인 주도 설계)기반 분석/설계 도구인 이벤트스토밍(Eventstorming)으로 설계된 도메인 모델은 다양한 언어(Axon, Eventuate, Go, Nodejs, Python, Spring-boot, Custom Language)로 CNA Code가 생성되고, 클라우드 IDE 도구인 GitPod와 자동 연계됩니다.
+      </div>
+      <div style="color:#444d56;">
+        MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현장 경험 및 질높은 교육 후기로 인해, 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 통해 CNA를 학습하고 재방문의 발길이 꾸준하게 이어지고 있습니다.
+      </div>
+    </div>
 
     <!-- <g-image style="margin:0 auto; width:700px;" src="./img/number1.png"></g-image> -->
 
     
-    <mark-down class="content" style="margin-top:-50px;">
-### MSA School 에는
-**클라우드 네이티브 전문가가 되는 체계적인 업계 최고 커리큘럼이 준비되어 있습니다. 또한, 수강하시는 기업을 위해 다양하게 스케줄링된 학습 유형을 제공합니다.**
-    </mark-down>
+    <div class="content" style="margin-top:-50px;">
+      <h3>MSA School 에는</h3>
+      <p style="font-weight: 700;">클라우드 네이티브 전문가가 되는 체계적인 업계 최고 커리큘럼이 준비되어 있습니다. 또한, 수강하시는 기업을 위해 다양하게 스케줄링된 학습 유형을 제공합니다.</p>
+    </div>
     <br>
     <div class="is-not-mobile-main-top">
-        <div style = "font-size:16px; font-weight: 600;">교육 과정 Overview</div>
+        <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
         <table class="gs-table-default gs-table-default">
             <th class="main-table-title"> </th>
             <th class="main-table-title">Fundamental</th>
@@ -281,9 +283,14 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                 </td>
             </tr>
         </table>
+        <div style="margin-top:20px; display:inline-flex;">
+            <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
+            <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+            <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
+        </div>
       </div>
       <div class="is-mobile-main-top">
-        <div style = "font-size:16px; font-weight: 600;">교육 과정 Overview</div>
+        <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
         <table class="gs-table-default gs-table-default">
             <th class="main-table-title"> </th>
             <th class="main-table-title">Fundamental</th>
@@ -433,28 +440,33 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
               </td>
             </tr>
         </table>
-      </div>
-        <div style="margin-top:20px; display:inline-flex;">
+        <div style="margin-top:20px; display:flex; flex-direction: column;">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
             <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
         </div>
+      </div>
     </div>
     
-    <mark-down style="margin-top:-50px;" class="content">
-### MSA School 강사진 소개
-    </mark-down>
-        <div class="gs-the-entire-package" style="margin-top: 10px;">
-            <div style="width:49% !important;
-                        margin-right:2% !important;
+    <div style="margin-top:-50px;" class="content">
+      <h3>MSA School 강사진 소개</h3>
+    </div>
+        <div class="gs-the-entire-package" style="margin-top: 20px;">
+            <div style="width:90% !important;
+                        margin-left:1% !important;
+                        margin-right:1% !important;
                         background-color: white !important;
                         border: 1px solid #e5e5e5 !important;
                         border-radius: 10px !important;
-                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
-                <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                    <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
-                </div>
-                <div style="width:80% !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
+                        margin-bottom: 10px;">
+                <figure class="g-image">
+                  <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                    <img class="g-image--fallback" src="../../../../img/05_Community/02_MSA_교육과정/img3.png" alt="" style="margin-top:-30px; width: 100%;">
+                    <!-- <g-image style="margin-top:-30px; width: 100%; height: 100%;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image> -->
+                  </div>
+                </figure>                        
+                <div style="width:85% !important;
                             background-color:#e6e9f9 !important;
                             margin:0 auto !important;
                             border-radius:10px !important;
@@ -479,16 +491,21 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                 </div>
             </div>
         
-            <div style="width:49% !important;
-                        margin-right:2% !important;
+            <div style="width:90% !important;
+                        margin-left:1% !important;
+                        margin-right:1% !important;
                         background-color: white !important;
                         border: 1px solid #e5e5e5 !important;
                         border-radius: 10px !important;
-                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
-                <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                    <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
-                </div>
-                <div style="width:80% !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
+                        margin-bottom: 10px;">
+                <figure class="g-image">
+                  <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                    <img class="g-image--fallback" src="../../../../img/05_Community/02_MSA_교육과정/img4.png" alt="" style="margin-top:-30px; width: 100%;">
+                    <!-- <g-image style="margin-top:-30px; width: 100%; height: 100%;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image> -->
+                  </div>
+                </figure>   
+                <div style="width:85% !important;
                             background-color:#e6e9f9 !important;
                             margin:0 auto !important;
                             border-radius:10px !important;
@@ -513,16 +530,23 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                     • ‘19. 02 : LG CNS 이벤트스토밍 교육<br>
                 </div>
               </div>
-              <div style="width:49% !important;
-                        margin-right:2% !important;
+              <div style="width:90% !important;
+                        margin-left:1% !important;
+                        margin-right:1% !important;
                         background-color: white !important;
                         border: 1px solid #e5e5e5 !important;
                         border-radius: 10px !important;
-                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
-                  <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
+                        margin-bottom: 10px;">
+                  <figure class="g-image">
+                    <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                      <img class="g-image--fallback" src="https://github.com/kykim97/factory-pattern/assets/113568664/016eba9d-600d-45b6-a8cc-8f912d7541f3" alt="" style="margin-top:-30px; width: 100%;">
+                    </div>
+                  </figure>   
+                  <!-- <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
                       <g-image style="margin-top:-15px;" src="https://github.com/kykim97/factory-pattern/assets/113568664/016eba9d-600d-45b6-a8cc-8f912d7541f3"></g-image>
-                  </div>
-                  <div style="width:80% !important;
+                  </div> -->
+                  <div style="width:85% !important;
                             background-color:#e6e9f9 !important;
                             margin:0 auto !important;
                             border-radius:10px !important;
@@ -549,16 +573,21 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                       • 그 외 다수
                   </div>
               </div>
-              <div style="width:49% !important;
-                        margin-right:2% !important;
+              <div style="width:90% !important;
+                        margin-left:1% !important;
+                        margin-right:1% !important;
                         background-color: white !important;
                         border: 1px solid #e5e5e5 !important;
                         border-radius: 10px !important;
-                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;">
-                <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                  <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image>
-                </div>
-                  <div style="width:80% !important;
+                        box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
+                        margin-bottom: 10px;">
+                  <figure class="g-image">
+                    <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                      <img class="g-image--fallback" src="../../../../img/05_Community/02_MSA_교육과정/img8.jpeg" alt="" style="margin-top:-30px; width: 100%;">
+                      <!-- <g-image style="margin-top:-30px; width: 100%; height: 100%;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image> -->
+                    </div>
+                  </figure>  
+                  <div style="width:85% !important;
                             background-color:#e6e9f9 !important;
                             margin:0 auto !important;
                             border-radius:10px !important;
@@ -582,14 +611,14 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
                   </div>
               </div>
           </div>
-    <mark-down style="margin-top:-50px;" class="content">
-### MSA School 교육 실적 및 주요 수강 기업
-    </mark-down>
+    <div style="margin-top:-50px;" class="content">
+      <h3>MSA School 교육 실적 및 주요 수강 기업</h3>
+    </div>
     <v-row style="margin:0; text-align: center;">
-        <g-image style="margin: 10px 10px 0 0; width: 450px; height: 504px;"
+        <g-image style="margin: 10px 10px 0 0; width: 450px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/34d938cb-db22-44db-a038-7886d3a1568c">
         </g-image>
-        <g-image style="margin: 10px 10px 0 0; width: 700px; height: 504px;"
+        <g-image style="margin: 10px 10px 0 0; width: 700px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/25d6d172-3b23-47d3-a4ea-07e82898ad7a">
         </g-image>
         <!-- <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
@@ -605,179 +634,176 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     <g-image style="margin-top: 10px;"
         src="https://github.com/kykim97/factory-pattern/assets/113568664/8e26cbab-1ec2-459b-beee-769d8f5057d7">
     </g-image> -->
-    <mark-down style="margin-top:-50px;" class="content">
-### MSA School 교과정 맛보기
-    </mark-down>
-    
-      <v-row style="margin:0;">
-        <!-- 1번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Biz] 이벤트스토밍</div>
-              <div class="tutorials-card-sub-text">구글 드라이브 시나리오를 기반으로 한 이벤트스토밍 예제</div>
-            </div>
-          </div>
-        </a>
-
-        <!-- 2번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#cna-start-2022-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-            <g-image class="tutorials-card-image"
-                src="https://user-images.githubusercontent.com/113568664/211271746-a3f5fce0-ad12-4cf3-88cb-a6348d990044.png">
+    <div style="margin-top:-50px;" class="content">
+      <h3>MSA School 교과정 맛보기</h3>
+    </div>
+    <v-row style="margin:0;">
+      <!-- 1번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png">
             </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] 단위 마이크로서비스 실행</div>
-              <div class="tutorials-card-sub-text">Cloud IDE 기반 단위 마이크로 서비스 및 상호 테스트를 통한 점진적 구현</div>
-            </div>
+          <div>
+            <div class="tutorials-card-main-text">[Biz] 이벤트스토밍</div>
+            <div class="tutorials-card-sub-text">구글 드라이브 시나리오를 기반으로 한 이벤트스토밍 예제</div>
           </div>
-        </a>
+        </div>
+      </a>
 
-        <!-- 3번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#monolith-2-misvc-2022-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271766-11c1234e-8ee9-4ef5-9c4a-36df00530766.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] Req/Res 방식의 MSA 통신</div>
-              <div class="tutorials-card-sub-text">모놀리스와 마이크로서비스 간 또는 마이크로서비스 간의 동기식 호출 적용</div>
-            </div>
+      <!-- 2번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#cna-start-2022-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+          <g-image class="tutorials-card-image" style="margin:0 auto;"
+              src="https://user-images.githubusercontent.com/113568664/211271746-a3f5fce0-ad12-4cf3-88cb-a6348d990044.png">
+          </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] 단위 마이크로서비스 실행</div>
+            <div class="tutorials-card-sub-text">Cloud IDE 기반 단위 마이크로 서비스 및 상호 테스트를 통한 점진적 구현</div>
           </div>
-        </a>
+        </div>
+      </a>
 
-        <!-- 4번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#circuit-breaker-2022-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271764-07de1f1c-96de-49fe-99ea-d12c658a8644.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] 서킷브레이커</div>
-              <div class="tutorials-card-sub-text">서비스 간 동기식 통신에서 장애 전파를 사전에 차단하는 Fail-Fast 전략 패턴</div>
-            </div>
-          </div>
-        </a>
-
-        <!-- 5번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#pub-sub-2022-assocaiate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271759-4bb531e0-e8ad-4964-a8f7-65ceae30c79c.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] Pub-Sub 방식의 연동</div>
-              <div class="tutorials-card-sub-text">블로킹이 없고 장애가 격리되는 적용한 EDA 기반 메시지 통신 적용</div>
-            </div>
-          </div>
-        </a>
-        
-        <!-- 6번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#compensation-correlation-2022-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271747-7c7d01e4-30c6-4b44-804c-be834713d8fa.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] Compensation & Correlation</div>
-              <div class="tutorials-card-sub-text">MSA 환경에서 트랜잭션 실패 시 보상처리로 정합성 관리</div>
-            </div>
-          </div>
-        </a>
-        
-        <!-- 7번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#Oauth2withKeycloak-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271754-e0c813d9-9f85-4af5-8770-4ddce2383d90.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] JWT 토큰 기반 인증</div>
-              <div class="tutorials-card-sub-text">마이크로서비스의 인증 및 권한 부여를 위한 Single-Sign-On 패턴 적용</div>
-            </div>
-          </div>
-        </a>
-        
-        <!-- 8번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-frontend-2022-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271752-19bcfa58-61f0-47ca-9e42-b3e017eda354.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] 데이터 프로젝션 w/ 프론트엔드 & HATEOAS</div>
-              <div class="tutorials-card-sub-text">HATEOAS API를 구현하여 상태 전환을 위한 링크 및 기반 프론트엔드 제공</div>
-            </div>
-          </div>
-        </a>
-        
-        <!-- 9번 카드 -->
-        <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-graphql-2022-associate" target="_blank">
-          <div
-            class="clearfix tutorials-card-box"
-            outlined
-          >
-              <g-image class="tutorials-card-image"
-                  src="https://user-images.githubusercontent.com/113568664/211271748-f3662a80-cb9b-4190-96e9-33a5b244b1f5.png">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">[Dev] 데이터 프로젝션 w/ GraphQL</div>
-              <div class="tutorials-card-sub-text">데이터 구성을 위한 GraphQL 기반 백엔드 애플리케이션 생성</div>
-            </div>
-          </div>
-        </a>
-      </v-row>
-
-
-      <!-- <v-col
-        lg="4"
-        md="6"
-        sm="12"
-      >
-        <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-graphql-2022" target="_blank">
-          <v-card
-            class="title-page-card-box"
-            outlined
-          >
-            <g-image style="height:218px;"
-                src="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png">
+      <!-- 3번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#monolith-2-misvc-2022-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271766-11c1234e-8ee9-4ef5-9c4a-36df00530766.png">
             </g-image>
-            <v-card-title class="home-card-title"><br>[Dev] Data Projection w/ GraphQL<br>&nbsp;</v-card-title>
-            <v-card-subtitle>Creating GraphQL-based backend application for data composition</v-card-subtitle>
-          </v-card>
-        </a>
-      </v-col> -->
+          <div>
+            <div class="tutorials-card-main-text">[Dev] Req/Res 방식의 MSA 통신</div>
+            <div class="tutorials-card-sub-text">모놀리스와 마이크로서비스 간 또는 마이크로서비스 간의 동기식 호출 적용</div>
+          </div>
+        </div>
+      </a>
 
-    <mark-down style="margin-top:-50px; margin-bottom:15px;" class="content">
-### 웨비나 영상 다시보기
-    </mark-down>
+      <!-- 4번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#circuit-breaker-2022-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271764-07de1f1c-96de-49fe-99ea-d12c658a8644.png">
+            </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] 서킷브레이커</div>
+            <div class="tutorials-card-sub-text">서비스 간 동기식 통신에서 장애 전파를 사전에 차단하는 Fail-Fast 전략 패턴</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 5번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#pub-sub-2022-assocaiate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271759-4bb531e0-e8ad-4964-a8f7-65ceae30c79c.png">
+            </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] Pub-Sub 방식의 연동</div>
+            <div class="tutorials-card-sub-text">블로킹이 없고 장애가 격리되는 적용한 EDA 기반 메시지 통신 적용</div>
+          </div>
+        </div>
+      </a>
+      
+      <!-- 6번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#compensation-correlation-2022-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271747-7c7d01e4-30c6-4b44-804c-be834713d8fa.png">
+            </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] Compensation & Correlation</div>
+            <div class="tutorials-card-sub-text">MSA 환경에서 트랜잭션 실패 시 보상처리로 정합성 관리</div>
+          </div>
+        </div>
+      </a>
+      
+      <!-- 7번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#Oauth2withKeycloak-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271754-e0c813d9-9f85-4af5-8770-4ddce2383d90.png">
+            </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] JWT 토큰 기반 인증</div>
+            <div class="tutorials-card-sub-text">마이크로서비스의 인증 및 권한 부여를 위한 Single-Sign-On 패턴 적용</div>
+          </div>
+        </div>
+      </a>
+      
+      <!-- 8번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-frontend-2022-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271752-19bcfa58-61f0-47ca-9e42-b3e017eda354.png">
+            </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] 데이터 프로젝션 w/ 프론트엔드 & HATEOAS</div>
+            <div class="tutorials-card-sub-text">HATEOAS API를 구현하여 상태 전환을 위한 링크 및 기반 프론트엔드 제공</div>
+          </div>
+        </div>
+      </a>
+      
+      <!-- 9번 카드 -->
+      <a href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-graphql-2022-associate" target="_blank">
+        <div
+          class="clearfix tutorials-card-box"
+          outlined
+        >
+            <g-image class="tutorials-card-image" style="margin:0 auto;"
+                src="https://user-images.githubusercontent.com/113568664/211271748-f3662a80-cb9b-4190-96e9-33a5b244b1f5.png">
+            </g-image>
+          <div>
+            <div class="tutorials-card-main-text">[Dev] 데이터 프로젝션 w/ GraphQL</div>
+            <div class="tutorials-card-sub-text">데이터 구성을 위한 GraphQL 기반 백엔드 애플리케이션 생성</div>
+          </div>
+        </div>
+      </a>
+    </v-row>
+    <!-- <v-col
+      lg="4"
+      md="6"
+      sm="12"
+    >
+      <a href="https://labs.msaez.io/#/courses/cna-full-english/cna-full-english/en-dp-graphql-2022" target="_blank">
+        <v-card
+          class="title-page-card-box"
+          outlined
+        >
+          <g-image style="height:218px;"
+              src="https://user-images.githubusercontent.com/113568664/203213154-e7b2a478-79fc-4aec-be5d-a8d9a5f62cc4.png">
+          </g-image>
+          <v-card-title class="home-card-title"><br>[Dev] Data Projection w/ GraphQL<br>&nbsp;</v-card-title>
+          <v-card-subtitle>Creating GraphQL-based backend application for data composition</v-card-subtitle>
+        </v-card>
+      </a>
+    </v-col> -->
+
+    <div style="margin-top:-50px; margin-bottom:15px;" class="content">
+      <h3>웨비나 영상 다시보기</h3>
+    </div>
     <a href="https://www.youtube.com/@uengine5309" target="_blank">
       <v-btn style="background-color:#5a67d8 !important;
           border-radius: 4px;
@@ -793,17 +819,17 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     </a>
     <v-row style="margin:0;">
         <!-- 1번 카드 -->
-        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
+        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
           <div
             class="clearfix youtube-card-box"
             outlined
           >
-              <g-image class="youtube-card-image"
-                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/adc36c9d-3c4f-4918-9d41-59129a4653c6">
-              </g-image>
+            <g-image class="youtube-card-image" style=""
+                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/eaff5d86-b56f-45ea-82fb-c73c3394f265">
+            </g-image>
             <div>
-              <div class="tutorials-card-main-text">7월 웨비나</div>
-              <div class="tutorials-card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
+              <div class="tutorials-card-main-text">10월 웨비나</div>
+              <div class="tutorials-card-sub-text">2023년 10월 웨비나 - ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
             </div>
           </div>
         </a>
@@ -825,17 +851,17 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
         </a>
 
         <!-- 3번 카드 -->
-        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
+        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
           <div
             class="clearfix youtube-card-box"
             outlined
           >
-            <g-image class="youtube-card-image"
-                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/eaff5d86-b56f-45ea-82fb-c73c3394f265">
-            </g-image>
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/adc36c9d-3c4f-4918-9d41-59129a4653c6">
+              </g-image>
             <div>
-              <div class="tutorials-card-main-text">10월 웨비나</div>
-              <div class="tutorials-card-sub-text">2023년 10월 웨비나 - ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
+              <div class="tutorials-card-main-text">7월 웨비나</div>
+              <div class="tutorials-card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
             </div>
           </div>
         </a>
@@ -845,9 +871,9 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
       src="http://www.youtube.com/embed/05NOZ41wzUg"
       frameborder="0"></iframe>
     </div>  -->
-    <mark-down style="margin-top:-50px; margin-bottom:15px;" class="content">
-### MSA School 교육 일정 확인
-    </mark-down> 
+    <div style="margin-top:-50px; margin-bottom:15px;" class="content">
+      <h3>MSA School 교육 일정 확인</h3>
+    </div> 
     <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin:10px 0 10px 0;" frameborder="0" scrolling="no"></iframe>
   </div>
 </template>
@@ -1062,13 +1088,14 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     margin:10px 0 0 10px;
     width:200px;
     height:300px;
+    text-align: center;
   }
 
   .tutorials-card-image {
-    height:115px;
     width:180px;
-    margin-right:10px;
-    margin-bottom:10px;
+    height:115px;
+    /* margin-right:10px; */
+    margin-bottom:10px; 
   }
   .youtube-card-box {
     border:solid 1px #E2E8F0;
@@ -1076,13 +1103,15 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
     padding:10px;
     margin:10px 0 0 10px;
     width:300px;
-    height:300px;
+    height:320px;
+    text-align:center;
   }
 
   .youtube-card-image {
     height:180px;
     width:280px;
-    margin-right:10px;
+    margin:0 auto;
+    /* margin-right:10px; */
     margin-bottom:10px;
   }
 
@@ -1092,12 +1121,13 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
   }
 
   .tutorials-card-main-text {
-    font-size:14px;
+    font-size:16px;
     font-weight:900;
+    text-align: center;
   }
 
   .tutorials-card-sub-text {
-    font-size:12px;
+    font-size:14px;
     margin-top:20px;
     color:#757575;
   }
@@ -1117,9 +1147,9 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
   .main-card-details-btn {
     width:110px !important;
     height:36px !important;
-    text-align : center !important;
+    text-align:center !important;
     font-size:15px;
-    border-radius: 5px;
+    border-radius:5px;
     border:3px black solid;
   }
   .is-not-mobile-main-top {
@@ -1127,7 +1157,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
   }
 
   .is-mobile-main-top {
-    display: none;
+    display:none;
   }
 
   @media only screen and (max-width:1600px) {
@@ -1152,7 +1182,7 @@ MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현
 }
 
 @media only screen and (max-width:676px) {
-  .tutorials-card-box {
+  .tutorials-card-box, .youtube-card-box {
     width:90vw;
   }   
   .tutorials-card-image {
