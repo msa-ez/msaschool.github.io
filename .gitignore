@@ -15,7 +15,7 @@ src/.temp
 !.env.example
 .env.*
 src/.env
-
+package-lock.json
 
 
 
