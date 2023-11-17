@@ -325,7 +325,7 @@
             <th class="main-table-title"> </th>
             <th class="main-table-title">Fundamental</th> -->
             <tr style="border-bottom: 1px solid #aaa;">
-                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Biz</td>
                 <td style="border-left: 1px solid #aaa;">
                     • Object Oriented Design<br>
                     - OOP Design Principles<br><br>
@@ -333,7 +333,7 @@
                 </td>
             </tr>
             <tr style="border-bottom: 1px solid #aaa;">
-                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Dev</td>
                 <td style="border-left: 1px solid #aaa;">
                     • Obejct Oriented Programming<br>
                     - Object Oriented Framework<br>
@@ -346,7 +346,7 @@
                 </td>
             </tr>
             <tr style="border-bottom: 1px solid #aaa;">
-                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Ops</td>
                 <td style="border-left: 1px solid #aaa;">
                     • Cloud Infra, VM<br>
                     - CSP introduction<br>
@@ -363,7 +363,6 @@
                           <button style="background-color:#fff;
                           border-radius: 4px;
                           border:2px solid #5a67d8;
-                          margin-right:15px;
                           height: 36px;
                           width: 90px;
                           text-align: center;
@@ -382,7 +381,7 @@
         </div>
         <table style="width: 100%;">
             <tr style="border-bottom: 1px solid #aaa;">
-              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Biz</td>
               <td style="border-left: 1px solid #aaa;">
                   • Eventstorming<br>
                   - Eventstorming E-Commerce Domain<br>
@@ -394,7 +393,7 @@
               </td>
             </tr>
             <tr style="border-bottom: 1px solid #aaa;">
-              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Dev</td>
               <td style="border-left: 1px solid #aaa;">
                   • Microservice Clean Architecture<br>
                   - ES Model and Implementation mapping<br><br>
@@ -407,7 +406,7 @@
               </td>
             </tr>
             <tr style="border-bottom: 1px solid #aaa;">
-              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Ops</td>
               <td style="border-left: 1px solid #aaa;">
                   • Cloud Software Platform, Docker<br><br>
                   • Kubernetes 인 액션<br>
@@ -425,7 +424,6 @@
                     <button style="background-color:#fff;
                     border-radius: 4px;
                     border:2px solid #5a67d8;
-                    margin-right:15px;
                     height: 36px;
                     width: 90px;
                     text-align: center;
@@ -444,7 +442,7 @@
         </div>
         <table style="width: 100%;">
             <tr style="border-bottom: 1px solid #aaa;">
-              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Biz</td>
               <td style="border-left: 1px solid #aaa;">
                   • Eventstorming for various Domains<br><br>
                   • Core-supporting-generic domain prioritization<br>
@@ -456,7 +454,7 @@
               </td>
             </tr>
             <tr style="border-bottom: 1px solid #aaa;">
-              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Dev</td>
               <td style="border-left: 1px solid #aaa;">
                   • Extending Event driven Microservice<br>
                   - 멱등성, 트랜잭션, Kafka Parallel Processing, Deadline 처리<br>
@@ -469,7 +467,7 @@
               </td>
             </tr>
             <tr style="border-bottom: 1px solid #aaa;">
-              <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+              <td class="main-table-subtitle" style="padding-left:15px; text-align:center; width:80px;">Ops</td>
               <td style="border-left: 1px solid #aaa;">
                   • Service Mesh deep dive<br>
                   - Security, Monitoring, EnvoyFilter, Tracing<br><br>
@@ -487,7 +485,6 @@
                         <button style="background-color:#fff;
                           border-radius: 4px;
                           border:2px solid #5a67d8;
-                          margin-right:15px;
                           height: 36px;
                           width: 90px;
                           text-align: center;
@@ -886,8 +883,25 @@
       ><span style="color:white;">전체 영상 확인</span>
       </v-btn>
     </a>
+
     <v-row style="margin:0;">
         <!-- 1번 카드 -->
+        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
+          <div
+            class="clearfix youtube-card-box"
+            outlined
+          >
+            <g-image class="youtube-card-image" style=""
+                src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/09926d28-4df6-4d7f-b83a-59660cc7ca06">
+            </g-image>
+            <div>
+              <div class="tutorials-card-main-text">11월 웨비나</div>
+              <div class="tutorials-card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
+            </div>
+          </div>
+        </a>
+        
+        <!-- 2번 카드 -->
         <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
           <div
             class="clearfix youtube-card-box"
@@ -903,7 +917,7 @@
           </div>
         </a>
 
-        <!-- 2번 카드 -->
+        <!-- 3번 카드 -->
         <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
           <div
             class="clearfix youtube-card-box"
@@ -919,7 +933,7 @@
           </div>
         </a>
 
-        <!-- 3번 카드 -->
+        <!-- 4번 카드 -->
         <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
           <div
             class="clearfix youtube-card-box"
@@ -935,6 +949,7 @@
           </div>
         </a>
     </v-row>
+    
     <!-- <div>
       <iframe id="player" type="text/html" class="clearfix video-link"
       src="http://www.youtube.com/embed/05NOZ41wzUg"
