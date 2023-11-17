@@ -1,18 +1,185 @@
 <template>
     <div style="margin-top:80px;">
         <h2 style = "margin:0 0 10px 0;">교육과정 Overview</h2>
-        <table class="gs-table-default">
-            <th class="table-title"> </th>
-            <th class="table-title">Fundamental</th>
-            <th class="table-title">Intermediate</th>
-            <th class="table-title">Advanced</th>
-            <tr>
-                <td class="table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
-                <td>
-                    • Object Oriented Design<br>
-                    - OOP Design Principles<br><br>
-                    • UML & Design Patterns
-                </td>
+        <div class="is-not-mobile-main-top">
+            <table class="gs-table-default">
+                <th class="table-title"> </th>
+                <th class="table-title">Fundamental</th>
+                <th class="table-title">Intermediate</th>
+                <th class="table-title">Advanced</th>
+                <tr>
+                    <td class="table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+                    <td>
+                        • Object Oriented Design<br>
+                        - OOP Design Principles<br><br>
+                        • UML & Design Patterns
+                    </td>
+                    <td>
+                        • Eventstorming<br>
+                        - Eventstorming E-Commerce Domain<br>
+                        - Big picture & Design level Eventstorming<br>
+                        - Context Mapping, CQRS<br><br>
+                        
+                        • Aggregate Modeling<br>
+                        -  Entity Design with Class Diagrams
+                    </td>
+                    <td>
+                        • Eventstorming for various Domains<br><br>
+                        • Core-supporting-generic domain prioritization<br>
+                        - Wardlley mapping, Impact mapping<br><br>
+                        
+                        • 중요도에 따른 구현 전략<br>
+                        - Transaction Script<br><br>
+                        • Apply Ubiquitous Language 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+                    <td>
+                        • Obejct Oriented Programming<br>
+                        - Object Oriented Framework<br>
+                        - Spring boot, JDBC and JPA<br>
+                        - Web UI (VueJS)<br><br>
+                        • Understanding GitHub & GitPod<br><br>
+                        • Build automation tool<br>
+                        - Maven, Gradle<br><br>
+                        • Linux OS Basics
+                    </td>
+                    <td>
+                        • Microservice Clean Architecture<br>
+                        - ES Model and Implementation mapping<br><br>
+                        • Circuit Breaker Pattern<br>
+                        - Req/Res with FeignClient<br><br>
+                        • Event driven Microservice<br>
+                        - Event Pub/Sub, Compensation & CQRS<br><br>
+                        • Message Broker – Kafka<br><br>
+                        • Application Packaging & Dockerizing
+                    </td>
+                    <td>
+                        • Extending Event driven Microservice<br>
+                        - 멱등성, 트랜잭션, Kafka Parallel Processing, Deadline 처리<br>
+                        - Dedicated Framework (Eventuate, Axon)<br><br>
+                        • Inter-service communication<br>
+                        - CDC, gRPC Client/Server, Spring Reactive<br><br>
+                        • Microservice Authentication/ Authorization<br>
+                        - Centralized Session (Redis, Memcached)<br>
+                        - Client Token (JWT)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+                    <td>
+                        • Cloud Infra, VM<br>
+                        - CSP introduction<br>
+                        - VM managed Service<br><br>
+                        • Deploy to VM<br>
+                        - VM, Dabase provisioning<br>
+                        - Deploy to Cloud VM
+                    </td>
+                    <td>
+                        • Cloud Software Platform, Docker<br><br>
+                        • Kubernetes 인 액션<br>
+                        - Kubernetes SLA features & Telemetry<br>
+                        - Deploy manifests Diagramming<br><br>
+                        • Service Mesh (Istio)<br>
+                        - Traffic Management (Retry, Timeout, Circuit breaker)<br><br>
+                        • DevOps Pipeline (Jenkins, CSP managed)
+                    </td>
+                    <td>
+                        • Service Mesh deep dive<br>
+                        - Security, Monitoring, EnvoyFilter, Tracing<br><br>
+                        • GitOps Methodology<br>
+                        - Workflow with Jenkins & ArgoCD<br>
+                        - Canary Deployment with Canary Scoring<br><br>
+                        • Serverless<br>
+                        - Knative, Tekton 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <div style="text-align:center;">
+                            <a href="/operation/education/fundamental/">
+                                <button class="table-details-btn">세부사항</button>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align:center;">
+                            <a href="/operation/education/curriculum/">
+                                <button class="table-details-btn">세부사항</button>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align:center;">
+                            <a href="/operation/education/advanced/">
+                                <button class="table-details-btn">세부사항</button>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div style="margin-top:20px; display:inline-flex;">
+                <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
+                <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+                <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
+            </div>
+        </div>
+        <div class="is-mobile-main-top">
+            <table class="gs-table-default gs-table-default">
+                <th class="main-table-title"> </th>
+                <th class="main-table-title">Fundamental</th>
+                <tr>
+                    <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+                    <td>
+                        • Object Oriented Design<br>
+                        - OOP Design Principles<br><br>
+                        • UML & Design Patterns
+                    </td>
+                </tr>
+                <tr>
+                    <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
+                    <td>
+                        • Obejct Oriented Programming<br>
+                        - Object Oriented Framework<br>
+                        - Spring boot, JDBC and JPA<br>
+                        - Web UI (VueJS)<br><br>
+                        • Understanding GitHub & GitPod<br><br>
+                        • Build automation tool<br>
+                        - Maven, Gradle<br><br>
+                        • Linux OS Basics
+                    </td>
+                </tr>
+                <tr>
+                    <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+                    <td>
+                        • Cloud Infra, VM<br>
+                        - CSP introduction<br>
+                        - VM managed Service<br><br>
+                        • Deploy to VM<br>
+                        - VM, Dabase provisioning<br>
+                        - Deploy to Cloud VM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <div style="text-align:center;">
+                            <a href="/operation/education/fundamental/">
+                                <button class="table-details-btn">세부사항</button>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                <th class="main-table-title"></th>
+                <th class="main-table-title">Intermediate</th>
+                </tr>
+                <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
                 <td>
                     • Eventstorming<br>
                     - Eventstorming E-Commerce Domain<br>
@@ -22,28 +189,9 @@
                     • Aggregate Modeling<br>
                     -  Entity Design with Class Diagrams
                 </td>
-                <td>
-                    • Eventstorming for various Domains<br><br>
-                    • Core-supporting-generic domain prioritization<br>
-                    - Wardlley mapping, Impact mapping<br><br>
-                    
-                    • 중요도에 따른 구현 전략<br>
-                    - Transaction Script<br><br>
-                    • Apply Ubiquitous Language 
-                </td>
-            </tr>
-            <tr>
-                <td class="table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
-                <td>
-                    • Obejct Oriented Programming<br>
-                    - Object Oriented Framework<br>
-                    - Spring boot, JDBC and JPA<br>
-                    - Web UI (VueJS)<br><br>
-                    • Understanding GitHub & GitPod<br><br>
-                    • Build automation tool<br>
-                    - Maven, Gradle<br><br>
-                    • Linux OS Basics
-                </td>
+                </tr>
+                <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
                 <td>
                     • Microservice Clean Architecture<br>
                     - ES Model and Implementation mapping<br><br>
@@ -54,6 +202,47 @@
                     • Message Broker – Kafka<br><br>
                     • Application Packaging & Dockerizing
                 </td>
+                </tr>
+                <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
+                <td>
+                    • Cloud Software Platform, Docker<br><br>
+                    • Kubernetes 인 액션<br>
+                    - Kubernetes SLA features & Telemetry<br>
+                    - Deploy manifests Diagramming<br><br>
+                    • Service Mesh (Istio)<br>
+                    - Traffic Management (Retry, Timeout, Circuit breaker)<br><br>
+                    • DevOps Pipeline (Jenkins, CSP managed)
+                </td>
+                </tr>
+                <tr>
+                <td></td>
+                <td>
+                    <div style="text-align:center;">
+                    <a href="/operation/education/curriculum/">
+                        <button class="table-details-btn">세부사항</button>
+                    </a>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th class="main-table-title"></th>
+                <th class="main-table-title">Advanced</th>
+                </tr>
+                <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
+                <td>
+                    • Eventstorming for various Domains<br><br>
+                    • Core-supporting-generic domain prioritization<br>
+                    - Wardlley mapping, Impact mapping<br><br>
+                    
+                    • 중요도에 따른 구현 전략<br>
+                    - Transaction Script<br><br>
+                    • Apply Ubiquitous Language 
+                </td>
+                </tr>
+                <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
                 <td>
                     • Extending Event driven Microservice<br>
                     - 멱등성, 트랜잭션, Kafka Parallel Processing, Deadline 처리<br>
@@ -64,26 +253,9 @@
                     - Centralized Session (Redis, Memcached)<br>
                     - Client Token (JWT)
                 </td>
-            </tr>
-            <tr>
-                <td class="table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
-                <td>
-                    • Cloud Infra, VM<br>
-                    - CSP introduction<br>
-                    - VM managed Service<br><br>
-                    • Deploy to VM<br>
-                    - VM, Dabase provisioning<br>
-                    - Deploy to Cloud VM
-                </td>
-                <td>
-                    • Cloud Software Platform, Docker<br><br>
-                    • Kubernetes 인 액션<br>
-                    - Kubernetes SLA features & Telemetry<br>
-                    - Deploy manifests Diagramming<br><br>
-                    • Service Mesh (Istio)<br>
-                    - Traffic Management (Retry, Timeout, Circuit breaker)<br><br>
-                    • DevOps Pipeline (Jenkins, CSP managed)
-                </td>
+                </tr>
+                <tr>
+                <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
                 <td>
                     • Service Mesh deep dive<br>
                     - Security, Monitoring, EnvoyFilter, Tracing<br><br>
@@ -93,24 +265,9 @@
                     • Serverless<br>
                     - Knative, Tekton 
                 </td>
-            </tr>
-            <tr>
-                <td>
-                </td>
-                <td>
-                    <div style="text-align:center;">
-                        <a href="/operation/education/fundamental/">
-                            <button class="table-details-btn">세부사항</button>
-                        </a>
-                    </div>
-                </td>
-                <td>
-                    <div style="text-align:center;">
-                        <a href="/operation/education/curriculum/">
-                            <button class="table-details-btn">세부사항</button>
-                        </a>
-                    </div>
-                </td>
+                </tr>
+                <tr>
+                <td></td>
                 <td>
                     <div style="text-align:center;">
                         <a href="/operation/education/advanced/">
@@ -118,14 +275,16 @@
                         </a>
                     </div>
                 </td>
-            </tr>
-        </table>
-        
-        <div style="margin-top:20px; display:inline-flex;">
-            <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
-            <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
-            <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
+                </tr>
+            </table>
+            <div style="margin-top:20px; display:flex; flex-direction: column;">
+                <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
+                <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+                <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
+            </div>
         </div>
+        
+        
 
         <iframe src="https://calendar.google.com/calendar/embed?src=help%40uengine.org&ctz=Asia%2FSeoul" style="border: 0; width:100%; height:600px; margin-bottom:100px; margin-top:60px;" frameborder="0" scrolling="no"></iframe>
     </div>
@@ -214,6 +373,13 @@
         display: none !important;
     }
 
+    .is-not-mobile-main-top {
+        display:block;
+    }
+    .is-mobile-main-top {
+        display:none;
+    }
+
     @media only screen and (max-width:1700px){
         .table-box {
             width:32.5%;
@@ -231,7 +397,16 @@
             font-weight:900;
         }
     }
-    
+     
+    @media only screen and (max-width:1410px){
+        .is-not-mobile-main-top {
+            display:none;
+        }
+        .is-mobile-main-top {
+            display:block;
+        }
+    }
+
     @media only screen and (max-width:1280px){
         .table-box {
             width:49.5%;

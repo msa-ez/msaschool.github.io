@@ -1,6 +1,6 @@
 <template>
     <!--    <div class="py-2 border-t-2 border-ui-primary" style="background-color: #1e88e5;">-->
-    <div class="py-2 border-t-2 border-ui-primary">
+    <div class="py-2 border-t-2 border-ui-primary" style="box-shadow: 0 7x 7px -7px #ccc;">
         <!--        <div class="container">-->
         <div class="is-not-mobile-main-top">
 
