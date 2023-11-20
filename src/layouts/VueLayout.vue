@@ -117,7 +117,7 @@
         },
         watch: {
             sidebarOpen: function (isOpen) {
-                document.body.classList.toggle("", isOpen);
+                document.body.classList.toggle("sidebar-open", isOpen);
             }
         },
         methods: {
