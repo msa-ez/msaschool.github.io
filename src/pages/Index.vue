@@ -31,9 +31,9 @@
     export default {
         mounted() {
             var me = this
-            // if(me.$route.path == '/' || me.$route.path == '/operation/'){
-            //     me.$router.push('/operation/introduction/');
-            // }
+            if(me.$route.path == '/' || me.$route.path == '/operation/'){
+                me.$router.push('/operation/introduction/');
+            }
         },
         components: {},
         metaInfo() {

@@ -114,10 +114,15 @@
 
         },
         mounted() {
+            var me = this
+
+            if (me.$route.path == '/' || me.$route.path == '/operation/') {
+                me.$router.push('/operation/introduction/');
+            }
         },
         watch: {
             sidebarOpen: function (isOpen) {
-                document.body.classList.toggle("", isOpen);
+                document.body.classList.toggle("sidebar-open", isOpen);
             }
         },
         methods: {
