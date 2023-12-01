@@ -12,7 +12,7 @@
               line-height:55px;
               font-size:34px;
               font-weight: 500;
-              margin-bottom:18px;"
+              margin:10px 0 15px 0"
             >클라우드 네이티브 앱
               <br/>구현의 전문 배움터
               <br/>CNA Best Partner 
@@ -49,41 +49,26 @@
           <div style="font-family:system-ui,-apple-system;">
             <div class="clearfix image-box-all">
               <div class="image-box-in" :style="slideBtn1 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-                <div class="image-box-text" style="margin-top:160px;"
-                >비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
+                <div class="image-box-text" style="margin-top:160px;">
+                  비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
                 </div>
                 <g-image class="image-style" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/68417396-8a4d-478a-940c-f143995cda5e" />
-                <!-- <figure class="g-image">
-                  <div class="g-image--blur" style="">
-                    <img class="g-image--fallback" src="/img/introduction-1.png" alt="" style="">
-                  </div>
-                </figure> -->
               </div>
 
               <div class="image-box-in" :style="slideBtn2 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-                <div class="image-box-text" style="margin-top:210px;"
-                >Event driven Architecture 기반 최신 마이크로서비스<br/>
-                Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
+                <div class="image-box-text" style="margin-top:210px;">
+                  Event driven Architecture 기반 최신 마이크로서비스<br/>
+                  Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
                 </div>
                 <g-image class="image-style" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/161fdda9-ddfa-419c-80f8-c43b9e8dd244"/>
-                <!-- <figure class="g-image">
-                  <div class="g-image--blur" style="">
-                    <img class="g-image--fallback" src="/img/introduction-2.png" alt="" style="">
-                  </div>
-                </figure> -->
               </div>
               
               <div class="image-box-in" :style="slideBtn3 == true ? 'margin-left:0px;' : 'margin-left:500px;'">
-                <div class="image-box-text" style="bottom:8px;"
-                >프로그램 설치가 필요없는<br/>
-                온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
+                <div class="image-box-text" style="bottom:8px;">
+                  프로그램 설치가 필요없는<br/>
+                  온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
                 </div>
                 <g-image class="image-style" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/77970538-9a18-4e8b-9cfe-b6cbf9826e20"/>
-                <!-- <figure class="g-image">
-                  <div class="g-image--blur" style="">
-                    <img class="g-image--fallback" src="/img/introduction-3.png" alt="" style="">
-                  </div>
-                </figure> -->
               </div>
             </div>
           </div>
@@ -110,16 +95,11 @@
         >
         <g-image class="clearfix slide-btn-image" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/209c7e65-2a6e-4e6d-b594-a21ea19761bd"></g-image>
         <div class="gs-mobile-btn-title" style="line-height: 50px;">BizDevOps 풀 라이프사이클 지원</div>
-          <div v-if="mobileBtn1">
+          <div v-if="mobileBtn1" style="width: 100%; position: relative;">
+            <div class="m-image-box-text">
+              비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
+            </div>
             <g-image class="mobile-image-style" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/68417396-8a4d-478a-940c-f143995cda5e" />
-            <!-- <figure class="g-image">
-              <div class="g-image--blur m-img-wrap" style="">
-                <div class="mobile-btn-text">
-                  비즈니스 모델링, 구현, 배포를 아우러는 <br/>End-to-End 전 과정 학습
-                </div>
-                <img class="g-image--fallback mobile-image-style" src="./img/introduction-1.png" alt="" style="">
-              </div>
-            </figure> -->
           </div>
         </button>
 
@@ -130,16 +110,12 @@
         >
         <g-image class="clearfix slide-btn-image" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/30c71f68-aee0-4418-a1a9-3577a83017f3"></g-image>
         <div class="gs-mobile-btn-title" style="line-height: 50px;">DDD, EDA기반 핵심 프레임워크 활용</div>
-          <div v-if="mobileBtn2">
+          <div v-if="mobileBtn2" style="width: 100%; position: relative;">
+            <div class="m-image-box-text">
+              Event driven Architecture 기반 최신 마이크로서비스<br/>
+              Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
+            </div>
             <g-image class="mobile-image-style" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/161fdda9-ddfa-419c-80f8-c43b9e8dd244"/>
-            <!-- <figure class="g-image">
-              <div class="g-image--blur m-img-wrap" style="">
-                <div class="mobile-btn-text">
-                  Event driven Architecture 기반 최신 마이크로서비스<br/>Framework (Axon, Eventuate, Kafka) 및 아키텍처 적용
-                </div>
-                <img class="g-image--fallback mobile-image-style" src="./img/introduction-2.png" alt="" style="">
-              </div>
-            </figure> -->
           </div>
         </button>
 
@@ -150,16 +126,12 @@
         >
         <g-image class="clearfix slide-btn-image" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/cc383714-f667-41d7-b278-a7fb0ebbf484"></g-image>
         <div class="gs-mobile-btn-title" style="line-height: 50px;">설치가 필요없는 학습교구 지원</div>
-          <div v-if="mobileBtn3">
+          <div v-if="mobileBtn3" style="width: 100%; position: relative;">
+            <div class="m-image-box-text">
+              프로그램 설치가 필요없는<br/>
+              온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
+            </div>
             <g-image class="mobile-image-style" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/77970538-9a18-4e8b-9cfe-b6cbf9826e20"/>
-            <!-- <figure class="g-image">
-              <div class="g-image--blur m-img-wrap" style="">
-                <div class="mobile-btn-text">
-                  프로그램 설치가 필요없는<br/>온라인 이벤트스토밍 도구 및 클라우드 IDE 활용
-                </div>
-                <img class="g-image--fallback mobile-image-style" src="./img/introduction-3.png" alt="" style="">
-              </div>
-            </figure> -->
           </div>
         </button>
       </div>
@@ -179,8 +151,169 @@
         MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현장 경험 및 질높은 교육 후기로 인해, 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 통해 CNA를 학습하고 재방문의 발길이 꾸준하게 이어지고 있습니다.
       </div>
     </div>
-
     <!-- <g-image style="margin:0 auto; width:700px;" src="./img/number1.png"></g-image> -->
+
+    <!-- <div style="margin-top:-30px; margin-bottom:15px;" class="content"> -->
+    <div style="margin-top:50px; display: flex; justify-content: flex-start; align-items: center;">
+      <!-- <h3 class="con-tit w120">웨비나 영상</h3> -->
+      <h3 class="con-tit-webinar">웨비나 영상 다시보기</h3>
+      <a href="https://www.youtube.com/@uengine5309" target="_blank">
+        <v-btn style="background-color:#5a67d8 !important;
+            border-radius: 4px;
+            margin-left:30px;
+            margin-top: -25px;
+            height: 36px;
+            width: 130px;
+            text-align: center;
+            line-height: 36px;
+            font-size: 14px;
+            font-weight: 700;"
+        ><span style="color:white;">전체 영상 확인</span>
+        </v-btn>
+      </a>
+    </div>
+
+    <div class="is-not-mobile-main-top">
+      <carousel
+        class="slide-container"
+        :per-page="3"
+        :navigationEnabled="true"
+        :paginationEnabled="true"
+        navigationNextLabel=""
+        navigationPrevLabel=""
+      >
+        <!-- 1번 카드 -->
+        <slide>
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/09926d28-4df6-4d7f-b83a-59660cc7ca06">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">11월 웨비나</div>
+                <div class="tutorials-card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+
+        <!-- 2번 카드 -->
+        <slide> 
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/eaff5d86-b56f-45ea-82fb-c73c3394f265">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">10월 웨비나</div>
+                <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+
+        <!-- 3번 카드 -->
+        <slide>
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/24437b45-a7da-4fd0-b276-823c44944be4">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">8월 웨비나</div>
+                <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+
+        <!-- 4번 카드 -->
+        <slide>
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/adc36c9d-3c4f-4918-9d41-59129a4653c6">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">7월 웨비나</div>
+                <div class="tutorials-card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+      </carousel>
+    </div>
+    <div class="is-mobile-main-top">
+      <carousel
+        class="slide-container"
+        :per-page="1"
+        :navigationEnabled="true"
+        :paginationEnabled="true"
+        navigationNextLabel=""
+        navigationPrevLabel=""
+      >
+        <!-- 1번 카드 -->
+        <slide>
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/09926d28-4df6-4d7f-b83a-59660cc7ca06">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">11월 웨비나</div>
+                <div class="tutorials-card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+
+        <!-- 2번 카드 -->
+        <slide> 
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/eaff5d86-b56f-45ea-82fb-c73c3394f265">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">10월 웨비나</div>
+                <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+
+        <!-- 3번 카드 -->
+        <slide>
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/24437b45-a7da-4fd0-b276-823c44944be4">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">8월 웨비나</div>
+                <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+
+        <!-- 4번 카드 -->
+        <slide>
+          <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
+            <div outlined class="clearfix youtube-card-box">
+              <g-image class="youtube-card-image"
+                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/adc36c9d-3c4f-4918-9d41-59129a4653c6">
+              </g-image>
+              <div>
+                <div class="tutorials-card-main-text">7월 웨비나</div>
+                <div class="tutorials-card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
+              </div>
+            </div>
+          </a>
+        </slide>
+      </carousel>
+    </div>
+    <div style="width:100%; height:12px; background-color:#ebf0f4;"></div>
 
     <div class="content" style="margin-top:-30px;">
       <h3 class="con-tit w190">MSA School 에는</h3>
@@ -188,20 +321,38 @@
     </div>
     <br>
     <div class="is-not-mobile-main-top">
-        <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
-        <table class="gs-table-default gs-table-default">
-            <th class="main-table-title"> </th>
-            <th class="main-table-title">Fundamental</th>
-            <th class="main-table-title">Intermediate</th>
-            <th class="main-table-title">Advanced</th>
-            <tr>
+        <div style = "font-size: 16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
+        <table class="tbl-edu" style="width:100%;">
+        <!-- <table class="gs-table-default"> -->
+            <!-- <th class="main-table-title"> </th> -->
+            <th style="padding: 0;">
+              <div class="tbl-title" style="width: 97%;">
+                <a class="tbl-title-txt"></a>
+              </div>
+            </th>
+            <th style="padding: 0;">
+              <div class="tbl-title">
+                <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/fundamental/">Fundamental</a>
+              </div>
+            </th>
+            <th style="padding: 0;">
+              <div class="tbl-title">
+                <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/intermediate/">Intermediate</a>
+              </div>
+            </th>
+            <th style="padding: 0;">
+              <div class="tbl-title">
+                <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/advanced/">Advanced</a>
+              </div>
+            </th>
+            <tr style="border-bottom: 1px solid #aaa;">
                 <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Biz</td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Object Oriented Design<br>
                     - OOP Design Principles<br><br>
                     • UML & Design Patterns
                 </td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Eventstorming<br>
                     - Eventstorming E-Commerce Domain<br>
                     - Big picture & Design level Eventstorming<br>
@@ -210,7 +361,7 @@
                     • Aggregate Modeling<br>
                     -  Entity Design with Class Diagrams
                 </td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Eventstorming for various Domains<br><br>
                     • Core-supporting-generic domain prioritization<br>
                     - Wardlley mapping, Impact mapping<br><br>
@@ -220,9 +371,9 @@
                     • Apply Ubiquitous Language 
                 </td>
             </tr>
-            <tr>
+            <tr style="border-bottom: 1px solid #aaa;">
                 <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Dev</td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Obejct Oriented Programming<br>
                     - Object Oriented Framework<br>
                     - Spring boot, JDBC and JPA<br>
@@ -232,7 +383,7 @@
                     - Maven, Gradle<br><br>
                     • Linux OS Basics
                 </td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Microservice Clean Architecture<br>
                     - ES Model and Implementation mapping<br><br>
                     • Circuit Breaker Pattern<br>
@@ -242,7 +393,7 @@
                     • Message Broker – Kafka<br><br>
                     • Application Packaging & Dockerizing
                 </td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Extending Event driven Microservice<br>
                     - 멱등성, 트랜잭션, Kafka Parallel Processing, Deadline 처리<br>
                     - Dedicated Framework (Eventuate, Axon)<br><br>
@@ -253,9 +404,9 @@
                     - Client Token (JWT)
                 </td>
             </tr>
-            <tr>
+            <tr style="border-bottom: 1px solid #aaa;">
                 <td class="main-table-subtitle" style="padding-left:15px; text-align:center;">Ops</td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Cloud Infra, VM<br>
                     - CSP introduction<br>
                     - VM managed Service<br><br>
@@ -263,7 +414,7 @@
                     - VM, Dabase provisioning<br>
                     - Deploy to Cloud VM
                 </td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Cloud Software Platform, Docker<br><br>
                     • Kubernetes 인 액션<br>
                     - Kubernetes SLA features & Telemetry<br>
@@ -272,7 +423,7 @@
                     - Traffic Management (Retry, Timeout, Circuit breaker)<br><br>
                     • DevOps Pipeline (Jenkins, CSP managed)
                 </td>
-                <td>
+                <td style="border-left: 1px solid #aaa;">
                     • Service Mesh deep dive<br>
                     - Security, Monitoring, EnvoyFilter, Tracing<br><br>
                     • GitOps Methodology<br>
@@ -288,37 +439,65 @@
                 <td>
                     <div style="text-align:center;">
                         <a href="/operation/education/fundamental/">
-                            <button class="table-details-btn">세부사항</button>
+                            <!-- <button class="table-details-btn">세부사항</button> -->
+                            <button style="background-color:#fff;
+                              border-radius: 4px;
+                              border:2px solid #5a67d8;
+                              height: 36px;
+                              width: 90px;
+                              text-align: center;
+                              line-height: 1.2;
+                              font-size: 14px;
+                              font-weight: 700;">세부사항
+                            </button>
                         </a>
                     </div>
                 </td>
                 <td>
                     <div style="text-align:center;">
                         <a href="/operation/education/curriculum/">
-                            <button class="table-details-btn">세부사항</button>
+                          <button style="background-color:#fff;
+                            border-radius: 4px;
+                            border:2px solid #5a67d8;
+                            height: 36px;
+                            width: 90px;
+                            text-align: center;
+                            line-height: 1.2;
+                            font-size: 14px;
+                            font-weight: 700;">세부사항
+                          </button>
                         </a>
                     </div>
                 </td>
                 <td>
                     <div style="text-align:center;">
                         <a href="/operation/education/advanced/">
-                            <button class="table-details-btn">세부사항</button>
+                          <button style="background-color:#fff;
+                            border-radius: 4px;
+                            border:2px solid #5a67d8;
+                            height: 36px;
+                            width: 90px;
+                            text-align: center;
+                            line-height: 1.2;
+                            font-size: 14px;
+                            font-weight: 700;">세부사항
+                          </button>
                         </a>
                     </div>
                 </td>
             </tr>
         </table>
-        <div style="margin-top:20px; display:inline-flex;">
-            <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
-            <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
+        <div style="width:100%; margin-top:20px; display:inline-flex; justify-content: space-evenly; border: 1px dashed #E2E8F0; border-radius:5px; padding: 10px; box-shadow: 0 2px 2px 0 rgba(22,22,22, 0.1);">
+            <div><b>교육 문의</b> : help@uengine.org</div>
+            <div><b>정산 담당</b> : 서원주(tjdnjswn@uengine.org)</div>
             <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
         </div>
       </div>
 
       <div class="is-mobile-main-top">
         <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
-        <div style="width: 100%; height: 50px; margin-bottom: 5px; text-align: center; font-weight: 600; background-color: #5a67d8; border-radius: 5px;">
-          <a style="display: inline-block; color: #fff; margin-top: 12px; text-decoration: underline;" href="/operation/education/fundamental/">Fundamental</a>
+        <div class="tbl-title">
+          <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/fundamental/">Fundamental</a>
         </div>
         <table style="width: 100%;">
         <!-- <table class="gs-table-default gs-table-default">
@@ -361,23 +540,22 @@
                     <div style="text-align:center;">
                         <a href="/operation/education/fundamental/">
                           <button style="background-color:#fff;
-                          border-radius: 4px;
-                          border:2px solid #5a67d8;
-                          height: 36px;
-                          width: 90px;
-                          text-align: center;
-                          line-height: 1.2;
-                          font-size: 14px;
-                          font-weight: 700;">
-                            세부사항
+                            border-radius: 4px;
+                            border:2px solid #5a67d8;
+                            height: 36px;
+                            width: 90px;
+                            text-align: center;
+                            line-height: 1.2;
+                            font-size: 14px;
+                            font-weight: 700;">세부사항
                           </button>
                         </a>
                     </div>
                 </td>
             </tr>
         </table>
-        <div style="width: 100%; height: 50px; margin-bottom: 5px; text-align: center; font-weight: 600; background-color: #5a67d8; border-radius: 5px;">
-          <a style="display: inline-block; color: #fff; margin-top: 12px; text-decoration: underline;" href="/operation/education/curriculum/">Intermediate</a>
+        <div class="tbl-title">
+          <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/curriculum/">Intermediate</a>
         </div>
         <table style="width: 100%;">
             <tr style="border-bottom: 1px solid #aaa;">
@@ -422,23 +600,22 @@
                 <div style="text-align:center;">
                   <a href="/operation/education/curriculum/">
                     <button style="background-color:#fff;
-                    border-radius: 4px;
-                    border:2px solid #5a67d8;
-                    height: 36px;
-                    width: 90px;
-                    text-align: center;
-                    line-height: 1.2;
-                    font-size: 14px;
-                    font-weight: 700;">
-                      세부사항
+                      border-radius: 4px;
+                      border:2px solid #5a67d8;
+                      height: 36px;
+                      width: 90px;
+                      text-align: center;
+                      line-height: 1.2;
+                      font-size: 14px;
+                      font-weight: 700;">세부사항
                     </button>
                   </a>
                 </div>
               </td>
             </tr>
         </table>
-        <div style="width: 100%; height: 50px; margin-bottom: 5px; text-align: center; font-weight: 600; background-color: #5a67d8; border-radius: 5px;">
-          <a style="display: inline-block; color: #fff; margin-top: 12px; text-decoration: underline;" href="/operation/education/advanced/">Advanced</a>
+        <div class="tbl-title">
+          <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/advanced/">Advanced</a>
         </div>
         <table style="width: 100%;">
             <tr style="border-bottom: 1px solid #aaa;">
@@ -490,15 +667,14 @@
                           text-align: center;
                           line-height: 1.2;
                           font-size: 14px;
-                          font-weight: 700;">
-                            세부사항
-                          </button>
+                          font-weight: 700;">세부사항
+                        </button>
                       </a>
                   </div>
               </td>
             </tr>
         </table>
-        <div style="margin-top:20px; display:flex; flex-direction: column;">
+        <div style="margin-top:20px; display:flex; flex-direction: column; border: 1px dashed #E2E8F0; border-radius:5px; padding: 10px; box-shadow: 0 2px 2px 0 rgba(22,22,22, 0.1);">
             <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
             <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
             <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
@@ -506,10 +682,10 @@
       </div>
     </div>
 
-    <div style="width:100%; height:3px; background-color:#eeeeee; margin-top: 60px;"></div>
-    <div style="width:100%; height:16px; background-color:#f9f9f9;"></div>
+    <!-- <div style="width:100%; height:3px; background-color:#eeeeee; margin-top: 60px;"></div>
+    <div style="width:100%; height:16px; background-color:#f9f9f9;"></div> -->
    
-    <div style="margin-top:-30px;" class="content">
+    <div style="margin-top:-10px;" class="content">
       <h3 class="con-tit w250">MSA School 강사진 소개</h3>
     </div>
     <div class="gs-the-entire-package" style="margin-top: 20px;">
@@ -523,7 +699,7 @@
                     margin-bottom: 10px;">
             <figure class="g-image">
               <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                <img class="g-image--fallback" src="../../../../img/05_Community/02_MSA_교육과정/img3.png" alt="" style="margin-top:-30px; width: 100%;">
+                <img class="g-image--fallback" src="@/img/05_Community/02_MSA_교육과정/img3.png" alt="" style="margin-top:-30px; width: 100%;">
                 <!-- <g-image style="margin-top:-30px; width: 100%; height: 100%;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image> -->
               </div>
             </figure>                        
@@ -562,7 +738,7 @@
                     margin-bottom: 10px;">
             <figure class="g-image">
               <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                <img class="g-image--fallback" src="../../../../img/05_Community/02_MSA_교육과정/img4.png" alt="" style="margin-top:-30px; width: 100%;">
+                <img class="g-image--fallback" src="@/img/05_Community/02_MSA_교육과정/img4.png" alt="" style="margin-top:-30px; width: 100%;">
                 <!-- <g-image style="margin-top:-30px; width: 100%; height: 100%;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image> -->
               </div>
             </figure>   
@@ -644,7 +820,7 @@
                     margin-bottom: 10px;">
               <figure class="g-image">
                 <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                  <img class="g-image--fallback" src="../../../../img/05_Community/02_MSA_교육과정/img8.jpeg" alt="" style="margin-top:-30px; width: 100%;">
+                  <img class="g-image--fallback" src="@/img/05_Community/02_MSA_교육과정/img8.jpeg" alt="" style="margin-top:-30px; width: 100%;">
                   <!-- <g-image style="margin-top:-30px; width: 100%; height: 100%;" src="~/img/05_Community/02_MSA_교육과정/img8.jpeg"></g-image> -->
                 </div>
               </figure>  
@@ -672,28 +848,27 @@
               </div>
           </div>
       </div>
-
-
-    <div style="width:100%; height:3px; background-color:#eeeeee; margin-top: 60px;"></div>
-    <div style="width:100%; height:16px; background-color:#f9f9f9;"></div>
    
     <div style="margin-top:-30px;" class="content">
       <h3 class="con-tit w400">MSA School 교육 실적 및 주요 수강 기업</h3>
     </div>
     <v-row style="margin:0; text-align: center;">
-        <g-image style="margin: 10px 10px 0 0; width: 450px;"
-            src="https://github.com/kykim97/factory-pattern/assets/113568664/34d938cb-db22-44db-a038-7886d3a1568c">
+        <g-image class="is-not-mobile-main-top" style="margin: 10px 10px 0 0; width: 100%;"
+            src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/40873d43-3980-4671-b470-1a2d382501cd">
         </g-image>
-        <g-image style="margin: 10px 10px 0 0; width: 700px;"
-            src="https://github.com/kykim97/factory-pattern/assets/113568664/25d6d172-3b23-47d3-a4ea-07e82898ad7a">
+        <g-image class="is-mobile-main-top" style="margin: 10px 10px 0 0; width: 100%; max-width:700px;"
+            src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/2aea2ae6-1b31-4e1b-8593-4fb745fa1db8">
         </g-image>
-        <!-- <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
+    </v-row>
+     <!--<v-row style="margin:0; text-align: center;">
+        <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/dec2df52-4cd0-4ae6-b3cc-42bdd1eab7d5">
         </g-image>
         <g-image style="margin: 10px 10px 0 0; width: 400px; height: 504px;"
             src="https://github.com/kykim97/factory-pattern/assets/113568664/e406b5bd-2641-41ba-a791-00b6f0bba20c">
-        </g-image> -->
-    </v-row>
+        </g-image> 
+    </v-row>-->
+
     <!-- <mark-down style="margin-top:-50px;" class="content">
 ### MSA School 주요 수강 기업
     </mark-down>
@@ -866,89 +1041,6 @@
         </v-card>
       </a>
     </v-col> -->
-
-    <div style="margin-top:-30px; margin-bottom:15px;" class="content">
-      <h3 class="con-tit w220">웨비나 영상 다시보기</h3>
-    </div>
-    <a href="https://www.youtube.com/@uengine5309" target="_blank">
-      <v-btn style="background-color:#5a67d8 !important;
-          border-radius: 4px;
-          margin-right:15px;
-          height: 36px;
-          width: 120px;
-          text-align: center;
-          line-height: 36px;
-          font-size: 14px;
-          font-weight: 700;"
-      ><span style="color:white;">전체 영상 확인</span>
-      </v-btn>
-    </a>
-
-    <v-row style="margin:0;">
-        <!-- 1번 카드 -->
-        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
-          <div
-            class="clearfix youtube-card-box"
-            outlined
-          >
-            <g-image class="youtube-card-image" style=""
-                src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/09926d28-4df6-4d7f-b83a-59660cc7ca06">
-            </g-image>
-            <div>
-              <div class="tutorials-card-main-text">11월 웨비나</div>
-              <div class="tutorials-card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
-            </div>
-          </div>
-        </a>
-        
-        <!-- 2번 카드 -->
-        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
-          <div
-            class="clearfix youtube-card-box"
-            outlined
-          >
-            <g-image class="youtube-card-image" style=""
-                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/eaff5d86-b56f-45ea-82fb-c73c3394f265">
-            </g-image>
-            <div>
-              <div class="tutorials-card-main-text">10월 웨비나</div>
-              <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
-            </div>
-          </div>
-        </a>
-
-        <!-- 3번 카드 -->
-        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
-          <div
-            class="clearfix youtube-card-box"
-            outlined
-          >
-            <g-image class="youtube-card-image"
-                src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/24437b45-a7da-4fd0-b276-823c44944be4">
-            </g-image>
-            <div>
-              <div class="tutorials-card-main-text">8월 웨비나</div>
-              <div class="tutorials-card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
-            </div>
-          </div>
-        </a>
-
-        <!-- 4번 카드 -->
-        <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
-          <div
-            class="clearfix youtube-card-box"
-            outlined
-          >
-              <g-image class="youtube-card-image"
-                  src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/adc36c9d-3c4f-4918-9d41-59129a4653c6">
-              </g-image>
-            <div>
-              <div class="tutorials-card-main-text">7월 웨비나</div>
-              <div class="tutorials-card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
-            </div>
-          </div>
-        </a>
-    </v-row>
     
     <!-- <div>
       <iframe id="player" type="text/html" class="clearfix video-link"
@@ -963,7 +1055,9 @@
 </template>
 
 <script>
-  // @group 01_01_01
+import { Carousel, Slide } from "vue-carousel";
+
+// @group 01_01_01
   export default {
     name: 'index',
     directory:'operation_introduction',
@@ -971,6 +1065,10 @@
         "소개": {
             type: String
         },
+    },
+    components: { 
+      Carousel, 
+      Slide 
     },
     data() {
       return {
@@ -1062,6 +1160,10 @@
   
   .clearfix::after{content:""; display:block; clear:both;}
 
+  .con-tit-webinar {
+    font-family: 'NanumSquareNeo';
+    color:#333;
+  }
   .con-tit {
     font-family: 'NanumSquareNeo';
     color:#222;
@@ -1069,11 +1171,14 @@
   .con-tit::after {
     content: "";
     display: block;
-    width:170px;
+    width: 170px;
     height: 2px;
     background-color: #333;
     margin-top: 5px;
     margin-bottom: -4px;
+  }
+  .w120::after {
+    width: 120px;
   }
   .w190::after {
     width: 190px;
@@ -1090,16 +1195,24 @@
   .w400::after {
     width: 400px;
   }
-
-  .main-table-title {
-      line-height:40px;
-      text-align:center;
-      background-color:#5a67d8;
-      color:white;
-      border-radius:0 0 0 0;
-      font-weight:600;
-      height:40px;
-      font-size:20px;
+  .tbl-edu td {
+    font-size: 14px;
+  }
+  .tbl-title {
+    width: 99.5%; 
+    height: 60px; 
+    text-align:center;
+    background-color:#5a67d8;
+    font-weight:600;
+    line-height:60px;
+    font-size:20px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    padding:0;
+  }
+  .tbl-title-txt {
+    display: inline-block; 
+    text-decoration: underline;
   }
 
   .main-table-subtitle {
@@ -1173,7 +1286,7 @@
 
   .slide-btn-image {
     float: left;
-    margin:5px 10px 0px 10px;
+    margin:5px 10px 0 0;
     width:40px; 
     height:40px;
   }
@@ -1187,12 +1300,12 @@
 
   /* rgiht image stlye */
   .image-box-all {
-    position:absolute;
-    width:500px;
-    height:328px;
+    position: absolute;
+    width: 500px;
+    height: 328px;
     overflow: hidden;
     border-radius: 7px;
-    border:1px solid rgba(107, 59, 165, 1);
+    border: 1px solid rgba(107, 59, 165, 1);
     margin-top: 10px;
     margin-left: 10px;
   }
@@ -1201,31 +1314,49 @@
     margin-left:10px;
   } */
 
-  .mobile-image-style {
-    width:100%;
-    border-radius: 5px;
-    border:1px solid rgba(107, 59, 165, 1);
-    margin-top: 10px;
-  }
-
   .image-box-in {
-    background-color:white;
-    float:left;
-    width:500px;
+    background-color: white;
+    float: left;
+    width: 500px;
     position: absolute;
     transition: .5s;
         /* Opera */
   }
+
   .image-box-text {
     /* background-color:#6B3BA5; */
-    width:500px;
+    width: 500px;
     background-color: rgba(0, 0, 0, 0.7);
-    color:white;
-    font-size:18px;
-    font-weight:500;
-    padding:10px;
-    position:absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    position: absolute;
     /* margin-left:10px; */
+  }
+
+  .gs-mobile-btn-title {
+    font-size: 22px;
+  }
+
+  .m-image-box-text {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    padding: 30px;
+    line-height: 2.5;
+  }
+
+  .mobile-image-style {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(107, 59, 165, 1);
+    margin-top: 10px;
   }
 
   .tutorials-card-box {
@@ -1245,29 +1376,6 @@
     margin-bottom:10px; 
   }
 
-  .youtube-card-box {
-    border:solid 1px #E2E8F0;
-    border-radius: 5px;
-    padding:10px;
-    margin:10px 0 0 10px;
-    width:300px;
-    height:320px;
-    text-align:center;
-  }
-
-  .youtube-card-image {
-    height:180px;
-    width:280px;
-    margin:0 auto;
-    /* margin-right:10px; */
-    margin-bottom:10px;
-  }
-
-  .video-link {
-    width:900px; 
-    height:500px;
-  }
-
   .tutorials-card-main-text {
     font-size:16px;
     font-weight:900;
@@ -1280,27 +1388,36 @@
     color:#757575;
   }
 
-  .main-card-box {
-    width:32.5%;
-    height:300px;
-    margin-right:0.5%;
-    margin-bottom: 6px;
-    background-color: white;
-    border: 1px solid #e5e5e5;
+  /* 웨비나 영상 */
+  .slide-container {
+    width: 100%;
+    /* border-top: 1px solid #E2E8F0; */
+    border-bottom: 3px solid #E2E8F0;
+    padding-top: 20px;
+    justify-content: center !important;
+  }
+
+  .youtube-card-box {
+    border: solid 1px #ccc;
     border-radius: 5px;
-    float:left;    
-    padding:15px;
+    padding: 10px;
+    /* margin: 10px 0 0 10px; */
+    margin: 0 auto;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    background-color: #f9f9f9;
   }
 
-  .main-card-details-btn {
-    width:110px !important;
-    height:36px !important;
-    text-align:center !important;
-    font-size:15px;
-    border-radius:5px;
-    border:3px black solid;
+  .youtube-card-image {
+    height:180px;
+    width:280px;
+    margin:0 auto;
+    margin-bottom:10px;
   }
 
+
+  /* 반응형 */
   .is-not-mobile-main-top {
     display:block
   }
@@ -1310,9 +1427,9 @@
   }
 
   @media only screen and (max-width:1600px) {
-    .main-card-box {
+    /* .main-card-box {
       width:48%;
-    }    
+    }     */
   }
 
   @media only screen and (max-width:1410px){
@@ -1325,12 +1442,26 @@
   }
 
 @media only screen and (max-width:1100px) {
-  .main-card-box {
-    width:99%;
-  }    
+  .gs-mobile-btn-title {
+    font-size: 20px;
+  }
+  .m-image-box-text {
+    padding: 24px;
+    font-size: 17px;
+    line-height: 2;
+  }
 }
 
 @media only screen and (max-width:676px) {
+  .gs-mobile-btn-title {
+    font-size: 18px;
+  }
+  .m-image-box-text {
+    bottom: 7%;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
   .tutorials-card-box, .youtube-card-box {
     width:90vw;
   }
@@ -1340,10 +1471,70 @@
     margin-left:5px;
     margin-bottom:10px;
   }
-  .video-link {
-    height:200px;
-    width:370px;
+}
+
+
+/* 웨비나 영상 화살표 */
+.VueCarousel-navigation-button {
+  right: 6% !important;
+}
+.VueCarousel-navigation-button::before {
+  content: "" !important;
+  position: absolute !important;
+}
+.VueCarousel-navigation-button:focus {
+  outline: none !important;
+}
+.VueCarousel-navigation-next::before {
+  position: absolute !important;
+  width: 50px !important;
+  height: 50px !important;
+  background-image: url("https://github.com/msa-ez/msaschool.github.io/assets/149130268/cdf70f4c-2bf7-4511-904f-40c5ec684484") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  transform: rotate(180deg);
+  cursor: pointer !important;
+  image-rendering: -webkit-optimize-contrast !important;
+}
+.VueCarousel-navigation-next:hover::before {
+  background-image: url("https://github.com/msa-ez/msaschool.github.io/assets/149130268/cdf70f4c-2bf7-4511-904f-40c5ec684484") !important;
+}
+.VueCarousel-navigation-prev {
+  left: 31.5% !important;
+}
+.VueCarousel-navigation-prev::before {
+  position: absolute !important;
+  width: 50px !important;
+  height: 50px !important;
+  background-image: url("https://github.com/msa-ez/msaschool.github.io/assets/149130268/cdf70f4c-2bf7-4511-904f-40c5ec684484") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  cursor: pointer !important;
+  image-rendering: -webkit-optimize-contrast !important;
+}
+.VueCarousel-navigation-prev:hover::before {
+  background-image: url("https://github.com/msa-ez/msaschool.github.io/assets/149130268/cdf70f4c-2bf7-4511-904f-40c5ec684484") !important;
+}
+
+.VueCarousel-navigation--disabled:hover::before {
+  background-image: url("https://github.com/msa-ez/msaschool.github.io/assets/149130268/cdf70f4c-2bf7-4511-904f-40c5ec684484") !important;
+  cursor: default !important;
+}
+
+@media only screen and (max-width:1410px){
+  .VueCarousel-navigation-button {
+    right: 9% !important;
+  }
+  .VueCarousel-navigation-prev {
+    left: 32% !important;
   }
 }
-  
+@media only screen and (max-width:676px){
+  .VueCarousel-navigation-button {
+    right: 13% !important;
+  }
+  .VueCarousel-navigation-prev {
+    left: 30% !important;
+  }
+}
 </style>
