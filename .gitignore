@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 dist
+package-lock.json
 
 # local env files
 .env.local
@@ -15,7 +16,6 @@ src/.temp
 !.env.example
 .env.*
 src/.env
-package-lock.json
 
 
 
