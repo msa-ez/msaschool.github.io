@@ -9,60 +9,62 @@
 </template>
 
 <page-query>
-    query ( $path: String!, ) {
-    thisPage : vuePage(path: $path) {
-    id
-    name
-    mockData
-    source
-    path
-    props{
-    name
-    }
-    componentDesc{
-    group
-    }
-    fileInfo {
-    name
-    path
-    directory
-    }
-    }
-    allPagesByName : allVuePage (sortBy: "componentDesc.group", order: ASC) {
-    edges{
-    node{
-    id
-    name
-    path
-    props{
-    name
-    }
-    componentDesc{
-    group
-    }
-    fileInfo {
-    name
-    path
-    directory
-    }
-    }
-    }
-    }
-    allPages : allVuePage{
-    edges{
-    node{
-    name
-    path
-    fileInfo {
-    name
-    directory
+query ($path: String!) {
+    thisPage: vuePage(path: $path) {
+        id
+        name
+        mockData
+        source
+        path
+        props {
+            name
+        }
+        componentDesc {
+            group
+        }
+        fileInfo {
+            name
+            path
+            directory
+        }
     }
 
+    allPagesByName: allVuePage(sortBy: "componentDesc.group", order: ASC) {
+        edges {
+            node {
+                id
+                name
+                path
+                props {
+                    name
+                }
+                componentDesc {
+                    group
+                }
+                fileInfo {
+                    name
+                    path
+                    directory
+                }
+            }
+        }
     }
+
+    allPages: allVuePage {
+        edges {
+            node {
+                name
+                path
+                fileInfo {
+                    name
+                    directory
+                }
+            }
+        }
     }
-    }
-    }
+}
 </page-query>
+  
 <script>
     import VueSubLayoutHeader from "../components/VueSubLayoutHeader";
     import {MenuIcon, XIcon} from 'vue-feather-icons';
@@ -75,7 +77,10 @@
             VueSubLayoutHeader,
         },
         mounted() {
-
+            // 콘솔에 쿼리 결과 출력
+            console.log('thisPage:', this.$page.thisPage);
+            console.log('allPagesByName:', this.$page.allPagesByName);
+            console.log('allPages:', this.$page.allPages);
         },
         computed: {
             getComponentName() {
