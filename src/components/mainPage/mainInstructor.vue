@@ -24,14 +24,15 @@
                             margin-top:-25px !important;
                             text-align:center !important;
                             position:relative !important;">
-                    <h3 style="margin-bottom:0; color:gray; padding-top: 5px;">장진영</h3>
-                    <p style="color:gray; font-size:12px; padding-bottom:5px;">uEngine CEO & President</p>
+                    <h3 style="margin-bottom:0; color:#777; padding-top: 5px;">장진영</h3>
+                    <p style="color:gray; font-size:12px; padding: 0 5px 5px 5px;">uEngine CEO & President</p>
                 </div>
                 <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                     • MSA 교육, 기업 컨설팅<br>
                     • MSAEz, MSA School, CNA PaaS Platform<br>
                     • Open Source Open Cloud Engine<br>
                     • uEngine BPM, SNS(Process CODI), ALM(ESSENCIA)<br>
+                    • SAFe 애자일 공인 컨설턴트 (SPC)
                     <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                     • 現 유엔진솔루션즈 대표이사<br>
                     • 現 MSA 교육, 기업 컨설팅<br>
@@ -61,8 +62,8 @@
                             margin-top:-25px !important;
                             text-align:center !important;
                             position:relative !important;">
-                    <h3 style="margin-bottom:0; color:gray; padding-top: 5px;">박용주</h3>
-                    <p style="color:gray; font-size:12px; padding-bottom: 5px;">uEngine Director & MSA Consultant</p>
+                    <h3 style="margin-bottom:0; color:#777; padding-top: 5px;">박용주</h3>
+                    <p style="color:gray; font-size:12px; padding: 0 5px 5px 5px;">uEngine Director & MSA Consultant</p>
                 </div>
                 <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                     • MSA DT 마스터플랜 수립 Project<br>
@@ -99,8 +100,8 @@
                           margin-top:-25px !important;
                           text-align:center !important;
                           position:relative !important;">
-                    <h3 style="margin-bottom:0; color:gray; padding-top: 5px;">손영수</h3>
-                    <p style="color:gray; font-size:12px; padding-bottom: 5px;">Onycom CPO</p>
+                    <h3 style="margin-bottom:0; color:#777; padding-top: 5px;">손영수</h3>
+                    <p style="color:gray; font-size:12px; padding: 0 5px 5px 5px;">Onycom CPO</p>
                 </div>
                 <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                     • Onycom 성능솔루션 사업부 상무/CPO<br>
@@ -139,8 +140,8 @@
                           margin-top:-25px !important;
                           text-align:center !important;
                           position:relative !important;">
-                    <h3 style="margin-bottom:0; color:gray; padding-top: 5px;">윤성열</h3>
-                    <p style="color:gray; font-size:12px; padding-bottom: 5px;">Dreamflow CEO</p>
+                    <h3 style="margin-bottom:0; color:#777; padding-top: 5px;">윤성열</h3>
+                    <p style="color:gray; font-size:12px; padding: 0 5px 5px 5px;">Dreamflow CEO</p>
                 </div>
                 <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
                     • MSA 개발 및 네트워크 인프라 구축<br>

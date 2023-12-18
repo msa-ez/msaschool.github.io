@@ -169,7 +169,7 @@ button:focus{
     font-size: 18px;
     text-align: left;
     display: block;
-    width:1 00%;
+    width: 100%;
     /* background-color: white; */
     /* border-radius: 5px; */
     /* overflow: hidden; */

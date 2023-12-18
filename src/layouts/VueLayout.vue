@@ -165,7 +165,7 @@
         computed: {
             mainStyleBySize() {
                 if (this.small) {
-                    return "max-width: 100%; margin-top: 10% !important;"
+                    return "max-width: 100%; margin-top: -10% !important;"
                 } else {
                     return "max-width: 100% !important; margin-top: 3% !important; margin-left:-1%; padding-left:3% !important; padding-bottom:30px;"
                 }
