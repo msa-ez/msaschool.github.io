@@ -275,6 +275,9 @@ button:focus{
     background-color: #f9f9f9;
     border-radius: 5px;
     /* border: solid 1px #ccc; */
+    border:solid 1px #E2E8F0;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .youtube-card-image {

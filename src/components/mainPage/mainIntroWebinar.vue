@@ -32,7 +32,7 @@
             </a>
         </div>
 
-        <v-slide-group
+        <!-- <v-slide-group
             v-model="model"
             class="pa-4"
             show-arrows
@@ -53,7 +53,71 @@
                     </v-card>
                 </a>
             </v-slide-item> 
-        </v-slide-group>
+        </v-slide-group> -->
+
+        <v-row style="margin:0;">
+            <!-- 4번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/517e2fc5-3064-4534-9e9c-bce75838404f">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">11월 웨비나</div>
+                        <div class="card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
+                    </div>
+                </div>
+            </a>
+            <!-- 3번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/bc3467a2-2b1e-4eab-abd3-bdd490a3b6a6">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">10월 웨비나</div>
+                        <div class="card-sub-text">2023년 10월 웨비나 - ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
+                    </div>
+                </div>
+            </a>
+            <!-- 2번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image"
+                        src="https://github.com/kykim97/factory-pattern/assets/113568664/1b393e58-f09d-4fdc-9126-244ac4a5d98c">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">8월 웨비나</div>
+                        <div class="card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
+                    </div>
+                </div>
+            </a>            
+            <!-- 1번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image"
+                        src="https://github.com/kykim97/factory-pattern/assets/113568664/271e0ff2-5aaf-4f73-a27b-c62e14a41fbb">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">7월 웨비나</div>
+                        <div class="card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
+                    </div>
+                </div>
+            </a>
+        </v-row>
+        <div style="width:100%; height:3px; background-color:#E2E8F0;margin-top: 20px;"></div>
         <div style="width:100%; height:12px; background-color:#ebf0f4;"></div>
     </div>
 </template>
