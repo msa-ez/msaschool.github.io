@@ -12,8 +12,8 @@
                         box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
                         margin-bottom: 10px;">
                 <figure class="g-image">
-                    <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/69882aeb-aa70-4a43-87cd-38ca9cbdeb08" alt="" style="margin-top:-30px; width: 100%;"/>
+                    <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden; border:1px solid #e6e9f9;">
+                        <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/1004f33c-2a75-4079-8890-21a06ed91b71" alt="" style="margin-top:-30px; width: 100%;"/>
                     </div>
                 </figure>                        
                 <div style="width:85% !important;
@@ -36,9 +36,10 @@
                     • 現 유엔진솔루션즈 대표이사<br>
                     • 現 MSA 교육, 기업 컨설팅<br>
                     • 現 MSA Facebook 그룹 운영<a target="_blank" style="color:blue;" href="https://www.facebook.com/groups/cloudswmoding">(링크)</a><br>
+                    • 現 디지털플랫폼정부 기술자문위원<br>
+                    • 한국소프트웨어기술진흥협회 전문강사<br>
                     • 클라우드(MSA, DDD) 강의 다수<br>
                     • 객체지향 프로그래밍 University 강의<br>
-                    • 한국소프트웨어기술진흥협회 전문강사<br>
                 </div>
             </div>
             <div style="margin-left:1% !important;
@@ -50,7 +51,8 @@
                         margin-bottom: 10px;">
                 <figure class="g-image">
                     <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/ad81e2cb-bd14-4b8f-843a-395d39651cf5" alt="" style="margin-top:-30px; width: 100%;"/>
+                        <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/4d4148c4-53c6-4b53-bea0-fabd64d968e2" alt="" style="margin-top:-30px; width: 100%;"/>
+                        <!-- <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/ad81e2cb-bd14-4b8f-843a-395d39651cf5" alt="" style="margin-top:-30px; width: 100%;"/> -->
                     </div>
                 </figure>   
                 <div style="width:85% !important;
@@ -128,7 +130,7 @@
                         margin-bottom: 10px;">
                 <figure class="g-image">
                     <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/59eb3a58-6065-43fd-8c61-e1fdc7b4d03c" alt="" style="margin-top:-30px; width: 100%;"/>
+                        <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/47b7b03a-14f3-4c2c-9c16-3e024fd8ab50" alt="" style="margin-top:-30px; width: 100%;"/>
                     </div>
                 </figure>  
                 <div style="width:85% !important;
