@@ -3,7 +3,7 @@
         <div class="is-not-mobile-main-top">
             <v-row style="background-color:#E9E6F8; padding:30px; margin-left:0px; height:390px;">
                 <v-row style="position:absolute;
-                left: 49%;
+                left: 44%;
                 transform: translate(-50%, 0%);
                 ">
                     <div style="float: left;">
@@ -12,7 +12,7 @@
                         line-height:55px;
                         font-size:34px;
                         font-weight: 500;
-                        margin:10px 0 15px 0"
+                        margin:10px 0 15px 0;"
                         >
                             클라우드 네이티브 앱
                             <br/>구현의 전문 배움터

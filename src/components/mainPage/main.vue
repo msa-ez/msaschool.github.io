@@ -218,7 +218,7 @@ button:focus{
     border-radius: 7px;
     border: 1px solid rgba(107, 59, 165, 1);
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .image-box-in {
