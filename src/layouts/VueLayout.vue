@@ -26,7 +26,7 @@
                         </aside>
 
                         <div class="is-mobile-contents"
-                            :class="{ 'pl-0 lg:pl-12 lg:w-3/4': hasSidebar }"
+                            :class="{ 'pl-0 lg:pl-12 lg:w-4/5': hasSidebar }"
                             :style="mainStyleBySize">
                             <slot/>
                         </div>
@@ -165,7 +165,7 @@
         computed: {
             mainStyleBySize() {
                 if (this.small) {
-                    return "max-width: 100%; margin-top: 10% !important;"
+                    return "max-width: 100%; margin-top: -10% !important;"
                 } else {
                     return "max-width: 100% !important; margin-top: 3% !important; margin-left:-1%; padding-left:3% !important; padding-bottom:30px;"
                 }
@@ -1347,7 +1347,7 @@
         }
 
         @screen lg {
-            @apply w-1/4 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
+            @apply w-1/5 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
             transform: translateX(0);
         }
     }

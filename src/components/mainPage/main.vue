@@ -169,7 +169,7 @@ button:focus{
     font-size: 18px;
     text-align: left;
     display: block;
-    width:1 00%;
+    width: 100%;
     /* background-color: white; */
     /* border-radius: 5px; */
     /* overflow: hidden; */
@@ -218,7 +218,7 @@ button:focus{
     border-radius: 7px;
     border: 1px solid rgba(107, 59, 165, 1);
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .image-box-in {
@@ -275,6 +275,9 @@ button:focus{
     background-color: #f9f9f9;
     border-radius: 5px;
     /* border: solid 1px #ccc; */
+    border:solid 1px #E2E8F0;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .youtube-card-image {
