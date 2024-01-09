@@ -20,7 +20,7 @@
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/intermediate/">Intermediate</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/curriculum/">Intermediate</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
