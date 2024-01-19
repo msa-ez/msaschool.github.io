@@ -8,8 +8,8 @@ require('dotenv').config()
 module.exports = {
     siteName: "msaschool",
     icon: {
-        favicon: "./static/msa_school_logo.png",
-        touchicon: "./static/msa_school_logo.png"
+        favicon: "./static/favicon.png",
+        touchicon: "./static/favicon.png"
     },
 
     runtimeCompiler: true,
