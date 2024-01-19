@@ -50,9 +50,11 @@
             
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
-                    <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image style="margin-top:-30px;" src="~/img/05_Community/02_MSA_교육과정/img3.png"></g-image>
-                    </div>
+                    <figure class="g-image">
+                        <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden; border:1px solid #e6e9f9;">
+                            <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/1004f33c-2a75-4079-8890-21a06ed91b71" alt="" style="margin-top:-30px; width: 100%;"/>
+                        </div>
+                    </figure>   
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">장진영</h3>
                         <p style="color:gray; font-size:12px;">uEngine CEO & President</p>
@@ -62,20 +64,25 @@
                         • MSAEz, MSA School, CNA PaaS Platform<br>
                         • Open Source Open Cloud Engine<br>
                         • uEngine BPM, SNS(Process CODI), ALM(ESSENCIA)<br>
+                        • SAFe 애자일 공인 컨설턴트 (SPC)
                         <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 유엔진솔루션즈 대표이사<br>
                         • 現 MSA 교육, 기업 컨설팅<br>
-                        • 現 MSA Facebook 운영<br>(https://www.facebook.com/groups/cloudswmoding)<br>
+                        • 現 MSA Facebook 운영<br>
+                        <a href="https://www.facebook.com/groups/cloudswmoding" target="_blank">(https://www.facebook.com/groups/cloudswmoding)</a><br>
+                        • 現 디지털플랫폼정부 기술자문위원<br>
+                        • 한국소프트웨어기술진흥협회 전문강사<br>
                         • 클라우드(MSA, DDD) 강의 다수<br>
                         • 객체지향 프로그래밍 University 강의<br>
-                        • 한국소프트웨어기술진흥협회 전문강사<br>
                     </div>
                 </div>
             
                 <div class="gs-instructor-card">
-                    <div style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                        <g-image style="margin-top:-15px;" src="~/img/05_Community/02_MSA_교육과정/img4.png"></g-image>
-                    </div>
+                    <figure class="g-image">
+                        <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
+                            <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/4d4148c4-53c6-4b53-bea0-fabd64d968e2" alt="" style="margin-top:-30px; width: 100%;"/>
+                        </div>
+                    </figure>
                     <div class="gs-instructor-card-name">
                         <h3 style="margin-bottom:0; color:gray;">박용주</h3>
                         <p style="color:gray; font-size:12px;">uEngine Director & MSA Consultant</p>
@@ -88,6 +95,8 @@
                         <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 uEngine MSA 정규 교과정 전문강사<br>
                         • 現 MSA App. Engineering 기업과정 강사<br>
+                        • 現 세종사이버대학교 컴퓨터/AI 공학과 겸임교수<br>
+                        • 한국소프트웨어기술진흥협회 전문강사<br>
                         • ‘21 : SK MSA App. Engineering 과정 강사 외<br>
                         • ’21. 06 : KT Microservice 직무전환과정 강사<br>
                         • ’20. 09 : Doosan Microservices 교육 강사<br>
