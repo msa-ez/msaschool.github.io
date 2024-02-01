@@ -41,7 +41,7 @@
                 <th style="width:65%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 기획/설계</td>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;" rowspan="2">7H</td>
                     <td>
                         • AI 기반의 소프트웨어 개발 도구들의 이해(1단계~5단계)<br>
                         • ChatGPT 를 통한 서비스 기획 (페르소나/고객여정맵) - 실습<br>
@@ -55,7 +55,6 @@
                 </tr>
                 <tr>
                     <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 구현/운영</td>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
                     <td>
                         • 클라우드 네이티브 아키텍처 / MSA / 클린 아키텍처의 이해<br>
                         • 도메인주도설계 방식과 AI기반 애플리케이션 개발의 효율성<br>
@@ -74,7 +73,7 @@
                 <th style="width:65%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 개발 환경 구축</td>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;" rowspan="2">7H</td>
                     <td>
                         • AI 기반 DevOps 환경 (MSA Easy + GPT Engineer) 구내 설치 - 실습<br>
                         • 우리 회사에 프롬프트 맞춤화 하기 - 실습<br>
@@ -83,7 +82,6 @@
                 </tr>
                 <tr>
                     <td style="font-weight:700; padding-left:15px; text-align: center;">폐쇄형 LLM 기반 개발 환경 구축</td>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
                     <td>
                         • 폐쇄형 LLM 설치 및 구성 방법 - 실습<br>
                         • 개인 개발 환경 설치 방법 (Cursor IDE) - 실습<br>
