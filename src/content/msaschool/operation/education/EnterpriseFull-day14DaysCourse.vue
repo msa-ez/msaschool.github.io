@@ -617,7 +617,7 @@
 
 
 <script>
-        // @group 07_02_09
+        // @group 07_02_10
     export default {
         name:'enterprise-full-day14-days-course',
         data() {
@@ -626,7 +626,7 @@
             }
         },
         props: {
-            "2-5. Enterprise Full-day(14일)": {
+            "3-5. Enterprise Full-day(14일)": {
                 type: String
             },
         },

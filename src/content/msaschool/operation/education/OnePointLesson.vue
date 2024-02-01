@@ -177,7 +177,7 @@
 </template>
 
 <script>
-// @group 07_02_11
+// @group 07_02_12
     export default {
         name:'one-point-lesson',
         data() {
@@ -186,7 +186,7 @@
             }
         },
         props: {
-            "4. MSA Consulting(협의)": {
+            "5. MSA Consulting(협의)": {
                 type: String
             },
         },

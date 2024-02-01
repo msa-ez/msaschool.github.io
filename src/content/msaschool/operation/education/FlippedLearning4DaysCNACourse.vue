@@ -393,7 +393,7 @@
 
 
 <script>
-        // @group 07_02_07
+        // @group 07_02_08
     export default {
         name:'flipped-learning4-days-cna-course',
         data() {
@@ -402,7 +402,7 @@
             }
         },
         props: {
-            "2-3. Flipped Learning(4일 or 2일)": {
+            "3-3. Flipped Learning(4일 or 2일)": {
                 type: String
             },
         },

@@ -14,8 +14,28 @@
                 MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현장 경험 및 질높은 교육 후기로 인해, 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 통해 CNA를 학습하고 재방문의 발길이 꾸준하게 이어지고 있습니다.
             </div>
         </div>
-        <div style="margin-top:50px; display: flex; justify-content: flex-start; align-items: center;">
-            <h3 class="con-tit-webinar">웨비나 영상 다시보기</h3>
+
+        <div class="content banner-pc" style="margin-top:-20px;">
+            <h3 class="con-tit w190">Upcoming Event</h3>
+            <!-- <a href="https://forms.gle/Bdk3L226LdoG7ryTA" target="_blank"> -->
+            <a :href="'/operation/education/ai-curriculum'">
+                <g-image style="width: 100%;"
+                    src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/7690662d-1544-41dc-8088-6566412af6f1">
+                </g-image>
+            </a>
+        </div>
+        <div class="content banner-mo" style="margin-top:-20px;">
+            <h3 class="con-tit w190">Upcoming Event</h3>
+            <a :href="'/operation/education/ai-curriculum'">
+                <g-image style="width: 100%;"
+                    src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/fda15811-423b-4992-893d-e66b9fdffe37">
+                </g-image>
+            </a>
+        </div>
+
+        <div style="margin-top:70px; display: flex; justify-content: flex-start; align-items: center;">
+            <h3 class="con-tit w190">웨비나 영상 다시보기</h3>
+            <!-- <h3 class="con-tit-webinar">웨비나 영상 다시보기</h3> -->
             <a href="https://www.youtube.com/@uengine5309" target="_blank">
                 <v-btn style="background-color:#5a67d8 !important;
                     border-radius: 4px;
@@ -56,6 +76,21 @@
         </v-slide-group> -->
 
         <v-row style="margin:0;">
+            <!-- 5번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/c080271b-d7dc-4e5e-ba90-ba8af41b792d">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">1월 웨비나</div>
+                        <div class="card-sub-text">생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현</div>
+                    </div>
+                </div>
+            </a>
             <!-- 4번 카드 -->
             <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
                 <div
@@ -82,7 +117,7 @@
                     </g-image>
                     <div>
                         <div class="card-main-text">10월 웨비나</div>
-                        <div class="card-sub-text">2023년 10월 웨비나 - ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
+                        <div class="card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
                     </div>
                 </div>
             </a>
@@ -117,8 +152,8 @@
                 </div>
             </a>
         </v-row>
-        <div style="width:100%; height:3px; background-color:#E2E8F0;margin-top: 20px;"></div>
-        <div style="width:100%; height:12px; background-color:#ebf0f4;"></div>
+        <!-- <div style="width:100%; height:3px; background-color:#E2E8F0;margin-top: 20px;"></div>
+        <div style="width:100%; height:12px; background-color:#ebf0f4;"></div> -->
     </div>
 </template>
 
@@ -168,5 +203,15 @@ export default {
 </script>
   
 <style>
-
+.banner-mo {
+    display: none;
+}
+@media only screen and (max-width:676px) {
+    .banner-pc {
+        display: none;
+    }
+    .banner-mo {
+        display: block;
+    }
+}
 </style>

@@ -352,7 +352,7 @@
 </template>
 
 <script>
-        // @group 07_02_03
+        // @group 07_02_04
     export default {
         name:'fundamental',
         data() {
@@ -361,7 +361,7 @@
             }
         },
         props: {
-            "1. Fundamental Course": {
+            "2. Fundamental Course": {
                 type: String
             },
         },

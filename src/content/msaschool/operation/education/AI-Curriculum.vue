@@ -1,185 +1,97 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Advanced 과정</h2><br>
+            <h2 style="display:inline-block !important;">생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
             >
-                <a href="/operation/education/advanced-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/education/fundamental/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
-        <h6 class="gs-course-content">다양한 도메인에 대한 심화된 이벤트스토밍 기법과 EDA환경에 최적화된 프레임워크 및 실전에 적용 가능한 구현 요소들을 포함하고 있으며, 서비스 메시의 확장, GitOps, 서버리스(Serverless) 운영 등 BizDevOps 전 영역에 걸쳐 한차원 높은 전문가 수준의 내용으로 구성된 교육과정입니다.</h6>
+        <h6 class="gs-course-content">AI 를 이용하여 효율적으로 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영 하는 전과정을 이해하고 실습하며, AI 를 이용한 자동화된 개발 환경인 일종의 AI-PaaS를 구축하기 위한 폐쇄형 LLM 설치를 포함한 플랫폼 엔지니어링의 실무적 이해와 훈련을 돕는 교육과정입니다.</h6>
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
                 <td rowspan="2" style="padding-left:15px; width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
-                <td style="font-weight:700; font-size:20px; text-align:center;">1인당 160만원(4일)</td>
+                <td style="font-weight:700; font-size:20px; text-align:center;">1인당 80만원(2일)</td>
             </tr>
-            <tr>  
+            <!-- <tr>  
                 <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
-            </tr>
+            </tr> -->
         </table>
         <v-btn class="gs-bottom-apply-btn"
             target='_blank'
-            :href="`https://docs.google.com/forms/d/e/1FAIpQLSdR9TvgNr10wmWVgZxCkIIRBzFUV6bCISrNyUkm3sN89xbB5w/viewform?usp=sf_link`"
+            :href="`https://forms.gle/Bdk3L226LdoG7ryTA`"
         >
             <span style="color:white !important; font-weight:700; font-size:20px;">
                 교육 신청하기
             </span>
         </v-btn>
+        <br><br>
+        <div>* Event : 2월 26~27일 교육만 50% 비용 할인이 적용됩니다.</div>
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
-            <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
+            <h4 style="margin-top:30px;">Day1 - AI 기반 구현</h4>
             <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
+                <th style="width:25%%; background-color:#e6e9f9; font-weight:900; font-size:20px; padding-left:15px; text-align: center;">주제</th>
+                <th style="width:10%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:65%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">도메인 주도 SW설계의<br>확장</td>
+                    <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 기획/설계</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
                     <td>
-                        • 애자일 기업에 필요한 구현 기술<br>
-                        • 금융기관과 테크기업의 진화, 테크 기업들의 Agile Delivery<br>
-                        • 복잡한 모델의 분리기준 – 바운디드 컨텍스트<br>
-                        • 가치사슬 분석전략 기법 이해 - 워들리 매핑(Wardley Mapping)<br>
-                        • Impact Mapping을 활용한 이벤트스토밍<br>
-                        • 다양한 비즈니스 도메인 이벤트스토밍 적용사례<br>
+                        • AI 기반의 소프트웨어 개발 도구들의 이해(1단계~5단계)<br>
+                        • ChatGPT 를 통한 서비스 기획 (페르소나/고객여정맵) - 실습<br>
+                        • ChatGPT 를 통한 비즈니스 모델 기획 (비즈니스 모델 캔버스) - 실습<br>
+                        • ChatGPT 를 통한 프로세스 모델 도출 (빅픽쳐 이벤트스토밍) - 실습<br>
+                        • ChatGPT 를 통한 소프트웨어 모델 도출 (디자인 레벨 이벤트스토밍) - 실습<br>
+                        • ChatGPT 를 통한 도메인 모델 도출 (클래스 다이어그램)<br><br>
+                        • 예제) EDA(이벤트 드리븐 아키텍처) 기반 음식 배달앱<br>
+
                     </td>
                 </tr>
                 <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
-                </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">마이크로서비스의<br>분석/설계 심화</td>
+                    <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 구현/운영</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
                     <td>
-                        • 이벤트스토밍 레벨 – Big Picture, Process Modeling, Software Design<br>
-                        • DDD(도메인 주도 설계) 설계전략 <br>
-                        • Customer Journey Map – Identifies(Personas), Derives(Possible solutions, Opportunities), Relation to(Business Model, Software Design)<br> 
-                        • Impact Mapping - Identifies(Goals, Actors, Impact), Relation to(Business Model) <br>
-                        • 비즈니스 모델 캔버스 응용<br>
-                        • 도메인 클래스 모델링 with UML<br>
-                        • 도메인 모델패턴(Domain Model)과 트랜잭션 스크립트 (Transaction Script) 패턴<br>
-                        • 중요도에 따른 구현 구현전략- 트랜잭션 스크립트 적용<br>
-                        • 이벤트스토밍 모델과 유비쿼터스 언어(Ubiquitous Language)<br>
-                        • 다양한 도메인기반 실전 이벤트스토밍<br> 
+                        • 클라우드 네이티브 아키텍처 / MSA / 클린 아키텍처의 이해<br>
+                        • 도메인주도설계 방식과 AI기반 애플리케이션 개발의 효율성<br>
+                        • ChatGPT 를 통한 레가시 애플리케이션 분석<br>
+                        • GPT-Engineer 이용한 클라우드 네이티브 애플리케이션 생성 - 실습<br>
+                        • ChatGPT 를 통한 쿠버네티스 배포 자동화 / 운영 / 트러블 슈팅 자동화 - 실습<br>
+
                     </td>
                 </tr>
             </table>
 
-            <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
+            <h4 style="margin-top:50px;">Day2 – AI 기반 환경 구축</h4>
             <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
+                <th style="width:25%%; background-color:#e6e9f9; font-weight:900; font-size:20px; padding-left:15px; text-align: center;">주제</th>
+                <th style="width:10%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
+                <th style="width:65%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">구현: 마이크로 서비스<br>트랜잭션과 데드라인</td>
+                    <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 개발 환경 구축</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
                     <td>
-                        • Event driven Microservice 확장 구현<br>
-                        • Exactly-Once 및 멱등성(Idempotency)을 적용한 중복처리 방지<br>
-                        • 단위 마이크로서비스와 메시징 채널 트랜잭션 관리<br>
-                        • 마이크로서비스 트랜잭션에 Deadline 적용<br>
-                        • Kafka Parallel Processing & DLQ (Dead Letter Queue)<br>
+                        • AI 기반 DevOps 환경 (MSA Easy + GPT Engineer) 구내 설치 - 실습<br>
+                        • 우리 회사에 프롬프트 맞춤화 하기 - 실습<br>
+
                     </td>
                 </tr>
                 <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">EDA에 최적화된<br>MSA Chassis</td>
+                    <td style="font-weight:700; padding-left:15px; text-align: center;">폐쇄형 LLM 기반 개발 환경 구축</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">7H</td>
                     <td>
-                        • 이벤트스토밍 모델에서 Eventuate, Axon코드 생성<br>
-                        • Eventuate Tram 애플리케이션 아키텍처와 CDC<br>
-                        • Axon Framework와 Axon Server<br>
-                        • Sprng boot기반 Axon으로 구현하는 Saga마이크로서비스<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style=" font-weight:700; padding-left:15px;">인터-마이크로서비스 통신 : gRPC, Spring Reactor</td>
-                    <td>
-                        • gRPC로 통신하는 마이크로서비스<br>
-                        • HTTP/2 프로토콜 버퍼기반 바이너리 프로토콜 적용<br>
-                        • Spring Reactor와 Spring WebFlux로 리엑티브 마이크로서비스 구현 예시<br>
+                        • 폐쇄형 LLM 설치 및 구성 방법 - 실습<br>
+                        • 개인 개발 환경 설치 방법 (Cursor IDE) - 실습<br>
+
                     </td>
                 </tr>
             </table>
 
-
-            <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">Kafka CDC와<br>마이크로서비스 보안</td>
-                    <td>
-                        • Kafka CDC를 활용한 인터-마이크로서비스 데이터 연동<br>
-                        • OAuth2 와 JWT를 활용하는 Stateless 한 토큰기반 접근과 인증<br>
-                        • 게이트웨이로부터 토큰 릴레이를 통한 Fine-grained ACL 설정<br>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
-                </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: Service Mesh deep dive</td>
-                    <td>
-                        • advanced Service Mesh(Istio) features<br>
-                        • Istio가 제공하는 보안, 모니터링, Envoy필터, 추적 기능<br>
-                        • Istio기반 서비스간 인증 및 End-user authentication<br>
-                        • Istio add-on 서버기반 마이크로서비스 모니터링 & Alerting to Slack 채널<br>
-                        • Spring sleuth와 Jaeger를 통한 마이크로서비스 Tracing<br>
-                    </td>
-                </tr>
-            </table>
-
-            <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">GitOps</td>
-                    <td>
-                        • 데브옵스의 확장 모델 깃옵스(GitOps) 이해<br>
-                        • Workflow with Jenkins & ArgoCD<br>
-                        • Canary Deployment with Canary Scoring<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">Serverless</td>
-                    <td>
-                        • Serverless를 위한 오픈소스 Knative<br>
-                        • Stateless 웹서비스 구축을 위한 서비리스 프레임워크 - Serving<br>
-                        • Istio와 Knative serving을 활용한 마이크로서비스 배포와 접근<br>
-                        • Kubernetes CRD 기반 CI/CD 오픈소스 프레임워크 - Tekton <br>
-                        • Tekton으로 구현하는 Serverless CI/CD 파이프라인<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="font-weight:700;">설문작성 및 테스트</td>
-                    <td>
-                        • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
-                    </td>
-                </tr>
-            </table>
         </div>
         
         <div style="margin:100px 0 50px 0;">
@@ -230,7 +142,7 @@
                         • MSA DT 마스터플랜 수립 Project<br>
                         • MSA PoC/ Pilot 수행<br>
                         • 다수 MSA 제안 작업 및 컨설팅 <br>
-                        • 마이크로서비스 교육과정 교안/교재 집필<br>
+                        • 마이크로서비스 교육과정 교안/교재 집필  <br>
                         <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 uEngine MSA 정규 교과정 전문강사<br>
                         • 現 MSA App. Engineering 기업과정 강사<br>
@@ -273,7 +185,7 @@
 
         </div>
 
-        <div id="review2" class="gs-manager">
+        <!-- <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
@@ -340,22 +252,22 @@
                     <span v-if="page==2" class="mdi mdi-numeric-2-box"></span>
                     <span v-else class="mdi mdi-numeric-2-box-outline"></span>
             </a>
-        </div>
+        </div> -->
         <br>
     </div>
 </template>
 
 <script>
-        // @group 07_02_11
+        // @group 07_02_03
     export default {
-        name:'advanced',
+        name:'ai-curriculum',
         data() {
             return {
                 page:1
             }
         },
         props: {
-            "4. Advanced Course": {
+            "1. 생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현": {
                 type: String
             },
         },

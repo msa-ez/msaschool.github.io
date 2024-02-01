@@ -371,7 +371,7 @@
 
 
 <script>
-        // @group 07_02_06
+        // @group 07_02_07
     export default {
         name:'online-class',
         data() {
@@ -380,7 +380,7 @@
             }
         },
         props: {
-            "2-2. On-line Class": {
+            "3-2. On-line Class": {
                 type: String
             },
         },
