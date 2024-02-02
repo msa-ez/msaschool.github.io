@@ -192,7 +192,7 @@
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
             </div>
-            <h3 style="margin-top:20px;">주강사(장진영 / 박용주 / 윤성렬)</h3>
+            <h3 style="margin-top:20px;">주강사(장진영 / 박용주 / 윤성열)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <figure class="g-image">
@@ -258,7 +258,7 @@
                         </div>
                     </figure> 
                     <div class="gs-instructor-card-name">
-                        <h3 style="margin-bottom:0; color:gray;">윤성렬</h3>
+                        <h3 style="margin-bottom:0; color:gray;">윤성열</h3>
                         <p style="color:gray; font-size:12px;">uEngine Manager & MSA Consultant</p>
                     </div>
                     <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
