@@ -40,7 +40,8 @@
                     • 기획-분석-설계-구현-운영 전 과정<br>
                     • ChatGPT, GPT-Engineer, Cursor IDE 등 활용<br>
                     • 폐쇄형 LLM 도구 활용<br>
-                    • MSAEZ 및 Gitpod 연동 실습 환경 제공<br>
+                    • MSAEZ 및 Gitpod 연동 실습 환경 제공<br><br>
+                    * 이벤트 : 2월 26일(월)~27일(화) 교육 50% 할인 중 *<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
                     <a href="/operation/education/AI-Curriculum/">
