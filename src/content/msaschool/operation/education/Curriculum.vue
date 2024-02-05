@@ -22,7 +22,7 @@
                 </div>
             </div> -->
 
-            <div class="card-box">
+            <!-- <div class="card-box">
                 <div class="card-title"
                 >On-line
                 </div>
@@ -47,7 +47,7 @@
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
-            </div>
+            </div> -->
             
             <div class="card-box">
                 <div class="card-title"

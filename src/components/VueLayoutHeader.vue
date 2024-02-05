@@ -84,7 +84,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'/operation/education/curriculum/'"
+                        :href="'/operation/education/schedule/'"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
                 </div>
@@ -174,7 +174,7 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                        :href="'/operation/education/curriculum/'"
+                        :href="'/operation/education/schedule/'"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
                 </div>

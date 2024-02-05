@@ -75,7 +75,7 @@
                     <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 개발 환경 구축</td>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;" rowspan="2">7H</td>
                     <td>
-                        • AI 기반 DevOps 환경 (MSA Easy + GPT Engineer) 구내 설치 - 실습<br>
+                        • AI 기반 DevOps 환경 (MSAEZ + GPT Engineer) 구내 설치 - 실습<br>
                         • 우리 회사에 프롬프트 맞춤화 하기 - 실습<br>
 
                     </td>

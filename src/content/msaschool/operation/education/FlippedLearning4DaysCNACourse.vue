@@ -402,7 +402,7 @@
             }
         },
         props: {
-            "3-3. Flipped Learning(4일 or 2일)": {
+            "3-2. Flipped Learning(4일 or 2일)": {
                 type: String
             },
         },

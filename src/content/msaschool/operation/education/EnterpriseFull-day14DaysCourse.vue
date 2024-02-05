@@ -626,7 +626,7 @@
             }
         },
         props: {
-            "3-5. Enterprise Full-day(14일)": {
+            "3-4. Enterprise Full-day(14일)": {
                 type: String
             },
         },

@@ -369,7 +369,7 @@
             }
         },
         props: {
-            "3-4. Standard(4일 or 2일)": {
+            "3-3. Standard(4일 or 2일)": {
                 type: String
             },
         },
