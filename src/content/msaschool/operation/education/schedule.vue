@@ -44,7 +44,7 @@
                     * 이벤트 : 2월 26일(월)~27일(화) 교육 50% 할인 중 *<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/AI-Curriculum/">
+                    <a href="/operation/education/ai-curriculum/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
