@@ -24,7 +24,7 @@
 
             <div class="card-box">
                 <div class="card-title"
-                >AI-Course
+                >AI Dev Course
                 </div>
                 <div class="card-subtitle">AI SW Architecturing</div>
                 <div class="card-contents">
