@@ -31,9 +31,11 @@
             </span>
         </v-btn>
         <br><br>
-        <div>* Event : 2월 26~27일 교육만 50% 비용 할인이 적용됩니다.</div>
+        <div style="font-size: 18px;">
+            <b>* Event</b> : 2월 26~27일 교육만 <span style="color: #ff1c77; font-weight: bold;">50% 비용 할인</span>이 적용됩니다. <b>(1인당 40만원, 2일)</b>
+        </div>
         <div>
-            <h3 style="margin-top:50px;">커리큘럼 소개</h3>
+            <h2 style="margin-top:50px;">커리큘럼 소개</h2>
             <h4 style="margin-top:30px;">Day1 - AI 기반 구현</h4>
             <table class="gs-table-default">
                 <th style="width:25%%; background-color:#e6e9f9; font-weight:900; font-size:20px; padding-left:15px; text-align: center;">주제</th>
@@ -48,7 +50,8 @@
                         • ChatGPT 를 통한 비즈니스 모델 기획 (비즈니스 모델 캔버스) - 실습<br>
                         • ChatGPT 를 통한 프로세스 모델 도출 (빅픽쳐 이벤트스토밍) - 실습<br>
                         • ChatGPT 를 통한 소프트웨어 모델 도출 (디자인 레벨 이벤트스토밍) - 실습<br>
-                        • ChatGPT 를 통한 도메인 모델 도출 (클래스 다이어그램)<br><br>
+                        • ChatGPT 를 통한 도메인 모델 도출 (클래스 다이어그램)<br>
+                        • 개인 개발 환경 설치 방법 (Cursor IDE) - 실습<br><br>
                         • 예제) EDA(이벤트 드리븐 아키텍처) 기반 음식 배달앱<br>
 
                     </td>
@@ -84,7 +87,6 @@
                     <td style="font-weight:700; padding-left:15px; text-align: center;">폐쇄형 LLM 기반 개발 환경 구축</td>
                     <td>
                         • 폐쇄형 LLM 설치 및 구성 방법 - 실습<br>
-                        • 개인 개발 환경 설치 방법 (Cursor IDE) - 실습<br>
 
                     </td>
                 </tr>
