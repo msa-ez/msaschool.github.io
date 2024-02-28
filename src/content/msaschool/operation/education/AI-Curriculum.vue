@@ -31,9 +31,9 @@
             </span>
         </v-btn>
         <br><br>
-        <div style="font-size: 18px;">
+        <!-- <div style="font-size: 18px;">
             <b>* Event</b> : 2월 26~27일 교육만 <span style="color: #ff1c77; font-weight: bold;">50% 비용 할인</span>이 적용됩니다. <b>(1인당 40만원, 2일)</b>
-        </div>
+        </div> -->
         <div>
             <h2 style="margin-top:50px;">커리큘럼 소개</h2>
             <h4 style="margin-top:30px;">Day1 - AI 기반 구현</h4>

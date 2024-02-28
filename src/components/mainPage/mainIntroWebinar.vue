@@ -15,9 +15,8 @@
             </div>
         </div>
 
-        <div class="content banner-pc" style="margin-top:-20px;">
+        <!-- <div class="content banner-pc" style="margin-top:-20px;">
             <h3 class="con-tit w190">Upcoming Event</h3>
-            <!-- <a href="https://forms.gle/Bdk3L226LdoG7ryTA" target="_blank"> -->
             <a :href="'/operation/education/ai-curriculum'">
                 <g-image style="width: 100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/7690662d-1544-41dc-8088-6566412af6f1">
@@ -31,7 +30,7 @@
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/fda15811-423b-4992-893d-e66b9fdffe37">
                 </g-image>
             </a>
-        </div>
+        </div> -->
 
         <div style="margin-top:70px; display: flex; justify-content: flex-start; align-items: center;">
             <h3 class="con-tit w190">웨비나 영상 다시보기</h3>
