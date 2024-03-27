@@ -20,9 +20,8 @@
                     <g-link
                             to="/operation/introduction/"
                             title="Home"
-                            style="margin-right:235px;"
                     >
-                        <Logo/>
+                        <img src="../img/msa-school-logo.svg" style="width:200px; height:50px;">
                     </g-link>
                     <ClientOnly>
                         <VueSearch v-if="!isSmall"></VueSearch>
@@ -77,7 +76,7 @@
                     </v-btn>
                     <v-btn style="background-color:#5a67d8 !important;
                         border-radius: 4px;
-                        margin-right:15px;
+                        margin-right:40px;
                         height: 36px;
                         width: 120px;
                         text-align: center;
