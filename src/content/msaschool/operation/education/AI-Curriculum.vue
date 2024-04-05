@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현</h2><br>
+            <h2 style="display:inline-block !important;">AI Coding 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -30,7 +30,57 @@
                 교육 신청하기
             </span>
         </v-btn>
-        <br><br>
+        <div style="margin-top: 50px; margin-bottom: 5px; line-height: 1.5; color:#444d56;">
+                <h3 class="con-tit w160">AI Coding 과정 맛보기</h3>
+            </div>
+            <div style="color:#444d56;">
+                
+            </div>
+        <!-- </div> -->
+        <v-row style="margin:0;">
+            <a href="https://youtu.be/qUb1BWnyfkw" target="_blank">
+                <div
+                    class="clearfix ai-card-box"
+                    outlined
+                >
+                    <g-image class="ai-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/8c6d3caf-fcb1-4b0d-b3d5-66aa33f46369">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">[Cursor IDE] 분석-구현-리팩토링</div>
+                        <div class="card-sub-text">디시전 테이블 활용</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://youtu.be/D0rSP2S8hOk" target="_blank">
+                <div
+                    class="clearfix ai-card-box"
+                    outlined
+                >
+                    <g-image class="ai-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/3ccdfd54-2eb7-4cba-aa0a-b3774953c594">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">[Cursor IDE] 레가시 분석과 모더나이징</div>
+                        <div class="card-sub-text">디자인 패턴 적용과 클린 아키텍처 전환</div>
+                    </div>
+                </div>
+            </a>
+            <!-- <a href="https://youtu.be/XEhYW48WbBg" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/llmschool.github.io/assets/113568664/eb1073cc-b3cf-4ade-a6d7-4b8e2353a618">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">[Cursor IDE] 레가시 분석과 모더나이징</div>
+                        <div class="card-sub-text">jsp 파일에 대한 모더나이징</div>
+                    </div>
+                </div>
+            </a> -->
+        </v-row>
         <!-- <div style="font-size: 18px;">
             <b>* Event</b> : 2월 26~27일 교육만 <span style="color: #ff1c77; font-weight: bold;">50% 비용 할인</span>이 적용됩니다. <b>(1인당 40만원, 2일)</b>
         </div> -->
@@ -267,7 +317,7 @@
             }
         },
         props: {
-            "1. 생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현 🔥": {
+            "1. AI Coding": {
                 type: String
             },
         },

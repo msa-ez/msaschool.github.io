@@ -278,12 +278,43 @@ button:focus{
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.ai-card-box {
+    width: 300px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    /* border: solid 1px #ccc; */
+    border:solid 1px #E2E8F0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.msaez-card-box {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    /* border: solid 1px #ccc; */
+    border:solid 1px #E2E8F0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 .youtube-card-box:hover {
     background-color: #f9f9f9;
 }
 
 .youtube-card-image {
     height: 180px;
+    width: 280px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.ai-card-image {
+    height: 160px;
     width: 280px;
     max-width: 100%;
     margin: 0 auto;

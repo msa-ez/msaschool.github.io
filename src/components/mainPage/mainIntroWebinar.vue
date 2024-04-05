@@ -14,6 +14,89 @@
                 MSA School이 전하는 축적된 Cloud 전문 지식, 마이크로서비스 현장 경험 및 질높은 교육 후기로 인해, 매년 마이크로서비스를 도입하려는 많은 선도 기업들이 MSA School을 통해 CNA를 학습하고 재방문의 발길이 꾸준하게 이어지고 있습니다.
             </div>
         </div>
+        <div style="margin-top:70px; display: flex; justify-content: flex-start; align-items: center;">
+            <h3 class="con-tit">학습 교구의 특징</h3>
+            <a href="https://www.msaez.io" target="_blank">
+                <v-btn style="background-color:#5a67d8 !important;
+                        border-radius: 4px;
+                        margin-left:30px;
+                        margin-top: -25px;
+                        height: 36px;
+                        width: 150px;
+                        text-align: center;
+                        line-height: 36px;
+                        font-size: 14px;
+                        font-weight: 700;"
+                    ><span style="color:white;">MSA Easy 이동</span>
+                </v-btn>
+            </a>
+        </div>
+        <div class="content">
+            <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
+            <v-row style="margin:0;">
+                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                    <div
+                    class="clearfix msaez-card-box"
+                    outlined
+                    >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/a8c3a161-b5eb-40b6-b28e-5d197ecc9ab1">
+                        </g-image>
+                        <div>
+                            <div class="card-main-text">Customer Journey Map</div>
+                            <div class="card-sub-text">페르소나의 Pain-Point에 대한 솔루션 도출</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                    <div
+                    class="clearfix msaez-card-box"
+                    outlined
+                    >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/55f5e9fc-1dc9-4a10-af5b-8593f91937dc">
+                        </g-image>
+                        <div>
+                            <div class="card-main-text">Business Model Canvas</div>
+                            <div class="card-sub-text">비즈니스에 필요한 요소를 분석하고 시각화하기</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                    <div
+                        class="clearfix msaez-card-box"
+                        outlined
+                    >
+                        <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/9f526b81-99d9-4309-b219-11106c90cc53">
+                        </g-image>
+                        <div>
+                            <div class="card-main-text">Eventstorming Model</div>
+                            <div class="card-sub-text">도메인 이벤트를 도출하고 시스템을 설계</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                    <div
+                        class="clearfix msaez-card-box"
+                        outlined
+                    >
+                        <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/5d6292c6-e2b0-40c1-9c86-1876937955a0">
+                        </g-image>
+                        <div>
+                            <div class="card-main-text">Auto Code Gen</div>
+                            <div class="card-sub-text">완성된 모델에 템플릿을 적용해 코딩 작업 최소화</div>
+                        </div>
+                    </div>
+                </a>
+            </v-row>
+            <div style="margin-top: 10px; margin-bottom: 15px; line-height: 1.5; color:#444d56;">
+                MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 클라우드 네이티브 애플리케이션 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
+            <div style="color:#444d56;">
+                설치가 필요없이 100% 브라우저 기반에서 동작하며 협업기반의 팀워크를 지원하는 최신의 OpenAI 엔진들이 탑재되어 비즈니스 기획자, 데브옵스 개발자, 클라우드 운영자를 위애 비즈니스 기획에서 구현, 테스트, 배포를 아우르는 클라우드 네이티브한 task들을 자동화하며 다양한 애자일한 경험들을 제공합니다.
+            </div>
+        </div>
 
         <!-- <div class="content banner-pc" style="margin-top:-20px;">
             <h3 class="con-tit w190">Upcoming Event</h3>
