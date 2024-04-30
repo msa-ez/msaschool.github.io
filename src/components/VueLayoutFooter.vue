@@ -5,11 +5,11 @@
             <!-- <g-image style="width:150px; height:30px; position: absolute; left:50%;"
                 src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1">
             </g-image> -->
-            <a href="https://labs.msaez.io" target="_blank" style="display: block; width: 30%; margin: 20px auto; margin-top: -10px;">
+            <!-- <a href="https://labs.msaez.io" target="_blank" style="display: block; width: 30%; margin: 20px auto; margin-top: -10px;">
                 <g-image style="width:100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/cd8ce703-c954-472f-9231-b16c717ae0c8">
                 </g-image>
-            </a>
+            </a> -->
 
             <div> Copyright © uEngine All Rights Reserved | 주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩) </div>
             <div> 사업자등록번호 : 211-87-95355 | 전화번호 : 02-567-8301 | 대표이사 : 장진영 </div>
@@ -18,11 +18,11 @@
             <!-- <g-image style="width:100%;"
                 src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1"> 
             </g-image>-->
-            <a href="https://labs.msaez.io" target="_blank" class="footer-banner-m">
+            <!-- <a href="https://labs.msaez.io" target="_blank" class="footer-banner-m">
                 <g-image style="width:100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/cd8ce703-c954-472f-9231-b16c717ae0c8">
                 </g-image>
-            </a>
+            </a> -->
             
             
             <div>Copyright © uEngine All Rights Reserved</div>
