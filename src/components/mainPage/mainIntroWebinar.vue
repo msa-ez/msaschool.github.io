@@ -34,7 +34,7 @@
         <div class="content">
             <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
             <v-row style="margin:0;">
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/sAdJOxv-qKo" target="_blank">
                     <div
                     class="clearfix msaez-card-box"
                     outlined
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/2S1Zb_oDcuc" target="_blank">
                     <div
                     class="clearfix msaez-card-box"
                     outlined
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/FeQEKhKXrmQ" target="_blank">
                     <div
                         class="clearfix msaez-card-box"
                         outlined
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/ZLAGzlAeviM" target="_blank">
                     <div
                         class="clearfix msaez-card-box"
                         outlined
