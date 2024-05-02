@@ -5,13 +5,26 @@
             <!-- <g-image style="width:150px; height:30px; position: absolute; left:50%;"
                 src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1">
             </g-image> -->
+            <!-- <a href="https://labs.msaez.io" target="_blank" style="display: block; width: 30%; margin: 20px auto; margin-top: -10px;">
+                <g-image style="width:100%;"
+                    src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/cd8ce703-c954-472f-9231-b16c717ae0c8">
+                </g-image>
+            </a> -->
+
             <div> Copyright © uEngine All Rights Reserved | 주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩) </div>
             <div> 사업자등록번호 : 211-87-95355 | 전화번호 : 02-567-8301 | 대표이사 : 장진영 </div>
         </div>
         <div class="is-mobile-main-top" style="text-align:center;">
-            <!-- <g-image style="width:150px; height:30px; position: absolute; left:50%;"
-                src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1">
-            </g-image> -->
+            <!-- <g-image style="width:100%;"
+                src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1"> 
+            </g-image>-->
+            <!-- <a href="https://labs.msaez.io" target="_blank" class="footer-banner-m">
+                <g-image style="width:100%;"
+                    src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/cd8ce703-c954-472f-9231-b16c717ae0c8">
+                </g-image>
+            </a> -->
+            
+            
             <div>Copyright © uEngine All Rights Reserved</div>
             <div>주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩)</div>
             <div>사업자등록번호 : 211-87-95355</div>
@@ -108,12 +121,43 @@
             @apply text-ui-primary font-bold border-ui-primary;
         }
     }
+    .footer-banner-m {
+        display: block; 
+        width: 90%; 
+        margin: 15px auto; 
+        margin-top: 0;
+    }
+
     @media only screen and (max-width:1410px){
         .is-not-mobile-main-top {
             display:none;
         }
         .is-mobile-main-top {
             display:block;
+        }
+
+        .footer-banner-m {
+            width: 40%; 
+        }
+    }
+    @media only screen and (max-width:1100px){
+        .footer-banner-m {
+            width: 50%; 
+        }
+    }
+    @media only screen and (max-width:960px){
+        .footer-banner-m {
+            width: 60%; 
+        }
+    }
+    @media only screen and (max-width:676px){
+        .footer-banner-m {
+            width: 70%; 
+        }
+    }
+    @media only screen and (max-width:460px){
+        .footer-banner-m {
+            width: 90%; 
         }
     }
 </style>

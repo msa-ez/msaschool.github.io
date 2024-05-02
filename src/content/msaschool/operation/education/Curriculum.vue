@@ -217,7 +217,7 @@
         font-size:16px;
         font-weight:900;
         opacity:0.9;
-        padding-left:5px;
+        padding-left:15px;
         height:30px;
         margin-top:20px;
         line-height:15px;
@@ -225,12 +225,12 @@
     .card-contents {
         font-size:14px;
         opacity:0.8;
-        padding:5px;
+        padding:15px;
         height:100px;
     }
     .card-second-contents {
         background-color:#F5F5F5;
-        padding:20px 5px 20px 5px;
+        padding:20px 15px 20px 15px;
         font-size:15px;
         height:220px;
     }
@@ -309,20 +309,20 @@
             font-size:16px;
             font-weight:900;
             opacity:0.9;
-            padding-left:5px;
+            padding-left:15px;
             height:30px;
             margin-top:20px;
             line-height:15px;
         }
         .card-contents {
             font-size:15px;
-            opacity:0.8;
-            padding:5px;
+            /* opacity:0.8;
+            padding:5px; */
             height:100px;
         }
         .card-second-contents {
             background-color:#F5F5F5;
-            padding:20px 5px 20px 5px;
+            padding:20px 15px 20px 15px;
             font-size:18px;
             height:220px;
         }
