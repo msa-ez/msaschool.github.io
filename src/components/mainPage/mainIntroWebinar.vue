@@ -159,6 +159,20 @@
 
         <v-row style="margin:0;">
             <!-- 5번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9eV2YUvvtkJDI_DTBqziYV" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msa-ez-kor.github.io/assets/113568664/6ea66bc7-f3dd-45c5-87cf-1e3517817d36">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">2024년 4월 웨비나</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 클라우드 네이티브 애플리케이션 설계</div>
+                    </div>
+                </div>
+            </a>
             <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
                 <div
                     class="clearfix youtube-card-box"
@@ -168,7 +182,7 @@
                         src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/c080271b-d7dc-4e5e-ba90-ba8af41b792d">
                     </g-image>
                     <div>
-                        <div class="card-main-text">1월 웨비나</div>
+                        <div class="card-main-text">2024년 1월 웨비나</div>
                         <div class="card-sub-text">생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현</div>
                     </div>
                 </div>
@@ -183,7 +197,7 @@
                         src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/517e2fc5-3064-4534-9e9c-bce75838404f">
                     </g-image>
                     <div>
-                        <div class="card-main-text">11월 웨비나</div>
+                        <div class="card-main-text">2023년 11월 웨비나</div>
                         <div class="card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
                     </div>
                 </div>
@@ -198,7 +212,7 @@
                         src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/bc3467a2-2b1e-4eab-abd3-bdd490a3b6a6">
                     </g-image>
                     <div>
-                        <div class="card-main-text">10월 웨비나</div>
+                        <div class="card-main-text">2023년 10월 웨비나</div>
                         <div class="card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
                     </div>
                 </div>
@@ -213,7 +227,7 @@
                         src="https://github.com/kykim97/factory-pattern/assets/113568664/1b393e58-f09d-4fdc-9126-244ac4a5d98c">
                     </g-image>
                     <div>
-                        <div class="card-main-text">8월 웨비나</div>
+                        <div class="card-main-text">2023년 8월 웨비나</div>
                         <div class="card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
                     </div>
                 </div>
