@@ -92,7 +92,7 @@
                 </a>
             </v-row>
             <div style="margin-top: 10px; margin-bottom: 15px; line-height: 1.5; color:#444d56;">
-                MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 클라우드 네이티브 애플리케이션 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
+                MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 CNA 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
             <div style="color:#444d56;">
                 설치가 필요없이 100% 브라우저 기반에서 동작하며 협업기반의 팀워크를 지원하는 최신의 OpenAI 엔진들이 탑재되어 비즈니스 기획자, 데브옵스 개발자, 클라우드 운영자를 위애 비즈니스 기획에서 구현, 테스트, 배포를 아우르는 클라우드 네이티브한 task들을 자동화하며 다양한 애자일한 경험들을 제공합니다.
             </div>
@@ -159,6 +159,20 @@
 
         <v-row style="margin:0;">
             <!-- 5번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW-FDEB44rFm1b95oH_tIL5B" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/595dc8f5-a4d0-4ecf-86b7-16b670a39a01">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">2024년 5월 웨비나</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계</div>
+                    </div>
+                </div>
+            </a>
             <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9eV2YUvvtkJDI_DTBqziYV" target="_blank">
                 <div
                     class="clearfix youtube-card-box"
@@ -169,7 +183,7 @@
                     </g-image>
                     <div>
                         <div class="card-main-text">2024년 4월 웨비나</div>
-                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 클라우드 네이티브 애플리케이션 설계</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계</div>
                     </div>
                 </div>
             </a>
