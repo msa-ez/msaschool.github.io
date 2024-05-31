@@ -34,7 +34,7 @@
         <div class="content">
             <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
             <v-row style="margin:0;">
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/sAdJOxv-qKo" target="_blank">
                     <div
                     class="clearfix msaez-card-box"
                     outlined
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/2S1Zb_oDcuc" target="_blank">
                     <div
                     class="clearfix msaez-card-box"
                     outlined
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/FeQEKhKXrmQ" target="_blank">
                     <div
                         class="clearfix msaez-card-box"
                         outlined
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
+                <a href="https://youtu.be/ZLAGzlAeviM" target="_blank">
                     <div
                         class="clearfix msaez-card-box"
                         outlined
@@ -92,7 +92,7 @@
                 </a>
             </v-row>
             <div style="margin-top: 10px; margin-bottom: 15px; line-height: 1.5; color:#444d56;">
-                MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 클라우드 네이티브 애플리케이션 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
+                MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 CNA 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
             <div style="color:#444d56;">
                 설치가 필요없이 100% 브라우저 기반에서 동작하며 협업기반의 팀워크를 지원하는 최신의 OpenAI 엔진들이 탑재되어 비즈니스 기획자, 데브옵스 개발자, 클라우드 운영자를 위애 비즈니스 기획에서 구현, 테스트, 배포를 아우르는 클라우드 네이티브한 task들을 자동화하며 다양한 애자일한 경험들을 제공합니다.
             </div>
@@ -159,6 +159,34 @@
 
         <v-row style="margin:0;">
             <!-- 5번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW-FDEB44rFm1b95oH_tIL5B" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/595dc8f5-a4d0-4ecf-86b7-16b670a39a01">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">2024년 5월 웨비나</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9eV2YUvvtkJDI_DTBqziYV" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msa-ez-kor.github.io/assets/113568664/6ea66bc7-f3dd-45c5-87cf-1e3517817d36">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">2024년 4월 웨비나</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계</div>
+                    </div>
+                </div>
+            </a>
             <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
                 <div
                     class="clearfix youtube-card-box"
@@ -168,7 +196,7 @@
                         src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/c080271b-d7dc-4e5e-ba90-ba8af41b792d">
                     </g-image>
                     <div>
-                        <div class="card-main-text">1월 웨비나</div>
+                        <div class="card-main-text">2024년 1월 웨비나</div>
                         <div class="card-sub-text">생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현</div>
                     </div>
                 </div>
@@ -183,7 +211,7 @@
                         src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/517e2fc5-3064-4534-9e9c-bce75838404f">
                     </g-image>
                     <div>
-                        <div class="card-main-text">11월 웨비나</div>
+                        <div class="card-main-text">2023년 11월 웨비나</div>
                         <div class="card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
                     </div>
                 </div>
@@ -198,7 +226,7 @@
                         src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/bc3467a2-2b1e-4eab-abd3-bdd490a3b6a6">
                     </g-image>
                     <div>
-                        <div class="card-main-text">10월 웨비나</div>
+                        <div class="card-main-text">2023년 10월 웨비나</div>
                         <div class="card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
                     </div>
                 </div>
@@ -213,7 +241,7 @@
                         src="https://github.com/kykim97/factory-pattern/assets/113568664/1b393e58-f09d-4fdc-9126-244ac4a5d98c">
                     </g-image>
                     <div>
-                        <div class="card-main-text">8월 웨비나</div>
+                        <div class="card-main-text">2023년 8월 웨비나</div>
                         <div class="card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
                     </div>
                 </div>
