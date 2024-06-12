@@ -159,6 +159,20 @@
 
         <v-row style="margin:0;">
             <!-- 5번 카드 -->
+            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8ZWYu6M7agDdpuoiNXXSAe" target="_blank">
+                <div
+                    class="clearfix youtube-card-box"
+                    outlined
+                >
+                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                        src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/b444ccb5-cfce-4abd-b2cd-0982edbb6394">
+                    </g-image>
+                    <div>
+                        <div class="card-main-text">2024년 6월 웨비나</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계 Part 3: 쿠버네티스 Patterns</div>
+                    </div>
+                </div>
+            </a>
             <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW-FDEB44rFm1b95oH_tIL5B" target="_blank">
                 <div
                     class="clearfix youtube-card-box"
@@ -169,7 +183,7 @@
                     </g-image>
                     <div>
                         <div class="card-main-text">2024년 5월 웨비나</div>
-                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계 Part 2: MSA의 구현</div>
                     </div>
                 </div>
             </a>
@@ -183,7 +197,7 @@
                     </g-image>
                     <div>
                         <div class="card-main-text">2024년 4월 웨비나</div>
-                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계</div>
+                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계 Part 1: DDD와 이벤트스토밍</div>
                     </div>
                 </div>
             </a>
