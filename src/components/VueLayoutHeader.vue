@@ -15,7 +15,7 @@
                         <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
                 </div>
-                <v-row class="ma-0 pa-0">
+                <v-row style="margin:0px; padding:0px;">
                     <div style="flex-grow: 1 !important;"></div>
                     <v-btn class="main-top-btn"
                         :href="'/operation/education/one-point-lesson/'"
@@ -46,8 +46,8 @@
                         <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
                 </div>
-                <v-row class="ma-0 pa-0" justify="end">
-                    <v-col cols="auto" class="d-flex flex-column align-self-end pa-0 pr-1">
+                <v-row style="margin:0px; padding:0px;" justify="end">
+                    <v-col cols="auto" class="mobile-header-btn-box">
                         <v-btn class="main-top-btn mb-2"
                                 :href="'/operation/education/one-point-lesson/'"
                         >
@@ -130,6 +130,13 @@
 
 
 <style scoped>
+    .mobile-header-btn-box {
+        display: flex;                /* d-flex */
+        flex-direction: column;       /* flex-column */
+        align-self: flex-end;         /* align-self-end */
+        padding: 0;                   /* pa-0 */
+        padding-right: 10px;           /* pr-1, assuming 1 unit equals 4px, adjust as necessary */
+    }
     .main-top-btn {
         background-color:#5a67d8 !important;
         border-radius: 4px;
