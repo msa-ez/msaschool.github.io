@@ -16,7 +16,7 @@
                                 v-if="hasSidebar"
                                 class="sidebar"
                                 :class="{ 'open': sidebarOpen }"
-                                :style="sidebarStyle"
+                                style="top:123px; height:calc(100vh - 124px);"
                         >
                             <div class="w-full pb-16 bg-ui-background">
                                 <ClientOnly>
@@ -176,14 +176,6 @@
                 } else {
                     return {position: 'fixed', width: '100%'}
                 }
-            },
-            sidebarStyle() {
-                return {
-                    // top: "0px",
-                    // height: `calc(100vh - ${this.headerHeight}px)`
-                    top: this.headerHeight + 'px',
-                    height: `calc(100vh - ${this.headerHeight}px)`
-                };
             },
             hasSidebar() {
                 return this.$page && this.headerHeight > 0;

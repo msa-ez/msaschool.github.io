@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style="display: flex;">
+        <div style="display: flex; margin-top:70px;">
             <h2 style="margin-top:5px;">클라우드 네이티브 전환 가이드</h2>
             <a href="https://cloudiq.msaez.io/#/" target="_blank" class="card">가이드 영상 시청 및 사이트 이동</a>
         </div>
