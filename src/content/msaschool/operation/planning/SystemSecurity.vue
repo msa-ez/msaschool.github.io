@@ -74,7 +74,7 @@ GCP 의 컨테이너 레지스트리에 대한 취약점 분석은 2가지 작�
 
 
 <script>
-    // @group 01_03_02
+    // @group 01_02_06
     export default {
         name:'SystemSecurity',
         data() {

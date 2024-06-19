@@ -109,7 +109,7 @@ SPA(Single Page Application)은 브라우저가 로드된 이후에 페이지 �
 
 
 <script>
-        // @group 01_03_03
+        // @group 01_02_07
     export default {
         name:'PerformanceMeasures',
         data() {

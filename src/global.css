@@ -1,5 +1,14 @@
 .clearfix::after{content:""; display:block; clear:both;}
 
+table td:first-child, table th:first-child {
+    padding-left: 13px !important;
+}
+
+table td:last-child, table th:last-child {
+    padding-right: 13px !important;
+}
+
+
 .gs-top-apply-btn {
     background-color:#5a67d8 !important;
     color:white !important;

@@ -69,7 +69,7 @@ MSA에서 Contract 테스트 실패는 배포 시 장애로 연결될 수 있으
 
 
 <script>
-        // @group 01_03_04_true
+        // @group 01_02_09_true
     export default {
         name:'TestMeasures',
         data() {
