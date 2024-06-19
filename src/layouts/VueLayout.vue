@@ -1,5 +1,5 @@
 <template>
-    <div class="font-sans antialiased text-ui-typo bg-ui-background">
+    <div class="font-sans antialiased text-ui-typo bg-ui-background layout-header-box">
         <v-app>
                 <div class="flex flex-col justify-start min-h-screen">
                     <header
@@ -16,7 +16,7 @@
                                 v-if="hasSidebar"
                                 class="sidebar"
                                 :class="{ 'open': sidebarOpen }"
-                                style="top:123px; height:calc(100vh - 124px);"
+                                :style="sidebarStyle"
                         >
                             <div class="w-full pb-16 bg-ui-background">
                                 <ClientOnly>
@@ -176,6 +176,14 @@
                 } else {
                     return {position: 'fixed', width: '100%'}
                 }
+            },
+            sidebarStyle() {
+                return {
+                    // top: "0px",
+                    // height: `calc(100vh - ${this.headerHeight}px)`
+                    top: this.headerHeight + 'px',
+                    height: `calc(100vh - ${this.headerHeight}px)`
+                };
             },
             hasSidebar() {
                 return this.$page && this.headerHeight > 0;
@@ -579,6 +587,7 @@
     }
 
     .content ol, .content ul {
+        padding-left: 0;
         margin-top: 0;
         margin-bottom: 0
     }
@@ -1335,6 +1344,8 @@
 
         &.open {
             transform: translateX(0);
+            top: 99px !important;
+            height:calc(100vh - 100px) !important;
         }
 
         @screen lg {

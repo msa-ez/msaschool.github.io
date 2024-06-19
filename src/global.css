@@ -8,6 +8,9 @@ table td:last-child, table th:last-child {
     padding-right: 13px !important;
 }
 
+.layout-header-box {
+    position: sticky;
+}
 
 .gs-top-apply-btn {
     background-color:#5a67d8 !important;

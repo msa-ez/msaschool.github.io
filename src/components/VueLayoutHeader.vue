@@ -16,7 +16,7 @@
                     </ClientOnly>
                 </div>
                 <v-row class="ma-0 pa-0">
-                    <v-spacer></v-spacer>
+                    <div style="flex-grow: 1 !important;"></div>
                     <v-btn class="main-top-btn"
                         :href="'/operation/education/one-point-lesson/'"
                         style="margin:7px 7px 0px 0px;"
@@ -47,7 +47,7 @@
                     </ClientOnly>
                 </div>
                 <v-row class="ma-0 pa-0" justify="end">
-                    <v-col cols="auto" class="d-flex flex-column align-self-end">
+                    <v-col cols="auto" class="d-flex flex-column align-self-end pa-0 pr-1">
                         <v-btn class="main-top-btn mb-2"
                                 :href="'/operation/education/one-point-lesson/'"
                         >
@@ -151,7 +151,7 @@
     .modal-container #modal-toggle.active ~ .modal-content, .modal-container #modal-toggle:checked ~ .modal-content {
         margin-top:80px;
     }
-    @media only screen and (max-width:1410px){
+    @media only screen and (max-width:1024px){
         .is-pc-header {
             display:none;
         }
