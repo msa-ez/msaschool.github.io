@@ -172,7 +172,7 @@
             },
             headStyleBySize() {
                 if (this.small) {
-                    return {position: 'relative', width: '100%'}
+                    return {position: 'sticky', width: '100%',}
                 } else {
                     return {position: 'fixed', width: '100%'}
                 }
