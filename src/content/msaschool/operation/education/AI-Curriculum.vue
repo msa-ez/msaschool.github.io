@@ -86,15 +86,90 @@
         </div> -->
         <div>
             <h2 style="margin-top:50px;">커리큘럼 소개</h2>
-            <h4 style="margin-top:30px;">Day1 - AI 기반 구현</h4>
-            <table class="gs-table-default">
-                <th style="width:25%%; background-color:#e6e9f9; font-weight:900; font-size:20px; padding-left:15px; text-align: center;">주제</th>
-                <th style="width:10%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:65%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 기획/설계</td>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;" rowspan="2">7H</td>
-                    <td>
+
+            <!-- 새 커리큘럼 -->
+            <!-- <table class="tbl-edu" style="width:100%;">
+                <th style="width:25%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">주제</div>
+                </th>
+                <th style="width:10%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:65%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI 기반 소프트웨어 개발 도구들의 이해
+                    </td>
+                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa;">
+                        • Copilot<br>
+                        • Cursor IDE<br>
+                        • GPT-Engineer<br>
+                        • Crew AI, Meta GPT<br>
+                    </td>
+                </tr>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI기반 기획/설계
+                    </td>
+                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa;">
+                        • ChatGPT 활용 서비스 기획<br>
+                        • ChatGPT 활용 비즈니스 모델 기획<br>
+                        • ChatGPT 활용 프로세스 모델 도출<br>
+                        • ChatGPT 활용 SW 모델 도출<br>
+                        • ChatGPT 활용 도메인 모델 도출<br>
+                    </td>
+                </tr>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI기반 구현/운영
+                    </td>
+                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa;">
+                        • 클라우드 네이티브 아키텍처/MSA/클린 아키텍처의 이해<br>
+                        • 도메인주도 설계 방식과 AI 기반 애플리케이션 개발의 효율성<br>
+                        • ChatGPT 활용 레가시 애플리케이션 분석<br>
+                        • GPT-Engineer 이용한 클라우드 네이티브 애플리케이션 생성<br>
+                        • GPT-Engineer 이용한 기존 애플리케이션 개선 자동화<br>
+                        • ChatGPT 활용 쿠버네티스 배포/운영/트러블슈팅 자동화<br>
+                    </td>
+                </tr>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI기반 개발 환경 구축
+                    </td>
+                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa;">
+                        • 개발 에이젼트 구현(GPTs)<br>
+                        • AI기반 DevOps 환경 구내 설치<br>
+                        • 프롬프트 맞춤화<br>
+                    </td>
+                </tr>
+            </table> -->
+
+
+            <h4 style="margin-top: 30px;">Day1 - AI 기반 구현</h4>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:25%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">주제</div>
+                </th>
+                <th style="width:10%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:65%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI 기반 기획/설계
+                    </td>
+                    <td style="border-left: 1px solid #aaa; text-align: center;" rowspan="2">
+                        7H
+                    </td>
+                    <td style="border-left: 1px solid #aaa;">
                         • AI 기반의 소프트웨어 개발 도구들의 이해(1단계~5단계)<br>
                         • ChatGPT 를 통한 서비스 기획 (페르소나/고객여정맵) - 실습<br>
                         • ChatGPT 를 통한 비즈니스 모델 기획 (비즈니스 모델 캔버스) - 실습<br>
@@ -103,41 +178,52 @@
                         • ChatGPT 를 통한 도메인 모델 도출 (클래스 다이어그램)<br>
                         • 개인 개발 환경 설치 방법 (Cursor IDE) - 실습<br><br>
                         • 예제) EDA(이벤트 드리븐 아키텍처) 기반 음식 배달앱<br>
-
                     </td>
                 </tr>
-                <tr>
-                    <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 구현/운영</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI 기반 구현/운영
+                    </td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 클라우드 네이티브 아키텍처 / MSA / 클린 아키텍처의 이해<br>
                         • 도메인주도설계 방식과 AI기반 애플리케이션 개발의 효율성<br>
                         • ChatGPT 를 통한 레가시 애플리케이션 분석<br>
                         • GPT-Engineer 이용한 클라우드 네이티브 애플리케이션 생성 - 실습<br>
                         • ChatGPT 를 통한 쿠버네티스 배포 자동화 / 운영 / 트러블 슈팅 자동화 - 실습<br>
-
                     </td>
                 </tr>
             </table>
 
+
             <h4 style="margin-top:50px;">Day2 – AI 기반 환경 구축</h4>
-            <table class="gs-table-default">
-                <th style="width:25%%; background-color:#e6e9f9; font-weight:900; font-size:20px; padding-left:15px; text-align: center;">주제</th>
-                <th style="width:10%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:65%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="font-weight:700; padding-left:15px; text-align: center;">AI 기반 개발 환경 구축</td>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;" rowspan="2">7H</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:25%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">주제</div>
+                </th>
+                <th style="width:10%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:65%; padding: 0;">
+                    <div class="tbl-title" style="color: #fff;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        AI 기반 개발 환경 구축
+                    </td>
+                    <td style="border-left: 1px solid #aaa; text-align: center;" rowspan="2">
+                        7H
+                    </td>
+                    <td style="border-left: 1px solid #aaa;">
                         • AI 기반 DevOps 환경 (MSAEZ + GPT Engineer) 구내 설치 - 실습<br>
                         • 우리 회사에 프롬프트 맞춤화 하기 - 실습<br>
-
                     </td>
                 </tr>
-                <tr>
-                    <td style="font-weight:700; padding-left:15px; text-align: center;">폐쇄형 LLM 기반 개발 환경 구축</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="font-weight:700; text-align: center;">
+                        폐쇄형 LLM 기반 개발 환경 구축
+                    </td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 폐쇄형 LLM 설치 및 구성 방법 - 실습<br>
-
                     </td>
                 </tr>
             </table>
