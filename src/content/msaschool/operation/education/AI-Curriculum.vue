@@ -1,7 +1,8 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">AI Coding 과정</h2><br>
+            <!-- <h2 style="display:inline-block !important;">AI Coding 과정</h2><br> -->
+            <h2 style="display:inline-block !important;">AI DevOps 마스터 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -11,12 +12,14 @@
                 </a> -->
             </v-btn>
         </div>
-        <h6 class="gs-course-content">AI 를 이용하여 효율적으로 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영 하는 전과정을 이해하고 실습하며, AI 를 이용한 자동화된 개발 환경인 일종의 AI-PaaS를 구축하기 위한 폐쇄형 LLM 설치를 포함한 플랫폼 엔지니어링의 실무적 이해와 훈련을 돕는 교육과정입니다.</h6>
+        <!-- <h6 class="gs-course-content">AI 를 이용하여 효율적으로 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영 하는 전과정을 이해하고 실습하며, AI 를 이용한 자동화된 개발 환경인 일종의 AI-PaaS를 구축하기 위한 폐쇄형 LLM 설치를 포함한 플랫폼 엔지니어링의 실무적 이해와 훈련을 돕는 교육과정입니다.</h6> -->
+        <h6 class="gs-course-content">AI DevOps 마스터 과정은 AI를 이용하여 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영하는 전 과정을 이해하고 실습하는 교육과정입니다. 이 과정에서는 AI 기반 자동화 도구를 활용한 효율적인 개발 환경을 구축하고, 플랫폼 엔지니어링에 대한 실무적인 이해와 훈련을 제공합니다. AI 도구와 기술을 통합하여 개발과 운영의 생산성을 높이고, 실제 현업에 적용 가능한 실용적인 기술을 습득할 수 있습니다.</h6>
+        
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
                 <td rowspan="2" style="padding-left:15px; width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
-                <td style="font-weight:700; font-size:20px; text-align:center;">1인당 80만원(2일)</td>
+                <td style="font-weight:700; font-size:20px; text-align:center;">1인당 80만원</td>
             </tr>
             <!-- <tr>  
                 <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
@@ -31,7 +34,7 @@
             </span>
         </v-btn>
         <div style="margin-top: 50px; margin-bottom: 5px; line-height: 1.5; color:#444d56;">
-                <h3 class="con-tit w160">AI Coding 과정 맛보기</h3>
+                <h3 class="con-tit w280">AI DevOps 마스터 과정 맛보기</h3>
             </div>
             <div style="color:#444d56;">
                 
@@ -85,24 +88,25 @@
             <b>* Event</b> : 2월 26~27일 교육만 <span style="color: #ff1c77; font-weight: bold;">50% 비용 할인</span>이 적용됩니다. <b>(1인당 40만원, 2일)</b>
         </div> -->
         <div>
-            <h2 style="margin-top:50px;">커리큘럼 소개</h2>
+            <h2 style="margin-top: 100px;">커리큘럼 소개</h2>
 
             <!-- 새 커리큘럼 -->
-            <!-- <table class="tbl-edu" style="width:100%;">
+            <h4 style="margin-top: 30px;">야간반/주말반</h4>
+            <table class="tbl-edu" style="width:100%;">
                 <th style="width:25%; padding: 0;">
-                    <div class="tbl-title" style="color: #fff;">주제</div>
+                    <div class="tbl-title-ai" style="color: #fff;">주제</div>
                 </th>
                 <th style="width:10%; padding: 0;">
-                    <div class="tbl-title" style="color: #fff;">시간</div>
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">시간</div>
                 </th>
                 <th style="width:65%; padding: 0;">
-                    <div class="tbl-title" style="color: #fff;">주요 학습내용</div>
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
                 </th>
                 <tr style="border-bottom: 1px solid #aaa;">
                     <td style="font-weight:700; text-align: center;">
                         AI 기반 소프트웨어 개발 도구들의 이해
                     </td>
-                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa; text-align: center;">1H</td>
                     <td style="border-left: 1px solid #aaa;">
                         • Copilot<br>
                         • Cursor IDE<br>
@@ -114,7 +118,7 @@
                     <td style="font-weight:700; text-align: center;">
                         AI기반 기획/설계
                     </td>
-                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa; text-align: center;">5H</td>
                     <td style="border-left: 1px solid #aaa;">
                         • ChatGPT 활용 서비스 기획<br>
                         • ChatGPT 활용 비즈니스 모델 기획<br>
@@ -127,7 +131,7 @@
                     <td style="font-weight:700; text-align: center;">
                         AI기반 구현/운영
                     </td>
-                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa; text-align: center;">7H</td>
                     <td style="border-left: 1px solid #aaa;">
                         • 클라우드 네이티브 아키텍처/MSA/클린 아키텍처의 이해<br>
                         • 도메인주도 설계 방식과 AI 기반 애플리케이션 개발의 효율성<br>
@@ -141,17 +145,17 @@
                     <td style="font-weight:700; text-align: center;">
                         AI기반 개발 환경 구축
                     </td>
-                    <td style="border-left: 1px solid #aaa;"></td>
+                    <td style="border-left: 1px solid #aaa; text-align: center;">3H</td>
                     <td style="border-left: 1px solid #aaa;">
                         • 개발 에이젼트 구현(GPTs)<br>
                         • AI기반 DevOps 환경 구내 설치<br>
                         • 프롬프트 맞춤화<br>
                     </td>
                 </tr>
-            </table> -->
+            </table>
 
 
-            <h4 style="margin-top: 30px;">Day1 - AI 기반 구현</h4>
+            <!-- <h4 style="margin-top: 30px;">Day1 - AI 기반 구현</h4>
             <table class="tbl-edu" style="width:100%;">
                 <th style="width:25%; padding: 0;">
                     <div class="tbl-title" style="color: #fff;">주제</div>
@@ -226,7 +230,7 @@
                         • 폐쇄형 LLM 설치 및 구성 방법 - 실습<br>
                     </td>
                 </tr>
-            </table>
+            </table> -->
 
         </div>
         
@@ -403,7 +407,7 @@
             }
         },
         props: {
-            "1. AI Coding": {
+            "1. AI DevOps Master": {
                 type: String
             },
         },

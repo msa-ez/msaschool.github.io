@@ -105,11 +105,24 @@ export default {
 .w400::after {
     width: 400px;
 }
+
 .tbl-edu td {
     font-size: 14px;
 }
+
 .tbl-title {
     width: 99.5%; 
+    height: 60px; 
+    text-align: center;
+    background-color: #5a67d8;
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 20px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    padding: 0;
+}
+.tbl-title-ai {
     height: 60px; 
     text-align: center;
     background-color: #5a67d8;
