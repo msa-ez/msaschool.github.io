@@ -217,7 +217,7 @@
 
 
 <script>
-        // @group 07_02_06
+        // @group 01_01_06
     export default {
         name:'quick-understanding-cna',
         data() {
@@ -226,7 +226,7 @@
             }
         },
         props: {
-            "3-1. Quick Understanding(4시간)": {
+            "┗ Quick Understanding": {
                 type: String
             },
         },

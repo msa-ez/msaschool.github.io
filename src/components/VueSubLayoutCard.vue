@@ -3,7 +3,7 @@
             style="padding: 5px !important;
                     background-color:#5a67d8 !important;
                     color:white !important;
-                    margin-bottom:-140px !important;
+                    margin-bottom:-50px !important;
                     width:140px;
                     height:30px;">
         <pen-tool-icon size="1x" style="margin-right: 3px !important; margin-top:4px !important; float:left !important;"></pen-tool-icon>

@@ -837,7 +837,7 @@
 </template>
 
 <script>
-        // @group 07_02_02
+        // @group 01_01_02
     export default {
         name:'CourseInfo',
         data() {
@@ -846,7 +846,7 @@
             }
         },
         props: {
-            "교육과정": {
+            "전체 교육과정 맵": {
                 type: String
             },
         },

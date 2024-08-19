@@ -1,7 +1,7 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">MSA Consulting 과정</h2><br>
+            <h2 style="display:inline-block !important;">MSA 컨설팅</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -177,7 +177,7 @@
 </template>
 
 <script>
-// @group 07_02_12
+// @group 01_01_11
     export default {
         name:'one-point-lesson',
         data() {
@@ -186,7 +186,7 @@
             }
         },
         props: {
-            "5. MSA Consulting(협의)": {
+            "MSA 컨설팅": {
                 type: String
             },
         },

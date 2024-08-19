@@ -929,10 +929,6 @@
         clear: both
     }
 
-    .content > :first-child {
-        margin-top: 0px;
-    }
-
     .content > :last-child {
         margin-bottom: 0 !important
     }
@@ -970,7 +966,7 @@
     }
 
     .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-        margin-top: 24px;
+        margin-top: -50px;
         margin-bottom: 16px;
         font-weight: 600;
         line-height: 1.25

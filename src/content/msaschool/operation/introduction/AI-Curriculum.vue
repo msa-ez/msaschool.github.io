@@ -398,7 +398,7 @@
 </template>
 
 <script>
-        // @group 07_02_03
+        // @group 01_01_03
     export default {
         name:'ai-curriculum',
         data() {
@@ -407,7 +407,7 @@
             }
         },
         props: {
-            "1. AI DevOps Master": {
+            "AI DevOps 마스터 과정": {
                 type: String
             },
         },

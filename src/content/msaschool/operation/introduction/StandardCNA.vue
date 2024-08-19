@@ -1,35 +1,35 @@
 <template>
     <div style="margin-top:80px;">
         <div>
-            <h2 style="display:inline-block !important;">Flipped Learning 과정</h2><br>
+            <h2 style="display:inline-block !important;">Standard 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
             >
-                <a href="/operation/education/flipped-learning4-days-cna-course/#review3" style="color:black !important; font-weight:700; font-size:14px;">
+                <a href="/operation/education/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
                 </a>
             </v-btn>
         </div>
-        <h6 class="gs-course-content">Flipped Learning CNA 과정은 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>
+        <h6 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
                 <td rowspan="2" style="padding-left:15px; width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
-                <td style="font-weight:700; font-size:20px; text-align:center;">1인당 100만원(4일)</td>
+                <td style="font-weight:700; font-size:20px; text-align:center;">1인당 160만원(4일)</td>
             </tr>
-            <tr>
-                <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 60만원(2일)</td>
-            </tr>    
-        </table>  
+            <tr>  
+                <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
+            </tr>
+        </table>
         <v-btn class="gs-bottom-apply-btn"
             target='_blank'
-            :href="`https://docs.google.com/forms/d/e/1FAIpQLSdlJAdOfPn-ET4maXP2M585OknGQwCgQsPQxUyRziAu6Q3GIw/viewform?usp=sf_link`"
+            :href="`https://docs.google.com/forms/d/e/1FAIpQLSeSp0JwQfXdtCosyBtofXNaNe4EJPXqzoca65v2T0pvBR0i6A/viewform?usp=pp_url&entry.1858868603=Standard+CNA+%EA%B3%BC%EC%A0%95`"
         >
             <span style="color:white !important; font-weight:700; font-size:20px;">
                 교육 신청하기
             </span>
-        </v-btn>  
+        </v-btn>
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
@@ -38,7 +38,7 @@
                 <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
                     <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
                     <td>
                         • 애자일 기업에 필요한 것들 – Microservice, DevOps, Container<br>
@@ -49,11 +49,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">11:30~13:00</td>
-                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
+                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
                     <td style="font-weight:700;">마이크로서비스의 분석/설계</td>
                     <td>
                         • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
@@ -70,9 +70,9 @@
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
                     <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
                     <td>
                         • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
@@ -82,11 +82,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">11:30~13:00</td>
-                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
+                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
                     <td style="font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
                     <td>
                         • UI 를 기반한 서비스 통합 전략:  Client-side Rendering, SPA, MVVM, HATEOAS<br>
@@ -96,7 +96,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
+                    <td style=" font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
                     <td>
                         • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
                         • 서킷브레이커를 통한 장애회피<br>
@@ -111,9 +111,9 @@
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~10:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~10:30</td>
                     <td style="font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
                     <td>
                         • Event-driven 방식의 연동(Pub/Sub + Async + Choreography)<br>
@@ -124,7 +124,7 @@
                 </tr>
 
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>10:30~11:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>10:30~11:30</td>
                     <td style="font-weight:700;">점진적인 Microservice 전환</td>
                     <td>
                         • Strangler Pattern을 적용한 단계적 DT(Digital Transformation)  전략<br>
@@ -133,11 +133,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">11:30~13:00</td>
-                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
+                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
                     <td style="font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
                     <td>
                         • DevOps 기반의 프로세스 변화와 MSA<br>
@@ -149,15 +149,13 @@
                 </tr>
             </table>
 
-
-
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                 <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
+                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
                     <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
                     <td>
                         • Kubernetes 를 통한 애플리케이션 디플로이, 인터넷으로의 서비스 노출과정<br>
@@ -167,11 +165,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center; text-align:center;">11:30~13:00</td>
-                    <td colspan="2" style=" padding-left:15px;font-weight:700; text-align:center;">Lunch time</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
+                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~17:30</td>
+                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
                     <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
                     <td>
                         • Persistence Volume 통한 파일시스템 연계<br>
@@ -180,14 +178,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="font-weight:700; padding-left:15px;">운영: CI/CD</td>
+                    <td style=" font-weight:700; padding-left:15px;">운영: CI/CD</td>
                     <td>
                         • Argo Workflow / Rollouts / CD 를 이용한 CI/CD 자동화<br>
                         • Spring Cloud Contract 를 통한 Consumer-driven / Contract Testing<br>
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>17:00~17:30</td>
+                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>17:00~17:30</td>
                     <td style="font-weight:700;">설문작성 및 테스트</td>
                     <td>
                         • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
@@ -195,12 +193,12 @@
                 </tr>
             </table>
         </div>
-
+        
         <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
             </div>
-            <h3 style="margin-top:20px;">1일차 진행(장진영 / 박용주)</h3>
+            <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <figure class="g-image">
@@ -229,7 +227,7 @@
                         • 객체지향 프로그래밍 University 강의<br>
                     </div>
                 </div>
-
+            
                 <div class="gs-instructor-card">
                     <figure class="g-image">
                         <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
@@ -258,7 +256,8 @@
                     </div>
                 </div>
             </div>
-            <h3 style="margin-top:50px;">2 ~ 4일차 진행(김상훈)</h3>
+
+            <h3 style="margin-top:50px;">보조강사(김상훈)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <figure class="g-image">
@@ -288,94 +287,62 @@
             </div>
         </div>
 
-        <div id="review3" class="gs-manager">
+        <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
         <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#4527A0;">김</div>
+                <div class="gs-review-background" style="background-color:#F9A825;">김</div>
                 <div>
                     <div>김**</div>
-                    <div class="gs-review-star-color">★★★★<span class="gs-review-star-color mdi mdi-star-half"/></div>
+                    <div class="gs-review-star-color">★★★★★</div>
                 </div>
-                <p>도출된 DDD 의 프로그램밍 코드화 좋습니다.</p>
+                <p>실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.</p>
             </div>
-
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#9E9D24;">강</div>
+                <div class="gs-review-background" style="background-color:#9E9D24;">김</div>
                 <div>
-                    <div>강**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
+                    <div>김**</div>
+                    <div class="gs-review-star-color">★★★★</div>
                 </div>
-                <p>강의의 내용과 사용하는 툴이 적합하여 듣기 좋았습니다.</p>
-            </div>
-
-            <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#558B2F;">양</div>
-                <div>
-                    <div>양**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
-                <p>강사님께서 편안한 강의 분위기를 조성해주어 온라인 강의임에도 집중이 잘 됩니다.</p>
+                <p>
+                    본 강의와 같은 진행 및 교육 방식이라면 온라인 강의여서 더 좋다고 느꼈습니다.(msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)
+                </p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">조</div>
-                <div>
-                    <div>조**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
-                <p>MSA 기반 설계 방법을 실습 위주로 배울 수 있어 이해가 더 잘 되었습니다.</p>
-            </div>
-            <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#AD1457;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
-                <p>실습 위주로 교육 과정이 잘 구성되어 있는 것 같습니다. 또한 적절한 협업플랫폼 활용이 인상적이었습니다.</p>
-            </div>
-        </div>
-        <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
-            <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#0277BD;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
-                <p>실습을 할 수 있도록 미리 소스를 포팅해 주셔서 코드 작성 시 오류가 발생할 부분이 많이 줄어 순조롭게 실습을 할 수 있었습니다.</p>
-            </div>
-            <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#2E7D32;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
-                <p>모델링에서 코딩까지 연계하여 볼 수 있는 점과 PaaS형태로 제공되는 교육환경은 온라인 방식에 적합하였습니다.</p>
-            </div>
-            <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#9E9D24;">이</div>
+                <div class="gs-review-background" style="background-color:#4E342E;">이</div>
                 <div>
                     <div>이**</div>
                     <div class="gs-review-star-color">★★★★★</div>
                 </div>
-                <p>MSA 구현의 실제 사례를 실습 할 수 있어서 유용했습니다.</p>
+                <p>강의 내용은 물론이고 이슈 발생 시 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">송</div>
+                <div class="gs-review-background" style="background-color:#37474F;">최</div>
                 <div>
-                    <div>송**</div>
+                    <div>최**</div>
                     <div class="gs-review-star-color">★★★★★</div>
                 </div>
-                <p>전반적인 흐름을 이해할 수 있도록 실습환경이 쉽게 이루어져 있었다.</p>
+                <p>양질의 교육과정을 통해 이벤트스토밍을 이용한 새로운 서비스를 2시간 만에 설계할 수 있었습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#F9A825;">권</div>
+                <div class="gs-review-background" style="background-color:#4527A0;">백</div>
+                <div>
+                    <div>백**</div>
+                    <div class="gs-review-star-color">★★★★★</div>
+                </div>
+                <p>EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이 됩니다.</p>
+            </div>
+        </div>
+        <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
+            <div class="clearfix gs-review-box" >
+                <div class="gs-review-background" style="background-color:#FF1744;">권</div>
                 <div>
                     <div>권**</div>
                     <div class="gs-review-star-color">★★★★★</div>
                 </div>
-                <p>MSA에 대한 내용을 실습을 통해 직/간접적으로 체험해볼 수 있었다.</p>
+                <p>이론과 실습을 병행하는 알찬 교육과정과 전문적인 툴을 이용한 설계와 구현까지! 좋은 강의 감사합니다.</p>
             </div>
         </div>
         <div class="text-center">
@@ -388,21 +355,21 @@
                     <span v-else class="mdi mdi-numeric-2-box-outline"></span>
             </a>
         </div>
+        <br>
     </div>
 </template>
 
-
 <script>
-        // @group 07_02_08
+        // @group 01_01_08
     export default {
-        name:'flipped-learning4-days-cna-course',
+        name:'standard-cna',
         data() {
             return {
                 page:1
             }
         },
         props: {
-            "3-2. Flipped Learning(4일 or 2일)": {
+            "┗ Standard Learning": {
                 type: String
             },
         },

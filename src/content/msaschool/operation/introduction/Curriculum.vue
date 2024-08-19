@@ -174,7 +174,7 @@
 </template>
 
 <script>
-        // @group 07_02_05
+        // @group 01_01_05
     export default {
         name:'curriculum',
         data() {
@@ -183,7 +183,7 @@
             }
         },
         props: {
-            "3. Intermediate Course": {
+            "Intermediate 과정": {
                 type: String
             },
         },
