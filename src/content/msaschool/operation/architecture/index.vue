@@ -17,7 +17,7 @@
             return {}
         },
         props: {
-            "MSA Outer 아키텍처": {
+            "MSA 아우터 아키텍처": {
                 type: String
             },
         },

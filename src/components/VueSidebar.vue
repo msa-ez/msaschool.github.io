@@ -1,7 +1,7 @@
 <template>
     <div
             ref="sidebar"
-            class="px-4 pt-0 lg:pt-12"
+            class="px-4 pt-0"
     >
         <ClientOnly>
             <VueSearch v-if="small" style="margin-bottom:20px;"></VueSearch>
@@ -18,36 +18,44 @@
                 :class="getClassesForHeader(parent)"
                 @click="closeSideByClicked()"
             >
-                <g-link
-                class="flex items-center py-1 pt-0 pb-0"
-                :style="styleBySize"
-                >
                 <h3 class="pt-0 pb-0 mb-0 mt-0 tracking-tight uppercase border-none"
                     style="font-size: 17px;"
                     :class="getDetailForHeader(parent)"
                 >
                     {{parent.header.props[0].name}}
                 </h3>
-                </g-link>
 
                 <ul class="max-w-full pl-5 mt-0 mb-0">
-                <li
+                    <li
+                        v-for="child in parent.children"
+                        :key="child.path"
+                        :class="getDetailForChildren(child)"
+                    >
+                        <g-link
+                        :to="child.path"
+                        class="flex items-center py-1 pt-0 pb-0"
+                        :style="styleBySize"
+                        v-if="child.name != 'one-point-lesson'"
+                        >
+                            <span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
+                            {{child.props[0].name}} <pen-tool-icon v-if="checkLinks(child)" size="1x" style="margin-left: 3px; color: #5a67d8;"></pen-tool-icon>
+                        </g-link>
+                    </li>
+                </ul>
+                <g-link
                     v-for="child in parent.children"
-                    :key="child.path"
-                    :class="getDetailForChildren(child)"
-                >
-                    <g-link
                     :to="child.path"
                     class="flex items-center py-1 pt-0 pb-0"
                     :style="styleBySize"
+                    v-if="child.name == 'one-point-lesson'"
+                >
+                    <h3 class="pt-0 pb-0 mb-0 mt-0 tracking-tight uppercase border-none"
+                        style="font-size: 17px;"
+                        :class="getDetailForHeader(parent)"
                     >
-                    <span
-                        class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"
-                    ></span>
-                    {{child.props[0].name}} <pen-tool-icon v-if="checkLinks(child)" size="1x" style="margin-left: 3px; color: #5a67d8;"></pen-tool-icon>
-                    </g-link>
-                </li>
-                </ul>
+                        {{child.props[0].name}}
+                    </h3>
+                </g-link>
             </div>
         </template>
         <div class="pa-0 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">

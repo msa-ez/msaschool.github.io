@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="content" style="margin-top:-40px;">
-            <h3 class="con-tit">MSA School 은</h3>
+            <h3 class="con-tit mt-4">MSA School 은</h3>
             <p style="font-weight: 700;">MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.</p>
             <div style="margin-bottom: 15px; line-height: 1.5; color:#444d56;">
                 MSA School은 분석, 설계에서 구현, 배포까지 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
