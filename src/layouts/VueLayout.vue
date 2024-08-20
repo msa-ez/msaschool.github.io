@@ -1094,7 +1094,7 @@
         font-size: 100%;
         word-break: normal;
         white-space: pre;
-        background: 0 0;
+        background: none !important;
         border: 0;
         color: black;
     }
@@ -1283,6 +1283,7 @@
             @apply mb-0;
         }
     }
+    
 
     code {
         @apply px-1 py-1 text-ui-typo bg-ui-sidebar font-mono border-b border-r border-ui-border text-sm rounded;
