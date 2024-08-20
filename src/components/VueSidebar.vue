@@ -1,16 +1,16 @@
 <template>
     <div
-            ref="sidebar"
-            class="px-4 pt-0"
+        ref="sidebar"
+        class="pl-4"
     >
         <ClientOnly>
             <VueSearch v-if="small" style="margin-bottom:20px;"></VueSearch>
         </ClientOnly>
-        <template v-for="(parent, index) in thisSides">
-            <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
+        <template v-for="parent in thisSides">
+            <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
                 교육 및 컨설팅
             </div>
-            <div v-else-if="parent.header.props[0].name == '계획'" class="py-3 pb-1 pt-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
+            <div v-else-if="parent.header.props[0].name == '계획'" class="py-3 pb-1 pt-1 font-semibold uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
                 클라우드 네이티브 학습
             </div>
             <div
@@ -185,7 +185,7 @@
                 return null
             },
             getClassesForHeader(path) {
-                if(path.header.props[0].name == "교육과정 소개" || path.header.props[0].name == "MSA Outer 아키텍처"){
+                if(path.header.props[0].name == "교육과정 소개" || path.header.props[0].name == "MSA 아우터 아키텍처"){
                     return {
                         "text-ui-primary": true,
                         "hover:text-ui-primary": true,

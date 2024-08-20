@@ -18,7 +18,7 @@
                                 :class="{ 'open': sidebarOpen }"
                                 :style="sidebarStyle"
                         >
-                            <div class="w-full pb-16 bg-ui-background">
+                            <div class="w-full mt-0 pb-16 bg-ui-background">
                                 <ClientOnly>
                                     <VueSidebar @navigate="sidebarOpen = false" @sidebarState="sidebarState"/>
                                 </ClientOnly>
@@ -179,8 +179,6 @@
             },
             sidebarStyle() {
                 return {
-                    // top: "0px",
-                    // height: `calc(100vh - ${this.headerHeight}px)`
                     top: this.headerHeight + 'px',
                     height: `calc(100vh - ${this.headerHeight}px)`
                 };
@@ -1338,11 +1336,11 @@
         /*height: 0%;*/
         /*width: 80%;*/
 
-        &.open {
-            transform: translateX(0);
-            top: 99px !important;
-            height:calc(100vh - 100px) !important;
-        }
+        // &.open {
+        //     transform: translateX(0);
+        //     top: 99px !important;
+        //     height:calc(100vh - 100px) !important;
+        // }
 
         @screen lg {
             @apply w-1/5 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
