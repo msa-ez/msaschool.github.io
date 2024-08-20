@@ -287,7 +287,7 @@
             </div>
         </div>
 
-        <div id="review2" class="gs-manager">
+        <!-- <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
@@ -325,7 +325,7 @@
                     <span v-else class="mdi mdi-numeric-2-box-outline"></span>
             </a>
         </div>
-        <br>
+        <br> -->
     </div>
 </template>
 

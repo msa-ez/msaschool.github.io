@@ -273,11 +273,11 @@
 
         </div>
 
-        <div id="review2" class="gs-manager">
+        <!-- <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
-        <hr>
-        <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
+        <hr> -->
+        <!-- <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
                 <p>실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.</p>
             </div>
@@ -300,8 +300,8 @@
             <div class="clearfix gs-review-box" >
                 <p>이론과 실습을 병행하는 알찬 교육과정과 전문적인 툴을 이용한 설계와 구현까지! 좋은 강의 감사합니다.</p>
             </div>
-        </div>
-        <div class="text-center">
+        </div> -->
+        <!-- <div class="text-center">
             <a id="1" @click="paging(1)" class="gs-review-page-number">
                     <span v-if="page==1" class="mdi mdi-numeric-1-box"></span>
                     <span v-else class="mdi mdi-numeric-1-box-outline"></span>
@@ -310,7 +310,7 @@
                     <span v-if="page==2" class="mdi mdi-numeric-2-box"></span>
                     <span v-else class="mdi mdi-numeric-2-box-outline"></span>
             </a>
-        </div>
+        </div> -->
         <br>
     </div>
 </template>

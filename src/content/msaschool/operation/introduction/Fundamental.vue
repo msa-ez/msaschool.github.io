@@ -35,7 +35,7 @@
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -76,7 +76,7 @@
             <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -118,7 +118,7 @@
             <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -153,7 +153,7 @@
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -279,61 +279,31 @@
 
         </div>
 
-        <div id="review2" class="gs-manager">
+        <!-- <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
         <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#F9A825;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.</p>
             </div>
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#9E9D24;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★</div>
-                </div>
                 <p>
                     본 강의와 같은 진행 및 교육 방식이라면 온라인 강의여서 더 좋다고 느꼈습니다.(msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)
                 </p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4E342E;">이</div>
-                <div>
-                    <div>이**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>강의 내용은 물론이고 이슈 발생 시 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">최</div>
-                <div>
-                    <div>최**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>양질의 교육과정을 통해 이벤트스토밍을 이용한 새로운 서비스를 2시간 만에 설계할 수 있었습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4527A0;">백</div>
-                <div>
-                    <div>백**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이 됩니다.</p>
             </div>
         </div>
         <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#FF1744;">권</div>
-                <div>
-                    <div>권**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>이론과 실습을 병행하는 알찬 교육과정과 전문적인 툴을 이용한 설계와 구현까지! 좋은 강의 감사합니다.</p>
             </div>
         </div>
@@ -346,7 +316,7 @@
                     <span v-if="page==2" class="mdi mdi-numeric-2-box"></span>
                     <span v-else class="mdi mdi-numeric-2-box-outline"></span>
             </a>
-        </div>
+        </div> -->
         <br>
     </div>
 </template>
