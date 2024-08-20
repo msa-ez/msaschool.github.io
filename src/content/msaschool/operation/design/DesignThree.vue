@@ -26,7 +26,7 @@ DDD(Domain-Driven Design, 도메인 주도 설계)는 비즈니스 도메인의 
 
 ### 기존 설계 방식과 이벤트스토밍의 차이점:
         </mark-down>
-        <g-image src="https://github.com/user-attachments/assets/a20bdb44-3809-41a5-baa5-af946684a547" class="pb-2"></g-image>
+        <g-image src="https://github.com/user-attachments/assets/a20bdb44-3809-41a5-baa5-af946684a547" class="pb-6"></g-image>
         <mark-down class="content">
 전통적인 소프트웨어 설계 방식은 주로 UML 다이어그램, 워터폴 모델 등의 기술 중심적이고 계층적인 설계 방식을 따릅니다. 이러한 방식은 시스템의 구조적 측면을 강조하며, 명확한 순서와 단계별 진행이 특징입니다. 하지만 이러한 접근은 IT 지식이 부족한 도메인 전문가들이 참여하기에 어려움을 겪을 수 있습니다. 비즈니스 전문가들이 비즈니스 요구사항을 정확하게 전달하고 반영하는 데 한계가 있을 수 있으며, 복잡한 도메인을 충분히 반영하지 못할 가능성이 있습니다.
 
