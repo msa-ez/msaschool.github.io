@@ -35,7 +35,7 @@
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -74,7 +74,7 @@
             <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -115,7 +115,7 @@
             <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
@@ -147,7 +147,7 @@
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>

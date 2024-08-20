@@ -39,7 +39,7 @@
                 <h5 style="font-weight:700;">교육목표 : MSA 아키텍처의 분석,설계,구현하기 앞서  이벤트 스토밍(Event Storming) 기법을 기반한 실질적 설계, 구현, 운영 기법 학습</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
-                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
@@ -85,7 +85,7 @@
                 <h5 style="font-weight:700;">교육목표 : Cloud 플랫폼과 Core 서비스를 이해하고 시스템을 구성하고 클라우드 애플리케이션을 개발 · 운영</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
-                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
@@ -196,7 +196,7 @@
                 <h5 style="font-weight:700;">교육목표 : Kubernetes와 Docker 의 설치, 애플리케이션 배포, 무정지 재배포, 운영자동화의 실습 및 학습</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
-                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
@@ -291,7 +291,7 @@
                 <h5 style="font-weight:700;">교육목표 : 클라우드 플랫폼에서 마이크로서비스 아키텍처 기반으로 클라우드 네이티브 애플리케이션을  개발 하는 프로젝트 수행 방식의 교육</h5>
                 <table style="width:100%; border : 1px solid black;">
                     <th style="border : 1px solid black; border-collapse : collapse; text-align: center; width:8%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">기간</th>
-                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                    <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:20%; background-color: #e6e9f9; font-weight:900; font-size:20px;">주제</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:8%; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
                     <th style="border : 1px solid black; border-collapse : collapse;  text-align: center; width:64%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습 내용</th>
                     <tr>
@@ -474,127 +474,51 @@
         <hr>
         <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#00838F;">이</div>
-                <div>
-                    <div>이**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>MSAEZ 라는 좋은 툴로 실습을 진행한 점이 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#2E7D32;">변</div>
-                <div>
-                    <div>변**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>스티커로 구조 모델링하는 툴이 정말 인상 깊었고(이름을 까먹었습니다..), 강의 환경도 온라인을 감안하면 매우 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#EF6C00;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>모델링과 개발을 동시에 진행하는 체계적인 교육 과정과 강사진의 전달력이 어우러져 좋은 강의를 들을 수 있었던 것 같습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">전</div>
-                <div>
-                    <div>전**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>실습을 진행함에 따라 즉각적으로 피드백을 받을 수 있어 보다 효율적인 교육이 되었습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#9E9D24;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>이벤트스토밍 기법을 활용한 MSA 기반 설계 과정을 배울 수 있는 유익한 시간이었습니다.</p>
             </div>
         </div>
         <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#FF1744;">이</div>
-                <div>
-                    <div>이**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>msa 전반적인 교육수강에 대해서 커리큘럼이 잘갖춰져있고 탄탄한 강사님들로 인한 교육내용은 best였다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#AD1457;">이</div>
-                <div>
-                    <div>이**</div>
-                    <div class="gs-review-star-color">★★★★</div>
-                </div>
                 <p>인프라 앞 단의 레벨에서의 아키텍트 구성/운영 과정을 알 수 있어서 좋았다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#283593;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>MSA라는 기술스택에 대한 정보를 집약적으로 교육받을 수 있는 환경이 많이 없다고 생각했는데 그런 점을 충족시켜주셔서 매우 유용하다고 생각했습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#558B2F;">전</div>
-                <div>
-                    <div>전**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>평소에 관심이 있었던 AWS, 클라우드네이티브, 쿠버네티스 등에 대한 내용을 포괄적으로 배울 수 있어 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#00838F;">신</div>
-                <div>
-                    <div>신**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>MSA 개념 및 DDD기반 모델링을 실습과 같이 진행해서 좀 더 이해가 쉬웠습니다.</p>
             </div>
         </div>
         <div v-else-if="page==3" id="reviewPage3" class="gs-review-full-box">
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#EF6C00;">홍</div>
-                <div>
-                    <div>홍**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>주업무가 인프라 담당으로 MSA의 DEV 단계까지 경험해 볼 수 있는 점이 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4E342E;">송</div>
-                <div>
-                    <div>송**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
-                <p>jpa 에 대한 설계 방법을 배울 수 있어서 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">백</div>
-                <div>
-                    <div>백**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>설계를 메모지를 통해 실습해보고 코드도 확인해볼 수 있었던 점이 좋았다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#00695C;">남</div>
-                <div>
-                    <div>남**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>강사님이 논리적 흐름이 이해되게끔 진행해주셨고, 실습 환경이 잘 되어 있음.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4527A0;">신</div>
-                <div>
-                    <div>신**</div>
-                    <div class="gs-review-star-color">★★★★</div>
-                </div>
                 <p>MSA 모델링과 연계된 테크니컬 요소(kafka 등)에 대한 전반적인 이해가 가능하다.</p>
             </div>
         </div>

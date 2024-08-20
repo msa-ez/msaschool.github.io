@@ -33,7 +33,7 @@
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~14:00</td>
@@ -164,45 +164,20 @@
         <hr>
         <div class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#00695C;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>멀티 PC 활용이 가능한 점이 좋았고, 강사님의 강의 자체에 대한 전달력이 좋아 알기 쉬운 교육 진행이었습니다.</p>
             </div>
 
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#1565C0;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★<span class="gs-review-star-color mdi mdi-star-half"/></div>
-                </div>
                 <p>비대면 교육으로 이동 시간 및 공간의 제약이 없어 좋습니다. 또한 MSA기반으로 구축시 필요한 분석/설계 방법에 대해 도움이 되고 있는것 같아서 만족스러운 교육이었습니다.</p>
             </div>
 
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#FF1744;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>이론 뿐만 아니라 실습을 병행하며 설명 들은 내용을 직접 구현해보고 참여할 수 있어서 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#00695C;">정</div>
-                <div>
-                    <div>정**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>교육과정도 잘 구성되어 있고, 도구와 강의 내용도 잘 맞아떨어집니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4527A0;">나</div>
-                <div>
-                    <div>나**</div>
-                    <div class="gs-review-star-color">★★★★</div>
-                </div>
                 <p>앞으로도 많은 강좌 개설 부탁 드립니다.</p>
             </div>
         </div>
@@ -226,7 +201,7 @@
             }
         },
         props: {
-            "┗ Quick Understanding": {
+            "┣ Quick Understanding": {
                 type: String
             },
         },

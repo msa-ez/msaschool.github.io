@@ -35,7 +35,7 @@
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
                 <tr>
                     <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
@@ -69,7 +69,7 @@
             <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
                 <tr>
                     <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
@@ -110,7 +110,7 @@
             <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
                 <tr>
                     <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~10:30</td>
@@ -154,7 +154,7 @@
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
             <table class="gs-table-default">
                 <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
+                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
                 <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용 (영상학습 및 실습 랩으로 진행)</th>
                 <tr>
                     <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오전<br>9:00~11:30</td>
@@ -294,87 +294,37 @@
         <hr>
         <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#4527A0;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★<span class="gs-review-star-color mdi mdi-star-half"/></div>
-                </div>
                 <p>도출된 DDD 의 프로그램밍 코드화 좋습니다.</p>
             </div>
 
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#9E9D24;">강</div>
-                <div>
-                    <div>강**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>강의의 내용과 사용하는 툴이 적합하여 듣기 좋았습니다.</p>
             </div>
 
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#558B2F;">양</div>
-                <div>
-                    <div>양**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>강사님께서 편안한 강의 분위기를 조성해주어 온라인 강의임에도 집중이 잘 됩니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">조</div>
-                <div>
-                    <div>조**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>MSA 기반 설계 방법을 실습 위주로 배울 수 있어 이해가 더 잘 되었습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#AD1457;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>실습 위주로 교육 과정이 잘 구성되어 있는 것 같습니다. 또한 적절한 협업플랫폼 활용이 인상적이었습니다.</p>
             </div>
         </div>
         <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#0277BD;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>실습을 할 수 있도록 미리 소스를 포팅해 주셔서 코드 작성 시 오류가 발생할 부분이 많이 줄어 순조롭게 실습을 할 수 있었습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#2E7D32;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>모델링에서 코딩까지 연계하여 볼 수 있는 점과 PaaS형태로 제공되는 교육환경은 온라인 방식에 적합하였습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#9E9D24;">이</div>
-                <div>
-                    <div>이**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>MSA 구현의 실제 사례를 실습 할 수 있어서 유용했습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">송</div>
-                <div>
-                    <div>송**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>전반적인 흐름을 이해할 수 있도록 실습환경이 쉽게 이루어져 있었다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#F9A825;">권</div>
-                <div>
-                    <div>권**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>MSA에 대한 내용을 실습을 통해 직/간접적으로 체험해볼 수 있었다.</p>
             </div>
         </div>
@@ -402,7 +352,7 @@
             }
         },
         props: {
-            "┗ Flipped Learning": {
+            "┣ Flipped Learning": {
                 type: String
             },
         },

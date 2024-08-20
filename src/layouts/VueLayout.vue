@@ -1331,18 +1331,8 @@
 
     .sidebar {
         @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-scroll transition-all z-40;
-        /*<!--transform: translateX(-100);-->*/
         transform: translateX(-100%);
-        /*transition: absolute;*/
-        /*height: 0%;*/
-        /*width: 80%;*/
-
-        // &.open {
-        //     transform: translateX(0);
-        //     top: 99px !important;
-        //     height:calc(100vh - 100px) !important;
-        // }
-
+        
         @screen lg {
             @apply w-1/5 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
             transform: translateX(0);
@@ -1351,6 +1341,24 @@
 </style>
 
 <style scoped>
+    @media only screen and (max-width:1024px) {
+        .sidebar {
+            @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-scroll transition-all z-40;
+            transform: translateX(-100%);
+            
+            &.open {
+                transform: translateX(0);
+                top: 99px !important;
+                height:calc(100vh - 100px) !important;
+            }
+
+            @screen lg {
+            @apply w-1/5 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
+            transform: translateX(0);
+        }
+
+        }
+    }
     @media only screen and (max-width:1023px) {
         .is-mobile-main {
             margin-top:5% !important;

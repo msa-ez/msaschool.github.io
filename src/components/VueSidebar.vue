@@ -1,7 +1,7 @@
 <template>
     <div
         ref="sidebar"
-        class="pl-4"
+        class="pl-4 pt-0"
     >
         <ClientOnly>
             <VueSearch v-if="small" style="margin-bottom:20px;"></VueSearch>
