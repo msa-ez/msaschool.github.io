@@ -15,17 +15,17 @@
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/fundamental/">Fundamental</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/fundamental/">Fundamental</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/curriculum/">Intermediate</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/curriculum/">Intermediate</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/advanced/">Advanced</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/advanced/">Advanced</a>
                     </div>
                 </th>
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -121,7 +121,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/fundamental/">
+                            <a href="/operation/introduction/fundamental/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -137,7 +137,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/curriculum/">
+                            <a href="/operation/introduction/curriculum/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -153,7 +153,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/advanced/">
+                            <a href="/operation/introduction/advanced/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -179,7 +179,7 @@
         <div class="is-mobile-main-top">
             <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/fundamental/">Fundamental</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/fundamental/">Fundamental</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -217,7 +217,7 @@
                 <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/fundamental/">
+                            <a href="/operation/introduction/fundamental/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -234,7 +234,7 @@
                 </tr>
             </table>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/curriculum/">Intermediate</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/curriculum/">Intermediate</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -277,7 +277,7 @@
                 <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/curriculum/">
+                            <a href="/operation/introduction/curriculum/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -294,7 +294,7 @@
                 </tr>
             </table>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/advanced/">Advanced</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/advanced/">Advanced</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -337,7 +337,7 @@
                 <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/advanced/">
+                            <a href="/operation/introduction/advanced/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;

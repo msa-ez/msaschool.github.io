@@ -6,7 +6,7 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/education/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <a href="/operation/introduction/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
                 </a>
             </v-btn>

@@ -100,7 +100,7 @@
 
         <!-- <div class="content banner-pc" style="margin-top:-20px;">
             <h3 class="con-tit w190">Upcoming Event</h3>
-            <a :href="'/operation/education/ai-curriculum'">
+            <a :href="'/operation/introduction/ai-curriculum'">
                 <g-image style="width: 100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/7690662d-1544-41dc-8088-6566412af6f1">
                 </g-image>
@@ -108,7 +108,7 @@
         </div>
         <div class="content banner-mo" style="margin-top:-20px;">
             <h3 class="con-tit w190">Upcoming Event</h3>
-            <a :href="'/operation/education/ai-curriculum'">
+            <a :href="'/operation/introduction/ai-curriculum'">
                 <g-image style="width: 100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/fda15811-423b-4992-893d-e66b9fdffe37">
                 </g-image>

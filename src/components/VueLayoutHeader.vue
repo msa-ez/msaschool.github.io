@@ -18,12 +18,12 @@
                 <v-row style="margin:0px; padding:0px;">
                     <div style="flex-grow: 1 !important;"></div>
                     <v-btn class="main-top-btn"
-                        :href="'/operation/education/one-point-lesson/'"
+                        :href="'/operation/introduction/one-point-lesson/'"
                         style="margin:7px 7px 0px 0px;"
                     ><span style="color:white;">컨설팅 문의</span>
                     </v-btn>
                     <v-btn class="main-top-btn"
-                        :href="'/operation/education/schedule/'"
+                        :href="'/operation/introduction/schedule/'"
                         style="margin:7px 7px 0px 0px;"
                     ><span style="color:white;">교과정 안내</span>
                     </v-btn>
@@ -49,12 +49,12 @@
                 <v-row style="margin:0px; padding:0px;" justify="end">
                     <v-col cols="auto" class="mobile-header-btn-box">
                         <v-btn class="main-top-btn mb-2"
-                                :href="'/operation/education/one-point-lesson/'"
+                                :href="'/operation/introduction/one-point-lesson/'"
                         >
                             <span style="color:white;">컨설팅 문의</span>
                         </v-btn>
                         <v-btn class="main-top-btn"
-                                :href="'/operation/education/schedule/'"
+                                :href="'/operation/introduction/schedule/'"
                         >
                             <span style="color:white;">교과정 안내</span>
                         </v-btn>

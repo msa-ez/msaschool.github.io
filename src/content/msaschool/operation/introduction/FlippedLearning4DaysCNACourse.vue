@@ -6,7 +6,7 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/education/flipped-learning4-days-cna-course/#review3" style="color:black !important; font-weight:700; font-size:14px;">
+                <a href="/operation/introduction/flipped-learning4-days-cna-course/#review3" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
                 </a>
             </v-btn>
