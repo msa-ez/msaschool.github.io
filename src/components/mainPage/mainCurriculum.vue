@@ -8,7 +8,7 @@
         <div class="is-not-mobile-main-top">
             <div style = "font-size: 16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
             <table class="tbl-edu" style="width:100%;">
-                <th style="padding: 0;">
+                <th style="padding: 0 !important;">
                     <div class="tbl-title" style="width: 97%;">
                         <a class="tbl-title-txt"></a>
                     </div>

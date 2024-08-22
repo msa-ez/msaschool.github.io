@@ -202,7 +202,7 @@
 
         <div class="is-not-mobile-main-top">
             <table class="tbl-edu" style="width:100%;">
-                <th style="padding: 0;">
+                <th style="padding: 0 !important;">
                     <div class="tbl-title" style="width: 97%;">
                         <a class="tbl-title-txt"></a>
                     </div>
@@ -382,7 +382,7 @@
                 </a>
             </div>
             <table class="tbl-edu" style="width:100%;">
-                <th style="padding: 0;">
+                <th style="padding: 0 !important;">
                     <div class="tbl-title" style="width: 97%;">
                         <a class="tbl-title-txt"></a>
                     </div>

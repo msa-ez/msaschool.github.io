@@ -93,7 +93,7 @@
             <!-- 새 커리큘럼 -->
             <h4 style="margin-top: 30px;">야간반/주말반</h4>
             <table class="tbl-edu" style="width:100%;">
-                <th style="width:25%; padding: 0;">
+                <th style="width:25%; padding: 0 !important;">
                     <div class="tbl-title-ai" style="color: #fff;">주제</div>
                 </th>
                 <th style="width:10%; padding: 0;">
