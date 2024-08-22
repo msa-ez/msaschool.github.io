@@ -106,8 +106,11 @@ export default {
     width: 400px;
 }
 
-.tbl-edu td {
+.tbl-edu td, .tbl-ez td {
     font-size: 14px;
+}
+.tbl-ez td {
+    text-align: center;
 }
 
 .tbl-title {
@@ -133,7 +136,7 @@ export default {
     border-radius: 5px;
     padding: 0;
 }
-.tbl-title-ai.mobile {
+.tbl-title.mobile, .tbl-title-ai.mobile {
     height: 45px;
     line-height: 45px;
     margin-bottom: 2px;
