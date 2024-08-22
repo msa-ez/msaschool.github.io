@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/introduction/fundamental/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/fundamental/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">Monolith / VM 기반 Web Application 구현을 목표로 UML과 객체 지향 디자인 패턴을 적용하여  프로그램을 설계하고, Java 언어와 스프링 라이브러리를 통해 웹 애플리케이션을 개발한 다음 Cloud VM을 생성하고 배포하는 과정으로 구성된 교육과정입니다.</h6>

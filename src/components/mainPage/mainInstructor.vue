@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style="margin-top:-10px;" class="content">
+        <div style="margin-top: 40px;" class="content">
             <h3 class="con-tit w250">MSA School 강사진 소개</h3>
         </div>
         <div class="mainInstructor-box" style="margin-top: 20px;">

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="content" style="margin-top:-40px;">
+        <div class="content" style="margin-top:-10px;">
             <h3 class="con-tit mt-4">MSA School 은</h3>
             <p style="font-weight: 700;">MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.</p>
             <div style="margin-bottom: 15px; line-height: 1.5; color:#444d56;">

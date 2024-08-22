@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/introduction/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>

@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/introduction/enterprise-full-day14-days-course/#review5" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/enterprise-full-day14-days-course/#review5" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">마이크로서비스의 전 과정을 심도있게 학습할 수 있는 분석/설계, 구현, 배포, 운영 및 캡스톤 프로젝트를 포함하는 인텐시브 과정으로 이미 많은 대기업 교육수행에서 검증된 커리큘럼을 기반으로 주강사와 보조강사가 함께 진행하는 Course입니다.</h6>

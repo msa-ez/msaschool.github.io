@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/introduction/quick-understanding-cna/#review" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/quick-understanding-cna/#review" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h6>

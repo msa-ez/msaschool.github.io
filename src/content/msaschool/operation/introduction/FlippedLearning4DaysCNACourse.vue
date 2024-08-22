@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/introduction/flipped-learning4-days-cna-course/#review3" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/flipped-learning4-days-cna-course/#review3" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">Flipped Learning CNA 과정은 Biz Part(MSA 이론, DDD 분석/설계)는 주강사가 진행하고, 이후 Dev 및 Ops Part는 영상을 학습한 뒤 보조강사가 실습을 주도하는 Cost-effective한 과정입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>

@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/introduction/advanced-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/advanced-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">다양한 도메인에 대한 심화된 이벤트스토밍 기법과 EDA환경에 최적화된 프레임워크 및 실전에 적용 가능한 구현 요소들을 포함하고 있으며, 서비스 메시의 확장, GitOps, 서버리스(Serverless) 운영 등 BizDevOps 전 영역에 걸쳐 한차원 높은 전문가 수준의 내용으로 구성된 교육과정입니다.</h6>
