@@ -19,7 +19,7 @@
         <table class="gs-table-default">
             <tr>
                 <td rowspan="2" style="padding-left:15px; width:12%; background-color:#e6e9f9; font-weight:900; font-size:20px; text-align:center;">비용</td>
-                <td style="font-weight:700; font-size:20px; text-align:center;">30만원 (16시간 교육)</td>
+                <td style="font-weight:700; font-size:20px; text-align:center;">40만원 (16시간 교육)</td>
             </tr>
             <!-- <tr>  
                 <td style="font-weight:700; font-size:20px; text-align:center;">Biz/Dev만 수강시 1인당 80만원(2일)</td>
