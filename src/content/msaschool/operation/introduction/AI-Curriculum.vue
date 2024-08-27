@@ -2,7 +2,7 @@
     <div style="margin-top:80px;">
         <div>
             <!-- <h2 style="display:inline-block !important;">AI Coding 과정</h2><br> -->
-            <h2 style="display:inline-block !important;">AI CNA & MSA 플립 과정</h2><br>
+            <h2 style="display:inline-block !important;">AI 기반 CNA&MSA 플립러닝 마스터 과정</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -13,7 +13,7 @@
             </v-btn>
         </div>
         <!-- <h6 class="gs-course-content">AI 를 이용하여 효율적으로 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영 하는 전과정을 이해하고 실습하며, AI 를 이용한 자동화된 개발 환경인 일종의 AI-PaaS를 구축하기 위한 폐쇄형 LLM 설치를 포함한 플랫폼 엔지니어링의 실무적 이해와 훈련을 돕는 교육과정입니다.</h6> -->
-        <h6 class="gs-course-content">AI CNA & MSA 플립 과정은 <b>AI를 이용하여 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영하는 전 과정을 이해하고 실습하는 교육과정</b>입니다. 이 과정에서는 AI 기반 자동화 도구를 활용한 효율적인 개발 환경을 구축하고, 플랫폼 엔지니어링에 대한 실무적인 이해와 훈련을 제공합니다. <b>AI 도구와 기술을 통합하여 개발과 운영의 생산성을 높이고, 실제 현업에 적용 가능한 실용적인 기술을 습득</b>할 수 있습니다.</h6>
+        <h6 class="gs-course-content">AI 기반 CNA&MSA 플립러닝 마스터 과정은 <b>AI를 이용하여 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영하는 전 과정을 이해하고 실습하는 교육과정</b>입니다. 이 과정에서는 AI 기반 자동화 도구를 활용한 효율적인 개발 환경을 구축하고, 플랫폼 엔지니어링에 대한 실무적인 이해와 훈련을 제공합니다. <b>AI 도구와 기술을 통합하여 개발과 운영의 생산성을 높이고, 실제 현업에 적용 가능한 실용적인 기술을 습득</b>할 수 있습니다.</h6>
         
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
@@ -34,7 +34,7 @@
             </span>
         </v-btn>
         <div style="margin-top: 50px; margin-bottom: 5px; line-height: 1.5; color:#444d56;">
-                <h3 class="con-tit w320">AI CNA & MSA 플립 과정 맛보기</h3>
+                <h3 class="con-tit w320">AI 기반 CNA&MSA 플립러닝 마스터 과정 맛보기</h3>
             </div>
             <div style="color:#444d56;">
                 
@@ -421,7 +421,7 @@
             }
         },
         props: {
-            "AI CNA & MSA 플립 과정": {
+            "AI 기반 CNA&MSA 플립러닝 마스터 과정": {
                 type: String
             },
         },

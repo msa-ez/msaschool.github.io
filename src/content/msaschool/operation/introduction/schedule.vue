@@ -383,18 +383,18 @@
             </div>
             <table class="tbl-edu" style="width:100%;">
                 <th style="padding: 0 !important;">
-                    <div class="tbl-title" style="width: 97%;">
+                    <div class="tbl-title">
                         <a class="tbl-title-txt"></a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <span class="tbl-title-txt" style="color: #fff;">Standard</span>
+                        <span class="tbl-title-txt" style="color: #fff; text-decoration: none;">Standard</span>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <span class="tbl-title-txt" style="color: #fff;">Advanced</span>
+                        <span class="tbl-title-txt" style="color: #fff; text-decoration: none;">Advanced</span>
                     </div>
                 </th>
                 <tr style="border-bottom: 1px solid #aaa;">
