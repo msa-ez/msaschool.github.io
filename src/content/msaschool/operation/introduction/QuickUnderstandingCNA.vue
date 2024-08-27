@@ -31,23 +31,29 @@
             </v-btn>    
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~14:00</td>
-                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td rowspan="2" style="text-align:center;">오후<br>13:00~14:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 애자일 기업에 필요한 것들 - Microservice, DevOps, Container<br>
                         • 모노리스와 마이크로서비스의 비교<br>
                         • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
                         • 최신 마이크로서비스 아키텍쳐의 경향 - Event-driven (Reactive) Microservices<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; font-weight:700;">마이크로서비스의 분석/설계 - 이벤트스토밍 소개</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">마이크로서비스의 분석/설계 - 이벤트스토밍 소개</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
                         • DDD 구성요소 소개<br>
                         • 서비스 식별과 분해방법들 - Core / Supporting Domain Bounded Context, Aggregate, Business Capability, Mini Service<br>
@@ -56,23 +62,23 @@
 
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>14:00~15:00</td>
-                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리 소개</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align:center;">오후<br>14:00~15:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리 소개</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
                         • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
                         • Spring Data REST + JPA 를 통한 RESTful API 노출 (HATEOAS)<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>15:00~16:00</td>
-                    <td style="font-weight:700;">
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align:center;">오후<br>15:00~16:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">
                         인터-마이크로서비스의<br>
                         통합 1:Request-Response 방식<br>
                         통합 2:Event-driven 방식<br>
                     </td>
-                    <td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
                         • 서킷브레이커를 통한 장애회피<br>
                         • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
@@ -83,10 +89,10 @@
                         • 읽기관점 - CQRS 구현방법<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>16:00~17:00</td>
-                    <td style="font-weight:700;">도커라이징, 배포 및 컨테이너 오케스트레이션</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align:center;">오후<br>16:00~17:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">도커라이징, 배포 및 컨테이너 오케스트레이션</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Dockerfile을 활용한 마이크로서비스 패키징 및 도커 이미지 생성<br>
                         • 쿠베네티스 배포 및 컨테이너 오케스트레이션 소개<br>
                     </td>

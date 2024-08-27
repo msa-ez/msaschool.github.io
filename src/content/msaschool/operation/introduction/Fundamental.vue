@@ -33,14 +33,20 @@
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">객체지향 설계</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">객체지향 설계</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 객체지향의 기본 개념<br>
                         • OOP(Object Oriented Programming)와 개발조직<br>
                         • Java언어 실습 환경 사용법<br>
@@ -52,14 +58,14 @@
 
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">UML 언어와 디자인 패턴</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">UML 언어와 디자인 패턴</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 팩토리, 프록시 패턴의 이해<br>
                         • how to draw UML<br>
                         • uml2code<br>
@@ -74,14 +80,20 @@
             </table>
 
             <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">객체 지향 프레임워크의 개념과 구현방법 – Spring프레임워크 </td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">객체 지향 프레임워크의 개념과 구현방법 – Spring프레임워크 </td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 디자인 패턴 - 싱글톤 패턴의 필요성, 싱글톤 패턴의 직접 구현, 프록시 패턴<br>
                         • Spring프레임워크 사용과 따라 만들기<br>
                         • 스프링 프레임워크, 스프링 부트의 기동<br>
@@ -89,14 +101,14 @@
                         • 스프링 AOP를 통한 Proxy 생성<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">자바 확장 클래스 타입</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td rowspan="2" style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">자바 확장 클래스 타입</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 자바 확장 클래스 타입의 이해<br>
                         • Anonymous Class Observer Pattern<br>
                         • Abstract Class, 접근자와 접근권한<br>
@@ -104,9 +116,9 @@
                         • Lambda Expression과 Stream<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style=" font-weight:700; padding-left:15px;">객체 지향 프레임워크 -Spring을 통한 RESTful서비스</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">객체 지향 프레임워크 -Spring을 통한 RESTful서비스</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Repository 패턴 그리고 RESTful API<br>
                         • Database 접근과 Repository Pattern 의 직접 구현<br>
                         • CRUD Full Cycle 을 지원하는 Repository pattern 으로 적용<br>
@@ -116,14 +128,20 @@
 
 
             <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">객체 지향 프로그래밍 :<br>Database, JPA</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">객체 지향 프로그래밍 :<br>Database, JPA</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • JDBC Application 구현 - MySQL 을 이용한 RDBMS 접속<br>
                         • 복잡한 SQL 질의어 구현<br>
                         • JPA를 기반한 Repository pattern 구현체 자동생성<br>
@@ -132,15 +150,14 @@
                         • HATEOAS 이해와 HATEOAS link 추가하기<br>
                     </td>
                 </tr>
-
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">다양한 객체 지향 언어 :TypeScript, Vue JS</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">다양한 객체 지향 언어 :TypeScript, Vue JS</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Javascript를 이용한 Pet Store 요구사항 이해 그리고 관련 환경 설치<br>
                         • Vue JS 컴포넌트 생성하기<br>
                         • VueJS 에서의 상속과 재정의, 상위메서드 호출 그리고 템플릿 재사용<br>
@@ -151,37 +168,42 @@
             </table>
 
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">CSP managed VM</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">CSP managed VM</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 클라우드 인프라 개요 - CSP 소개<br>
                         • VM 생성 how to<br>
                         • 클라우드 환경에서의 배포 - VM, Database 프로비저닝, WAS 배포, Network 설정으로 통한 서비스 접속<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">Mini Project, Deploy to VM</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td rowspan="2" style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">Mini Project, Deploy to VM</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 쇼핑몰 어플리케이션 구현 – 요건 정의와 시스템설계 (UML)<br>
                         • 쇼핑몰 기능의 요구사항 정의와 도메인 클래스 정의 유비쿼터스 언어<br>
                         • 백엔드 서버에서 데이터를 얻어오기 위한 API Gateway 설정과 AJAX 호출<br>
                         • 클라우드에 배포<br> 
                     </td>
                 </tr>
-                
-                <tr>
-                    <td style="font-weight:700;">설문작성 및 테스트</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">설문작성 및 테스트</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
                     </td>
                 </tr>

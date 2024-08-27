@@ -102,6 +102,9 @@ export default {
 .w280::after {
     width: 280px;
 }
+.w320::after {
+    width: 320px;
+}
 .w400::after {
     width: 400px;
 }
