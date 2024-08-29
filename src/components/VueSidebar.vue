@@ -7,10 +7,10 @@
             <VueSearch v-if="small" style="margin-bottom:20px;"></VueSearch>
         </ClientOnly>
         <template v-for="parent in thisSides">
-            <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
+            <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
                 교육 및 컨설팅
             </div>
-            <div v-else-if="parent.header.props[0].name == '계획'" class="py-3 pb-1 pt-1 font-semibold uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
+            <div v-else-if="parent.header.props[0].name == '계획'" class="py-3 pb-1 pt-1 font-semibold uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
                 클라우드 네이티브 학습
             </div>
             <div
@@ -18,17 +18,18 @@
                 :class="getClassesForHeader(parent)"
                 @click="closeSideByClicked()"
             >
-                <h3 class="pt-0 pb-0 mb-0 mt-0 tracking-tight uppercase border-none"
-                    style="font-size: 17px;"
+                <h3 class="pt-0 pb-0 mb-0 mt-1 tracking-tight uppercase border-none"
+                    style="font-size: 16px;"
                     :class="getDetailForHeader(parent)"
                 >
                     {{parent.header.props[0].name}}
                 </h3>
 
-                <ul class="max-w-full pl-5 mt-0 mb-0">
+                <ul class="max-w-full pl-5 mt-0 mb-1">
                     <li
                         v-for="child in parent.children"
                         :key="child.path"
+                        style="font-size: 14px;"
                         :class="getDetailForChildren(child)"
                     >
                         <g-link
@@ -50,7 +51,7 @@
                     v-if="child.name == 'one-point-lesson'"
                 >
                     <h3 class="pt-0 pb-0 mb-0 mt-0 tracking-tight uppercase border-none"
-                        style="font-size: 17px;"
+                        style="font-size: 16px;"
                         :class="getDetailForHeader(parent)"
                     >
                         {{child.props[0].name}}
@@ -58,13 +59,13 @@
                 </g-link>
             </div>
         </template>
-        <div class="pa-0 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 17px; color: #4a5567;">
+        <div class="pa-0 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
             클라우드 네이티브 실습
         </div>
         <div style="margin-top:5px; margin-bottom:30px;"
             class="pl-4"
             onclick="location.href='http://instruction.msaschool.io/business/'">
-            <span style="font-weight: 900; font-size: 17.5px; cursor:pointer;">
+            <span style="font-weight: 900; font-size: 16px; cursor:pointer;">
             실습 컨텐츠
             </span>
         </div>
