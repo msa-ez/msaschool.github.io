@@ -2,7 +2,7 @@
     <div style="margin-top:80px;">
         <div>
             <!-- <h2 style="display:inline-block !important;">AI Coding 과정</h2><br> -->
-            <h2 style="display:inline-block !important;">AI 기반 CNA&MSA 플립러닝 마스터 과정</h2><br>
+            <h2 style="display:inline-block !important;">AI 기반 CNA&MSA 플립러닝 마스터 과정(야간/주말반)</h2><br>
             <v-btn class="gs-review-btn"
                 target='_blank'
                 text
@@ -13,8 +13,22 @@
             </v-btn>
         </div>
         <!-- <h6 class="gs-course-content">AI 를 이용하여 효율적으로 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영 하는 전과정을 이해하고 실습하며, AI 를 이용한 자동화된 개발 환경인 일종의 AI-PaaS를 구축하기 위한 폐쇄형 LLM 설치를 포함한 플랫폼 엔지니어링의 실무적 이해와 훈련을 돕는 교육과정입니다.</h6> -->
-        <h6 class="gs-course-content">AI 기반 CNA&MSA 플립러닝 마스터 과정은 <b>AI를 이용하여 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영하는 전 과정을 이해하고 실습하는 교육과정</b>입니다. 이 과정에서는 AI 기반 자동화 도구를 활용한 효율적인 개발 환경을 구축하고, 플랫폼 엔지니어링에 대한 실무적인 이해와 훈련을 제공합니다. <b>AI 도구와 기술을 통합하여 개발과 운영의 생산성을 높이고, 실제 현업에 적용 가능한 실용적인 기술을 습득</b>할 수 있습니다.</h6>
-        
+        <h6 class="gs-course-content">AI 기반 CNA&MSA 플립러닝 마스터 과정은 <b>AI를 이용하여 클라우드 네이티브 수준의 애플리케이션을 기획-분석-설계-구현-운영하는 전 과정을 이해하고 실습하는 교육과정</b>으로, 주강사의 이론 교육과 실습 강사의 실시간 코칭으로 진행됩니다. 이 과정에서는 AI 기반 자동화 도구를 활용한 효율적인 개발 환경을 구축하고, 플랫폼 엔지니어링에 대한 실무적인 이해와 훈련을 제공합니다. <b>AI 도구와 기술을 통합하여 개발과 운영의 생산성을 높이고, 실제 현업에 적용 가능한 실용적인 기술을 습득</b>할 수 있습니다.</h6>
+
+        <h6 style="margin-top: 30px;">
+            <b>이런 분들에게 추천합니다!</b>👍<br>
+            ✔ 자사 프로젝트에 어떤 AI 도구를 활용해야 좋을지 모르겠는 분<br>
+            ✔ 탄탄한 실습 위주의 클라우드 네이티브 MSA 강의를 찾고 계시는 분<br>
+            ✔ 평일엔 교육 수강이 어려워 자기개발에 한계가 있는 분
+        </h6>
+
+        <h6 style="margin-top: 30px;">
+            <b>지금 교육 신청하고 선착순 혜택도 받아보세요!</b>🥳<br>
+            ✨과정 개설 완료 시 "선착순 30명"에게 <span style="text-decoration: underline;">MSA 기초 과정 수강권(20만원 상당) + 스타벅스 기프티콘</span> 증정✨<br>
+            1) 단체 신청(10인 이상) 시 교육비 할인 적용<br>
+            2) 지인 소개 시 & 교육 수강 후 후기 작성 시 추가 상품 증정
+        </h6>
+
         <div class="gs-manager">교육비 정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
         <table class="gs-table-default">
             <tr>
@@ -33,12 +47,10 @@
                 교육 신청하기
             </span>
         </v-btn>
-        <div style="margin-top: 50px; margin-bottom: 5px; line-height: 1.5; color:#444d56;">
-                <h3 class="con-tit w320">AI 기반 CNA&MSA 플립러닝 마스터 과정 맛보기</h3>
-            </div>
-            <div style="color:#444d56;">
-                
-            </div>
+        <div style="margin-top: 100px; margin-bottom: 5px; line-height: 1.5;">
+            <h3 class="con-tit w440">AI 기반 CNA&MSA 플립러닝 마스터 과정 맛보기</h3>
+        </div>
+
         <!-- </div> -->
         <v-row style="margin:0;">
             <a href="https://youtu.be/qUb1BWnyfkw" target="_blank">
@@ -248,11 +260,11 @@
 
         </div>
         
-        <!-- <div style="margin:100px 0 50px 0;">
+        <div style="margin:100px 0 50px 0;">
             <div>
                 <h2 style="display:inline-block !important;">강사진 소개</h2>
             </div>
-            <h3 style="margin-top:20px;">주강사(장진영 / 박용주 / 윤성열)</h3>
+            <h3 style="margin-top:20px;">주강사(장진영 / 박용주)</h3>
             <div class="gs-the-entire-package">
                 <div class="gs-instructor-card">
                     <figure class="g-image">
@@ -299,7 +311,7 @@
                         • 마이크로서비스 교육과정 교안/교재 집필  <br>
                         <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
                         • 現 uEngine MSA 정규 교과정 전문강사<br>
-                        • 現 MSA App. Engineering 기업과정 강사<br>
+                        • 現 MSA App. Engineering 기업과정 전문강사<br>
                         • 現 세종사이버대학교 컴퓨터/AI 공학과 겸임교수<br>
                         • 한국소프트웨어기술진흥협회 전문강사<br>
                         • ‘21 : SK MSA App. Engineering 과정 강사 외<br>
@@ -310,34 +322,59 @@
                     </div>
                 </div>
             </div><br><br>
+
+            <h3 style="margin-top:20px;">실습강사(김근영 / 김규수)</h3>
             <div class="gs-the-entire-package">
-                <div class="gs-instructor-card">
+                <div class="gs-instructor-card assistance">
                     <figure class="g-image">
-                        <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden;">
-                            <g-image class="g-image--fallback" src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/47b7b03a-14f3-4c2c-9c16-3e024fd8ab50" alt="" style="margin-top:-30px; width: 100%;"/>
+                        <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden; border:1px solid #e6e9f9;">
+                            <g-image class="g-image--fallback" src="https://github.com/user-attachments/assets/7746204a-4a77-4aa2-bc65-e7a6414a75b4" alt="" style="margin-top:-20px; width: 100%;"/>
                         </div>
-                    </figure> 
+                    </figure>
                     <div class="gs-instructor-card-name">
-                        <h3 style="margin-bottom:0; color:gray;">윤성열</h3>
-                        <p style="color:gray; font-size:12px;">uEngine Manager & MSA Consultant</p>
+                        <h3 style="margin-bottom:0; color:gray;">김근영</h3>
+                        <p style="color:gray; font-size:12px;">uEngine Cloud Platform Developer & Manager</p>
                     </div>
-                    <div style="text-align:center; padding:5px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • MSA 개발 및 네트워크 인프라 구축<br>
-                        • Domain 분석설계 및 서버 개발 project<br>
-                        • 다수 MSA 제안 작업 및 컨설팅 <br>
-                        • 다수 마이크로서비스 교육 진행  <br>
-                        <hr style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
-                        • 現 네비웍스 연구소장/상무이사<br>
-                        • 現 드림플로우 연구소장/이사<br>
-                        • 現 한국소프트웨어기술진흥협회 BAPF 포럼,<br>교육과정위원회 및 전문강사<br>
-                        • ’18. 10 : 원오원글로벌 디지털팀 팀장<br>
-                        • ’18. 04 : TTA 사물인터넷 특별기술위원회 사물인터넷<br>융합서비스 프로젝트그룹 (SPG11) 부의장<br>
-                        • ’17. 03 : 가천대학교 겸임교수<br>
+                    <div style="text-align:center; padding:10px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                        • 現 MSA 정규 교과정 실습강사 및 코칭<br>
+                        • 現 MSA App. Engineering 기업과정 실습강사 및 코칭
+                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • ‘24. 08 : 2e 컨설팅 Microservice Modeling/Developing CNA 과정<br>
+                        • ’23. 11 : KTDS Microservice Modeling/Developing CNA 과정<br>
+                        • ’23. 10 : GS Eventstorming 교육<br>
+                        • ’22. 09 : 아이티센 Microservice Modeling 과정<br>
+                        • ’22. 06 : 한화 Container Orchestration 과정<br>
+                        • ’22. 06 : SK C&C Microservice Modeling/Developing CNA<br>/Container Orchestration 과정<br>
+                        • ’22. 06 : 삼성 SDS Microservice Modeling/Developing CNA 과정<br>
+                        • ’22. 06 : 하나금융 Microservice Consulting 과정<br>
+                        • ‘22. 06 : 교보생명 Microservice Modeling 과정<br>
+                    </div>
+                </div>
+
+                <div class="gs-instructor-card assistance">
+                    <figure class="g-image">
+                        <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden; border:1px solid #e6e9f9;">
+                            <g-image class="g-image--fallback" src="https://github.com/user-attachments/assets/d26072a0-a2a0-4567-a709-c2c5961eb1bd" alt="" style="margin-top:-20px; width: 100%;"/>
+                        </div>
+                    </figure>
+                    <div class="gs-instructor-card-name">
+                        <h3 style="margin-bottom:0; color:gray;">김규수</h3>
+                        <p style="color:gray; font-size:12px;">uEngine Cloud Platform Developer & Manager</p>
+                    </div>
+                    <div style="text-align:center; padding:15px 5px 20px 5px; opacity:0.7; font-size:14px;">
+                        • 現 MSA 정규 교과정 실습강사 및 코칭<br>
+                        • 現 MSA App. Engineering 기업과정 실습강사 및 코칭
+                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
+                        • ‘24. 08 : 2e 컨설팅 Microservice Modeling/Developing CNA 과정<br>
+                        • ’24. 05 : SK C&C Container Orchestration with AWS 과정<br>
+                        • ’24. 03 : KTDS Cloud Native Application 과정<br>
+                        • ’24. 01 : KTDS Cloud Native Application 과정<br>
+                        • ‘23. 11 : Hana Container Orchestration with GCP 과정<br>
                     </div>
                 </div>
             </div>
 
-        </div> -->
+        </div>
 
         <!-- <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
@@ -421,7 +458,7 @@
             }
         },
         props: {
-            "AI 기반 CNA&MSA 플립러닝 마스터 과정": {
+            "🆕 AI 기반 CNA&MSA 플립러닝 마스터 과정": {
                 type: String
             },
         },
