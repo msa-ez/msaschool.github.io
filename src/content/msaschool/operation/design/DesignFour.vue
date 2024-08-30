@@ -71,7 +71,7 @@
 
 
 <script>
-    // @group 02_02_05
+    // @group 02_02_06
     export default {
         name: 'DesignFour',
         props: {

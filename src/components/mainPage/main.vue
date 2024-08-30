@@ -102,11 +102,11 @@ export default {
 .w280::after {
     width: 280px;
 }
-.w320::after {
-    width: 320px;
-}
 .w400::after {
     width: 400px;
+}
+.w440::after {
+    width: 440px;
 }
 
 .tbl-edu td, .tbl-ez td {

@@ -64,7 +64,7 @@ View에서 사용자의 요청이 들어오면 Command 패턴을 통해 View-Mod
 
 
 <script>
-    // @group 02_02_09
+    // @group 02_02_10
 export default {
     name: "DesignEight",
     props: {

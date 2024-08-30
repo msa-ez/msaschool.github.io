@@ -227,7 +227,7 @@ public Map<String, Object> getKey(Principal principal) {
 
 
 <script>
-        // @group 02_02_08_true
+        // @group 02_02_09_true
     export default {
         name: 'DesignSeven',
         props: {
