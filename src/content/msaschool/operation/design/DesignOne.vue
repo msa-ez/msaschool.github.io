@@ -69,7 +69,7 @@ REST방식(직접 호출)으로 서로 통신할 경우, 요청자는 다음 액
 
 
 <script>
-        // @group 02_02_02
+        // @group 02_02_03
 export default {
     name: "DesignOne",
     props: {

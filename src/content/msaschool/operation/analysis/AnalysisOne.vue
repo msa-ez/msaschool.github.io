@@ -51,7 +51,7 @@ UI 전문가, 백엔드 개발 전문가, 데이터베이스 전문가 등으로
 
 
 <script>
-    // @group 02_01_02
+    // @group 02_01_03
     export default {
         name: 'AnalysisOne',
         props: {
