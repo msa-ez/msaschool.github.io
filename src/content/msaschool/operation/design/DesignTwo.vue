@@ -162,7 +162,7 @@ DDD의 핵심 철학은 "도메인 지식이 가장 중요하다"는 것입니�
 
 
 <script>
-    // @group 02_02_03
+    // @group 02_02_04
     export default {
         name: 'DesignTwo',
         props: {

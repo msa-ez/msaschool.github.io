@@ -227,7 +227,7 @@ DDD(Domain-Driven Design, 도메인 주도 설계)는 비즈니스 도메인의 
 
 
 <script>
-        // @group 02_02_05
+        // @group 02_02_07
     export default {
         name: 'DesignThree',
         props: {
