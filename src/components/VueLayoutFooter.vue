@@ -23,7 +23,8 @@
                 </g-image>
             </a> -->
 
-            <div> Copyright © uEngine All Rights Reserved | 주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩) </div>
+            <div style="font-size: 14px; margin-bottom: 20px;"> *MSA School의 모든 콘텐츠의 권리는 MSA School에 있으며, 무단 복제/배포를 금합니다. 영리 목적이 아닌 개인적인 복제 사용 시 <b>출처를 꼭 표기해야 합니다.</b> </div>
+            <div> © uEngine. All Rights Reserved. | 주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩) </div>
             <div> 사업자등록번호 : 211-87-95355 | 전화번호 : 02-567-8301 | 대표이사 : 장진영 </div>
         </div>
         <div class="is-mobile-main-top" style="text-align:center;">
@@ -31,7 +32,12 @@
                 src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1"> 
             </g-image>-->
             
-            <div>Copyright © uEngine All Rights Reserved</div>
+            <div style="font-size: 14px; margin-bottom: 20px;"> 
+                *MSA School의 모든 콘텐츠의 권리는 MSA School에 있으며,
+                <br>무단 복제/배포를 금합니다. 
+                <br>영리 목적이 아닌 개인적인 복제 사용 시 <b>출처를 꼭 표기해야 합니다.</b> 
+            </div>
+            <div>© uEngine. All Rights Reserved.</div>
             <div>주소 : 서울특별시 서초구 신반포로45길 18 502호(잠원동, 주일빌딩)</div>
             <div>사업자등록번호 : 211-87-95355</div>
             <div>전화번호 : 02-567-8301</div>
