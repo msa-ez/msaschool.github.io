@@ -221,7 +221,7 @@ DDD(Domain-Driven Design, 도메인 주도 설계)는 비즈니스 도메인의 
     - 고객이 자주 상점관리에서 확인할 수 있는 배달상태를 주문시스템(프론트엔드)에서 확인할 수 있어야 한다 CQRS
     - 배달상태가 바뀔때마다 카톡 등으로 알림을 줄 수 있어야 한다 Event driven
 </mark-down>
-    <g-image src="https://github.com/user-attachments/assets/5ede8bb3-1b92-4c99-a049-b4b0d8095930"></g-image>
+    <g-image src="https://github.com/user-attachments/assets/d95108f8-c44e-4c13-bf59-9999ba66478c"></g-image>
     </div>
 </template>
 
