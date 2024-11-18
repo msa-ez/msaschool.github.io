@@ -82,6 +82,9 @@ table td:last-child, table th:last-child {
     box-shadow: 0 1px 8px rgba(22,22,22, 0.1) !important;
     height:500px !important;
 }
+.gs-instructor-card.assistance {
+    height:auto !important;
+}
 .gs-instructor-card-name {
     width:80% !important;
     height:50px !important;
@@ -96,9 +99,6 @@ table td:last-child, table th:last-child {
 .gs-the-entire-package {
     display:inline-flex; width:100% !important;
 }
-
-
-
 
 .gs-course-content {
     font-weight:500 !important;

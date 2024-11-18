@@ -74,7 +74,7 @@ API Gateway는 마이크로서비스 외부로부터의 통합 접근을 위한 
 
 
 <script>
-    // @group 02_02_06
+    // @group 02_02_10
     export default {
         name: 'DesignFive',
         props: {

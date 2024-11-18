@@ -5,7 +5,7 @@
         <mainCurriculumVue />
         <mainInstructorVue />
 
-        <div style="margin-top: -30px;" class="content">
+        <div style="margin-top: 30px;" class="content">
             <h3 class="con-tit w400">MSA School 교육 실적 및 주요 수강 기업</h3>
         </div>
         <v-row style="margin: 0; text-align: center;">
@@ -19,7 +19,7 @@
 
         <mainSampleExerciseVue />
 
-        <div style="margin-top: -30px; margin-bottom: 15px;" class="content">
+        <div style="margin-top: 30px; margin-bottom: 15px;" class="content">
             <h3 class="con-tit w280">MSA School 교육 일정 확인</h3>
         </div> 
         <iframe style="border: 0; width: 100%; height: 600px; margin: 10px 0;" frameborder="0" scrolling="no"
@@ -105,9 +105,17 @@ export default {
 .w400::after {
     width: 400px;
 }
-.tbl-edu td {
+.w440::after {
+    width: 440px;
+}
+
+.tbl-edu td, .tbl-ez td {
     font-size: 14px;
 }
+.tbl-ez td {
+    text-align: center;
+}
+
 .tbl-title {
     width: 99.5%; 
     height: 60px; 
@@ -119,6 +127,23 @@ export default {
     margin-bottom: 5px; 
     border-radius: 5px;
     padding: 0;
+}
+.tbl-title-ai {
+    height: 60px; 
+    text-align: center;
+    background-color: #5a67d8;
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 20px;
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    padding: 0;
+}
+.tbl-title.mobile, .tbl-title-ai.mobile {
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 2px;
+    font-size: 16px;
 }
 
 .tbl-title-txt {

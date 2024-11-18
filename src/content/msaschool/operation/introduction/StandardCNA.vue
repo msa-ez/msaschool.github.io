@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/education/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/standard-cna/#review2" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">마이크로서비스 모델링에서 클라우드 네이티브 앱 구현/배포까지 MSA 이론과 클라우드 환경에서의 구현, 배포, 운영 실습을 포함하는 풀 과정(4일)입니다. 신청서 작성시, MSA이론(Biz) 및 CNA구현(Dev) 파트만 선택적으로 신청(2일)하여 수강할 수 있습니다.</h6>
@@ -33,14 +33,20 @@
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
             <h4 style="margin-top:30px;">Day1 - Biz Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 애자일 기업에 필요한 것들 – Microservice, DevOps, Container<br>
                         • 모노리스와 마이크로서비스의 비교<br>
                         • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
@@ -48,14 +54,14 @@
                         • 사례 – 당근마켓과 11번가<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">마이크로서비스의 분석/설계</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">마이크로서비스의 분석/설계</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
                         • DDD 구성요소 - 서브도메인, 바운디드 컨텍스트, 도메인 이벤트, 어그리게잇, 뷰<br>
                         • 서비스 식별과 분해방법들 - Core / Supporting Domain, Bounded Context, Aggregate, Business Capability, Mini Service<br>
@@ -67,37 +73,43 @@
             </table>
 
             <h4 style="margin-top:50px;">Day2 – Dev Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
                         • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
                         • Spring Data REST + JPA 를 통한  RESTful API 노출 (HATEOAS)<br>
                         • Spring Gateway 를 통한 서비스 분리후 진입점 통일<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td rowspan="2" style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">프론트엔드를 통한 마이크로 서비스 통합</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • UI 를 기반한 서비스 통합 전략:  Client-side Rendering, SPA, MVVM, HATEOAS<br>
                         • OAuth2 와 JWT 통한 Stateless 한 토큰 기반 접근과  인증<br>
                         • Front-end 기반 통합의 한계: 트랜잭션 이슈와 성능 문제<br>
                         • 마이크로 프론트엔드<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style=" font-weight:700; padding-left:15px;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">인터-마이크로서비스의<br>통합 1:Request-Response 방식</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
                         • 서킷브레이커를 통한 장애회피<br>
                         • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
@@ -108,38 +120,43 @@
 
 
             <h4 style="margin-top:50px;">Day3 – Dev/Ops</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~10:30</td>
-                    <td style="font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~10:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">인터-마이크로서비스의<br>통합 2:Event-driven 방식</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Event-driven 방식의 연동(Pub/Sub + Async + Choreography)<br>
                         • 이벤트의 서브스크립션 - Spring Cloud Streams 와 kafka client 를 통한 이벤트의 수신과 처리<br>
                         • 쓰기관점 - 트랜잭션 이슈: Eventual Transaction 와 Saga, Compensation<br>
                         • 읽기관점 - CQRS 구현방법<br>
                     </td>
                 </tr>
-
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>10:30~11:30</td>
-                    <td style="font-weight:700;">점진적인 Microservice 전환</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>10:30~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">점진적인 Microservice 전환</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Strangler Pattern을 적용한 단계적 DT(Digital Transformation)  전략<br>
                         • CDC (Change Data Capture)를 활용한 Event Shunting<br>
                         • Kafka Connector 소개<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">운영: 데브-옵스 프로세스와 쿠버네티스</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • DevOps 기반의 프로세스 변화와 MSA<br>
                         • 클라우드 애플리케이션 배포 전략 - 무정지(카나리) 배포, A/B 테스팅, Shadow 배포<br>
                         • DevOps 툴체인 - 컨테이너와 컨테이너 오케스트레이터, 그리고 CI/CD<br>
@@ -150,44 +167,50 @@
             </table>
 
             <h4 style="margin-top:50px;">Day4 – Ops Part</h4>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오전<br>9:00~11:30</td>
-                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오전<br>9:00~11:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Kubernetes 를 통한 애플리케이션 디플로이, 인터넷으로의 서비스 노출과정<br>
                         • Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet 등 객체 세부<br>
                         • Self healing, Auto Scaling, Zero-Down time Deployment<br>
                         • Liveness & Readiness 의 설정, 트러블슈팅 방법<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">11:30~13:00</td>
-                    <td colspan="2" style="padding-left:15px; font-weight:700; text-align:center;">Lunch time</td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">11:30~13:00</td>
+                    <td colspan="2" style="border-left: 1px solid #aaa; font-weight:700; text-align:center;">Lunch time</td>
                 </tr>
-                <tr>
-                    <td rowspan="2" style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>13:00~17:30</td>
-                    <td style="font-weight:700;">운영: 쿠버네티스 상세</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td rowspan="2" style="text-align: center;">오후<br>13:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">운영: 쿠버네티스 상세</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Persistence Volume 통한 파일시스템 연계<br>
                         • Secrets, ConfigMap 통한 Configuration Externalization<br>
                         • 예제 스프링 애플리케이션의 패키징과 파일시스템 연동, 회복자동화, 자동확장 테스트<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style=" font-weight:700; padding-left:15px;">운영: CI/CD</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">운영: CI/CD</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Argo Workflow / Rollouts / CD 를 이용한 CI/CD 자동화<br>
                         • Spring Cloud Contract 를 통한 Consumer-driven / Contract Testing<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="margin: auto; text-align: center; padding-left:15px; background-color:#f2f3fc;">오후<br>17:00~17:30</td>
-                    <td style="font-weight:700;">설문작성 및 테스트</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align: center;">오후<br>17:00~17:30</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">설문작성 및 테스트</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 과정에 대한 설문 작성 및 온라인 문항을 통한 테스트
                     </td>
                 </tr>
@@ -287,61 +310,31 @@
             </div>
         </div>
 
-        <div id="review2" class="gs-manager">
+        <!-- <div id="review2" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
         <div v-if="page==1" id="reviewPage1" class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#F9A825;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>실습하고 직접 해봐서 더 이해가 잘 됩니다. 반복적으로 복습을 해주시고 퀴즈도 내주셔서 더 기억에 많이 남아 좋습니다.</p>
             </div>
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#9E9D24;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★</div>
-                </div>
                 <p>
                     본 강의와 같은 진행 및 교육 방식이라면 온라인 강의여서 더 좋다고 느꼈습니다.(msa-ez 에서 개발하고 직접 내 환경에 강사가 들어와 봐주는 방식, 강사가 일일이 봐주려고 하는 느낌)
                 </p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4E342E;">이</div>
-                <div>
-                    <div>이**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>강의 내용은 물론이고 이슈 발생 시 인원 한 명 한 명 원격으로 붙어서 알려주시는 점이 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#37474F;">최</div>
-                <div>
-                    <div>최**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>양질의 교육과정을 통해 이벤트스토밍을 이용한 새로운 서비스를 2시간 만에 설계할 수 있었습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4527A0;">백</div>
-                <div>
-                    <div>백**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>EDA 기법, 이론과 실습이 모두 이루어져 있어서 굉장히 도움이 많이 됩니다.</p>
             </div>
         </div>
         <div v-else-if="page==2" id="reviewPage2" class="gs-review-full-box">
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#FF1744;">권</div>
-                <div>
-                    <div>권**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>이론과 실습을 병행하는 알찬 교육과정과 전문적인 툴을 이용한 설계와 구현까지! 좋은 강의 감사합니다.</p>
             </div>
         </div>
@@ -355,12 +348,12 @@
                     <span v-else class="mdi mdi-numeric-2-box-outline"></span>
             </a>
         </div>
-        <br>
+        <br> -->
     </div>
 </template>
 
 <script>
-        // @group 07_02_09
+        // @group 01_01_08
     export default {
         name:'standard-cna',
         data() {
@@ -369,7 +362,7 @@
             }
         },
         props: {
-            "3-3. Standard(4일 or 2일)": {
+            "┣ Standard Learning": {
                 type: String
             },
         },

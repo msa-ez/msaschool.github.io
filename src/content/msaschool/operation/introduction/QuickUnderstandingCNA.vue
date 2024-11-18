@@ -6,9 +6,9 @@
                 target='_blank'
                 text
             >
-                <a href="/operation/education/quick-understanding-cna/#review" style="color:black !important; font-weight:700; font-size:14px;">
+                <!-- <a href="/operation/introduction/quick-understanding-cna/#review" style="color:black !important; font-weight:700; font-size:14px;">
                     ▼ 후기보기
-                </a>
+                </a> -->
             </v-btn>
         </div>
         <h6 class="gs-course-content">마이크로서비스를 처음 접하거나 향후 도입 또는 컨설팅 예정인 기업(개인)을 대상으로 MSA, 클라우드 네이티브 앱에 대한 기본 개념과 분석, 설계, 구현 과정을 짧은 시간에 알아볼 수 있는 Half-day 과정입니다. 강사가 강의 및 실습을 One way로 수강생들에게 전달하는 방식입니다.</h6>
@@ -31,23 +31,29 @@
             </v-btn>    
         <div>
             <h3 style="margin-top:50px;">커리큘럼 소개</h3>
-            <table class="gs-table-default">
-                <th style="width:12%; padding-left:15px; background-color:#e6e9f9; font-weight:900; font-size:20px;">시간</th>
-                <th style="width:28%%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주제</th>
-                <th style="width:60%; background-color:#e6e9f9; font-weight:900; font-size:20px;">주요 학습내용</th>
-                <tr>
-                    <td rowspan="2" style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>13:00~14:00</td>
-                    <td style="font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
-                    <td>
+            <table class="tbl-edu" style="width:100%;">
+                <th style="width:12%; padding: 0 !important;">
+                    <div class="tbl-title-ai" style="color: #fff;">시간</div>
+                </th>
+                <th style="width:28%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주제</div>
+                </th>
+                <th style="width:60%; padding: 0;">
+                    <div class="tbl-title-ai" style="color: #fff; margin-left: 1px;">주요 학습내용</div>
+                </th>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td rowspan="2" style="text-align:center;">오후<br>13:00~14:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">클라우드 네이티브 애플리케이션의 정의와 설계전략</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • 애자일 기업에 필요한 것들 - Microservice, DevOps, Container<br>
                         • 모노리스와 마이크로서비스의 비교<br>
                         • 클라우드 네이티브 애플리케이션의 정의와 설계 패턴<br>
                         • 최신 마이크로서비스 아키텍쳐의 경향 - Event-driven (Reactive) Microservices<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; font-weight:700;">마이크로서비스의 분석/설계 - 이벤트스토밍 소개</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">마이크로서비스의 분석/설계 - 이벤트스토밍 소개</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • DDD(도메인 주도 설계) 와 MSA Design Patterns을 적용한 마이크로서비스 분석/설계<br>
                         • DDD 구성요소 소개<br>
                         • 서비스 식별과 분해방법들 - Core / Supporting Domain Bounded Context, Aggregate, Business Capability, Mini Service<br>
@@ -56,23 +62,23 @@
 
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>14:00~15:00</td>
-                    <td style="font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리 소개</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align:center;">오후<br>14:00~15:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">구현: 단위 마이크로 서비스의 구현과 분리 소개</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Spring Boot와 Maven 을 이용한 단위 서비스 포장<br>
                         • JPA 를 이용한 도메인 모델과 어댑터 구현 (Entity, Value Objects)<br>
                         • Spring Data REST + JPA 를 통한 RESTful API 노출 (HATEOAS)<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>15:00~16:00</td>
-                    <td style="font-weight:700;">
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align:center;">오후<br>15:00~16:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">
                         인터-마이크로서비스의<br>
                         통합 1:Request-Response 방식<br>
                         통합 2:Event-driven 방식<br>
                     </td>
-                    <td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Request-Response 방식의 연동 (REST + Sync + Orchestration)<br>
                         • 서킷브레이커를 통한 장애회피<br>
                         • 쓰기관점 - 트랜잭션 이슈: 2PC or Shared-Database and schema per service<br>
@@ -83,10 +89,10 @@
                         • 읽기관점 - CQRS 구현방법<br>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding-left:15px; background-color:#f2f3fc; text-align:center;">오후<br>16:00~17:00</td>
-                    <td style="font-weight:700;">도커라이징, 배포 및 컨테이너 오케스트레이션</td>
-                    <td>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td style="text-align:center;">오후<br>16:00~17:00</td>
+                    <td style="border-left: 1px solid #aaa; font-weight:700;">도커라이징, 배포 및 컨테이너 오케스트레이션</td>
+                    <td style="border-left: 1px solid #aaa;">
                         • Dockerfile을 활용한 마이크로서비스 패키징 및 도커 이미지 생성<br>
                         • 쿠베네티스 배포 및 컨테이너 오케스트레이션 소개<br>
                     </td>
@@ -158,51 +164,26 @@
         </div>
 
 
-        <div id="review" class="gs-manager">
+        <!-- <div id="review" class="gs-manager">
             <h3 style="margin-top:50px;">교육 후기</h3>
         </div>
         <hr>
         <div class="gs-review-full-box">
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#00695C;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>멀티 PC 활용이 가능한 점이 좋았고, 강사님의 강의 자체에 대한 전달력이 좋아 알기 쉬운 교육 진행이었습니다.</p>
             </div>
 
             <div class="clearfix gs-review-box">
-                <div class="gs-review-background" style="background-color:#1565C0;">김</div>
-                <div>
-                    <div>김**</div>
-                    <div class="gs-review-star-color">★★★★<span class="gs-review-star-color mdi mdi-star-half"/></div>
-                </div>
                 <p>비대면 교육으로 이동 시간 및 공간의 제약이 없어 좋습니다. 또한 MSA기반으로 구축시 필요한 분석/설계 방법에 대해 도움이 되고 있는것 같아서 만족스러운 교육이었습니다.</p>
             </div>
 
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#FF1744;">박</div>
-                <div>
-                    <div>박**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>이론 뿐만 아니라 실습을 병행하며 설명 들은 내용을 직접 구현해보고 참여할 수 있어서 좋았습니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#00695C;">정</div>
-                <div>
-                    <div>정**</div>
-                    <div class="gs-review-star-color">★★★★★</div>
-                </div>
                 <p>교육과정도 잘 구성되어 있고, 도구와 강의 내용도 잘 맞아떨어집니다.</p>
             </div>
             <div class="clearfix gs-review-box" >
-                <div class="gs-review-background" style="background-color:#4527A0;">나</div>
-                <div>
-                    <div>나**</div>
-                    <div class="gs-review-star-color">★★★★</div>
-                </div>
                 <p>앞으로도 많은 강좌 개설 부탁 드립니다.</p>
             </div>
         </div>
@@ -211,13 +192,13 @@
                     <span v-if="page==1" class="mdi mdi-numeric-1-box"></span>
                     <span v-else class="mdi mdi-numeric-1-box-outline"></span>
             </a>
-        </div>
+        </div> -->
     </div>
 </template>
 
 
 <script>
-        // @group 07_02_06
+        // @group 01_01_06
     export default {
         name:'quick-understanding-cna',
         data() {
@@ -226,7 +207,7 @@
             }
         },
         props: {
-            "3-1. Quick Understanding(4시간)": {
+            "┣ Quick Understanding": {
                 type: String
             },
         },

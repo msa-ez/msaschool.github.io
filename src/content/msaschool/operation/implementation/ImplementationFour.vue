@@ -653,7 +653,7 @@ mvn clean spring-boot:run
     export default {
         name: 'ImplementationFour',
         props: {
-            "도구(MSAEz)기반 CNA구현 - 구글드라이브 예제": {
+            "MSA 기반 CNA구현": {
                 type: String
             },
         },

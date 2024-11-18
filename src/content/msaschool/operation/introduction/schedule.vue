@@ -16,7 +16,7 @@
                     • 최대인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/quick-understanding-cna/">
+                    <a href="/operation/introduction/quick-understanding-cna/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                     • MSAEZ 및 Gitpod 연동 실습 환경 제공<br><br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:60px;">
-                    <a href="/operation/education/ai-curriculum/">
+                    <a href="/operation/introduction/ai-curriculum/">
                         <!-- <button class="card-details-btn">세부사항</button> -->
                         <button style="background-color:#fff;
                             border-radius: 4px;
@@ -81,7 +81,7 @@
                     • 최소인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:60px;">
-                    <a href="/operation/education/flipped-learning4-days-cna-course/">
+                    <a href="/operation/introduction/flipped-learning4-days-cna-course/">
                         <button style="background-color:#fff;
                             border-radius: 4px;
                             border:2px solid #5a67d8;
@@ -118,7 +118,7 @@
                     • 최소인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:60px;">
-                    <a href="/operation/education/standard-cna/">
+                    <a href="/operation/introduction/standard-cna/">
                         <button style="background-color:#fff;
                             border-radius: 4px;
                             border:2px solid #5a67d8;
@@ -157,7 +157,7 @@
                     • 최대인원 10명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/one-point-lesson/">
+                    <a href="/operation/introduction/one-point-lesson/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -184,7 +184,7 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:60px;">
-                    <a href="/operation/education/enterprise-full-day14-days-course/">
+                    <a href="/operation/introduction/enterprise-full-day14-days-course/">
                         <button style="background-color:#fff;
                             border-radius: 4px;
                             border:2px solid #5a67d8;
@@ -202,24 +202,24 @@
 
         <div class="is-not-mobile-main-top">
             <table class="tbl-edu" style="width:100%;">
-                <th style="padding: 0;">
+                <th style="padding: 0 !important;">
                     <div class="tbl-title" style="width: 97%;">
                         <a class="tbl-title-txt"></a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/fundamental/">Fundamental</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/fundamental/">Fundamental</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/curriculum/">Intermediate</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/curriculum/">Intermediate</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/education/advanced/">Advanced</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/advanced/">Advanced</a>
                     </div>
                 </th>
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -315,7 +315,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/fundamental/">
+                            <a href="/operation/introduction/fundamental/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -331,7 +331,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/curriculum/">
+                            <a href="/operation/introduction/curriculum/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -347,7 +347,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/advanced/">
+                            <a href="/operation/introduction/advanced/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -382,19 +382,19 @@
                 </a>
             </div>
             <table class="tbl-edu" style="width:100%;">
-                <th style="padding: 0;">
-                    <div class="tbl-title" style="width: 97%;">
+                <th style="padding: 0 !important;">
+                    <div class="tbl-title">
                         <a class="tbl-title-txt"></a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <span class="tbl-title-txt" style="color: #fff;">Standard</span>
+                        <span class="tbl-title-txt" style="color: #fff; text-decoration: none;">Standard</span>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <span class="tbl-title-txt" style="color: #fff;">Advanced</span>
+                        <span class="tbl-title-txt" style="color: #fff; text-decoration: none;">Advanced</span>
                     </div>
                 </th>
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -470,7 +470,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/fundamental/">
+                            <a href="/operation/introduction/fundamental/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #147c7f;
@@ -486,7 +486,7 @@
                     </td>
                     <td>
                         <div style="text-align:center;">
-                            <a href="/operation/education/curriculum/">
+                            <a href="/operation/introduction/curriculum/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #147c7f;
@@ -511,7 +511,7 @@
         <div class="is-mobile-main-top">
             <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/fundamental/">Fundamental</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/fundamental/">Fundamental</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -549,7 +549,7 @@
                 <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/fundamental/">
+                            <a href="/operation/introduction/fundamental/">
                             <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -566,7 +566,7 @@
                 </tr>
             </table>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/curriculum/">Intermediate</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/curriculum/">Intermediate</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -609,7 +609,7 @@
                 <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/curriculum/">
+                            <a href="/operation/introduction/curriculum/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -626,7 +626,7 @@
                 </tr>
             </table>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/education/advanced/">Advanced</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/advanced/">Advanced</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -669,7 +669,7 @@
                 <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/advanced/">
+                            <a href="/operation/introduction/advanced/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #5a67d8;
@@ -751,7 +751,7 @@
                 <!-- <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/curriculum/">
+                            <a href="/operation/introduction/curriculum/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #147c7f;
@@ -807,7 +807,7 @@
                 <!-- <tr>
                     <td colspan="2">
                         <div style="text-align:center;">
-                            <a href="/operation/education/advanced/">
+                            <a href="/operation/introduction/advanced/">
                                 <button style="background-color:#fff;
                                 border-radius: 4px;
                                 border:2px solid #147c7f;
@@ -837,7 +837,7 @@
 </template>
 
 <script>
-        // @group 07_02_02
+        // @group 01_01_02
     export default {
         name:'CourseInfo',
         data() {
@@ -846,7 +846,7 @@
             }
         },
         props: {
-            "교육과정": {
+            "전체 교육과정 맵": {
                 type: String
             },
         },

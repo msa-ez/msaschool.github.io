@@ -18,7 +18,7 @@
                                 :class="{ 'open': sidebarOpen }"
                                 :style="sidebarStyle"
                         >
-                            <div class="w-full pb-16 bg-ui-background">
+                            <div class="w-full mt-0 pb-16 bg-ui-background">
                                 <ClientOnly>
                                     <VueSidebar @navigate="sidebarOpen = false" @sidebarState="sidebarState"/>
                                 </ClientOnly>
@@ -179,8 +179,6 @@
             },
             sidebarStyle() {
                 return {
-                    // top: "0px",
-                    // height: `calc(100vh - ${this.headerHeight}px)`
                     top: this.headerHeight + 'px',
                     height: `calc(100vh - ${this.headerHeight}px)`
                 };
@@ -929,10 +927,6 @@
         clear: both
     }
 
-    .content > :first-child {
-        margin-top: 0px;
-    }
-
     .content > :last-child {
         margin-bottom: 0 !important
     }
@@ -970,7 +964,7 @@
     }
 
     .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-        margin-top: 24px;
+        margin-top: -30px;
         margin-bottom: 16px;
         font-weight: 600;
         line-height: 1.25
@@ -1100,7 +1094,7 @@
         font-size: 100%;
         word-break: normal;
         white-space: pre;
-        background: 0 0;
+        background: none !important;
         border: 0;
         color: black;
     }
@@ -1289,6 +1283,7 @@
             @apply mb-0;
         }
     }
+    
 
     code {
         @apply px-1 py-1 text-ui-typo bg-ui-sidebar font-mono border-b border-r border-ui-border text-sm rounded;
@@ -1336,18 +1331,8 @@
 
     .sidebar {
         @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-scroll transition-all z-40;
-        /*<!--transform: translateX(-100);-->*/
         transform: translateX(-100%);
-        /*transition: absolute;*/
-        /*height: 0%;*/
-        /*width: 80%;*/
-
-        &.open {
-            transform: translateX(0);
-            top: 99px !important;
-            height:calc(100vh - 100px) !important;
-        }
-
+        
         @screen lg {
             @apply w-1/5 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
             transform: translateX(0);
@@ -1356,6 +1341,24 @@
 </style>
 
 <style scoped>
+    @media only screen and (max-width:1024px) {
+        .sidebar {
+            @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-scroll transition-all z-40;
+            transform: translateX(-100%);
+            
+            &.open {
+                transform: translateX(0);
+                top: 99px !important;
+                height:calc(100vh - 100px) !important;
+            }
+
+            @screen lg {
+            @apply w-1/5 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
+            transform: translateX(0);
+        }
+
+        }
+    }
     @media only screen and (max-width:1023px) {
         .is-mobile-main {
             margin-top:5% !important;

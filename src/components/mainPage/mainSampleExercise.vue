@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style="margin-top:-30px;" class="content">
+        <div style="margin-top: 30px;" class="content">
             <h3 class="con-tit w280">MSA School 교과정 맛보기</h3>
         </div>
         <v-row style="margin:0;">

@@ -12,7 +12,7 @@ import MainPage from '@/components/mainPage/main.vue'
     name: 'index',
     directory:'operation_introduction',
     props: {
-        "소개": {
+        "교육과정 소개": {
             type: String
         },
     },

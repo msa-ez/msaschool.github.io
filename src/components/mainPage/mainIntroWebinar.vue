@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="content" style="margin-top:-40px;">
-            <h3 class="con-tit">MSA School 은</h3>
+        <div class="content" style="margin-top:-10px;">
+            <h3 class="con-tit mt-4">MSA School 은</h3>
             <p style="font-weight: 700;">MSA분야 최고의 전문 컨텐츠로 마이크로서비스 시장을 선도할 클라우드 네이티브 전문가를 배출하고 있습니다.</p>
             <div style="margin-bottom: 15px; line-height: 1.5; color:#444d56;">
                 MSA School은 분석, 설계에서 구현, 배포까지 마이크로서비스 전 생명주기를 지원하는 학습 교구와 전문 커리큘럼으로 End-to-End 학습 및 실습이 가능한 환경을 제공합니다.
@@ -31,7 +31,8 @@
                 </v-btn>
             </a>
         </div>
-        <div class="content">
+       
+        <div>
             <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
             <v-row class="ma-0 pa-0">
                 <v-col v-for="(learningParish, index) in learningParishs" :key="index"
@@ -55,16 +56,81 @@
                     </a>
                 </v-col>
             </v-row>
+            
+        
             <div style="margin-top: 10px; margin-bottom: 15px; line-height: 1.5; color:#444d56;">
                 MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 CNA 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
             <div style="color:#444d56;">
                 설치가 필요없이 100% 브라우저 기반에서 동작하며 협업기반의 팀워크를 지원하는 최신의 OpenAI 엔진들이 탑재되어 비즈니스 기획자, 데브옵스 개발자, 클라우드 운영자를 위애 비즈니스 기획에서 구현, 테스트, 배포를 아우르는 클라우드 네이티브한 task들을 자동화하며 다양한 애자일한 경험들을 제공합니다.
             </div>
+
+            
+            <h3 style="margin-top: 20px;">마이크로서비스 아키텍처 도구 비교</h3>
+            <table class="tbl-ez" style="width:100%;">
+                <th style="padding: 0 !important;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">제품명</div>
+                </th>
+                <th style="padding: 0;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">오픈소스</div>
+                </th>
+                <th style="padding: 0;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">코드생성기능</div>
+                </th>
+                <th style="padding: 0;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">AI기능</div>
+                </th>
+                <th style="padding: 0;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">모델링 도구</div>
+                </th>
+                <th style="padding: 0;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">국내지원여부</div>
+                </th>
+                <th style="padding: 0;">
+                    <div class="tbl-title-ai mobile" style="color: #fff; margin-left: 1px;">프레임워크 종속성</div>
+                </th>
+
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td class="main-table-subtitle" style="text-align:center; text-decoration: underline;">MSAEZ</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td class="main-table-subtitle" style="text-align:center;">ContextMapper</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td class="main-table-subtitle" style="text-align:center;">QLERIFY</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">△</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #aaa;">
+                    <td class="main-table-subtitle" style="text-align:center;">vLINGO</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                    <td style="border-left: 1px solid #aaa;">X</td>
+                    <td style="border-left: 1px solid #aaa;">O</td>
+                </tr>
+            </table>
         </div>
 
         <!-- <div class="content banner-pc" style="margin-top:-20px;">
             <h3 class="con-tit w190">Upcoming Event</h3>
-            <a :href="'/operation/education/ai-curriculum'">
+            <a :href="'/operation/introduction/ai-curriculum'">
                 <g-image style="width: 100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/7690662d-1544-41dc-8088-6566412af6f1">
                 </g-image>
@@ -72,7 +138,7 @@
         </div>
         <div class="content banner-mo" style="margin-top:-20px;">
             <h3 class="con-tit w190">Upcoming Event</h3>
-            <a :href="'/operation/education/ai-curriculum'">
+            <a :href="'/operation/introduction/ai-curriculum'">
                 <g-image style="width: 100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/fda15811-423b-4992-893d-e66b9fdffe37">
                 </g-image>

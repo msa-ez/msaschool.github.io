@@ -16,7 +16,7 @@
                     • 최대인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/quick-understanding-cna/">
+                    <a href="/operation/introduction/quick-understanding-cna/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -43,7 +43,7 @@
                     • MSAEz 및 Gitpod 연동 기능 제공<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/online-class/">
+                    <a href="/operation/introduction/online-class/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -71,7 +71,7 @@
                     • 최소인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/flipped-learning4-days-cna-course/">
+                    <a href="/operation/introduction/flipped-learning4-days-cna-course/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -99,7 +99,7 @@
                     • 최소인원 20명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/standard-cna/">
+                    <a href="/operation/introduction/standard-cna/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -129,7 +129,7 @@
                     • 최대인원 10명<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/one-point-lesson/">
+                    <a href="/operation/introduction/one-point-lesson/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -156,7 +156,7 @@
                     • CSP(AWS, Azure, GCP) 택 1<br>
                 </div>
                 <div style="text-align:center; height:90px; line-height:70px;">
-                    <a href="/operation/education/enterprise-full-day14-days-course/">
+                    <a href="/operation/introduction/enterprise-full-day14-days-course/">
                         <button class="card-details-btn">세부사항</button>
                     </a>
                 </div>
@@ -174,7 +174,7 @@
 </template>
 
 <script>
-        // @group 07_02_05
+        // @group 01_01_05
     export default {
         name:'curriculum',
         data() {
@@ -183,7 +183,7 @@
             }
         },
         props: {
-            "3. Intermediate Course": {
+            "Intermediate 과정": {
                 type: String
             },
         },

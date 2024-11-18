@@ -112,7 +112,7 @@ Eureka client는 Eureka(service registry)에 서비스 등록/해제를 자동�
 
 
 <script>
-    // @group 02_02_07
+    // @group 02_02_11
     export default {
         name: 'DesignSix',
         props: {
