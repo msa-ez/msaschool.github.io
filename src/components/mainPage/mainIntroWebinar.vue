@@ -27,69 +27,33 @@
                         line-height: 36px;
                         font-size: 14px;
                         font-weight: 700;"
-                    ><span style="color:white;">MSA Easy 이동</span>
+                    ><span style="color:white;">학습 교구 사용하기</span>
                 </v-btn>
             </a>
         </div>
         <div class="content">
             <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
-            <v-row style="margin:0;">
-                <a href="https://youtu.be/sAdJOxv-qKo" target="_blank">
-                    <div
-                    class="clearfix msaez-card-box"
-                    outlined
-                    >
-                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/a8c3a161-b5eb-40b6-b28e-5d197ecc9ab1">
-                        </g-image>
-                        <div>
-                            <div class="card-main-text">Customer Journey Map</div>
-                            <div class="card-sub-text">페르소나의 Pain-Point에 대한 솔루션 도출</div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://youtu.be/2S1Zb_oDcuc" target="_blank">
-                    <div
-                    class="clearfix msaez-card-box"
-                    outlined
-                    >
-                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/55f5e9fc-1dc9-4a10-af5b-8593f91937dc">
-                        </g-image>
-                        <div>
-                            <div class="card-main-text">Business Model Canvas</div>
-                            <div class="card-sub-text">비즈니스에 필요한 요소를 분석하고 시각화하기</div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://youtu.be/FeQEKhKXrmQ" target="_blank">
-                    <div
-                        class="clearfix msaez-card-box"
-                        outlined
-                    >
-                        <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/9f526b81-99d9-4309-b219-11106c90cc53">
-                        </g-image>
-                        <div>
-                            <div class="card-main-text">Eventstorming Model</div>
-                            <div class="card-sub-text">도메인 이벤트를 도출하고 시스템을 설계</div>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://youtu.be/ZLAGzlAeviM" target="_blank">
-                    <div
-                        class="clearfix msaez-card-box"
-                        outlined
-                    >
-                        <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                            src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/5d6292c6-e2b0-40c1-9c86-1876937955a0">
-                        </g-image>
-                        <div>
-                            <div class="card-main-text">Auto Code Gen</div>
-                            <div class="card-sub-text">완성된 모델에 템플릿을 적용해 코딩 작업 최소화</div>
-                        </div>
-                    </div>
-                </a>
+            <v-row class="ma-0 pa-0">
+                <v-col v-for="(learningParish, index) in learningParishs" :key="index"
+                    cols="12" md="6" lg="3"
+                    class="ma-0 pa-2"
+                    style="text-align: center;"
+                >
+                    <a :href="learningParish.link" target="_blank">
+                        <v-card style="padding:10px;"
+                            class="clearfix"
+                            outlined
+                        >
+                            <g-image class="youtube-card-image"
+                                    :src="learningParish.image">
+                            </g-image>
+                            <div>
+                                <div class="card-main-text">{{ learningParish.mainText }}</div>
+                                <div class="card-sub-text">{{ learningParish.subText }}</div>
+                            </div>
+                        </v-card>
+                    </a>
+                </v-col>
             </v-row>
             <div style="margin-top: 10px; margin-bottom: 15px; line-height: 1.5; color:#444d56;">
                 MSA Easy는 Biz-Dev-Ops 전 라이프사이클에 걸쳐 ChatGPT를 활용한 자동화 및 가이드 기능을 지원하고 있어 애자일한 CNA 구현에 필요한 최적의 수행 환경을 제공합니다.            </div>
@@ -158,123 +122,22 @@
         </v-slide-group> -->
 
         <v-row style="margin:0;">
-            <!-- 5번 카드 -->
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8ZWYu6M7agDdpuoiNXXSAe" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                        src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/b444ccb5-cfce-4abd-b2cd-0982edbb6394">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2024년 6월 웨비나</div>
-                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계 Part 3: 쿠버네티스 Patterns</div>
+            <v-col v-for="(webinar, index) in webinars" :key="index" cols="12" md="6" lg="4">
+                <a :href="webinar.link" target="_blank">
+                    <div
+                        class="clearfix youtube-card-box"
+                        outlined
+                    >
+                        <g-image class="youtube-card-image" style="border: 1px solid #eee;"
+                                :src="webinar.image">
+                        </g-image>
+                        <div>
+                            <div class="card-main-text">{{ webinar.mainText }}</div>
+                            <div class="card-sub-text">{{ webinar.subText }}</div>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW-FDEB44rFm1b95oH_tIL5B" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/595dc8f5-a4d0-4ecf-86b7-16b670a39a01">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2024년 5월 웨비나</div>
-                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계 Part 2: MSA의 구현</div>
-                    </div>
-                </div>
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9eV2YUvvtkJDI_DTBqziYV" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                        src="https://github.com/msa-ez/msa-ez-kor.github.io/assets/113568664/6ea66bc7-f3dd-45c5-87cf-1e3517817d36">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2024년 4월 웨비나</div>
-                        <div class="card-sub-text">전자정부 표준 프레임워크 기반의 CNA 설계 Part 1: DDD와 이벤트스토밍</div>
-                    </div>
-                </div>
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_j5qld31Owdmf1XvqAinR1" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image" style="border: 1px solid #eee;"
-                        src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/c080271b-d7dc-4e5e-ba90-ba8af41b792d">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2024년 1월 웨비나</div>
-                        <div class="card-sub-text">생성형 AI를 이용한 SW아키텍처링과 마이크로서비스 구현</div>
-                    </div>
-                </div>
-            </a>
-            <!-- 4번 카드 -->
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image"
-                        src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/517e2fc5-3064-4534-9e9c-bce75838404f">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2023년 11월 웨비나</div>
-                        <div class="card-sub-text">오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개</div>
-                    </div>
-                </div>
-            </a>
-            <!-- 3번 카드 -->
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image"
-                        src="https://github.com/msa-ez/msaschool.github.io/assets/113568664/bc3467a2-2b1e-4eab-abd3-bdd490a3b6a6">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2023년 10월 웨비나</div>
-                        <div class="card-sub-text">ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!</div>
-                    </div>
-                </div>
-            </a>
-            <!-- 2번 카드 -->
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image"
-                        src="https://github.com/kykim97/factory-pattern/assets/113568664/1b393e58-f09d-4fdc-9126-244ac4a5d98c">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">2023년 8월 웨비나</div>
-                        <div class="card-sub-text">ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기</div>
-                    </div>
-                </div>
-            </a>            
-            <!-- 1번 카드 -->
-            <a href="https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY" target="_blank">
-                <div
-                    class="clearfix youtube-card-box"
-                    outlined
-                >
-                    <g-image class="youtube-card-image"
-                        src="https://github.com/kykim97/factory-pattern/assets/113568664/271e0ff2-5aaf-4f73-a27b-c62e14a41fbb">
-                    </g-image>
-                    <div>
-                        <div class="card-main-text">7월 웨비나</div>
-                        <div class="card-sub-text">ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기</div>
-                    </div>
-                </div>
-            </a>
+                </a>
+            </v-col>
         </v-row>
         <!-- <div style="width:100%; height:3px; background-color:#E2E8F0;margin-top: 20px;"></div>
         <div style="width:100%; height:12px; background-color:#ebf0f4;"></div> -->
@@ -317,7 +180,34 @@ export default {
                     youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY",
                     imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/4ab69e92-c87a-4acf-a722-0f175115ae81"
                 }
-            ]
+            ],
+            learningParishs: [
+                {
+                    link: "https://youtu.be/sAdJOxv-qKo",
+                    image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/a8c3a161-b5eb-40b6-b28e-5d197ecc9ab1",
+                    mainText: "Customer Journey Map",
+                    subText: "페르소나의 Pain-Point에 대한 솔루션 도출"
+                },
+                {
+                    link: "https://youtu.be/2S1Zb_oDcuc",
+                    image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/55f5e9fc-1dc9-4a10-af5b-8593f91937dc",
+                    mainText: "Business Model Canvas",
+                    subText: "비즈니스에 필요한 요소를 분석하고 시각화하기"
+                },
+                {
+                    link: "https://youtu.be/FeQEKhKXrmQ",
+                    image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/9f526b81-99d9-4309-b219-11106c90cc53",
+                    mainText: "Eventstorming Model",
+                    subText: "도메인 이벤트를 도출하고 시스템을 설계"
+                },
+                {
+                    link: "https://youtu.be/ZLAGzlAeviM",
+                    image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/5d6292c6-e2b0-40c1-9c86-1876937955a0",
+                    mainText: "Auto Code Gen",
+                    subText: "완성된 모델에 템플릿을 적용해 코딩 작업 최소화"
+                }
+            ],
+            
         }
     },
     mounted() {

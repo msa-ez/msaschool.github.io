@@ -308,14 +308,14 @@ button:focus{
 
 .youtube-card-image {
     height: 180px;
-    width: 280px;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
 }
 .ai-card-image {
     height: 160px;
-    width: 280px;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
