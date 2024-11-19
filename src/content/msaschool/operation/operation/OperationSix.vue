@@ -18,8 +18,12 @@ Stackdriver Logging은 대규모로 실행되며 수천 개의 VM 에서 애플�
 > - Fluentd 에이전트를 활용한 AWS 로그 통합
 > - BigQuery를 사용한 로그 분석
 추가 기능 및 상세한 설명에 대해서는 Google 온라인 문서를 통해 확인 가능합니다.
-☞ [GCP Logging 상세정보 보기](https://cloud.google.com/logging?hl=ko "GCP Logging 상세정보 보기")
-
+        </mark-down>
+		<a href="https://cloud.google.com/logging?hl=ko" 
+			class="markdown-body-text-btn"
+			target="_blank"
+		>GCP Logging 상세정보 보기</a>
+		<mark-down class="content">
 #### 로그 뷰어 접속하기
 - GCP 메뉴의 'OPERATIONS > 로그 기록 > 로그 뷰어' 메뉴로 접속합니다.
         </mark-down>
@@ -67,12 +71,19 @@ GCP 모니터링 도구는 플랫폼에서 수집하는 Metric 정보를 기반�
 > - E-Mail, SMS를 통한 알림 규칙 알림 (Log Alerting)
 > - 업타임 모니터링
 
-추가 기능 및 상세한 설명에 대해서는 Google 온라인 문서를 통해 확인 가능합니다. ☞ [GCP Monitoring 상세정보 보기](https://cloud.google.com/monitoring?hl=ko "GCP Monitoring 상세정보 보기")
+추가 기능 및 상세한 설명에 대해서는 Google 온라인 문서를 통해 확인 가능합니다.
 
+        </mark-down>
+		<a href="https://cloud.google.com/monitoring?hl=ko" 
+			class="markdown-body-text-btn"
+			target="_blank"
+		>GCP Monitoring 상세정보 보기
+		</a>
+		<mark-down class="content">
 #### 모니터링 화면 접속하기
 
 GCP 메뉴의 'OPERATIONS > 모니터링 > 모니터링 개요' 메뉴로 접속합니다.
-        </mark-down>
+		</mark-down>
         <g-image
                 src="~/img/03_Bizdevops/06_운영/06/image5.jpg"
         ></g-image>
@@ -141,8 +152,16 @@ GCP Tracing 은 추적과 관련된 기본 기능을 제공합니다.
 > - 추적을 위한 Metric 설정
 > - 분석 보고서 생성
 > - 지연시간 변동 감지
-추가 기능 및 상세한 설명에 대해서는 Google 온라인 문서를 통해 확인 가능합니다. ☞ [GCP Tracing 상세정보 보기](https://cloud.google.com/trace?hl=ko "GCP Tracing 상세정보
-보기")
+추가 기능 및 상세한 설명에 대해서는 Google 온라인 문서를 통해 확인 가능합니다.
+	</mark-down>
+
+	<a href="https://cloud.google.com/trace?hl=ko" 
+		class="markdown-body-text-btn"
+		target="_blank"
+	>GCP Tracing 상세정보 보기
+	</a>
+
+	<mark-down class="content">
 #### Tracing(추적) 화면 접속하기
 GCP 메뉴의 'OPERATIONS > 추적 > 개요' 메뉴로 접속합니다.
         </mark-down>

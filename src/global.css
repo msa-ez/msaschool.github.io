@@ -12,6 +12,13 @@ table td:last-child, table th:last-child {
     position: sticky;
 }
 
+.markdown-body-text-btn {
+    color: #5A67D8 !important;
+    font-weight: 700 !important;
+    display: block !important;
+    margin:15px 0px 15px 0px!important;
+}
+
 .gs-top-apply-btn {
     background-color:#5a67d8 !important;
     color:white !important;

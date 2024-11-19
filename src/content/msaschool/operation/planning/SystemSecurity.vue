@@ -19,10 +19,15 @@ GCP 의 보안 모델은 엔드 투 엔드 프로세스로, G-Mail, 검색 및 �
 GCP 쿠버네티스 엔진에서 실행 중인 서비스에 대해, 성능 테스트를 목적으로 부하(Load)를 일정 수준 이상으로 높이면 GCP 는 이를 DDoS 공격으로 인식, 요청 정보의 유입을 원천적으로 차단합니다.
 
 GCP 플렛폼이 제공하는 스텍별 상세 보안 메카니즘은 아래에서 확인 가능합니다.
+</mark-down>
 
-> ☞ [구글 클라우드 플랫폼 보안정책 보기](https://cloud.google.com/security/overview?hl=ko "구글 클라우드 플랫폼 보안정책 보기")
+<a href="https://cloud.google.com/security/overview?hl=ko" 
+    class="markdown-body-text-btn"
+    target="_blank"
+>구글 클라우드 플랫폼 보안정책 보기
+</a>
 
-
+<mark-down class="content">
 ### 도커 이미지(Docker Image) 취약점 보안
 
 GCP 는 도커 이미지 저장소인 컨테이너 레지스트리(Container Registry)를 제공합니다.
@@ -54,8 +59,15 @@ GCP 의 컨테이너 레지스트리에 대한 취약점 분석은 2가지 작�
 웹 애플리케이션 취약점은 마이크로서비스를 구현하는 소스코드 레벨에서 인증, 인가를 비롯한 기본적인 웹 기반 취약점에 대해 사전 고려해야 하는 보안 요소입니다.
 > - 웹 어플리케이션의 경우, SQL Injection, Cross Site Scripting 등 악의의 사용자로부터 침투 가능한 보안 허점들이 공개 되어 있습니다.
 >
-> ☞ [OWASP(The Open Web Application Security Project) 대표 웹 취약점](https://owasp.org/www-project-top-ten/ "OWASP 대표 웹 취약점 보기")
+    </mark-down>
 
+    <a href="https://owasp.org/www-project-top-ten/" 
+        class="markdown-body-text-btn"
+        target="_blank"
+    >OWASP(The Open Web Application Security Project) 대표 웹 취약점 보기
+    </a>
+    
+    <mark-down class="content">
 마이크로서비스 구현 시, 보안 적용에 대해서는 **[설계/구현/운용단계 > 설계 > 마이크로서비스 보안설계](https://www.msaschool.io/operation/design/design-seven/)** 페이지에서 자세히 소개 합니다.
 
 프로덕션 단계 전, 구현된 애플리케이션을 대상으로 모의 테스트를 실시해 보안 누수가 있는지 사전 테스트가 필요합니다. 이를 위해 GCP 에서는 클라우드 보안 스캐너(Cloud Security Scanner)를 무료로 제공하고 있습니다.
@@ -63,12 +75,17 @@ GCP 의 컨테이너 레지스트리에 대한 취약점 분석은 2가지 작�
 클라우드 보안 스캐너는 App Engine, Compute Engine, Google Kubernetes Engine 애플리케이션의 일반적인 취약점을 탐지하는 웹 보안 스캐너입니다.
 
 구현한 12st 쇼핑몰에 대해 스캔 설정(즉시 스캔, 예약 스캔)을 완료하게 되면, 크로스 사이트 스크립팅(XSS), 플래시 삽입, 혼합 콘텐츠(HTTPS 내 HTTP 삽입), 구버전 및 취약 라이브러리 등의 일반적인 취약점을 자동으로 스캔하여 탐지합니다.
+    </mark-down>
 
+    <a href="https://cloud.google.com/security-scanner?hl=ko" 
+        class="markdown-body-text-btn"
+        target="_blank"
+    >구글 클라우드 보안 스캐너 보기
+    </a>
 
-> ☞ [구글 클라우드 보안 스캐너](https://cloud.google.com/security-scanner?hl=ko "구글 클라우드 보안 스캐너 보기")
-
+    <mark-down class="content">
 **웹 어플리케이션 구현 시, 보안 체크 포인트를 고려한 코딩이 전제되어야 하고, 프로덕션 단계 전 GCP 가 제공하는 보안 스캐너를 통해 웹 취약점을 진단, 보안 누수를 차단합니다.**
-        </mark-down>
+    </mark-down>
     </div>
 </template>
 
