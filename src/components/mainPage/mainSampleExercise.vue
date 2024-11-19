@@ -25,31 +25,6 @@
                 </a>
             </v-col>
         </v-row>
-
-
-        <!-- 제거할 row -->
-        <v-row class="ma-0 pa-0">
-            <v-col v-for="(webinar, index) in webinars" :key="index"
-                cols="12" sm="6" md="6" lg="3"
-                class="ma-0 pa-2"
-                style="text-align: center;"
-            >
-                <a :href="webinar.link" target="_blank">
-                    <v-card style="padding:10px;"
-                        class="clearfix"
-                        outlined
-                    >
-                        <g-image class="youtube-card-image"
-                                :src="webinar.image">
-                        </g-image>
-                        <div>
-                            <div class="card-main-text">{{ webinar.mainText }}</div>
-                            <div class="card-sub-text">{{ webinar.subText }}</div>
-                        </div>
-                    </v-card>
-                </a>
-            </v-col>
-        </v-row>
     </div>
 </template>
 
