@@ -1,11 +1,11 @@
 .clearfix::after{content:""; display:block; clear:both;}
 
 table td:first-child, table th:first-child {
-    padding-left: 13px !important;
+    padding-left: 10px !important;
 }
 
 table td:last-child, table th:last-child {
-    padding-right: 13px !important;
+    padding-right: 10px !important;
 }
 
 .layout-header-box {

@@ -6,7 +6,7 @@
         </div>
         <br>
         <div class="is-not-mobile-main-top">
-            <div style = "font-size: 16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
+            <div style = "font-size: 16px; font-weight: 600; margin-bottom: 10px;">교육 과정 개요</div>
             <table class="tbl-edu" style="width:100%;">
                 <th style="padding: 0 !important;">
                     <div class="tbl-title" style="width: 97%;">
@@ -15,17 +15,17 @@
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/fundamental/">Fundamental</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/fundamental/">기초 과정</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/curriculum/">Intermediate</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/curriculum/">중급 과정</a>
                     </div>
                 </th>
                 <th style="padding: 0;">
                     <div class="tbl-title">
-                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/advanced/">Advanced</a>
+                        <a class="tbl-title-txt" style="color: #fff;" href="/operation/introduction/advanced/">고급 과정</a>
                     </div>
                 </th>
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -177,9 +177,9 @@
         </div>
 
         <div class="is-mobile-main-top">
-            <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 Overview</div>
+            <div style = "font-size:16px; font-weight: 600; margin-bottom: 10px;">교육 과정 개요</div>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/fundamental/">Fundamental</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/fundamental/">기초 과정</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -234,7 +234,7 @@
                 </tr>
             </table>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/curriculum/">Intermediate</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/curriculum/">중급 과정</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">
@@ -294,7 +294,7 @@
                 </tr>
             </table>
             <div class="tbl-title">
-                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/advanced/">Advanced</a>
+                <a class="tbl-title-txt" style="color:#fff;" href="/operation/introduction/advanced/">고급 과정</a>
             </div>
             <table style="width: 100%;">
                 <tr style="border-bottom: 1px solid #aaa;">

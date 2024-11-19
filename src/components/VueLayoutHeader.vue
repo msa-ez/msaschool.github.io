@@ -33,12 +33,11 @@
         
         <!-- 모바일 화면  -->
         <div class="is-mobile-header">
-            <div class="flex item-center justify-center">
-                <div class="flex flex-col items-center  sm:flex-row" style="margin-left:40px; place-self:center; ">
+            <v-row class="ma-0 pa-0 pl-4 pr-2">
+                <div>
                     <g-link
                         to="/operation/introduction/"
                         title="Home"
-                        style="margin-right:190px;"
                     >
                         <Logo/>
                     </g-link>
@@ -46,21 +45,20 @@
                         <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
                 </div>
-                <v-row style="margin:0px; padding:0px;" justify="end">
-                    <v-col cols="auto" class="mobile-header-btn-box">
-                        <v-btn class="main-top-btn mb-2"
-                                :href="'/operation/introduction/one-point-lesson/'"
-                        >
-                            <span style="color:white;">컨설팅 문의</span>
-                        </v-btn>
-                        <v-btn class="main-top-btn"
-                                :href="'/operation/introduction/schedule/'"
-                        >
-                            <span style="color:white;">교과정 안내</span>
-                        </v-btn>
-                    </v-col>
-                </v-row>
-            </div>
+                <v-spacer></v-spacer>
+                <div style="display: flex; flex-direction: column;">
+                    <v-btn class="main-top-btn mb-2"
+                            :href="'/operation/introduction/one-point-lesson/'"
+                    >
+                        <span style="color:white;">컨설팅 문의</span>
+                    </v-btn>
+                    <v-btn class="main-top-btn"
+                            :href="'/operation/introduction/schedule/'"
+                    >
+                        <span style="color:white;">교과정 안내</span>
+                    </v-btn>
+                </div>
+            </v-row>
         </div>
     </div>
 </template>

@@ -143,7 +143,7 @@ export default {
     height: 45px;
     line-height: 45px;
     margin-bottom: 2px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .tbl-title-txt {
