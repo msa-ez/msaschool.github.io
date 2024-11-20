@@ -34,11 +34,9 @@
        
         <div>
             <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
-            <v-row class="ma-0 pa-0">
-                <v-col v-for="(learningParish, index) in learningParishs" :key="index"
-                    cols="12" sm="6" md="6" lg="3"
-                    class="ma-0 pa-2"
-                    style="text-align: center;"
+            <div class="default-row">
+                <div v-for="(learningParish, index) in learningParishs" :key="index"
+                    class="default-col text-center"
                 >
                     <v-card style="padding:10px; height:100%;"
                         class="clearfix"
@@ -56,8 +54,8 @@
                             <div class="card-sub-text">{{ learningParish.subText }}</div>
                         </div>
                     </v-card>
-                </v-col>
-            </v-row>
+                </div>
+            </div>
             
         
             <div style="margin-top: 10px; margin-bottom: 15px; line-height: 1.5; color:#444d56;">
@@ -189,11 +187,9 @@
             </v-slide-item> 
         </v-slide-group> -->
 
-        <v-row class="ma-0 pa-0">
-            <v-col v-for="(webinar, index) in webinars" :key="index"
-                cols="12" sm="6" md="6" lg="3"
-                class="ma-0 pa-2"
-                style="text-align: center;"
+        <div class="default-row">
+            <div v-for="(webinar, index) in webinars" :key="index"
+                class="default-col text-center"
             >
                 <a :href="webinar.link" target="_blank">
                     <v-card style="padding:10px; height:100%;"
@@ -209,8 +205,8 @@
                         </div>
                     </v-card>
                 </a>
-            </v-col>
-        </v-row>
+            </div>
+        </div>
         <!-- <div style="width:100%; height:3px; background-color:#E2E8F0;margin-top: 20px;"></div>
         <div style="width:100%; height:12px; background-color:#ebf0f4;"></div> -->
     </div>

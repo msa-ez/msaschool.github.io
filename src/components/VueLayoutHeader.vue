@@ -33,8 +33,8 @@
         
         <!-- 모바일 화면  -->
         <div class="is-mobile-header">
-            <v-row class="ma-0 pa-0 pl-4 pr-2">
-                <div>
+            <v-row class="ma-0 pa-0 pl-4 pr-2" style="display: flex; justify-content: space-between; align-items: center; margin:0px;">
+                <div style="padding:0px 0px 0px 30px; display: flex; align-items: center;">
                     <g-link
                         to="/operation/introduction/"
                         title="Home"
@@ -45,15 +45,14 @@
                         <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
                 </div>
-                <v-spacer></v-spacer>
-                <div style="display: flex; flex-direction: column;">
+                <div style="display: flex; flex-direction: column; align-items: flex-end;">
                     <v-btn class="main-top-btn mb-2"
-                            :href="'/operation/introduction/one-point-lesson/'"
+                        :href="'/operation/introduction/one-point-lesson/'"
                     >
                         <span style="color:white;">컨설팅 문의</span>
                     </v-btn>
                     <v-btn class="main-top-btn"
-                            :href="'/operation/introduction/schedule/'"
+                        :href="'/operation/introduction/schedule/'"
                     >
                         <span style="color:white;">교과정 안내</span>
                     </v-btn>

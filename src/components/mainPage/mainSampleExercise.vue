@@ -3,11 +3,9 @@
         <div style="margin-top: 30px;" class="content">
             <h3 class="con-tit w280">MSA School 교과정 맛보기</h3>
         </div>
-        <v-row style="margin:0;">
-            <v-col v-for="(exercise, index) in exercises" :key="index"
-                cols="12" sm="6" md="6" lg="3"
-                class="ma-0 pa-2"
-                style="text-align: center;"
+        <div class="default-row" style="margin:0;">
+            <div v-for="(exercise, index) in exercises" :key="index"
+                class="default-col text-center"
             >
                 <a :href="exercise.link" target="_blank">
                     <v-card style="padding:10px; height:100%;"
@@ -23,8 +21,8 @@
                         </div>
                     </v-card>
                 </a>
-            </v-col>
-        </v-row>
+            </div>
+        </div>
     </div>
 </template>
 

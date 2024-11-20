@@ -34,6 +34,7 @@
                     <footer
                             ref="footer"
                             class="top-0 z-10 border-b bg-ui-background border-ui-border"
+                            style="width: 100%;"
                     >
                         <VueLayoutFooter @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutFooter>
                     </footer>
@@ -165,14 +166,14 @@
         computed: {
             mainStyleBySize() {
                 if (this.small) {
-                    return "margin-top: -10% !important;"
+                    return "margin-top: 20px !important;"
                 } else {
                     return "!important; margin-top: 3% !important; margin-left:-1%; padding-left:3% !important; padding-bottom:30px;"
                 }
             },
             headStyleBySize() {
                 if (this.small) {
-                    return {position: 'sticky', width: '100%',}
+                    return {position: 'absolute;', width: '100%',}
                 } else {
                     return {position: 'fixed', width: '100%'}
                 }
@@ -1348,8 +1349,9 @@
             
             &.open {
                 transform: translateX(0);
-                top: 99px !important;
-                height:calc(100vh - 100px) !important;
+                padding-bottom:50px !important;
+                top: 93px !important;
+                height:100% !important;
             }
 
             @screen lg {

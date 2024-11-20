@@ -12,7 +12,7 @@
             <g-image class="is-not-mobile-main-top" style="margin: 10px 10px 0 0; width: 100%;"
                 src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/cf110a54-e7ad-4ba3-99dd-8ff8d2825b39">
             </g-image>
-            <g-image class="is-mobile-main-top" style="margin: 10px 10px 0 0; width: 100%; max-width: 700px;"
+            <g-image class="is-mobile-main-top" style="margin: 10px 10px 0 0; width: 100%;"
                 src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/9c103798-766f-4476-8f60-3f45e0a93d48">
             </g-image>
         </v-row>
