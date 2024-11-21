@@ -1,6 +1,6 @@
 <template>
     <div class="font-sans antialiased text-ui-typo bg-ui-background layout-header-box">
-        <v-app>
+        <v-app class="main-app-box">
                 <div class="flex flex-col justify-start min-h-screen">
                     <header
                             ref="header"

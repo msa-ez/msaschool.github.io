@@ -23,8 +23,8 @@ table td:last-child, table th:last-child {
     position: sticky;
 }
 
-.v-application--wrap {
-    max-width: none !important;
+.main-app-box {
+    width: fit-content !important;
 }
 
 .markdown-body-text-btn {
