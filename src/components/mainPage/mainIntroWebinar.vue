@@ -33,7 +33,9 @@
         </div>
        
         <div>
-            <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
+            <div class="content">
+                <p style="font-weight: 700;">MSA School에서 사용하는 학습 교구 MSA Easy는 마이크로서비스의 분석, 설계, 구현 및 운영을 지원하도록 설계된 통합 플랫폼입니다.</p>
+            </div>
             <div class="default-row">
                 <div v-for="(learningParish, index) in learningParishs" :key="index"
                     class="default-col text-center"
