@@ -1,71 +1,71 @@
 <template>
-    <div class="font-sans antialiased text-ui-typo bg-ui-background layout-header-box">
+    <div class="font-sans antialiased text-ui-typo bg-ui-background">
         <v-app class="main-app-box">
-                <div class="flex flex-col justify-start min-h-screen">
-                    <header
-                            ref="header"
-                            class="top-0 z-10 border-b bg-ui-background border-ui-border"
-                            :style="headStyleBySize"
-                            @resize="setHeaderHeight"
+            <div class="flex flex-col justify-start min-h-screen" style="width: 100vw !important; margin-top:57px;">
+                <header
+                        ref="header"
+                        class="top-0 z-10 border-b bg-ui-background border-ui-border layout-header-box"
+                        :style="headStyleBySize"
+                        @resize="setHeaderHeight"
+                >
+                    <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
+                </header>
+
+                <main style="max-width:100%; padding-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background is-mobile-main">
+                    <aside
+                            v-if="hasSidebar"
+                            class="sidebar"
+                            :class="{ 'open': sidebarOpen }"
+                            :style="sidebarStyle"
                     >
-                        <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
-                    </header>
-
-                    <main style="max-width:100%; padding-left:2.5%; padding-right:0;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background is-mobile-main">
-                        <aside
-                                v-if="hasSidebar"
-                                class="sidebar"
-                                :class="{ 'open': sidebarOpen }"
-                                :style="sidebarStyle"
-                        >
-                            <div class="w-full mt-0 pb-16 bg-ui-background">
-                                <ClientOnly>
-                                    <VueSidebar @navigate="sidebarOpen = false" @sidebarState="sidebarState"/>
-                                </ClientOnly>
-                            </div>
-                        </aside>
-
-                        <div class="is-mobile-contents"
-                            :class="{ 'pl-0 lg:pl-12 lg:w-4/5': hasSidebar }"
-                            :style="mainStyleBySize">
-                            <slot/>
+                        <div class="w-full mt-0 pb-16 bg-ui-background">
+                            <ClientOnly>
+                                <VueSidebar @navigate="sidebarOpen = false" @sidebarState="sidebarState"/>
+                            </ClientOnly>
                         </div>
-                    </main>
-                    <footer
-                            ref="footer"
-                            class="top-0 z-10 border-b bg-ui-background border-ui-border"
-                            style="width: 100%;"
-                    >
-                        <VueLayoutFooter @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutFooter>
-                    </footer>
-                </div>
+                    </aside>
 
-                <!-- <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
-                    <button class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
-                            @click="openComplexBtn()">
-                        <MenuIcon/>
-                    </button>
-                </div> -->
-                            <!-- @mouseover="openMenuList()"
-                            @mouseleave="closeMenuList()" -->
+                    <div class="is-mobile-contents"
+                        :class="{ 'pl-0 lg:pl-12 lg:w-4/5': hasSidebar }"
+                        :style="mainStyleBySize">
+                        <slot/>
+                    </div>
+                </main>
+                <footer
+                        ref="footer"
+                        class="z-10 border-b bg-ui-background border-ui-border"
+                        style="width: 100%;"
+                >
+                    <VueLayoutFooter @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutFooter>
+                </footer>
+            </div>
 
-                <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
-                    <button v-if="small" 
-                            class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
-                            @click="openComplexBtn()"
-                            style="margin: 0 27px 27px 0; position:relative;">
-                            <div v-if="sidebarOpen">
-                                <XIcon/>
-                            </div>
-                            <div v-else>
-                                <MenuIcon/>
-                            </div>
-                    </button>
-                    <button v-else style="background-color:#5a67d8; color:white; border-radius:100%; height:40px; width:40px; border:0; outline:0;"
-                            @click="openComplexBtn()">
-                        <span class="mdi mdi-wechat" style="font-size:30px;"></span>
-                    </button>
-                </div>
+            <!-- <div  v-if="floatMenu" style="position: fixed; z-index:999; right:5px; bottom:5px;">
+                <button class="p-2 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
+                        @click="openComplexBtn()">
+                    <MenuIcon/>
+                </button>
+            </div> -->
+                        <!-- @mouseover="openMenuList()"
+                        @mouseleave="closeMenuList()" -->
+
+            <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
+                <button v-if="small" 
+                        class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
+                        @click="openComplexBtn()"
+                        style="margin: 0 27px 27px 0; position:relative;">
+                        <div v-if="sidebarOpen">
+                            <XIcon/>
+                        </div>
+                        <div v-else>
+                            <MenuIcon/>
+                        </div>
+                </button>
+                <button v-else style="background-color:#5a67d8; color:white; border-radius:100%; height:40px; width:40px; border:0; outline:0;"
+                        @click="openComplexBtn()">
+                    <span class="mdi mdi-wechat" style="font-size:30px;"></span>
+                </button>
+            </div>
         </v-app>
     </div>
 </template>
@@ -168,7 +168,7 @@
                 if (this.small) {
                     return "margin-top: 20px !important;"
                 } else {
-                    return "!important; margin-top: 3% !important; margin-left:-1%; padding-left:3% !important; padding-bottom:30px;"
+                    return "!important; !important; margin-left:-1%; padding-left:3% !important; padding-bottom:30px;"
                 }
             },
             headStyleBySize() {

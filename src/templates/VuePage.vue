@@ -1,9 +1,7 @@
 <template>
     <vueLayout>
         <div class="flex flex-wrap items-start justify-start">
-            <div class="order-1 w-full " style="width:98%; margin-top:-10px;">
-                <v-runtime-template :template="getComponentName"/>
-            </div>
+            <v-runtime-template :template="getComponentName"/>
         </div>
     </vueLayout>
 </template>
