@@ -57,7 +57,7 @@
                 </g-link>
             </div>
         </template>
-        <div class="pa-0 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
+        <!-- <div class="pa-0 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
             클라우드 네이티브 실습
         </div>
         <div style="margin-top:5px; margin-bottom:3px;"
@@ -66,7 +66,7 @@
             <span style="font-weight: 700; font-size: 16px; cursor:pointer;">
             실습 컨텐츠
             </span>
-        </div>
+        </div> -->
         <template v-for="parent in thisSides">
             <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
                 교육 및 컨설팅
