@@ -49,11 +49,11 @@
                         <!-- @mouseover="openMenuList()"
                         @mouseleave="closeMenuList()" -->
 
-            <div style="position: fixed; z-index:999; right:5px; bottom:5px;">
+            <div style="position: fixed; z-index:999; right:28px; bottom:28px;">
                 <button v-if="small" 
-                        class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
-                        @click="openComplexBtn()"
-                        style="margin: 0 27px 27px 0; position:relative;">
+                    class="p-3 text-white rounded-full shadow-lg bg-ui-primary hover:text-white"
+                    @click="openComplexBtn()"
+                >
                         <div v-if="sidebarOpen">
                             <XIcon/>
                         </div>
@@ -61,8 +61,10 @@
                             <MenuIcon/>
                         </div>
                 </button>
-                <button v-else style="background-color:#5a67d8; color:white; border-radius:100%; height:40px; width:40px; border:0; outline:0;"
-                        @click="openComplexBtn()">
+                <button v-else 
+                    style="background-color:#5a67d8; color:white; border-radius:100%; height:48px; width:48px; border:0; outline:0;"
+                    @click="openComplexBtn()"
+                >
                     <span class="mdi mdi-wechat" style="font-size:30px;"></span>
                 </button>
             </div>
