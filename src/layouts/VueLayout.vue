@@ -170,7 +170,7 @@
                 if (this.small) {
                     return "margin-top: 20px !important;"
                 } else {
-                    return "!important; !important; margin-left:-1%; padding-left:30px !important; padding-bottom:30px;"
+                    return "!important; !important; padding-left:30px !important; padding-bottom:30px;"
                 }
             },
             headStyleBySize() {
