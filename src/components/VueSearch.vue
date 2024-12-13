@@ -136,13 +136,15 @@
                 let result = [];
                 const allPages = this.$static.allVuePage.edges.map(edge => edge.node);
 
-                // Create the array of all headings of all pages.
+                // 경로가 두 단계로 끝나는 경우 제외
                 allPages.forEach(page => {
-                    result.push({
-                        path: page.path,
-                        name: page.props[0].name,
-                        source: page.source,
-                    });
+                    if (!/^\/[^/]+\/[^/]+\/?$/.test(page.path)) {
+                        result.push({
+                            path: page.path,
+                            name: page.props[0].name,
+                            source: page.source,
+                        });
+                    }
                 });
 
                 return result;
