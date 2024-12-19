@@ -31,22 +31,23 @@
                         :class="getDetailForChildren(child)"
                     >
                         <g-link
-                        :to="child.path"
-                        class="flex items-center py-1 pt-0 pb-0"
-                        :style="styleBySize"
-                        style="display: ruby;"
-                        v-if="child.name != 'one-point-lesson'"
+                            :to="child.path"
+                            class="flex items-center py-1 pt-0 pb-0"
+                            :style="styleBySize"
+                            style="display: ruby;"
+                            v-if="child.name != 'one-point-lesson'"
                         >
                             <span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
-                            <div style="display: contents;">
+                            <div style="display: flex; align-items: center;">
                                 <div>
                                     {{child.props[0].name}}
                                 </div> 
-                                <div v-if="checkLinks(child)" style="border: 1px solid #5a67d8; border-radius: 10%; font-size: 9px; color: #5a67d8; font-weight: 700; padding: 0 2px; margin: 0 0 2px 2px;">
+                                <div v-if="checkLinks(child)" style="display: inline-block; border: 1px solid #5a67d8; border-radius: 10%; font-size: 9px; color: #5a67d8; font-weight: 700; padding: 0 2px; margin-left: 2px;">
                                     실습
                                 </div>
                             </div>
                             <!-- <pen-tool-icon v-if="checkLinks(child)" size="1x" style="margin-left: 3px; color: #5a67d8;"></pen-tool-icon> -->
+
                         </g-link>
                     </li>
                 </ul>
