@@ -172,7 +172,7 @@
             <div style="width:100%; margin-top:20px; display:inline-flex; justify-content: space-evenly; border: 1px dashed #E2E8F0; border-radius:5px; padding: 10px; box-shadow: 0 2px 2px 0 rgba(22,22,22, 0.1);">
                 <div><b>교육 문의</b> : help@uengine.org</div>
                 <div><b>정산 담당</b> : 서원주(tjdnjswn@uengine.org)</div>
-                <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
+                <a target="_blank" style="color:blue;" href="https://uenginehq.slack.com/join/shared_invite/zt-2qh7j779f-UWwa~p~OvAla7s8pjikWRw#/shared-invite/email">채팅 문의</a>
             </div>
         </div>
 
@@ -356,7 +356,7 @@
             <div style="margin-top:20px; display:flex; flex-direction: column; border: 1px dashed #E2E8F0; border-radius:5px; padding: 10px; box-shadow: 0 2px 2px 0 rgba(22,22,22, 0.1);">
                 <div style="margin-right:20px;">교육 문의 : help@uengine.org</div>
                 <div style="margin-right:20px;">정산 담당 : 서원주(tjdnjswn@uengine.org)</div>
-                <a target="_blank" style="color:blue;" href="https://open.kakao.com/o/sPDIQmEf">카카오톡 오픈채팅</a>
+                <a target="_blank" style="color:blue;" href="https://uenginehq.slack.com/join/shared_invite/zt-2qh7j779f-UWwa~p~OvAla7s8pjikWRw#/shared-invite/email">채팅 문의</a>
             </div>
         </div>
     </div>

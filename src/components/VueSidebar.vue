@@ -7,7 +7,7 @@
             <VueSearch v-if="small" style="margin-bottom:20px;"></VueSearch>
         </ClientOnly>
         <template v-for="parent in thisSides">
-            <div v-if="parent.header.props[0].name == '계획'" class="py-3 pb-1 pt-1 font-semibold uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
+            <div v-if="parent.header.props[0].name == '계획'" class="py-3 pb-1 pt-1 font-semibold uppercase border-t" style="font-size: 16px; color: #4a5567;">
                 클라우드 네이티브 학습
             </div>
             <div
@@ -34,10 +34,19 @@
                         :to="child.path"
                         class="flex items-center py-1 pt-0 pb-0"
                         :style="styleBySize"
+                        style="display: ruby;"
                         v-if="child.name != 'one-point-lesson'"
                         >
                             <span class="absolute w-2 h-2 -ml-3 rounded-full opacity-0 bg-ui-primary transition transform scale-0 origin-center"></span>
-                            {{child.props[0].name}} <pen-tool-icon v-if="checkLinks(child)" size="1x" style="margin-left: 3px; color: #5a67d8;"></pen-tool-icon>
+                            <div style="display: contents;">
+                                <div>
+                                    {{child.props[0].name}}
+                                </div> 
+                                <div v-if="checkLinks(child)" style="border: 1px solid #5a67d8; border-radius: 10%; font-size: 9px; color: #5a67d8; font-weight: 700; padding: 0 2px; margin: 0 0 2px 2px;">
+                                    실습
+                                </div>
+                            </div>
+                            <!-- <pen-tool-icon v-if="checkLinks(child)" size="1x" style="margin-left: 3px; color: #5a67d8;"></pen-tool-icon> -->
                         </g-link>
                     </li>
                 </ul>
@@ -57,18 +66,18 @@
                 </g-link>
             </div>
         </template>
-        <div class="pa-0 pt-1 pb-1 font-semibold tracking-tight uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
-            클라우드 네이티브 실습
+        <div class="pa-0 pt-1 font-semibold tracking-tight uppercase border-t" style="font-size: 16px; color: #4a5567;">
+            <div style="margin-left: 12px;">클라우드 네이티브 실습</div>
         </div>
-        <div style="margin-top:5px; margin-bottom:3px;"
+        <div style="margin: 0 0 3px 16px;"
             class="pl-4"
             onclick="location.href='http://instruction.msaschool.io/business/'">
-            <span style="font-weight: 700; font-size: 16px; cursor:pointer;">
+            <span style="font-size: 14px; cursor: pointer;">
             실습 컨텐츠
             </span>
         </div>
         <template v-for="parent in thisSides">
-            <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold uppercase border-t border-b" style="font-size: 16px; color: #4a5567;">
+            <div v-if="parent.header.props[0].name == '교육과정 소개'" class="py-3 pt-1 pb-1 font-semibold uppercase border-t" style="font-size: 16px; color: #4a5567;">
                 교육 및 컨설팅
             </div>
             <div

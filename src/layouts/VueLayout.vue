@@ -160,7 +160,7 @@
                 if (me.small) {
                     me.sidebarState()
                 } else {
-                    window.open(`https://open.kakao.com/o/sPDIQmEf`, "_blank")
+                    window.open(`https://uenginehq.slack.com/join/shared_invite/zt-2qh7j779f-UWwa~p~OvAla7s8pjikWRw#/shared-invite/email`, "_blank")
                 }
                 // https://docs.google.com/forms/d/1lXuc2MdKI4CaqF8h0DAFp6phrUS3qBm1bhxL9Oezrk0/edit
             }
