@@ -16,20 +16,6 @@
         </div>
         <div style="margin-top:70px; display: flex; justify-content: flex-start; align-items: center;">
             <h3 class="con-tit">학습 교구의 특징</h3>
-            <a href="https://www.msaez.io" target="_blank">
-                <v-btn style="background-color:#5a67d8 !important;
-                        border-radius: 4px;
-                        margin-left:30px;
-                        margin-top: -25px;
-                        height: 36px;
-                        width: 150px;
-                        text-align: center;
-                        line-height: 36px;
-                        font-size: 14px;
-                        font-weight: 700;"
-                    ><span style="color:white;">학습 교구 사용하기</span>
-                </v-btn>
-            </a>
         </div>
        
         <div>
@@ -55,6 +41,20 @@
                             <div class="card-main-text">{{ learningParish.mainText }}</div>
                             <div class="card-sub-text">{{ learningParish.subText }}</div>
                         </div>
+                            <v-btn @click="goToModel(learningParish.type)"
+                                target="_blank"
+                                style="background-color:#5a67d8 !important;
+                                    border-radius: 4px;
+                                    height: 24px;
+                                    width: 120px;
+                                    text-align: center;
+                                    line-height: 36px;
+                                    font-size: 12px;
+                                    font-weight: 500;
+                                    float: right;
+                                    margin-top: 16px;"
+                                ><span style="color:white;">학습 교구 사용하기</span>
+                            </v-btn>
                     </v-card>
                 </div>
             </div>
@@ -256,25 +256,29 @@ export default {
                 link: "https://www.youtube.com/embed/FeQEKhKXrmQ",
                 image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/9f526b81-99d9-4309-b219-11106c90cc53",
                 mainText: "Eventstorming Model",
-                subText: "도메인 이벤트를 도출하고 시스템을 설계"
+                subText: "도메인 이벤트를 도출하고 시스템을 설계",
+                type: "storming"
             },
             {
                 link: "https://www.youtube.com/embed/ZLAGzlAeviM",
                 image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/5d6292c6-e2b0-40c1-9c86-1876937955a0",
                 mainText: "Auto Code Gen",
-                subText: "완성된 모델에 템플릿을 적용해 코딩 작업 최소화"
+                subText: "완성된 모델에 템플릿을 적용해 코딩 작업 최소화",
+                type: "auto-code-gen"
             },
             {
                 link: "https://www.youtube.com/embed/sAdJOxv-qKo",
                 image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/a8c3a161-b5eb-40b6-b28e-5d197ecc9ab1",
                 mainText: "Customer Journey Map",
-                subText: "페르소나의 Pain-Point에 대한 솔루션 도출"
+                subText: "페르소나의 Pain-Point에 대한 솔루션 도출",
+                type: "cjm"
             },
             {
                 link: "https://www.youtube.com/embed/2S1Zb_oDcuc",
                 image: "https://github.com/msa-ez/msaschool.github.io/assets/113568664/55f5e9fc-1dc9-4a10-af5b-8593f91937dc",
                 mainText: "Business Model Canvas",
-                subText: "비즈니스에 필요한 요소를 분석하고 시각화하기"
+                subText: "비즈니스에 필요한 요소를 분석하고 시각화하기",
+                type: "business-model-canvas"
             }
             ],
             webinars: [
@@ -332,6 +336,24 @@ export default {
     mounted() {
 
     },
+    methods: {
+        goToModel(type) {
+            if(type === 'auto-code-gen') {
+                window.open('https://www.msaez.io/#/storming/d8525abb1acc3cf621b6aacf371fa4be', '_blank')
+            } else {
+                window.open(`https://www.msaez.io/#/${type}/${this.dbuid()}`, '_blank')
+            }
+        },
+        dbuid: function () {
+            function s4() {
+                return Math.floor((1 + Math.random()) * 0x10000)
+                    .toString(16)
+                    .substring(1);
+            }
+
+            return s4() + s4() + s4() + s4() + s4() + s4() + s4() + s4();
+        },
+    }
 }
 </script>
   
