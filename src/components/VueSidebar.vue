@@ -67,8 +67,8 @@
                 </g-link>
             </div>
         </template>
-        <div class="pa-0 pt-1 font-semibold tracking-tight uppercase border-t" style="font-size: 16px; color: #4a5567;">
-            <div style="margin-left: 12px;">클라우드 네이티브 실습</div>
+        <div class="pa-0 pt-1 font-semibold tracking-tight uppercase border-t">
+            <h3 class="pt-0 pb-0 mb-0 mt-0" style="margin-left: 12px; font-size: 16px; color: #4a5567;">클라우드 네이티브 실습</h3>
         </div>
         <div style="margin: 0 0 3px 16px;"
             class="pl-4"
