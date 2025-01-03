@@ -3,8 +3,7 @@
             @keydown.down="increment"
             @keydown.up="decrement"
             @keydown.enter="go"
-            class="relative"
-            style="margin: 5px; width:50%; left: 50%; transform: translate(-50%, 0%);"
+            class="relative is-search-box"
     >
         <label class="relative block">
             <span class="sr-only">Search Documentation</span>
@@ -194,4 +193,16 @@
 </script>
 
 <style>
+.is-search-box {
+    width:100%; 
+    left: 50%; 
+    transform: translate(-50%, 0%);
+}
+@media only screen and (max-width:720px){
+    .is-search-box {
+        width:100% !important;
+        padding:16px 0 !important;
+        margin-bottom: 0px !important;
+    }
+}
 </style>
