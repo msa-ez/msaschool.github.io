@@ -38,55 +38,55 @@ export default {
         return {
             exercises: [
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#ddd-google-drive-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271741-4e4cdd7a-37af-4445-902c-a3229c392e6e.png",
                     mainText: "[Biz] 이벤트스토밍",
                     subText: "구글 드라이브 시나리오를 기반으로 한 이벤트스토밍 예제"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#cna-start-2022-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#cna-start-2022-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271746-a3f5fce0-ad12-4cf3-88cb-a6348d990044.png",
                     mainText: "[Dev] 단위 마이크로서비스 실행",
                     subText: "Cloud IDE 기반 단위 마이크로 서비스 및 상호 테스트를 통한 점진적 구현"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#monolith-2-misvc-2022-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#monolith-2-misvc-2022-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271766-11c1234e-8ee9-4ef5-9c4a-36df00530766.png",
                     mainText: "[Dev] Req/Res 방식의 MSA 통신",
                     subText: "모놀리스와 마이크로서비스 간 또는 마이크로서비스 간의 동기식 호출 적용"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#circuit-breaker-2022-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#circuit-breaker-2022-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271764-07de1f1c-96de-49fe-99ea-d12c658a8644.png",
                     mainText: "[Dev] 서킷브레이커",
                     subText: "서비스 간 동기식 통신에서 장애 전파를 사전에 차단하는 Fail-Fast 전략 패턴"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#pub-sub-2022-assocaiate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#pub-sub-2022-assocaiate",
                     image: "https://user-images.githubusercontent.com/113568664/211271759-4bb531e0-e8ad-4964-a8f7-65ceae30c79c.png",
                     mainText: "[Dev] Pub-Sub 방식의 연동",
                     subText: "블로킹이 없고 장애가 격리되는 적용한 EDA 기반 메시지 통신 적용"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#compensation-correlation-2022-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#compensation-correlation-2022-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271747-7c7d01e4-30c6-4b44-804c-be834713d8fa.png",
                     mainText: "[Dev] Compensation & Correlation",
                     subText: "MSA 환경에서 트랜잭션 실패 시 보상처리로 정합성 관리"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#Oauth2withKeycloak-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#Oauth2withKeycloak-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271754-e0c813d9-9f85-4af5-8770-4ddce2383d90.png",
                     mainText: "[Dev] JWT 토큰 기반 인증",
                     subText: "마이크로서비스의 인증 및 권한 부여를 위한 Single-Sign-On 패턴 적용"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-frontend-2022-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-frontend-2022-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271752-19bcfa58-61f0-47ca-9e42-b3e017eda354.png",
                     mainText: "[Dev] 데이터 프로젝션 w/ 프론트엔드 & HATEOAS",
                     subText: "HATEOAS API를 구현하여 상태 전환을 위한 링크 및 기반 프론트엔드 제공"
                 },
                 {
-                    link: "https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-graphql-2022-associate",
+                    link: "https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/#dp-graphql-2022-associate",
                     image: "https://user-images.githubusercontent.com/113568664/211271748-f3662a80-cb9b-4190-96e9-33a5b244b1f5.png",
                     mainText: "[Dev] 데이터 프로젝션 w/ GraphQL",
                     subText: "데이터 구성을 위한 GraphQL 기반 백엔드 애플리케이션 생성"
