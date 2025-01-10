@@ -27,19 +27,29 @@
     - http localhost:8088
 
 - 주문 데이터를 확인 합니다. 주문 이력이 없으므로 데이터는 존재하지 않습니다.
-    - http http://localhost:8088/orders
+```
+http http://localhost:8088/orders
+```
 
 - 배송 데이터를 확인 합니다. 주문 이력이 없으므로 배송 데이터도 없습니다.
-    - http http://localhost:8088/deliveries
+```
+http http://localhost:8088/deliveries
+```
 
 - 상품 초기 데이터는 5개가 적재되어 있습니다.
-    - http http://localhost:8088/products
+```
+http http://localhost:8088/products
+```
 
 - 주문을 생성 합니다.
-    - http localhost:8088/orders productId=1 quantity=3 customerId="1@uengine.org" customerName="홍길동" customerAddr="서울시"
+```
+http localhost:8088/orders productId=1 quantity=3 customerId="1@uengine.org" customerName="홍길동" customerAddr="서울시"
+```
 
 - 주문 후 배송 상태를 확인 합니다. 두 Entity 가 연결(1:1 참조)되어 있기 때문에 배송 링크에서도 주문상태를 볼 수 있습니다.
-    - http http://localhost:8088/deliveries
+```
+http http://localhost:8088/deliveries
+```
         </mark-down>
         <g-image src="~/img/03_Bizdevops/03_구현/05_모노리스 to MSA전환/image1.png"></g-image>
         <mark-down class="content">

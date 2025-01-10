@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div style="display: flex; margin-top:70px;">
-            <h2 style="margin-top:5px;">클라우드 네이티브 전환 가이드</h2>
+        <div style="margin-top:70px;">
             <a href="https://cloudiq.msaez.io/#/" target="_blank" class="card">가이드 영상 시청 및 사이트 이동</a>
+            <h2 style="margin-top:5px;">클라우드 네이티브 전환 가이드</h2>
         </div>
         <mark-down class="content">
 Cloud IQ는 클라우드 네이티브 전환과 관련한 가이드라인을 제공하기 위해 만들어졌습니다.
@@ -178,12 +178,10 @@ Cloud IQ는 클라우드 네이티브 전환과 관련한 가이드라인을 제
     background-color: rgba(90, 103, 216);
     transition: box-shadow 0.3s ease;
     text-align: center;
-    padding:10px;
+    padding:8px;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
-    margin-left:20px;
-    margin-bottom:30px;
+    font-weight: 700;
     color: #fff !important;
 }
 

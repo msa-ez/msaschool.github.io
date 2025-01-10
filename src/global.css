@@ -8,6 +8,34 @@ table td:last-child, table th:last-child {
     padding-right: 10px !important;
 }
 
+a[aria-current="page"] {
+    color: #5a67d8 !important; /* 원하는 색상 */
+    font-weight: 900; /* 원하는 폰트 두께 */
+}
+
+.markdonw-page-box p a {
+    color: #5a67d8 !important;
+    font-weight: 700 !important;
+}
+
+.msaschool-background-primary-25 {
+    background-color: rgba(90, 103, 216, 0.25) !important;
+}
+.msaschool-background-primary-50 {
+    background-color: rgba(90, 103, 216, 0.5) !important;
+}
+.msaschool-background-primary-75 {
+    background-color: rgba(90, 103, 216, 0.75) !important;
+}
+.msaschool-background-primary-100 {
+    background-color: rgba(90, 103, 216, 1) !important;
+}
+
+
+.msaschool-primary {
+    color: #5a67d8 !important;
+}
+
 .default-row {
     display: flex;
     flex-wrap: wrap;
