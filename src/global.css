@@ -8,7 +8,7 @@ table td:last-child, table th:last-child {
     padding-right: 10px !important;
 }
 
-a[aria-current="page"] {
+.active--exact {
     color: #5a67d8 !important; /* 원하는 색상 */
     font-weight: 900; /* 원하는 폰트 두께 */
 }
