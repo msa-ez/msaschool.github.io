@@ -31,7 +31,7 @@
                         :class="getDetailForChildren(child)"
                     >
                         <g-link
-                            :to="child.path"
+                            :to="getLinkForName(child.name) || child.path"
                             class="flex items-center py-1 pt-0 pb-0"
                             :style="styleBySize"
                             style="display: ruby;"
@@ -202,6 +202,14 @@
 
         },
         methods: {
+            getLinkForName(name) {
+                // 이름에 따라 링크를 반환하는 로직
+                const links = {
+                    "ToolOne": "https://intro-kor.msaez.io/tool/google-drive-examples/",
+                    "ToolThree": "https://intro-kor.msaez.io/toppings/k8s-kubernetes/#%EC%A0%81%EC%9A%A9-%EB%B0%A9%EB%B2%95"
+                };
+                return links[name] || null;
+            },
             checkLinks(child){
                 if(child.componentDesc.group &&  child.componentDesc.group[0].includes('true')){
                     return true
