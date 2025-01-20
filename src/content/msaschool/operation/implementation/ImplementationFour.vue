@@ -1,13 +1,13 @@
 <template>
     <div>
-        <div style = "height:30px; width:100%; margin-top:20px;">
+        <div class="Practice-card-box">
                 <VueSubLayoutCard lab="ddd-google-drive-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content" source="
 ## 구글 드라이브 예제 - 마이크로서비스 기반 구글 드라이브 서비스 개발하기
 
 ### 실습도구 접속
-[labs.msaez.io](http://labs.msaez.io) 에 접속합니다.(크롬 브라우저 추천)
+[www.msaez.io](http://www.msaez.io) 에 접속합니다.(크롬 브라우저 추천)
 
 ### 시나리오
 
@@ -37,7 +37,7 @@
         "></mark-down>
             <g-image src="~/img/03_Bizdevops/03_구현/04_도구(MSAEz)기반 CNA구현/gd-inst/1.png"></g-image>
         <mark-down class="content" source="
-위에서 접속한 labs.msaez.io 에서 아래로 스크롤하면 MODELING TOOLS 종류들이 나옵니다. 
+위에서 접속한 www.msaez.io 에서 아래로 스크롤하면 MODELING TOOLS 종류들이 나옵니다. 
 
 이 중 EventStorming Model의 CREATE 버튼을 클릭해 새 모델을 하나 생성해줍니다.
 

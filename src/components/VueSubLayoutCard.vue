@@ -1,19 +1,18 @@
 <template>
-    <v-btn id = "training-btn"
-            style="padding: 5px !important;
-                    background-color:#5a67d8 !important;
-                    color:white !important;
-                    margin-bottom:-50px !important;
-                    width:140px;
-                    height:30px;">
-        <pen-tool-icon size="1x" style="margin-right: 3px !important; margin-top:4px !important; float:left !important;"></pen-tool-icon>
+    <v-btn id="training-btn"
+        style="padding: 8px !important;
+            background-color:#5a67d8 !important;
+            color: white !important;
+            margin-bottom: -80px !important;"
+    >
         <g-link
-                v-if="lab"
-                :to="`${connectionLink}`"
-                style ="color:white;
-                font-weight:700 !important;
-                font-size:16px;">
-            실습 하러가기
+            v-if="lab"
+            :to="`${connectionLink}`"
+            style ="color: white;
+            font-weight: 700 !important;
+            font-size: 16px;"
+        >
+            실습하기
         </g-link>
     </v-btn>
 </template>
@@ -23,7 +22,7 @@
     export default {
         data() {
             return {
-                baseLabUrl: 'https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f',
+                baseLabUrl: 'https://www.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f',
             };
         },
         components:{

@@ -1,7 +1,7 @@
 <template>
     <!--    <div class="py-2 border-t-2 border-ui-primary" style="background-color: #1e88e5;">-->
     <div class="py-10 border-t-2 border-ui-primary">
-        <a href="https://labs.msaez.io" target="_blank" class="footer-banner">
+        <a href="https://www.msaez.io" target="_blank" class="footer-banner">
             <g-image style="width:150px; height:150px; border-radius:15px; position:absolute; top:0; left:0;"
                 src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/0dda67eb-8b79-4442-bdd9-c4526edaf6a8">
             </g-image>
@@ -17,7 +17,7 @@
             <!-- <g-image style="width:150px; height:30px; position: absolute; left:50%;"
                 src="https://github.com/kykim97/factory-pattern/assets/113568664/2c714be7-81cc-4179-aa83-342e2f35c9d1">
             </g-image> -->
-            <!-- <a href="https://labs.msaez.io" target="_blank" style="display: block; width: 30%; margin: 20px auto; margin-top: -10px;">
+            <!-- <a href="https://www.msaez.io" target="_blank" style="display: block; width: 30%; margin: 20px auto; margin-top: -10px;">
                 <g-image style="width:100%;"
                     src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/02ae596d-db77-4dff-bd05-92a70ceaf410">
                 </g-image>

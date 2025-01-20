@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style = "height:30px; width:100%; margin-top:20px;">
+        <div class="Practice-card-box">
                 <VueSubLayoutCard lab="gateway-2022-associate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">
@@ -10,7 +10,7 @@
 
 이번 시간은 각 마이크로 서비스의 최 앞단에서 모든 API 서버들의 엔드포인트를 단일화하고, 라우팅을 시켜주는 게이트웨이를 다뤄 보겠습니다. 게이트웨이의 구현 프로젝트는 여러개가 있지만 그중 spring cloud 에서 사용하는 Spring Cloud Gateway 를 사용 하여 구현 실습을 진행 하겠습니다.
 
-> Gateway 의 자세한 이론 설명은 [[참고자료-MSA Outer 아키텍처-API Gateway]](/#/참고자료/05_MSA%20Outer%20아키텍처/02_API%20Gateway) page 에서 참고 하면 됩니다.
+> Gateway 의 자세한 이론 설명은 [[참고자료-MSA Outer 아키텍처-API Gateway]](/operation/architecture/architecture-one/) page 에서 참고 하면 됩니다.
 
 
 1. 스프링 부트를 처음 시작할때 가장 좋은 방법은 https://start.spring.io/ 에서 시작하는 것입니다. 브라우저에서 접속 다음 사이트를 접속하여 스프링 부트를 시작합니다
@@ -48,10 +48,18 @@ spring:
 - 설정 후 서버를 실행 후 브라우저를 열고 아래와 같은 url 을 입력하여 봅니다.
 - mvn spring-boot:run
     - 서버를 실행 합니다. 8080 포트로 서버가 실행됩니다.
-- http://localhost:8080/drive
-    - 구글 드라이브로 이동합니다.
-- http://localhost:8080/groups
-    - 페이스북 그룹으로 이동합니다.
+
+
+- 구글 드라이브로 이동합니다.
+```
+http://localhost:8080/drive
+```
+
+
+- 페이스북 그룹으로 이동합니다.
+```
+http://localhost:8080/groups
+```
 
 - 위의 단순한 라우팅은 뒤에 path 는 변경이 없고, localhost:8080 이 uri 로 변경 되는 것을 확인 할 수 있습니다.
 

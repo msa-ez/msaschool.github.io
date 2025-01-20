@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style = "height:30px; width:100%; margin-top:20px;">
+        <div class="Practice-card-box">
                 <VueSubLayoutCard lab="pub-sub-2022-assocaiate"></VueSubLayoutCard>
         </div>
         <mark-down class="content">

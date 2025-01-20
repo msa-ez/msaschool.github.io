@@ -79,7 +79,7 @@ MSA 아키텍처는 서비스 독립성, 데이터 분리성, SW 아키텍처 �
                 - 추출 된 각 유스 케이스와 인터페이스를 통해 액세스 할 데이터에 대해 잘 정의 된 인터페이스를 가짐.</td>
             <td> 도메인 Context 분리<br/>
                 - Ubiquitous language 가 다른 bounded context간의 커뮤니케이션 시, Anti-corruption layer를 통해 수행</td>
-            <td bgcolor="yellow">도메인 기반 이벤트<br />
+            <td class="msaschool-background-primary-25">도메인 기반 이벤트<br />
                 - 구체화된 보기, 읽기 쓰기를 위한 별도의 모델(CQRS) 구축</td>
         </tr>
         <tr class="odd">
@@ -92,7 +92,7 @@ MSA 아키텍처는 서비스 독립성, 데이터 분리성, SW 아키텍처 �
             <td>DBMS per Service <br/>
                 - 완전히 분산된 데이터 관리<br />
                 - 서비스별 다른 유형의 DBMS 사용이 가능한 폴리글랏 퍼시스턴스를 지향</td>
-            <td bgcolor="yellow"> Event-Driven Archi.
+            <td class="msaschool-background-primary-25"> Event-Driven Archi.
                 - 이벤트 기반 데이터 관리, 이벤트 소싱 및 커멘드 쿼리 <br/>
                 - 일시적으로 데이터에 일관성이 없는 상태가 존재할 수 있으나, 일정 시간이 지나면, 데이터가 도착하여 다시 Consistency를 충족 </td>
         </tr>
@@ -108,7 +108,7 @@ MSA 아키텍처는 서비스 독립성, 데이터 분리성, SW 아키텍처 �
             <td>UI/UX : Client Side rendering,<br />
                 Token based 보안, OAuth2,<br />
                 폴리글랏 Language</td>
-            <td bgcolor="yellow">UI/UX : Client Side rendering+MVVM,<br />
+            <td class="msaschool-background-primary-25">UI/UX : Client Side rendering+MVVM,<br />
                 Token based 보안, OAuth2,<br />
                 폴리글랏 Language + Service Mesh</td>
         </tr>
@@ -118,7 +118,7 @@ MSA 아키텍처는 서비스 독립성, 데이터 분리성, SW 아키텍처 �
             <td>지속적인 빌드, 지속적인 통합 운용</td>
             <td>지속적인 딜리버리와 배포, 로그의 중앙 집중화</td>
             <td>컨테이너 사용(도커), 컨테이너 오케스트레이터(k8s), 외부 구성(유레카, 주키퍼)</td>
-            <td bgcolor="yellow">자동 프로비저닝을 갖춘 PaaS기반 솔루션</td>
+            <td class="msaschool-background-primary-25">자동 프로비저닝을 갖춘 PaaS기반 솔루션</td>
         </tr>
         <tr class="even">
             <td align="center"><strong>배포</strong></td>
@@ -126,7 +126,7 @@ MSA 아키텍처는 서비스 독립성, 데이터 분리성, SW 아키텍처 �
             <td>VM 당 하나의 서비스 인스턴스<br />
                 클라이언트 사이드 로드 벨런싱<br />
                 서버사이드 로드 벨런싱</td>
-            <td bgcolor="yellow">Immutable 서버, 컨테이너 당 하나의 서비스 인스턴스, blue/green 배포</td>
+            <td class="msaschool-background-primary-25">Immutable 서버, 컨테이너 당 하나의 서비스 인스턴스, blue/green 배포</td>
             <td>멀티 클라우드 및 멀티 데이터 센터 지원</td>
         </tr>
         <tr class="odd">
@@ -136,7 +136,7 @@ MSA 아키텍처는 서비스 독립성, 데이터 분리성, SW 아키텍처 �
                 내부 소스 공개</td>
             <td>서비스별 프로덕트 팀(PO, UI/UX 디자이너, 개발자)
                 Cross Functional한 플랫폼 팀</td>
-            <td bgcolor="yellow">업무 기능별 혹은 도메인별 팀들이 모든 관점에서 책임을 수반. &quot;네가 구축한 것은 네가 운영합니다.&quot;</td>
+            <td class="msaschool-background-primary-25">업무 기능별 혹은 도메인별 팀들이 모든 관점에서 책임을 수반. &quot;네가 구축한 것은 네가 운영합니다.&quot;</td>
         </tr>
         </tbody>
     </table>
