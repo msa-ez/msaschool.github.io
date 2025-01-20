@@ -1,75 +1,64 @@
 <template>
     <div>
-      <canvas
-        ref="MyChart"/>
+        <div>
+            <!-- 차트 렌더링 공간 -->
+            <canvas ref="barChart"></canvas>
+        </div>
     </div>
-  </template>
-  
-  <script>
-  import { Chart, registerables } from 'chart.js'
-  Chart.register(...registerables)
-  
-  export default {
-    data:() => ({
-      type: 'bar',
-      data: {
-        labels: [ 'Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange' ],
-        datasets: [{
-          label: '# of Votes',
-          data: [ 12, 19, 3, 5, 2, 3 ],
-          backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)',
-            'rgba(153, 102, 255, 0.2)',
-            'rgba(255, 159, 64, 0.2)'
-          ],
-          borderColor: [
-            'rgba(255, 99, 132, 1)',
-            'rgba(54, 162, 235, 1)',
-            'rgba(255, 206, 86, 1)',
-            'rgba(75, 192, 192, 1)',
-            'rgba(153, 102, 255, 1)',
-            'rgba(255, 159, 64, 1)'
-          ],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
-      }
-    }),
-    mounted(){
-      this.createChart()
+</template>
+
+<script>
+import Chart from "chart.js";
+
+export default {
+    data() {
+        return {
+            chartData: {
+                labels: ['January', 'February', 'March'],
+                datasets: [
+                    {
+                        label: '일별',
+                        backgroundColor: '#8cc4ff',
+                        data: [40, 20, 12],
+                    },
+                ],
+            },
+            chartOptions: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    xAxes: [
+                        {
+                            ticks: {
+                                beginAtZero: true,
+                            },
+                        },
+                    ],
+                },
+            },
+        };
     },
-    methods:{
-      createChart(){
-        new Chart(this.$refs.MyChart, {
-          type:'bar',
-          data:this.data,
-          options:this.options
-        })
-  
-      }
-    }
-  
-  }
-  </script>
-  
-  <style scoped>
-  .chart-box {
-    padding: 20px;
-  }
-  .label-count {
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #f1f1f1;
-  }
-  </style>
-  
+    mounted() {
+        // Chart.js를 초기화
+        this.renderChart();
+    },
+    methods: {
+        renderChart() {
+            // horizontalBar로 설정하여 가로 바 차트를 렌더링
+            new Chart(this.$refs.barChart, {
+                type: 'horizontalBar', // 가로 바 차트 설정
+                data: this.chartData, // 데이터
+                options: this.chartOptions, // 옵션
+            });
+        },
+    },
+};
+</script>
+
+<style scoped>
+/* 차트를 감싸는 스타일 지정 */
+div {
+    width: 100%;
+    height: 400px;
+}
+</style>

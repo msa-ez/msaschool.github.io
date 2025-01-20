@@ -5,7 +5,7 @@
         </div>
         <div class="chart-logo-box">
             <div class="chart-box">
-                <!-- <div class="chart-label">
+                <div class="chart-label">
                     <div>
                         <p style="font-weight: bold;">총 교육횟수</p>
                         <p class="label-count">334회</p>
@@ -20,9 +20,8 @@
                     </div>
                 </div>
                 <div style="background-color: #fff; padding: 20px; border-radius: 20px;">
-                    <canvas id="bar-chart-horizontal" width="350" height="500"></canvas>
-                </div> -->
-                <chartBox />
+                    <chartBox />
+                </div>
             </div>
             <div class="logo-box">
                 <g-image style="width: 100%;"
