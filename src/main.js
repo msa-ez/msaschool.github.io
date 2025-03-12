@@ -43,6 +43,17 @@ export default function (Vue, {appOptions, head}) {
         href:
             "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
     });
+    
+    head.script.push({
+        type: 'text/javascript',
+        innerHTML: `
+            (function(w,d,n,u,o,t,m){w['SrecObject']=o;w[o]=w[o]||function(){
+            (w[o].q=w[o].q||[]).push(arguments)},w[o].l=1*new Date();t=d.createElement(n),
+            m=d.getElementsByTagName(n)[0];t.async=1;t.src=u;m.parentNode.insertBefore(t,m)
+            })(window,document,'script','https://app.uxlens.com/collect/initialize.js','srec');
+            srec('init', '4f6666e0-ff12-11ef-9a88-d5edc5c277ba');
+        `
+    });
 
     head.script.push({
         src: 'https://www.googletagmanager.com/gtag/jsid=GTM-M9V65LQ5',
