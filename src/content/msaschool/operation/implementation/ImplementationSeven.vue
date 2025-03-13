@@ -3,7 +3,7 @@
         <div class="Practice-card-box">
                 <VueSubLayoutCard lab="kafka-basic-2022-associate"></VueSubLayoutCard>
         </div>
-        <mark-down class="content">
+        <mark-down class="content" source="
 ## 이벤트 기반 메시지 채널 - 카프카(Kafka)
 
 이벤트 드리븐 아키택처에서 **이벤트**를 비동기 호출로 상호 통신하려면 메세지 큐(MQ)가 필요합니다. 대표적인 메세지 큐로는 kafka, RabbitMQ, ActiveMQ 등이 있는데, 이중 가장 익숙하신 큐를 사용하시면 됩니다. 그중 kafka 는 분산 메시징 시스템에 적합하고, 처리속도가 빠릅니다. 이번 시간에는 kafka 를 로컬/클러스터에 설치를 하고, 간단한 메세징 시스템을 사용하는 실습을 하겠습니다.
@@ -17,7 +17,7 @@
 
 ### Windows 환경에서 카프카 설치 및 실행
 1. 브라우저를 열고 카프카 다운로드 사이트로 접속합니다.
-    - https://kafka.apache.org/downloads
+    - <a href='https://kafka.apache.org/downloads' target='_blank'>https://kafka.apache.org/downloads</a>
     - 최근 버전의 Scala 2.13 (binary)버전으로 다운로드 합니다.
 
 2. 다운로드한 파일을 압축을 풉니다.
@@ -74,6 +74,7 @@
 
 3. 트러블 슈팅
     - kafka 는 JVM 위에서 실행이 됩니다. java 가 꼭 설치되어있고, JAVA_HOME 환경변수가 설정되어 있어야 합니다.
+        ">
         </mark-down>
 
         <mark-down class="content">

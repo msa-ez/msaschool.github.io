@@ -3,21 +3,19 @@
         <div class="Practice-card-box">
                 <VueSubLayoutCard lab="gateway-2022-associate"></VueSubLayoutCard>
         </div>
-        <mark-down class="content">
-## 게이트웨이 구현 실습 
-- [실습하러 가기](https://www.naver.com)
-
-
+        <mark-down class="content" source="
+## 게이트웨이 구현 실습
 이번 시간은 각 마이크로 서비스의 최 앞단에서 모든 API 서버들의 엔드포인트를 단일화하고, 라우팅을 시켜주는 게이트웨이를 다뤄 보겠습니다. 게이트웨이의 구현 프로젝트는 여러개가 있지만 그중 spring cloud 에서 사용하는 Spring Cloud Gateway 를 사용 하여 구현 실습을 진행 하겠습니다.
 
-> Gateway 의 자세한 이론 설명은 [[참고자료-MSA Outer 아키텍처-API Gateway]](/operation/architecture/architecture-one/) page 에서 참고 하면 됩니다.
+> Gateway 의 자세한 이론 설명은 <a href='/operation/architecture/architecture-one/' target='_blank'>참고자료-MSA Outer 아키텍처-API Gateway</a> page 에서 참고 하면 됩니다.
 
 
-1. 스프링 부트를 처음 시작할때 가장 좋은 방법은 https://start.spring.io/ 에서 시작하는 것입니다. 브라우저에서 접속 다음 사이트를 접속하여 스프링 부트를 시작합니다
-    - https://start.spring.io/
+1. 스프링 부트를 처음 시작할때 가장 좋은 방법은 스프링 부트 에서 시작하는 것입니다. 브라우저에서 접속 다음 사이트를 접속하여 스프링 부트를 시작합니다
+    - <a href='https://start.spring.io/' target='_blank'>https://start.spring.io/</a>
 
 2. Maven Project 와 Java 를 선택하고 Artifact 이름을 gateway 로 변경합니다. 그 후, 디펜던시에 다음을 추가하여 Generate 버튼을 클릭하여 프로젝트를 생성 합니다.
     - Gateway : 스프링 클라우드의 게이트웨이 디펜던시를 추가합니다.
+        ">
         </mark-down>
         <g-image src="~/img/03_Bizdevops/03_구현/06_게이트웨이(Gateway)/image1.png"></g-image>
 
@@ -98,16 +96,23 @@ spring:
 - 설정 후 서버를 재 실행 후 브라우저를 열고 아래와 같은 url 을 입력하여 봅니다.
 - mvn spring-boot:run
     - 서버를 실행 합니다. 8080 포트로 서버가 실행됩니다.
-- http://localhost:8080/google/검색어
-    - '검색어' 라는 명칭을 구글에서 검색합니다.
-- http://localhost:8080/naver/검색어
-    - '검색어' 라는 명칭을 네이버에서 검색합니다.
 
-- 구글에서 검색을 하는 url 은 https://www.google.com/search?q= 형식입니다. 해당 도메인으로 라우팅을 시키고, 여러 검색엔진을 사용하기 위하여 filters 에서 path 를 다시 설정 하고, url path 를 파라미터로 받는 작업이 실행 되었습니다.
+
+- '검색어' 라는 명칭을 구글에서 검색합니다.
+```
+- http://localhost:8080/google/검색어
+```
+
+
+- '검색어' 라는 명칭을 네이버에서 검색합니다.
+```
+- http://localhost:8080/naver/검색어
+```
+
+- 구글에서 검색을 하는 url 은 ```https://www.google.com/search?q=``` 형식입니다. 해당 도메인으로 라우팅을 시키고, 여러 검색엔진을 사용하기 위하여 filters 에서 path 를 다시 설정 하고, url path 를 파라미터로 받는 작업이 실행 되었습니다.
 
 6. 이번에는 실제 게이트웨이 예제에서 어떻게 쓰였는지 보겠습니다.
-
-- https://github.com/event-storming/gateway/blob/master/src/main/resources/application.yml
+- <a href='https://github.com/event-storming/gateway/blob/master/src/main/resources/application.yml' target='_blank'>https://github.com/event-storming/gateway/blob/master/src/main/resources/application.yml</a>
 
 ```
     cloud:
@@ -160,9 +165,6 @@ spring:
 게이트웨이는 마이크로 서비스 아키텍처 패턴에서 외부와 내부를 연결하는 중요한 역할을 담당합니다.
 
 게이트 웨이는 라우팅이 기본이지만, 인증/인가 처리나 Rate Limiting 등의 처리등이 가능합니다.
-좀더 다양한 기능은 아래 링크를 통하여 좀더 살펴 보실 수 있습니다.
-
-> https://cloud.spring.io/spring-cloud-static/spring-cloud-gateway/2.2.2.RELEASE/reference/html/
         "></mark-down>
     </div>
 </template>

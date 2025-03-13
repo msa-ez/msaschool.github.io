@@ -94,8 +94,9 @@ DDD와 결합하여 이벤트스토밍은 도메인 탐색과 시스템 설계 �
         '></mark-down>
         <br><br><br>
 
-        <mark-down class="content">
-> [원문 참조 : Domain-Driven Design (DDD): EventStorming for Tactical Design — Strengths and Limitations](https://medium.com/@lambrych/eventstorming-for-domain-driven-design-strengths-and-limitations-3f0b49009c38)
+        <mark-down class="content" source="
+<a href='https://medium.com/@lambrych/eventstorming-for-domain-driven-design-strengths-and-limitations-3f0b49009c38' target='_blank'>원문 참조 : Domain-Driven Design (DDD): EventStorming for Tactical Design — Strengths and Limitations</a>
+        ">
         </mark-down><br>
     </div>
 </template>

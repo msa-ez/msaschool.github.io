@@ -131,7 +131,7 @@ Oauth 2.0 를 조금더 간단히 요약하면 웹, 모바일 어플리케이션
 #### 4. Client Credentials Grant
         </mark-down>
         <g-image src="~/img/03_Bizdevops/02_설계/07_마이크로서비스_보안설계/image5.png"></g-image>
-        <mark-down class="content">
+        <mark-down class="content" source="
 * 사용자가 아닌 응용프로그램 (client) 이 인증을 요청할때 사용 ( Resource Owner = Client )
 
 * 접근 권한이 한정되어있는 프로그램 사용시 활용
@@ -157,13 +157,13 @@ Oauth 2.0 를 조금더 간단히 요약하면 웹, 모바일 어플리케이션
 * **Resource Server** 는 토큰이 유효한지 체크를 하고, 유효하면 api 를 허용하는 역할을 하기에, Gateway 서비스에 구현을 하였습니다.
 
 참고 소스 코드 :
-[Authorization Server,Resource Owner - Oauth]: https://github.com/event-storming/oauth
-[Resource Server - Gateway]: https://github.com/event-storming/gateway
-[Client - UI]: https://github.com/event-storming/ui
+<a href='https://github.com/event-storming/oauth' target='_blank'>Authorization Server, Resource Owner - Oauth</a>
+<a href='https://github.com/event-storming/gateway' target='_blank'>Resource Server - Gateway</a>
+<a href='https://github.com/event-storming/ui' target='_blank'>Client - UI</a>
 
 
 ### Authorization Server 사용
-1. https://github.com/event-storming/oauth 를 git clone 합니다.
+1. <a href='https://github.com/event-storming/oauth' target='_blank'>git clone</a> 합니다.
 
 2. cd oauth 접속 후 mvn spring-boot:run 으로 서버를 실행합니다.
 
@@ -171,13 +171,13 @@ Oauth 2.0 를 조금더 간단히 요약하면 웹, 모바일 어플리케이션
 
 * 서비스(ui)에서 Password Credentials Grant 방식으로 권한증서를 요청하기 위해서는 인증서버에서 발행하여 주는 Client_id, Client_Secret 정보를 모두 알고 있어야 합니다.
 
-* 서버가 실행시 유저 정보를 임의 값으로 생성 메모리 db 에 넣어주었습니다. (https://github.com/event-storming/oauth/blob/master/src/main/java/com/example/template/AuthorizationServerApplication.java)
+* 서버가 실행시 유저 정보를 임의 값으로 생성 메모리 db 에 넣어주었습니다. <a href='https://github.com/event-storming/oauth/blob/master/src/main/java/com/example/template/AuthorizationServerApplication.java' target='_blank'>AuthorizationServerApplication.java</a>
 
-* 서버가 실행시 Client 정보를 임의 값으로 생성 메모리 db 에 넣어주었습니다. (https://github.com/event-storming/oauth/blob/master/src/main/java/com/example/template/config/OAuth2AuthorizationServerConfig.java)
+* 서버가 실행시 Client 정보를 임의 값으로 생성 메모리 db 에 넣어주었습니다. <a href='https://github.com/event-storming/oauth/blob/master/src/main/java/com/example/template/config/OAuth2AuthorizationServerConfig.java' target='_blank'>OAuth2AuthorizationServerConfig.java</a>
 
 4. 토큰을 요청하는 api 는 /oauth/token 입니다. 요청시 grant_type=password username, password 를 같이 입력 하고, header 에 Client_id, Client_Secret 정보를 base64 로 인코딩 하여 요청합니다.
 
-* http --form POST localhost:8090/oauth/token 'Authorization: Basic dWVuZ2luZS1jbGllbnQ6dWVuZ2luZS1zZWNyZXQ=' grant_type=password username=1@uengine.org password=1
+* ```http --form POST localhost:8090/oauth/token 'Authorization: Basic dWVuZ2luZS1jbGllbnQ6dWVuZ2luZS1zZWNyZXQ=' grant_type=password username=1@uengine.org password=1```
 
 * Basic 인증은 가장 일반적인 인증 스키마 입니다. base64를 이용하여 인코딩된 사용자 ID/비밀번호 쌍의 인증 정보를 전달합니다. base64는 복호화가 가능한 인코딩이기에 안전하지 않고 HTTPS / TLS 와 같이 사용을 하여야 보안상 안전해 진다. (예제에서는 https 를 사용하지는 않았다.)
 
@@ -185,9 +185,9 @@ Oauth 2.0 를 조금더 간단히 요약하면 웹, 모바일 어플리케이션
 
 ### client 에서  Authorization Server 호출과 토큰 저장
 
-1. client (ui) 에서 인증서버로 http 요청을 하는 코드는 다음과 같다. 클라이언트는 알고있는 Client_id, Client_Secret 정보를javascript 에서 base64 로 변환하는 방법인 btoa() 를 사용하여 인코딩 후 basic 스키마로 토큰 요청을 합니다. (https://github.com/event-storming/ui/blob/master/src/store.js)
+1. client (ui) 에서 인증서버로 http 요청을 하는 코드는 다음과 같다. 클라이언트는 알고있는 Client_id, Client_Secret 정보를 javascript 에서 base64 로 변환하는 방법인 btoa() 를 사용하여 인코딩 후 basic 스키마로 토큰 요청을 합니다. <a href='https://github.com/event-storming/ui/blob/master/src/store.js' target='_blank'>store.js</a>
 
-2. 정상적으로 토큰 발행시 토큰 정보는 브라우저의 storage 인 localstorage 에 저장을 합니다. `localStorage.setItem('accessToken', accessToken)`
+2. 정상적으로 토큰 발행시 토큰 정보는 브라우저의 storage 인 localstorage 에 저장을 합니다. ```localStorage.setItem('accessToken', accessToken)```
 
 * 브라우저에서는 토큰을 api 요청시마다 사용을 하기 때문에 저장을 해야 합니다. 브라우저에서 토큰을 저장하는 방식은 크게 웹 스토리지에 저장을 하거나, cookie 에 저장을 하는 방식이 있습니다.
 
@@ -197,16 +197,17 @@ Oauth 2.0 를 조금더 간단히 요약하면 웹, 모바일 어플리케이션
 
 3. client (ui) 에서 각종 api 를 요청시 header 값에 토큰을 실어서 같이 보냅니다.
 
-* http localhost:8088 'Authorization: Bearer $TOKEN'
-curl localhost:8088/orders --header 'Authorization: Bearer $TOKEN'
+* ```http localhost:8088 'Authorization: Bearer $TOKEN'```
+* ```curl localhost:8088/orders --header 'Authorization: Bearer $TOKEN'```
 
-* Bearer 스키마는 Oauth 2.0 의 보안 리소스를 요청하는 방식입니다. (https://tools.ietf.org/html/rfc6750)
+* Bearer 스키마는 Oauth 2.0 의 보안 리소스를 요청하는 방식입니다. <a href='https://tools.ietf.org/html/rfc6750' target='_blank'>RFC 6750</a>
 
 ### Resource Server 에서 토큰 유효성 확인
 
-1. Gateway 는 spring-cloud-gateway 를 사용하였습니다. spring-cloud-gateway 는 web reactive 방식을 사용하기 위하여 spring5 의 webflux 방식으로 구현이 되어있습니다. 그러기에 security 적용을 위하여 spring-security-webflux (https://docs.spring.io/spring-security/site/docs/current/reference/html/webflux-oauth2.html) 방식을 사용하여 리소스 서버를 구축해야 합니다.
+1. Gateway 는 spring-cloud-gateway 를 사용하였습니다. spring-cloud-gateway 는 web reactive 방식을 사용하기 위하여 spring5 의 webflux 방식으로 구현이 되어있습니다. 그러기에 security 적용을 위하여 spring-security-webflux <a href='https://docs.spring.io/spring-security/site/docs/current/reference/html/webflux-oauth2.html' target='_blank'>webflux-oauth2</a> 방식을 사용하여 리소스 서버를 구축해야 합니다.
 
 * webflux 방식에서 jwt 토큰을 인증 하는 방식은 jwk-Set-Uri 를 구성하여 jwt 토큰 생성시 사용한 Key 값을 체크합니다.
+        ">
         </mark-down>
         <mark-down class="content" source="
 ```
@@ -220,7 +221,7 @@ public Map<String, Object> getKey(Principal principal) {
 ```
 
 * @EnableWebFluxSecurity 를 선언하여 들어오는 모든 요청을 검사 하고, 그중에서 ServerHttpSecurity http.oauth2ResourceServer().jwt() 역할을 선언하여 토큰 검증을 실시 합니다.
-(https://github.com/event-storming/gateway/blob/master/src/main/java/com/example/template/ResourceServerConfiguration.java)
+<a href='https://github.com/event-storming/gateway/blob/master/src/main/java/com/example/template/ResourceServerConfiguration.java' target='_blank'>ResourceServerConfiguration.java</a>
         "></mark-down>
     </div>
 </template>

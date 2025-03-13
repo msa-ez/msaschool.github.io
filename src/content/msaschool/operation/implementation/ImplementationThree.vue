@@ -1,26 +1,27 @@
 <template>
     <div>
-        <mark-down class="content">
+        <mark-down class="content" source="
 ## SPRING INITIALIZR를 활용한 일반적인 CNA 구현
 
 이번 시간은 이벤트스토밍 결과를 Cloud Native Application(CNA) 구축 시 많이 적용되는 Spring Boot(스프링 부트)와 EventDriven 방식을 사용하여, 실제 코드로 변환하는 실습을 진행합니다.
 로컬에서 테스트하기 위해 HTTP Client 툴을 먼저 설치합니다.
 
-- REST Client 툴 httpie 설치(Windows): https://github.com/TheOpenCloudEngine/uEngine-cloud/wiki/Httpie-%EC%84%A4%EC%B9%98
+<!-- Start of Selection -->
+- REST Client 툴 httpie 설치(Windows): <a href='https://github.com/TheOpenCloudEngine/uEngine-cloud/wiki/Httpie-%EC%84%A4%EC%B9%98' target='_blank'>httpie 설치</a>
 
-### 1. 스프링 부트를 처음 시작할 때 가장 좋은 방법은 https://start.spring.io/ 에서 시작하는 것입니다. 브라우저에서 다음 사이트를 접속하여 스프링 부트를 시작합니다.
+### 1. 스프링 부트를 처음 시작할 때 가장 좋은 방법은 스프링 부트 에서 시작하는 것입니다. 브라우저에서 다음 사이트를 접속하여 스프링 부트를 시작합니다.
 
-- https://start.spring.io/
-
+- <a href='https://start.spring.io/' target='_blank'>https://start.spring.io/</a>
 ### 2. Maven Project 와 Java 를 선택하고, 디펜던시(Dependencies)에 다음을 추가하여 Generate 버튼으로 다운로드 받은 후, 로컬 IDE(VS Code)에 프로젝트를 로드 합니다.
 
 - Rest Repository : 레파지토리 패턴을 통해 CRUD API를 생성해 줍니다.
 - Spring Data JPA : Java Persistence API의 약어, 자바 ORM 기술에 대한 표준 명세로 API 기반 영속성 관리 도구
 - H2	: Java 기반 오픈소스 인메모리 DB
+        ">
         </mark-down>
-            <br>
-        <g-image src="~/img/03_Bizdevops/03_구현/03_일반적인 CNA 구현/image1.png"></g-image>
-            <br>
+    <br>
+<g-image src="~/img/03_Bizdevops/03_구현/03_일반적인 CNA 구현/image1.png"></g-image>
+    <br>
         <mark-down class="content" source="
 ### 3. 먼저, Aggregate 를 생성 합니다.
 
@@ -151,7 +152,7 @@ public class ProductChanged {
                 <br>
             <g-image src="~/img/03_Bizdevops/03_구현/03_일반적인 CNA 구현/image3.png"></g-image>
                 <br>
-            <mark-down class="content" source='
+            <mark-down class="content" source="
 - Spring Cloud Streams Application에서 Kafka 바인더를 사용하기 위하여 다음 라이브러리를 pom.xml 에 추가합니다.
 
 ```
@@ -187,7 +188,7 @@ public class ProductChanged {
 - pom.xml 에서 ${} 로 시작하는 부분은 변수(properties) 처리를 하겠다는 의미입니다. 상단의 <properties> 부분에 위에서 변수처리함 <spring-cloud.version> 를 추가하여 줍니다.
 - 여기서 버전을 명시할때 주의할 점은 Spring-boot에 매핑되는 Spring-cloud 버전을 사용해야 합니다.
 - 매핑되는 버전 정보는 스프링 클라우드 Site에서 확인 할 수 있습니다.
-- https://spring.io/projects/spring-cloud 의 Release Trains 참고
+<a href='https://spring.io/projects/spring-cloud' target='_blank'>spring-cloud 의 Release Trains 참고</a>
 
 ```
 
@@ -226,7 +227,7 @@ applicationContext = SpringApplication.run(DemoApplication.class, args);
 - kafka brokers로 localhost:9092 를 사용한다는 의미입니다. 카프카 설치시 기본 포트가 9092 입니다.
 - bindings.input 과 bindings.output 은 기본 채널입니다. 만약 채널명을 변경 하고 싶으면 Processor 를 새로 만들어야 합니다.
 
-> https://github.com/event-storming/products/blob/master/src/main/java/com/example/template/config/kafka/KafkaProcessor.java
+> <a href='https://github.com/event-storming/products/blob/master/src/main/java/com/example/template/config/kafka/KafkaProcessor.java' target='_blank'>KafkaProcessor.java</a>
 
 - destination 은 목적지라는 뜻인데, kafka 에서는 topic 이름이 됩니다.
 - 즉, 해당 설정은 shop 이라는 토픽에 메세지를 주고 받겠다는 의미입니다.
@@ -279,7 +280,7 @@ String json = null;
 try {
 json = objectMapper.writeValueAsString(productChanged);
 } catch (JsonProcessingException e) {
-throw new RuntimeException("JSON format exception", e);
+throw new RuntimeException('JSON format exception', e);
 }
 
 Processor processor = DemoApplication.applicationContext.getBean(Processor.class);
@@ -294,9 +295,9 @@ outputChannel.send(MessageBuilder
 
 - 수정 후 서비스를 재시작한 다음 REST API로 상품 등록 시, 카프카에 이벤트 메시지가 도달하는지 확인 합니다.
 - 메시지는 Kafka Consumer로써 shop 토픽(topic) 모니터링으로 확인 가능합니다.
-- http POST localhost:8080/products name="TV" stock=10
+- http POST localhost:8080/products name='TV' stock=10
 - [kafka 설치폴더]/bin/windows/kafka-console-consumer --bootstrap-server localhost:9092 --topic shop --from-beginning
-            '></mark-down>
+            "></mark-down>
                 <br>
             <g-image src="~/img/03_Bizdevops/03_구현/03_일반적인 CNA 구현/image4.png"></g-image>
                 <br>

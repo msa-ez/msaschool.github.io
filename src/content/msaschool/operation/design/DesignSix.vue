@@ -38,7 +38,7 @@ Service discovery 기능은 기본적으로 서비스를 등록하고 등록된 
 ## Server-Side discovery , loadbalancing
         </mark-down>
         <g-image src="~/img/03_Bizdevops/02_설계/06_서비스_디스커버리_패턴/image2.png"></g-image>
-        <mark-down class="content">
+        <mark-down class="content" source="
 * 서버 쪽에서 디스커버리 로직을 구현한 방식
 * aws ELB, 구글 로드 밸런서 : Service discovery
 * kube-dns + etcd : Service registry
@@ -103,9 +103,9 @@ Eureka client는 Eureka(service registry)에 서비스 등록/해제를 자동�
 - 이 시스템은 설치 및 관리되어야 하고, 고가용성을 유지해야 합니다.
 
 > 참고 :
-> https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/
-> https://kihoonkim.github.io/2017/01/27/Microservices%20Architecture/Chris Richardson-NGINX Blog Summary/4. Service Discovery in a MSA/
-> https://microservices.io/patterns/3rd-party-registration.html
+> <a href='https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/' target='_blank'>서비스 디스커버리 패턴 블로그</a>
+> <a href='https://microservices.io/patterns/3rd-party-registration.html' target='_blank'>3rd party registration 패턴</a>
+        ">
         </mark-down>
     </div>
 </template>

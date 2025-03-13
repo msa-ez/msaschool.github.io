@@ -85,9 +85,8 @@
         <br />
         <g-image src="~/img/02_Planning/03_품질관리_계획/02_성능_확보_방안/image5.jpg"></g-image>
         <br/>
-        <mark-down class="content">
-이미지 출처 : https://asfirstalways.tistory.com/244
-
+        <mark-down class="content" source="
+이미지 출처 : <a href='https://asfirstalways.tistory.com/244' target='_blank'>https://asfirstalways.tistory.com/244</a>
 
 서버 사이드 렌더링은 요청시마다 새로고침이 발생하며, 새로운 페이지를 서버에 매번 요청하게 됩니다.
 
@@ -97,12 +96,10 @@ SPA(Single Page Application)은 브라우저가 로드된 이후에 페이지 �
 
 최초 요청에 대해서만 서버 측에서 제공하고 이후의 페이지 또는 데이터 변경에 대해서는 클라이언트 측의 스크립트를 이용해 렌더링함으로써 페이지의 로딩 성능을 향상 시킵니다.
 
-
-
 참고
-> https://futurecreator.github.io/2018/10/04/inter-process-communication-in-microservices/
-> https://madplay.github.io/post/server-side-rendering-vs-client-side-rendering
-
+> <a href='https://futurecreator.github.io/2018/10/04/inter-process-communication-in-microservices/' target='_blank'>https://futurecreator.github.io/2018/10/04/inter-process-communication-in-microservices/</a>
+> <a href='https://madplay.github.io/post/server-side-rendering-vs-client-side-rendering' target='_blank'>https://madplay.github.io/post/server-side-rendering-vs-client-side-rendering</a>
+        ">
         </mark-down>
     </div>
 </template>

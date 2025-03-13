@@ -226,7 +226,7 @@ public class Order {
 }
 ```
         '></mark-down>
-        <mark-down class="content" style="margin-top: 30px;">
+        <mark-down class="content" style="margin-top: 30px;" source="
 ### 6. 결론
 
 이 교육 자료에서는 도메인 주도 설계 개념을 JPA/Hibernate 관계 설계에 적용하는 방법에 대해 설명했습니다. 다음은 8가지 휴리스틱을 요약한 것입니다:
@@ -243,13 +243,11 @@ public class Order {
 이러한 휴리스틱을 따르면 JPA/Hibernate를 사용할 때 발생할 수 있는 많은 문제들을 예방하고 더 효율적인 데이터베이스 설계를 할 수 있습니다
 
 #### *역자 comment : 지연로딩 부분은 동일 바운디드 컨텍스트 내에서는 허용 가능함
+
+<a href='https://medium.com/@chikim79/applying-domain-driven-design-principles-for-jpa-hibernate-mappings-best-practices-17e9594c9fb4' target='_blank'>원문 참조 : Applying Domain-Driven Design Principles for JPA/Hibernate Mappings Best Practices</a>        
+        ">
         </mark-down>
-
         <br><br><br>
-
-        <mark-down class="content">
-> [원문 참조 : Applying Domain-Driven Design Principles for JPA/Hibernate Mappings Best Practices](https://medium.com/@chikim79/applying-domain-driven-design-principles-for-jpa-hibernate-mappings-best-practices-17e9594c9fb4)
-        </mark-down><br>
     </div>
 </template>
 

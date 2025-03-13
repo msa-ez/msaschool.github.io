@@ -17,9 +17,11 @@
 
 
 1. 예제 서비스인 Monolith 의 소스코드를 살펴 보겠습니다.
-- git clone https://github.com/event-storming/monolith.git
-- cd monolith
-- mvn spring-boot:run
+```
+git clone https://github.com/event-storming/monolith.git
+cd monolith
+mvn spring-boot:run
+```
 
 2. Monolith 서비스는 주문,배송,상품 서비스가 하나의 서비스로 구현되어 있는 예제 입니다. 서비스의 작동 방식을 확인 하기 위하여 주문을 생성하고, 각각의 주문,배송,상품의 상태값을 확인 하여 보겠습니다.
 
@@ -53,7 +55,9 @@ http http://localhost:8088/deliveries
         </mark-down>
         <g-image src="~/img/03_Bizdevops/03_구현/05_모노리스 to MSA전환/image1.png"></g-image>
         <mark-down class="content">
-- http http://localhost:8088/deliveries/1/order
+```
+http http://localhost:8088/deliveries/1/order
+```
         </mark-down>
         <g-image src="~/img/03_Bizdevops/03_구현/05_모노리스 to MSA전환/image2.png"></g-image>
         <mark-down class="content">
@@ -139,7 +143,7 @@ public class DeliveryServiceImpl implements DeliveryService{
 ```
 
 - interface 앞에 @FeignClient 어노테이션을 사용하였습니다. @FeignClient 에는 url 값을 넣을 수 있는데, 보통 호출하려는 서비스의 base url 이 됩니다. 세부 api 를 아래 @RequestMapping 에 매핑을 시키게 됩니다.
-- 위의 메서드는 만약 api.url.delivery 이 localhost:8082 라면  "http://localhost:8082/deliveries" 로 호출을 하게 됩니다.
+- 위의 메서드는 만약 api.url.delivery 이 localhost:8082 라면  ```http://localhost:8082/deliveries``` 로 호출을 하게 됩니다.
 
 - spring-boot 에서 어노테이션에 ${} 부분은 설정값에 있는 변수를 가져오는 부분입니다. 도메인 주소는 변경될수 있고, 로컬과 클러스터별로 다를 수 있기 때문에, application.yaml 에서 관리를 하였습니다.
 
@@ -211,9 +215,10 @@ this.orderId = orderId;
 ```
 
 7. 위까지의 작업에서 monolith 서비스에서 주문 생성시, FeignClient 에 의하여 설정된 url 로 http call 을 실행 합니다. 이제 배송 서비스를 다운받아서 호출하여 보겠습니다.
-- git clone https://github.com/event-storming/reqres_delivery.git
-
-- 소스코드를 다운 받은 후 한가지 작업이 필요합니다. 샘플 프로젝트에는 배송이 완료 된 후에 상품서비스의 데이터를 변경하는 코드가 들어 있습니다. 상품서비스는 다시 monolith 서비스를 호출 할 것이기 때문에 application.yaml 파일의 api.uri.product 부분을 http://localhost:8085 ->  http://localhost:8088 로 변경 합니다
+```
+git clone https://github.com/event-storming/reqres_delivery.git
+```
+- 소스코드를 다운 받은 후 한가지 작업이 필요합니다. 샘플 프로젝트에는 배송이 완료 된 후에 상품서비스의 데이터를 변경하는 코드가 들어 있습니다. 상품서비스는 다시 monolith 서비스를 호출 할 것이기 때문에 application.yaml 파일의 api.uri.product 부분을 ```http://localhost:8085 ->  http://localhost:8088``` 로 변경 합니다
 
 ```yaml
 
@@ -226,22 +231,32 @@ api:
     - mvn spring-boot:run
 
 - 정상적으로 기동 되었는지 확인 합니다. 8082 포트로 서비스가 기동됩니다.
-    - http http://localhost:8082/deliveries
+```
+http http://localhost:8082/deliveries
+```
 
 8. monolith 서비스를 재시작하고, 주문을 생성 하여 두개의 서비스에 데이터를 확인해 봅니다.
 - 주문을 합니다.
-    - http localhost:8088/orders productId=1 quantity=3 customerId="1@uengine.org" customerName="홍길동" customerAddr="서울시"
+```
+http localhost:8088/orders productId=1 quantity=3 customerId="1@uengine.org" customerName="홍길동" customerAddr="서울시"
+```
 
 - 주문 후 모노리스 서비스의 배송 상태를 확인 합니다. 모노리스의 배송 서비스는 Disabled 되어 값이 없습니다.
-    - http http://localhost:8088/deliveries
+```
+http http://localhost:8088/deliveries
+```
 
 - 새로 올린 배송 서비스에 데이터가 정상적으로 들어왔는지 확인 합니다. (port 확인)
-    - http http://localhost:8082/deliveries
+```
+http http://localhost:8082/deliveries
+```
         </mark-down>
         <g-image src="~/img/03_Bizdevops/03_구현/05_모노리스 to MSA전환/image3.png"></g-image>
             <mark-down class="content">
 - 배송서비스에서 상품 수량을 변경하므로(via RestTemplate) 아래와 같이 호출하여 상품수량을 확인 합니다.
-    - http http://localhost:8088/orders/1/product
+```
+http http://localhost:8088/orders/1/product
+```
 
 
 ### 실습 리뷰

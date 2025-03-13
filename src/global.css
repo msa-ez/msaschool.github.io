@@ -13,7 +13,8 @@ table td:last-child, table th:last-child {
     font-weight: 900; /* 원하는 폰트 두께 */
 }
 
-.markdonw-page-box p a {
+.markdonw-page-box p a,
+.markdonw-page-box li a {
     color: #5a67d8 !important;
     font-weight: 700 !important;
 }
