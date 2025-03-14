@@ -11,26 +11,26 @@
 <details>
   <summary><b>자주 사용되는 GCP Cloud 명령어</b></summary>
 
-  - <b>Referencing URL: https://cloud.google.com/kubernetes-engine/docs/how-to/managing-clusters?hl=ko</b>
+  - <b>Referencing URL: <a href="https://cloud.google.com/kubernetes-engine/docs/how-to/managing-clusters?hl=ko" target="_blank">https://cloud.google.com/kubernetes-engine/docs/how-to/managing-clusters?hl=ko</a></b>
   - <b>GCP 인증</b>
-    - gcloud init
+    `gcloud init`
 
   - <b>GCP 클러스터 생성</b>
-    - gcloud container clusters create (Cluster Name) --zone asia-northeast1-a --enable-cloud-logging --enable-cloud-monitoring --subnetwork default
+    `gcloud container clusters create (Cluster Name) --zone asia-northeast1-a --enable-cloud-logging --enable-cloud-monitoring --subnetwork default`
 
   - <b>GCP 클러스터 토큰 가져오기</b>
-    - gcloud container clusters get-credentials (Cluster Name) --zone asia-northeast1-a --project (PROJECT-NAME)
+    `gcloud container clusters get-credentials (Cluster Name) --zone asia-northeast1-a --project (PROJECT-NAME)`
 
   - <b>GCP GCR(Google Container Registry) 인증</b>
-    - gcloud auth configure-docker
+    `gcloud auth configure-docker`
   - <b>GCR 레지스트리에 이미지 Push</b>
-    - docker push gcr.io/PROJECT-NAME/IMAGE-NAME:v1
+    `docker push gcr.io/PROJECT-NAME/IMAGE-NAME:v1`
     - (docker  version 18.03 이하)
-    - gcloud docker --push gcr.io/PROJECT-NAME/IMAGE-NAME:v1
+    `gcloud docker --push gcr.io/PROJECT-NAME/IMAGE-NAME:v1`
     - 오류(unknown flag: --password-stdin) 발생 시,
-      - docker login --username AWS -p $(aws ecr get-login-password --region (Region-Code)) (Account-Id).dkr.ecr.(Region-Code).amazonaws.com/
+      `docker login --username AWS -p $(aws ecr get-login-password --region (Region-Code)) (Account-Id).dkr.ecr.(Region-Code).amazonaws.com/`
   - <b>GCP 클러스터 삭제</b>
-    - gcloud container clusters delete [CLUSTER_NAME]
+    `gcloud container clusters delete [CLUSTER_NAME]`
 
     
 </details> 
@@ -50,9 +50,9 @@
       - docker pull nginx:1.16.1
       - docker images
     - 도커허브 (Docker Hub, 가입) 
-      - http://hub.docker.com # 접속 후, nginx 검색 
+      - <a href="http://hub.docker.com" target="_blank">접속 후, nginx 검색</a>
     - 이미지 Tagging
-      - docker image tag nginx my-nginx # Create 태그
+      `docker image tag nginx my-nginx # Create 태그`
     - 이미지 삭제
       - docker image rm my-nginx
       - docker image rm hello-world

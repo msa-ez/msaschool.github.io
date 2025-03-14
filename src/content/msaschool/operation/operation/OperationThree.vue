@@ -71,7 +71,7 @@
     ```
 
 - Path-based Routing
-    - Ingress는 또한 example.com/blue와 example.com/green 형태의 요청에 대해,
+    - Ingress는 또한 `example.com/blue와 example.com/green` 형태의 요청에 대해,
     - 각각 nginx-blue-svc와 nginx-green-svc로 요청이 라우팅됩니다.
     ```
     apiVersion: extensions/v1beta1

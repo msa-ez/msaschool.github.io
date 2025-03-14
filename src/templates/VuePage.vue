@@ -1,6 +1,6 @@
 <template>
     <vueLayout>
-        <div class="flex flex-wrap items-start justify-start markdonw-page-box">
+        <div class="markdonw-page-box">
             <v-runtime-template :template="getComponentName"/>
         </div>
     </vueLayout>

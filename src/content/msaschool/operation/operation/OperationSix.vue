@@ -23,7 +23,7 @@ Stackdriver Logging은 대규모로 실행되며 수천 개의 VM 에서 애플�
 			class="markdown-body-text-btn"
 			target="_blank"
 		>GCP Logging 상세정보 보기</a>
-		<mark-down class="content">
+        <mark-down class="content">
 #### 로그 뷰어 접속하기
 - GCP 메뉴의 'OPERATIONS > 로그 기록 > 로그 뷰어' 메뉴로 접속합니다.
         </mark-down>

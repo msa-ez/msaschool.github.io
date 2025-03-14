@@ -41,8 +41,7 @@ HTTP 요청 체인을 통해 긴 요청/응답 주기를 만들 때처럼 마이
 #### Try-Confirm/Cancel 방법
         </mark-down>
         <g-image src="~/img/03_Bizdevops/04_통합/02_동기호출에 의한 통합/image3.png"></g-image>
-        <mark-down class="content">
-
+        <mark-down class="content" source="
 **Try-Confirm/Cancel 방법**은 분산된 REST 시스템들 간의 트랜잭션을 HTTP와 REST 원칙으로 접근하여 해결하는 방법입니다.
 
 위 그림에서 주문을 처리하는 과정에서 재고를 차감(2단계)하고 결제 처리(3단계)는 성공했지만 구매 주문 생성(4단계)하다가 실패했습니다면 어떻게 될까요? 모두 롤백 Rollback 되지 않으면 일관성이 깨집니다.
@@ -52,14 +51,15 @@ HTTP 요청 체인을 통해 긴 요청/응답 주기를 만들 때처럼 마이
 
 
 > 참고 및 그림 :
-> https://www.popit.kr/rest-기반의-간단한-분산-트랜잭션-구현-1편/
-> https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture
+> <a href='https://www.popit.kr/rest-기반의-간단한-분산-트랜잭션-구현-1편/' target='_blank'>REST 기반의 간단한 분산 트랜잭션 구현 1편</a>
+> <a href='https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture' target='_blank'>Microservices Communication in .NET</a>
 
 ## 장애전파 차단: 서킷브레이커 패턴
+        ">
 
         </mark-down>
         <g-image src="~/img/03_Bizdevops/04_통합/02_동기호출에 의한 통합/image4.png"></g-image>
-        <mark-down class="content">
+        <mark-down class="content" source="
 
 요청/응답 통신은 성능저하와 장애 전파를 회피 하기 위한 전략을 새워야 합니다. **서킷브레이커**를 통하여 장애 전파를 원천 차단 할 수 있습니다. **서킷브레이커**와 **retry** 를 같이 사용하여 서비스의 resilience (탄력성) 을 높일 수 있습니다.
 
@@ -73,8 +73,8 @@ HTTP 요청 체인을 통해 긴 요청/응답 주기를 만들 때처럼 마이
 ## Lab: 서킷브레이커 패턴
 Java 로 개발을 한다면, 서킷브레이커를 적용할때 Netflix 에서 제공하는 CircuitBreaker 라이브러리를 사용하면 됩니다. 다만 이 방법은 소스코드를 직접 수정해야하는 단점이 있는 방면 fall-back 메서드를 직접 구현하여 후속 작업을 구현 할 수 있습니다. Java 로 서킷브레이커를 구성하는 방법은 워낙 많은 글들이 있어서, 링크로 대체를 하고, Kubernetes 와 Istio 를 사용하여 구현 하는 방법을 실습하겠습니다.
 
-> [java 방식 CircuitBreaker] https://bcho.tistory.com/1247
-> [javascript 방식 CircuitBreaker] https://velog.io/@vies00/Circuit-Breaker-Pattern
+> [Java 방식 CircuitBreaker] <a href='https://bcho.tistory.com/1247' target='_blank'>https://bcho.tistory.com/1247</a>
+> [JavaScript 방식 CircuitBreaker] <a href='https://velog.io/@vies00/Circuit-Breaker-Pattern' target='_blank'>https://velog.io/@vies00/Circuit-Breaker-Pattern</a>
 
 Istio 를 사용하는 방법은 소스코드를 수정할 필요가 없습니다. 쿠버네티스에 배포되어있는 서비스에 sidecar 를 추가하여 네트워크 트래픽을 모니터링 후 지정한 시간을 오버하거나, 에러율이 높으면 트래픽을 끈어버리는 방법 입니다. 다만 직접 소스코드를 수정하지 못하니, fall-back 같은 처리는 하지 못합니다.
 
@@ -85,9 +85,9 @@ Istio 를 사용하는 방법은 소스코드를 수정할 필요가 없습니�
 * siege : http 로드테스트 도구
 
 #### 소스코드 다운로드 및 빌드 후 클러스터 배포
-* https://github.com/event-storming/reqres_orders
-* https://github.com/event-storming/reqres_products
-* https://github.com/event-storming/reqres_delivery
+* <a href='https://github.com/event-storming/reqres_orders' target='_blank'>reqres_orders</a>
+* <a href='https://github.com/event-storming/reqres_products' target='_blank'>reqres_products</a>
+* <a href='https://github.com/event-storming/reqres_delivery' target='_blank'>reqres_delivery</a>
 
 #### 예제 설명
 주문(order) 서비스와 상품(product) 서비스, 배송(delivery) 서비스의 관계가 Request/Response 방식으로 호출을 하여 쇼핑몰을 구성합니다.
@@ -114,7 +114,7 @@ siege 툴을 사용하여 서킷브레이커가 없는 상황에서 부하를 �
 주문 서비스에 주문을 넣고, -c 옵션으로 사용자를 설정하고, -t 옵션으로 시간을 넣어 보겠습니다. -v 옵션으로 호출한 로그를 보도록 하겠습니다.
 
 ```
-$ siege -c2 –t10S  -v --content-type "application/json" 'http://orders:8080/orders POST {"productId":2,"quantity":1}'
+$ siege -c2 –t10S  -v --content-type 'application/json' 'http://orders:8080/orders POST {'productId':2,'quantity':1}'
 ```
 
 서킷브레이커가 없기 때문에 호출은 정상적으로 이루어 집니다. 적은 사용자가 짧은 시간동안 호출을 한것이기 때문인데, 만약 서버가 과부하를 걸릴정도로 사용자를 늘려서 호출한다면 서비스는 다운이 될 것입니다. (서비스별로 과부하를 체크하는 부분은 다르기 때문에 사용자를 늘려서 호출 하는 방법은 테스트를 안합니다)
@@ -153,12 +153,12 @@ spec:
 siege 툴을 사용하여 부하를 주게 되면 http1MaxPendingRequests: 1 로 설정되어있기 때문에 2명의 사용자가 요청시 1개의 요청은 차단되는것을 확인 할 수 있습니다.
 
 ```
-$ siege -c2 –t10S  -v --content-type "application/json" 'http://orders:8080/orders POST {"productId":2,"quantity":1}'
+$ siege -c2 –t10S  -v --content-type 'application/json' 'http://orders:8080/orders POST {'productId':2,'quantity':1}'
 ```
 
 > 참고:
-> http://itnp.kr/post/istio-circuit-break
-
+<a href='http://itnp.kr/post/istio-circuit-break' target='_blank'>http://itnp.kr/post/istio-circuit-break</a>        
+        ">
         </mark-down>
     </div>
 </template>

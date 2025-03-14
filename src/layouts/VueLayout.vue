@@ -11,12 +11,15 @@
                     <VueLayoutHeader @login="login()" @sidebarState="sidebarState" @small="setSmall"></VueLayoutHeader>
                 </header>
 
-                <main style="max-width: 100%; padding-left: 20px; padding-right: 60px;" class="container relative flex flex-wrap justify-start flex-1 w-full bg-ui-background is-mobile-main">
+                <v-row class="ma-0 pa-0"
+                    style="width:100vw"
+                >
                     <aside
-                            v-if="hasSidebar"
-                            class="sidebar"
-                            :class="{ 'open': sidebarOpen }"
-                            :style="sidebarStyle"
+                        v-if="hasSidebar"
+                        class="sidebar"
+                        :class="{ 'open': sidebarOpen }"
+                        :style="sidebarStyle"
+                        style="width:350px; padding-left:20px;"
                     >
                         <div class="w-full mt-0 pb-16 bg-ui-background">
                             <ClientOnly>
@@ -25,12 +28,10 @@
                         </div>
                     </aside>
 
-                    <div class="is-mobile-contents"
-                        :class="{ 'pl-0 lg:pl-12 lg:w-4/5': hasSidebar }"
-                        :style="mainStyleBySize">
+                    <div :style="small ? 'width: 100vw !important; padding:32px;' : 'width: calc(100vw - 364px) !important; padding:16px;'">
                         <slot/>
                     </div>
-                </main>
+                </v-row>
                 <footer
                         ref="footer"
                         class="z-10 border-b bg-ui-background border-ui-border"
@@ -612,7 +613,7 @@
 
     .content pre {
         margin-top: 0;
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
     .content input::-webkit-inner-spin-button, .content input::-webkit-outer-spin-button {
@@ -1354,6 +1355,7 @@
                 padding-bottom:50px !important;
                 top: 93px !important;
                 height:100% !important;
+                width:100vw !important;
             }
 
             @screen lg {

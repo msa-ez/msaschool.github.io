@@ -13,7 +13,7 @@
 
 </mark-down>
         <g-image src="~/img/04_Library/03_MSA 전환전략/04_전환이슈 및 솔루션/image1.png"></g-image><br>
-        <mark-down class="content">
+        <mark-down class="content" source="
 
 ### **1. API 를 어떻게 통합할 것인가?**
 
@@ -24,13 +24,13 @@
 **Gateway** 는 진입점 통일 역활을 하여 마이크로 서비스를 찾아가는 라우팅 역할을 합니다.
 또한 마이크로 서비스의 최상단에서 갑옷을 입는 역할을 합니다. 보안(e.g: prevent DDOS Attack) , 인가(e.g: Access Token), ACL(Access Control List), CORS(Cross-Origin Resource Sharing) 등을 각자의 서비스에서 처리를 하지 않고, **Gateway** 에서 일괄적으로 처리를 함으로서 마이크로 서비스에서는 구현에 좀더 집중을 할 수 있는 환경을 만들어 준다.
 
-> Gateway 의 자세한 설명은 [[참고자료-MSA Outer 아키텍처-API Gateway]](/operation/architecture/architecture-one/) page 에서 참고 하면 됩니다.
+> Gateway 의 자세한 설명은 <a href='/operation/architecture/architecture-one/' target='_blank'>참고자료-MSA Outer 아키텍처-API Gateway</a> page 에서 참고 하면 됩니다.
 
 
 **Service Registry** 는 **Gateway** 에서 각 서비스를 찾아 갈 수 있도록 서비스와 ip 를 가지고 있는 맵 이라고 볼 수 있습니다.
 Service Registry 는 client/server side discovery , loadbalancer 라고 불리운다. 서비스를 찾고, 로드벨런싱 하는 역할을 합니다.
 
-> Service Registry 의 자세한 설명은 [[설계-서비스 디스커버리패턴]](/#/설계--구현--운영단계/03_설계/06_서비스%20디스커버리%20패턴) page 에서 참고 하면 됩니다.
+> Service Registry 의 자세한 설명은 <a href='/operation/design/design-six/' target='_blank'>설계-서비스 디스커버리패턴</a> page 에서 참고 하면 됩니다.
 
 ### **2. 객체 참조를 어떻게 할 것인가?**
 
@@ -61,7 +61,7 @@ Entity 간에 Primary Key 를 이용하여 객체 참조를 할때 Aggregate Roo
 #### Strangler Pattern
 
 스트랭글러 패턴이란 기존의 모노리스 시스템을 조금씩 쪼개서 마이크로 서비스로 변경하는 패턴입니다. 스트랭글러 패턴은 스트랭글러 덩굴이 숙주 나무를 타고 자라다가 결국 숙주 나무를 죽이고 그 자리를 차지하는 방식에서 나오게 된 말입니다. 마이크로 서비스들이 기존의 거대한 레거시 시스템을 변화시키면서 결국 모노리스 시스템을 모두 마이크로 서비스로 점진적으로 변화시키는 패턴입니다. 이는 Biz 임팩트 최소화를 통한 구조적 변화입니다.
-
+        ">
 </mark-down>
         <g-image src="~/img/04_Library/03_MSA 전환전략/04_전환이슈 및 솔루션/image2.png"></g-image><br>
         <mark-down class="content">
@@ -73,7 +73,7 @@ Entity 간에 Primary Key 를 이용하여 객체 참조를 할때 Aggregate Roo
 
 </mark-down>
         <g-image src="~/img/04_Library/03_MSA 전환전략/04_전환이슈 및 솔루션/image3.png"></g-image><br>
-        <mark-down class="content">
+        <mark-down class="content" source="
 모노리스 서비스에서 일부 기능을 마이크로 서비스로 떼어낸다면, 기존에는 내부 객체를 호출하던 부분을 Request/Response or Event Driven 방식으로 변경을 해줘야 합니다. 이때 변경되는 부분을 해석해 주는 부분이 필요해 진다. 이 부분을 DDD 에서는 Anti-Corruption Layer 라고 부른다. 두개의 서비스를 해석해주는 Layer 라는 의미입니다.
 여기서 새로운 서비스를 Request/Response 방식으로 호출을 한다면, 동기식 방식이 됩니다. 동기식 방식은 기존 코드를 모두 api 호출하는 방식으로 바꾸기 때문에 소스코드의 수정이 많다. 이 소스코드의 수정을 최소화 시키려는 노력으로 Netflix 에서는 Feign Client 방식으로 Service 를 변경하는 방식을 제공합니다.
 
@@ -140,20 +140,20 @@ deliveryService.startDelivery(delivery);
 
 ```java
 @Service
-@FeignClient(name ="delivery", url="${api.url.delivery}")
+@FeignClient(name 'delivery', url='${api.url.delivery}')
 public interface DeliveryService {
-@RequestMapping(method = RequestMethod.POST, value = "/deliveries", consumes = "application/json")
+@RequestMapping(method = RequestMethod.POST, value = '/deliveries', consumes = 'application/json')
 void startDelivery(Delivery delivery);
 }
 ```
 
 관련 소스는 다음을 참고하면 됩니다.
-[모노리스 소스코드]: https://github.com/event-storming/monolith
-[모노리스에서 delivery 를 원격 호출하는 order 서비스]: https://github.com/event-storming/reqres_orders
+<a href='https://github.com/event-storming/monolith' target='_blank'>모노리스 소스코드</a>
+<a href='https://github.com/event-storming/reqres_orders' target='_blank'>모노리스에서 delivery 를 원격 호출하는 order 서비스</a>
 
 
 #### Event Shunting
-
+        ">
 </mark-down>
         <g-image src="~/img/04_Library/03_MSA 전환전략/04_전환이슈 및 솔루션/image4.png"></g-image><br>
         <mark-down class="content">
@@ -175,8 +175,8 @@ void startDelivery(Delivery delivery);
 
 </mark-down>
         <g-image src="~/img/04_Library/03_MSA 전환전략/04_전환이슈 및 솔루션/image5.png"></g-image><br>
-        <mark-down class="content">
-통합 인증은 "어떻게하면 흩어져 있는 Application 들의 인증 관리를 중앙에서 쉽게 할 것인가” 하는 것인데, 이것을 푸는 방식 중 대표적인 것이 바로 OAuth2 입니다. OAuth2 는 웹, 모바일 어플리케이션에서 타사의 API 권한 획득을 위한 프로토콜입니다. Google, Facebook 등을 비롯한 대부분의 인터넷 기반 Application들이 OAuth2 또는 그 변종을 사용하여 스스로를 인증하거나 누군가에게 인증 서비스를 제공하고 있습니다. 또, 근래에는 OpenID Connect라는(예전의 URL 기반 OpenID와는 다르다) 것이 등장하여 OAuth의 개념을 보다 편리하게 쓸 수 있도록 한 기술도 등장한 상태입니다.
+        <mark-down class="content" source="
+통합 인증은 '어떻게하면 흩어져 있는 Application 들의 인증 관리를 중앙에서 쉽게 할 것인가' 하는 것인데, 이것을 푸는 방식 중 대표적인 것이 바로 OAuth2 입니다. OAuth2 는 웹, 모바일 어플리케이션에서 타사의 API 권한 획득을 위한 프로토콜입니다. Google, Facebook 등을 비롯한 대부분의 인터넷 기반 Application들이 OAuth2 또는 그 변종을 사용하여 스스로를 인증하거나 누군가에게 인증 서비스를 제공하고 있습니다. 또, 근래에는 OpenID Connect라는(예전의 URL 기반 OpenID와는 다르다) 것이 등장하여 OAuth의 개념을 보다 편리하게 쓸 수 있도록 한 기술도 등장한 상태입니다.
 
 기존의 모노리스 시스템에서는 서버측에 유저 정보를 저장하는 서버기반 인증을 많이 사용하였습니다. 서버기반 인증의 문제점은 사용자가 늘어났을때 메모리 사용량이 늘어나고 정보를 저장하는 별도의 서드파티가 필요하여진다. 클라우드 환경에서 적용하기 위하여 세션 클러스터링 방식이 필요해 지고, 각 서비스마다 인증로직을 구현해야 합니다. 이러한 방식을 해결하기 위하여 토큰 기반 인증 방식을 사용합니다.
 
@@ -193,15 +193,11 @@ Token 은 무의미한 문자열로, 기본적으로 정해진 규칙에 의해 
 결론적으로 마이크로 서비스 아키텍처 에서는 Oauth2 방식으로 사용하려는 api 를 인증하고 인증시 토큰을 사용합니다. 인증 결과인 Token 을 client 에서 가지고 있다가, api 를 요청시 header 에 같이 실어 보내어 인가 처리를 하는데, 이때 인가 처리를 gateway 에서 처리를 하는 방식을 추천 합니다.
 
 관련 소스는 다음을 참고하면 됩니다.
-[인증서버 소스코드]: https://github.com/event-storming/oauth
-[인가 Gateway]: https://github.com/event-storming/gateway
+<a href='https://github.com/event-storming/oauth' target='_blank'>인증서버 소스코드</a>
+<a href='https://github.com/event-storming/gateway' target='_blank'>인가 Gateway</a>
 
-[설계-마이크로 서비스 보안](/#/설계--구현--운영단계/03_설계/07_마이크로서비스%20보안설계) page 에서 Oauth2.0 과 JWT 를 사용하는 방식에 대하여 자세히 설명합니다.
-
-
-
-
-
+<a href='/operation/design/design-seven/' target='_blank'>설계-마이크로 서비스 보안</a> page 에서 Oauth2.0 과 JWT 를 사용하는 방식에 대하여 자세히 설명합니다.
+        ">
         </mark-down>
     </div>
 </template>

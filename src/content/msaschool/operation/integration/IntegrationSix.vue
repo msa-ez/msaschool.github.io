@@ -3,14 +3,14 @@
         <div class="Practice-card-box">
                 <VueSubLayoutCard lab="dp-cqrs-2022-associate"></VueSubLayoutCard>
         </div>
-        <mark-down class="content">
+        <mark-down class="content" source="
 ## 명령 및 쿼리 역할 구분 CQRS (Command and Query Responsibility Segregation)
 
 이번장은 이벤트 드리븐 아키텍처의 꽃인 CQRS 에 대하여 설명 합니다.
 
 CQRS는 네이밍에서 알 수 있듯이 명령과 쿼리의 역할을 구분 한다는 것입니다. 즉 커맨드 ( Create - Insert, Update, Delete : 데이터를 변경) 와 쿼리 ( Select - Read : 데이터를 조회)의 책임을 분리한다는 것입니다. CQRS는 새롭게 등장한 개념은 아니고 등장한지 조금된 패턴 입니다.
 
-> CQRS는 [CQS(Command and Query Separation)](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) 원리에 기원합니다. 사실 CQRS는 처음엔 CQS의 확장으로 얘기되었습니다. 하지만 CQS는 명령과 조회를 연산 수준에서 분리하는 반면 CQRS는 개체(object)나 시스템(혹은 하위 시스템) 수준에서 분리합니다.
+> CQRS는 <a href='https://en.wikipedia.org/wiki/Command%E2%80%93query_separation' target='_blank'>CQS(Command and Query Separation)</a> 원리에 기원합니다. 사실 CQRS는 처음엔 CQS의 확장으로 얘기되었습니다. 하지만 CQS는 명령과 조회를 연산 수준에서 분리하는 반면 CQRS는 개체(object)나 시스템(혹은 하위 시스템) 수준에서 분리합니다.
 
 
 ### 생겨난 이유
@@ -29,7 +29,7 @@ CQRS는 프로젝트의 복잡도와 상관없이 성공적으로 적용할 수 
 2. Premium - Simple 방법에서 DB 를 분리한 것입니다. NoSQL 을 쿼리용 DB 로 주로 사용합니다.
 
 3. Event Sourcing - 이벤트 소싱은 이벤트 자체를 DB 처럼 사용하는 방식입니다. CUD 명령은 기존의 DB 에 저장을 한 후, 이벤트를 발생시켜서 쿼리용 데이터를 따로 만드는 방식입니다. CQRS 의 가장 큰 시너지를 낼수 있는 방식이라 최근에는 필수적인 설계 방식이 되었습니다.
-
+        ">
 
         </mark-down>
         <mark-down class="content">
@@ -38,12 +38,11 @@ CQRS는 프로젝트의 복잡도와 상관없이 성공적으로 적용할 수 
 
         <g-image src="~/img/03_Bizdevops/04_통합/06_CQRS/image1.png"></g-image>
 
-        <mark-down class="content">
+        <mark-down class="content" source="
 위 그림의 왼쪽 모형은 CQRS 를 적용하기 전 모형 입니다. UI 에서 명령과 쿼리를 실행하면 도메인 모델이 받아서, 레파지토리를 통하여 데이터 스토어(데이터베이스) 에 저장을 하는 모형 입니다.
 
 CQRS 적용시 (오른쪽 모형) 우선적으로 명령과 쿼리에 해당 하는 도메인 모델과 리드 모델로 나눕니다. 도메인 모델이 저장 되었을시 이벤트를 발생 시켜, 읽기 전용 데이터베이스에 저장을 시킵니다. UI 에서 명령과 쿼리 API 를 분리 하여 조회를 합니다.
-
-> 이미지 및 내용 참조 : https://justhackem.wordpress.com/2016/09/17/what-is-cqrs/
+<a href='https://justhackem.wordpress.com/2016/09/17/what-is-cqrs/' target='_blank'>이미지 및 내용 참조</a>
 
 
 ### CQRS 장점
@@ -65,9 +64,10 @@ CQRS 적용시 (오른쪽 모형) 우선적으로 명령과 쿼리에 해당 하
 
 
 ## 쇼핑몰에서 CQRS 적용
+        ">
         </mark-down>
         <g-image src="~/img/03_Bizdevops/04_통합/06_CQRS/image2.png"></g-image>
-        <mark-down class="content">
+        <mark-down class="content" source="
 위 그림의 왼쪽 모형은 CQRS 를 적용하기 전 모형 입니다. UI 에서 명령과 쿼리를 실행하면 도메인 모델이 받아서, 레파지토리를 통하여 데이터 스토어(데이터베이스) 에 저장을 하는 모형 입니다.
 
 CQRS 적용시 (오른쪽 모형) 우선적으로 명령과 쿼리에 해당 하는 도메인 모델과 리드 모델로 나눕니다. 도메인 모델이 저장 되었을시 이벤트를 발생 시켜, 읽기 전용 데이터베이스에 저장을 시킵니다. UI 에서 명령과 쿼리 API 를 분리 하여 조회를 합니다.
@@ -77,7 +77,7 @@ CQRS 적용시 (오른쪽 모형) 우선적으로 명령과 쿼리에 해당 하
 주문을 하기 위해서는 여러가지 정보를 조회를 하여 한 화면에 보여주어야 하는데, 마이크로 서비스는 join 쿼리를 사용 할 수 없습니다. 만약 위와 같은 모형을 사용하지 않는다면, 매번 API 를 사용하여 데이터를 조회 하여야 하는데, 이는 블로킹을 유발시키고, 각 서비스와의 커플링을 강하게 가져 갈 수 있습니다. 조회용 데이터베이스를 따로 관리한다면 (데이터베이스에서 일종의 View 를 만드는 것과 같은 행위) 단일 데이터베이스를 조회하는 것 보다 빠르게 데이터를 쿼리 할 수 있습니다.
 
 > 이미지 참조 : Modified from Microservices Patterns, Chris Richardson, Manning, 2018
-> 소스 참조 : https://github.com/event-storming/mypage
+<a href='https://github.com/event-storming/mypage' target='_blank'>소스 참조</a>
 
 
 ## CQRS Lab. (Local)
@@ -86,6 +86,7 @@ CQRS 적용시 (오른쪽 모형) 우선적으로 명령과 쿼리에 해당 하
 - Step-1. CQRS View 모델링
 - 구현 단계에서 Fork 한 모델(shopide)을 MSAEz 도구에 Load 합니다.
 - 스티커 팔레트로부터 View 를 Drag 하여 적절한 위치에 두고, 'OrderStatus' View를 가진 Bounded Context를 추가합니다.
+        ">
         </mark-down>
         <g-image src="~/img/03_Bizdevops/04_통합/06_CQRS/image3.png"></g-image>
         <mark-down class="content">
@@ -116,15 +117,20 @@ CQRS 적용시 (오른쪽 모형) 우선적으로 명령과 쿼리에 해당 하
 
 - Step-5. CQRS Test
 - 주문, 배송, CQRS 서비스를 기동하고 새로운 주문을 생성합니다.
-- http http://localhost:8081/order productId="1001" qty=10
+`http http://localhost:8081/order productId="1001" qty=10`
 
 - Kafka로부터 Event 및 CQRS Data를 확인합니다.
-- kafka Consumer: (kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic shopide --from-beginning)
-- CQRS 확인: http http://localhost:8083/orderStatuses
+- kafka Consumer: 
+`(kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic shopide --from-beginning)`
+
+- CQRS 확인: 
+`http http://localhost:8083/orderStatuses`
 
 - 해당 주문을 취소한 뒤, CQRS Data를 확인합니다.
-- http DELETE http://localhost:8081/order/1
-- CQRS 확인: http http://localhost:8083/orderStatuses
+`http DELETE http://localhost:8081/order/1`
+
+- CQRS 확인: 
+`http http://localhost:8083/orderStatuses`
         </mark-down>
 
     </div>

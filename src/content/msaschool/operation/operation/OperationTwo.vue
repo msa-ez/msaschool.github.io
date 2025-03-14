@@ -343,7 +343,7 @@ spec:
       externalName: my.database.example.com
     ```
     - 서비스를 ExternalName 타입으로 설정하고, 주소를 my.database.example.com으로
-      설정해주면 이 my-service는 들어오는 모든 요청을 my.database.example.com 으로 포워딩 
+      설정해주면 이 my-service는 들어오는 모든 요청을 my.database.example.com으로 포워딩 
     - 일종의 프록시와 같은 역할
     </mark-down>
         <g-image style="max-width: 25%" 

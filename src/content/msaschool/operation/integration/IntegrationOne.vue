@@ -86,7 +86,7 @@ facebook 이나 amazon 같은 site 는 겉보기에는 하나의 통합된 site 
 ```
 
 참고 소스 코드 :
-[Client - UI]: https://github.com/event-storming/ui
+<a href='https://github.com/event-storming/ui' target='_blank'>Client - UI</a>
 
 
 ## UI 통합 개발시 주의 사항

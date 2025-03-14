@@ -45,26 +45,24 @@ Data Projection 을 하는 방법은 다양하게 있습니다.
 ### 3. Composite Service 생성
         </mark-down>
         <g-image src="~/img/03_Bizdevops/04_통합/05_데이터 프로젝션/image3.png"></g-image>
-        <mark-down class="content">
-
-
+        <mark-down class="content" source="
 데이터 통합을 클라이언트가 아닌 서버단에 해결하는 방법입니다. Composite 역할을 하는 서비스를 생성하여 해당 서비스에서 api 를 통합 하는 방법입니다. 주문 내용 조회 라는 API 를 호출 하였을때, Composite Service 에서는 각 마이크로 서비스들을 조회하여 데이터를 통합하여 응답을 해줍니다. 이는 Request/Response (요청/응답) 패턴에서 가지고 있는 문제점을 그대로 가지고 있습니다. 4개의 서비스를 조회할때 3개의 서비스가 1초만에 데이터를 보내왔어도 1개의 서비스가 4초가 걸린다면 전체적으로는 4초가 걸리게 됩니다. 이는 속도 저하로 이루어 지고, 마찬가지로 응답시간이 느려질수록 장애가 확산될 여지가 있습니다.
 
 서버 리소스만 충분하다면 클라이언트에서 통합을 하는 방법보다는 효율적일 수 있습니다. 하지만 특정 서비스의 장애가 확산 될 여지가 있는 단점이 있습니다.
 
 > 이미지 참조 : Modified from Microservices Patterns, Chris Richardson, Manning, 2018
 
-
 ## Composite Service 구현 샘플
 
 #### 참고 소스코드
-* https://github.com/event-storming/composite_service
+<a href='https://github.com/event-storming/composite_service' target='_blank'>composite_service 예제</a>
 
 #### 예제 설명
 
 composite_service 예제는 사용자의 주문이력과 각 주문에 대한 상세 정보 ( 주문, 상품, 배송 ) 를 조합하여 사용자에게 보여줍니다. 비동기 통신을 위하여 Java 의 CompletableFuture 을 사용하였습니다. Java 의 비동기 통신 방법은 최초 요청을 하고 응답을 기다리지 않고, 일단 넘어갑니다. 그리고 요청결과가 나오면 call-back 메서드를 호출하여 주는 방식입니다. 동작방식과 사용법을 좀더 자세히 알고 싶으시면 [java-completablefuture](https://www.baeldung.com/java-completablefuture) 를 참조 하시길 바랍니다.
 
 대략적인 소스코드는 다음과 같습니다. 여러 서비스를 비동기로 호출하여 결과가 완성되면 조합을 하여 return 을 하면 됩니다.
+        ">
         </mark-down>
 
             <mark-down class="content" source="

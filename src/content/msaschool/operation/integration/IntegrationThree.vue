@@ -69,14 +69,14 @@
 #### Removing a service
         </mark-down>
         <g-image src="~/img/03_Bizdevops/04_통합/03_Event-driven 기반 통합/image4.png"></g-image>
-        <mark-down class="content">
+        <mark-down class="content" source="
 
 ## 이벤트 드리븐 구현 샘플
 
 #### 참고 소스코드
-* https://github.com/event-storming/orders
-* https://github.com/event-storming/products
-* https://github.com/event-storming/delivery
+* <a href='https://github.com/event-storming/orders' target='_blank'>https://github.com/event-storming/orders</a>
+* <a href='https://github.com/event-storming/products' target='_blank'>https://github.com/event-storming/products</a>
+* <a href='https://github.com/event-storming/delivery' target='_blank'>https://github.com/event-storming/delivery</a>
 
 #### 예제 설명
 주문(order) 서비스와 상품(product) 서비스, 배송(delivery) 서비스의 관계가 Event-Driven 방식으로 호출을 하여 쇼핑몰을 구성합니다.
@@ -129,7 +129,8 @@ public class DeliveryService {
                 deliveryRepository.save(delivery);
         }
 }
-```
+```     
+        ">
         </mark-down>
     </div>
 </template>

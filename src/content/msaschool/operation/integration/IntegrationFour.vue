@@ -45,7 +45,7 @@
 
         <g-image src="~/img/03_Bizdevops/04_통합/04_이벤추얼 트랜잭션---Saga/image3.png"></g-image>
 
-        <mark-down class="content">
+        <mark-down class="content" source="
 **CAP 이론**은 분산 시스템에서는 데이터 일관성(data consistency), 시스템 가용성(system availability), 네트워크 분할 허용성(network to partition-tolerance) 간의 고유한 균형이 존재하는데, 이들 세 특성 가운데 두 가지를 제공할 수 있지만, 세 가지 모두는 제공하지 않는다는 정리입니다. 그중 앞글자만 따서 CAP 라고 호칭 합니다.
 
 우선 각각의 특성을 살펴 보겠습니다.
@@ -106,15 +106,13 @@ AP 시스템 : 항상 응답하는 시스템을 만들기 위해서, (심지어 
 - 모든 트랜잭션을 Orchestrator가 관리하기 때문에 로직이 복잡해 질 수 있습니다.
 - Orchestrator라는 추가 서비스가 들어가고 이를 관리해야 합니다.
 
-> 참고 : https://www.howtodo.cloud/microservice/2019/06/19/microservice-transaction.html
-
-
 ## Saga Roll-Back 구성
+        ">
         </mark-down>
 
         <g-image src="~/img/03_Bizdevops/04_통합/04_이벤추얼 트랜잭션---Saga/image4.png"></g-image>
 
-        <mark-down class="content">
+        <mark-down class="content" source="
 위 그림은 Saga 패턴중 Choreography 방식으로 보상 트랜잭션을 구성하는 방법입니다.
 
 상품 서비스에서 트랜잭션 실패로 트랜잭션을 롤백해야 할때 CANCELLED 라는 이벤트를 발생시켜 주문 서비스에서 CANCELLED라는 이벤트를 트리거링 하여 주문 취소 로직을 실행 시키면 됩니다.
@@ -129,7 +127,6 @@ AP 시스템 : 항상 응답하는 시스템을 만들기 위해서, (심지어 
 원할한 실습을 위하여 소스코드가 구현된 서비스를 가져와서 작업을 하겠습니다. 아래 git clone 명령어를 실행하여 주문,배송,상품 서비스의 코드를 로컬환경에 셋팅 합니다.
 
 ```
-
 mkdir saga-rollback
 cd saga-rollback
 git clone https://github.com/event-storming/orders.git
@@ -139,32 +136,32 @@ git clone https://github.com/event-storming/delivery.git
 
 실습에 앞서서 세개의 프로젝트를 구동 합니다. 이벤트 드리븐 시스템이기 때문에 localhost:9092 로 kafka 가 실행 되어져야 합니다.
 
-> [[카프카 설치 및 실행 참고]](/#/설계--구현--운영단계/04_구현/10_카프카%20설치%20및%20기동)
+> <a href='/operation/implementation/implementation-seven/' target='_blank'>카프카 설치 및 실행 참고</a>
 
 1. 서비스 기동
 - 각각의 폴더로 들어가서 서비스를 실행합니다.
-- cd orders
-- mvn spring-boot:run
+`cd orders`
+`mvn spring-boot:run`
 - products 와 delivery 도 실행을 합니다.
 
 2. 기동 확인
 - 상품 서비스
-- http http://localhost:8085/products
+`http http://localhost:8085/products`
 - 주문 서비스
-- http http://localhost:8081/orders
+`http http://localhost:8081/orders`
 - 배송 서비스
-- http http://localhost:8082/deliveries
+`http http://localhost:8082/deliveries`
 
 - 위의 3개의 프로젝트는 기본적인 Saga 패턴이 적용 되어있습니다. 사용자가 주문을 하였을때 상품 서비스의 재고량이 줄어들고, 사용자가 주문을 취소 하였을때, 상품 서비스의 재고량이 늘어나도록 트랜젝션이 묶여 있습니다.
 
 ### 사용자가 주문을 할 때
+        ">
         </mark-down>
 
         <g-image src="~/img/03_Bizdevops/04_통합/04_이벤추얼 트랜잭션---Saga/image5.png"></g-image>
 
         <mark-down class="content">
 위 그림은 이벤트 드리븐 시스템에서 사용자가 주문을 하였을때, 상품의 재고량이 결국 일치하는 프로세스입니다. 예제에서는 각 서비스의 트랜잭션이 끝났을때, 이벤트를 발행합니다. 그리고 메세지 큐 시스템은 Kafka 를 사용하였습니다.
-
 1. 위의 프로세스 구조
 1) 사용자(client)는 주문 생성을 하는 api 를 호출합니다. 해당 api 는 주문 서비스를 호출하게 됩니다.
 
@@ -177,22 +174,32 @@ git clone https://github.com/event-storming/delivery.git
 5) 주문서비스는 ProductChanged 이벤트에 반응하여 내부 데이터베이스의 상품 정보를 업데이트 하고, 사용자(client)에게 재고변경, 주문처리 완료 되었다고 알려줍니다. 혹은 PENDING 으로 처리를 하였다면, PENDING 해제를 하면 됩니다.
 
 2. 주문 생성 - 상품 ID 1번을 1개를 주문 합니다.
-- http localhost:8081/orders productId=1 quantity=1 customerId="1@uengine.org" customerName="홍길동" customerAddr="서울시"
+`http localhost:8081/orders productId=1 quantity=1 customerId="1@uengine.org" customerName="홍길동" customerAddr="서울시"`
+
 
 3. 카프카의 consumer 를 조회하여 이벤트가 어떻게 호출 되는지 확인 해 봅니다.
 
 - 윈도우
-- kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning
+`
+kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning
+`
+
 - 리눅스
-- kafka-console-consumer.sh --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning
+`
+kafka-console-consumer.sh --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning
+`
 
 4. 상품 서비스의 재고량이 줄어든 것을 확인 합니다.
-- http http://localhost:8085/products/1
 - ( 초기값 10개에서 9개로 변경된것 확인 )
+`
+http http://localhost:8085/products/1
+`
 
-5. 주문 서비스는 자체 상품데이터를 저장 하고 있습니다. ProductChanged 이벤트에 의하여 주문 서비스의 재고량이 줄어든 것을 확인 합니다
-- http http://localhost:8081/products/1
+5. 주문 서비스는 자체 상품데이터를 저장 하고 있습니다. ProductChanged 이벤트에 의하여 주문 서비스의 재고량이 줄어든 것을 확인 합니다.
 - ( 초기값 10개에서 9개로 변경된것 확인 )
+`
+http http://localhost:8081/products/1
+`
 
 ### 사용자가 주문을 취소 할 때
         </mark-down>
@@ -213,22 +220,29 @@ git clone https://github.com/event-storming/delivery.git
 5) 주문서비스는 ProductChanged 이벤트에 반응하여 내부 데이터베이스의 상품 정보를 업데이트 하고, 사용자(client)에게 재고변경, 주문취소 완료 되었다고 알려줍니다. 혹은 PENDING 으로 처리를 하였다면, PENDING 해제를 하면 됩니다.
 
 2. 주문 취소 - 주문 ID 1번을 취소 합니다.
-- http PATCH localhost:8081/orders/1 state=OrderCancelled
+`
+http PATCH localhost:8081/orders/1 state=OrderCancelled
+`
 
 3. 카프카의 consumer 를 조회하여 이벤트가 어떻게 호출 되는지 확인 해 봅니다.
 
 - 윈도우
-- kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning
+`kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning`
 - 리눅스
-- kafka-console-consumer.sh --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning
+`kafka-console-consumer.sh --bootstrap-server http://localhost:9092 --topic eventTopic --from-beginning`
+
 
 
 4. 상품 서비스의 재고량이 늘어난 것을 확인 합니다.
-- http http://localhost:8085/products/1
+`
+http http://localhost:8085/products/1
+`
 - ( 9개에서 10개로 변경된것 확인 )
 
 5. 주문 서비스는 자체 상품데이터를 저장 하고 있습니다. ProductChanged 이벤트에 의하여 주문 서비스의 재고량이 늘어난 것을 확인 합니다
-- http http://localhost:8081/products/1
+`
+http http://localhost:8081/products/1
+`
 - ( 9개에서 10개로 변경된것 확인 )
 
 ### 시스템 오류로 주문을 취소 할때 (Roll-back) 실습
@@ -251,7 +265,6 @@ git clone https://github.com/event-storming/delivery.git
 
 #### order 프로젝트 > Order.java
 ```java
-
 @PrePersist
 private void orderCheck(){
 ...
@@ -318,7 +331,6 @@ this.orderId = orderId;
 
 ### products 프로젝트 > ProductService.java 파일의 기존 코드
 ```java
-
 /**
 * 주문이 발생시, 수량을 줄인다.
 */
@@ -369,7 +381,6 @@ Optional<Product> productOptional = productRepository.findById(orderPlaced.getPr
 
 ### order 프로젝트 > OrderService.java
 ```java
-
 @Autowired
 private OrderRepository orderRepository;
 
@@ -395,7 +406,7 @@ public void onProductOutOfStock(@Payload ProductOutOfStock productOutOfStock) {
 8. 재고량이 없을시, ProductOutOfStock 가 발행되고 주문이 취소 되는지 확인 합니다.
 
 - 재고량이 넘치도록 주문을 합니다. (상품ID 1번을 100개 주문)
-- http localhost:8081/orders productId=1 quantity=100 customerId="1@uengine.org" customerName=“홍길동” customerAddr="서울시"
+`http localhost:8081/orders productId=1 quantity=100 customerId="1@uengine.org" customerName=“홍길동” customerAddr="서울시"`
 
 - 카프카의 consumer 를 조회하여 이벤트가 어떻게 호출 되는지 확인 해 봅니다
 - 윈도우
@@ -420,7 +431,7 @@ public void onProductOutOfStock(@Payload ProductOutOfStock productOutOfStock) {
 
 9. 주문을 하였을때 ProductOutOfStock 와 OrderCancelled, DeliveryCancelled 등이 연이어 발생 하는 것을 확인 할 수 있습니다. 추가적으로 ProductOutOfStock 이벤트일때 ProductChanged 가 발행하지 않도록 하는 구현이 추가가 되어야 합니다. 해당 부분은 직접 구현 하여 보시고, 결과는 아래 링크에서 확인 하실 수 있습니다.
 
-- https://github.com/event-storming/products/blob/saga-rollback/src/main/java/com/example/template/ProductService.java
+<a href="https://github.com/event-storming/products/blob/saga-rollback/src/main/java/com/example/template/ProductService.java" target="_blank">ProductService.java</a>
 
 ### 구현 완료시 프로세스 모형
 

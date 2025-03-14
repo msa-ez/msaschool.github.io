@@ -22,22 +22,22 @@ CI/CD의 "CD"는 **지속적인 서비스 제공**(Continuous Delivery) 또는 *
         </mark-down>
         <g-image src="~/img/03_Bizdevops/05_배포/01_지속적인_통합/image1.png"></g-image>
 
-        <mark-down class="content">
-> 그림 : https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+        <mark-down class="content" source="
+<a href='https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment' target='_blank'>그림</a>
 
 **지속적인 서비스 제공**(Continuous Delivery)은 CI 프로세스를 통과 하는 모든 코드 변경 내용은 프로덕션 환경과 유사한 환경에 자동으로 게시하는 과정입니다.
 
 **지속적인 배포**(Continuous Deployment)는 앞의 두 과정을 프로덕션 환경까지 자동 배포 혹은 의사결정에 의한 배포 할수 있는 환경을 구성하여 놓는 것입니다.
 
-약간의 자동화 단계의 차이는 있지만 결국 **"CD"** 는 **CI 가 이루어지고 난 후에 운영환경 까지의 배포를 하여, 실제 사용자가 사용할수 있겠끔 하는 단계**입니다. 만약 CI/CD 가 자동화 되어 매일 개발 환경에 그날그날 개발한 내용이 배포가 된다면 개발팀과 비지니스 팀과의 의사소통은 활발해 질수 있을 것이고, 바로바로 피드백을 수정 할 수 있을 것입니다. 피드백을 받아서 문제가 있을 경우 빠르게 이전 버전으로 롤백을 하는 과정도 자동화에 포함 시킬수 있습니다. 또한 배포를 운영팀이 수동으로 하고있었다면, 자동화를 통하여 운영팀의 부하를 줄여 줄 수 있습니다.
+약간의 자동화 단계의 차이는 있지만 결국 **'CD'** 는 **CI 가 이루어지고 난 후에 운영환경 까지의 배포를 하여, 실제 사용자가 사용할수 있겠끔 하는 단계**입니다. 만약 CI/CD 가 자동화 되어 매일 개발 환경에 그날그날 개발한 내용이 배포가 된다면 개발팀과 비지니스 팀과의 의사소통은 활발해 질수 있을 것이고, 바로바로 피드백을 수정 할 수 있을 것입니다. 피드백을 받아서 문제가 있을 경우 빠르게 이전 버전으로 롤백을 하는 과정도 자동화에 포함 시킬수 있습니다. 또한 배포를 운영팀이 수동으로 하고있었다면, 자동화를 통하여 운영팀의 부하를 줄여 줄 수 있습니다.
 
-> 참고 : https://www.redhat.com/ko/topics/devops/what-is-ci-cd
+<a href='https://www.redhat.com/ko/topics/devops/what-is-ci-cd' target='_blank'>참고</a>
 
 
 ## 마이크로 서비스에서 CI/CD
 
 #### 모노리식 개발 및 운영환경
-
+        ">
         </mark-down>
         <g-image src="~/img/03_Bizdevops/05_배포/01_지속적인_통합/image2.png"></g-image>
 
@@ -67,13 +67,14 @@ CI/CD의 "CD"는 **지속적인 서비스 제공**(Continuous Delivery) 또는 *
         </mark-down>
         <g-image src="~/img/03_Bizdevops/05_배포/01_지속적인_통합/image4.png"></g-image>
 
-        <mark-down class="content">
+        <mark-down class="content" source="
 위 그림은 DevOps 의 대표적인 toolchain 입니다.
 CI 에서 소스코드 형상 관리는 필수적인 요소 입니다. 최근에 가장 많이 사용하는 형상 관리는 Git 입니다.
 마이크로 서비스의 아키텍처의 장점을 최대한 살리고, 빌드된 소스 코드를 개발환경이나 운영환경으로 서로 다른 환경에 변함없이 기동할수 있는 기술을 Containerization (컨테이너화) 라고 합니다. 이 컨테이너 기술의 대표 프로그렘이 Docker 입니다.
 배포 환경으로는 2017년 이후로 Kubernetes 가 가장 많이 사용되고 있습니다. Kubernetes 는 컨테이너를 실은 배의 선장같은 역할로 종합적인 컨테이너 인프라를 제공하여 줍니다.
 
-더욱 다양한 도구들은 https://landscape.cncf.io/ 에서 확인 할 수 있습니다.
+<a href='https://landscape.cncf.io/' target='_blank'>더욱 다양한 도구들은 여기에서 확인 할 수 있습니다.</a>
+        ">
         </mark-down>
         <g-image src="~/img/03_Bizdevops/05_배포/01_지속적인_통합/image5.png"></g-image>
 

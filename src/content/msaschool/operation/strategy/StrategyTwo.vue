@@ -58,9 +58,9 @@ OS, 데이터, 애플리케이션을 그대로 들어서 옮기는 방식으로 
 
 </mark-down>
         <g-image src="~/img/04_Library/03_MSA 전환전략/03_전환방식 선정/image2.png"></g-image><br>
-        <mark-down class="content">
-참고 : http://library.gabia.com/contents/infrahosting/7705
-
+        <mark-down class="content" source="
+참고 : <a href='http://library.gabia.com/contents/infrahosting/7705' target='_blank'>http://library.gabia.com/contents/infrahosting/7705</a>
+        ">
         </mark-down>
     </div>
 </template>
