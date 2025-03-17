@@ -57,8 +57,7 @@
 
 </mark-down>
         <g-image src="~/img/04_Library/04_MSA Outer 아키텍처/03_Container Management/image3.png"></g-image><br>
-        <mark-down class="content">
-
+        <mark-down class="content" source="
 이 방식은 VM 대신 각 서비스를 컨테이너에 올리는 방식입니다. 컨테이너는 운영체제 수준 가상화 방식으로 운영체제 커널을 공유합니다. 따라서 각자 OS를 가지고 있는 VM과 달리 하나의 OS에 여러 컨테이너가 올라가게 되므로 크기도 작고 리소스를 훨씬 적게 사용합니다.
 
 컨테이너는 프로세스를 묶어서 샌드박스 형태로 제공하고 각자의 파일 시스템과 네트워크 포트를 가지고 있습니다. 컨테이너 별로 메모리와 CPU등의 리소스를 제한할 수 있습니다.
@@ -125,7 +124,7 @@
 
 대부분의 클라우드 제공 업체(CSP)는 Lock-In된 Managed Container 서비스를 제공하고 일부는 여러 오케스트레이터를 제공하고 있으며 그 종류는 다음과 같습니다.
 
-**Mesosphere DC/OS (https://mesosphere.com)**
+<a href='https://mesosphere.com' target='_blank' class='text-path'>Mesosphere DC/OS</a>
 
 >Mesosphere는 오픈소스 클러스터 관리 플랫폼인 Apache Mesos를 기반으로 하는 컨테이너 및 데이터 서비스 오케스트레이션을 위한 하이브리드 클라우드 플랫폼인 Mesosphere Enterprise DC/OS를 제공합니다.
 >
@@ -133,7 +132,7 @@
 >
 >Mesosphere의 강점 중 하나는 큰 데이터, 기계 학습, 레거시 작업 부하 및 컨테이너에서 광범위한 유형의 작업을 지원할 수 있어서 다른 컨테이너 전문 제품과 달리 Mesosphere는 보다 통일된 관리기능을 제공 할 수 있다는 장점이 있습니다.
 
-**PKS (https://pivotal.io/kr/platform/pivotal-container-service)**
+<a href='https://pivotal.io/kr/platform/pivotal-container-service' target='_blank' class='text-path'>PKS</a>
 
 >PKS(Pivotal Container Service)는 Pivotal Software와 VMware가 Google과 공동으로 VMware vSphere 또는 GCP에서 Kubernetes 클러스터를 제공, 운영 및 관리하기 위해 개발한 솔루션으로 클라우드기반 컴퓨팅 플랫폼인 Pivotal Cloud Foundry (PCF) 제품군 내의 독립 실행형 제품입니다.
 >
@@ -143,7 +142,7 @@
 >
 >Pivotal Software는 전통적인 PaaS 및 PaaS 기능과 컨테이너 관리를 포함한 보다 포괄적인 클라우드 기반 응용 프로그램 플랫폼을 제공함으로써 다른 회사와 차별화하며, PAS와 PKS는 현재 동일한 기초 및 분산 시스템 구성 도구인 BOSH를 사용하지만 별도의 제품 구성 요소입니다.
 
-**OpenShift (https://www.openshift.com/)**
+<a href='https://www.openshift.com/' target='_blank' class='text-path'>OpenShift</a>
 
 >Red Hat은 2011년에 OpenShift 제품 라인을 발표했으며, 2015 년에 플랫폼을 재설계하고 자체 개발한 컨테이너 엔진 일정 및 오케스트레이션 프레임워크를 Docker 형식 컨테이너 및 Kubernetes 컨테이너 오케스트레이션으로 대체했습니다.
 >
@@ -151,7 +150,7 @@
 >
 >Red Hat OpenShift는 개발 및 운영팀의 역량을 강화하는 데 필요한 아키텍처, 프로세스, 플랫폼, 서비스를 통합하여 환경 전체에 안정적으로 배포되며 인프라 비용을 절감하는 동시에 고객의 요구를 충족할 수 있습니다.
 >
-**GKE (https://cloud.google.com/kubernetes-engine/)**
+<a href='https://cloud.google.com/kubernetes-engine/' target='_blank' class='text-path'>GKE</a>
 
 >GKE는 애플리케이션 배포를 위한 관리형 환경으로 이를 통해서 개발자 생산성, 리소스 효율성, 자동화된 작업, 오픈소스 유연성을 얻을 수 있으며, 특히 Google은 15년 이상 Container로 운영 환경 작업을 실행해 왔으며 이러한 작업으로부터 얻은 노하우의 정수가 GKE의 기반을 이루고 있습니다.
 >
@@ -165,7 +164,7 @@
 대규모로 운영하는 경우 컨테이너의 배치, 관리, 확장, 네트워킹 및 컨테이너의 가용성을 자동화하는 컨테이너 오케스트레이션 도구 사용이 필수 적입니다.
 
 컨테이너 오케스트레이션 도구로 Kubernetes, Openshift Origin, DC/OS, Docker Swarm, Rancher등의 좋은 컨테이너 오케스트레이션 도구들이 있습니다. AWS는 자체 컨테이넌 오케스트레이션 도구로 ECS를 제공하며, Kubernetes 기반의 EKS 역시 제공합니다.
-
+        ">
         </mark-down>
     </div>
 </template>

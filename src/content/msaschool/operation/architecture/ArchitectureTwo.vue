@@ -234,11 +234,10 @@ GCP의 GKE는 이미 기본적인 Service Mesh를 가지고 있습니다. 그것
 
 </mark-down>
         <g-image src="~/img/04_Library/04_MSA Outer 아키텍처/02_Service Mesh/image6.png"></g-image><br>
-        <mark-down class="content">
-
-
+        <mark-down class="content" source="
 **1. AWS App Mesh**
-([https://aws.amazon.com/ko/app-mesh/features/](https://aws.amazon.com/ko/app-mesh/features/))\]
+
+<a href='https://aws.amazon.com/ko/app-mesh/features/' target='_blank'>AWS App Mesh 기능</a>
 
 AWS App Mesh를 사용하면 다양한 유형의 컴퓨팅 인프라 전반에 구축된 서비스에 대한 일관된 가시성 및 네트워크 트래픽 제어 기능을 제공하여 손쉽게 서비스를 실행할 수 있으며, 모니터링 데이터 수집 방식이나 서비스 간에 트래픽이 라우팅 되는 방식을 변경하기 위해 애플리케이션 코드를 업데이트할 필요가 없습니다.
 
@@ -260,8 +259,9 @@ AWS APP Mesh의 주요 기능은 다음과 같습니다.
 어플리케이션 내 다른 마이크로서비스들의 위치를 담고 있는 데이터를 받습니다.
 
 
-**2. Istio **
-([https://istio.io/docs/concepts/what-is-istio/](https://istio.io/docs/concepts/what-is-istio/))**
+**2. Istio**
+
+<a href='https://istio.io/docs/concepts/what-is-istio/' target='_blank'>Istio 소개</a>
 
 Istio는 Google, IBM, Redhat, Lyft, VMware와 같이 다수의 대형업체들이 참여하여 Service Mesh의 개념을 쉽게 구현할 수 있는 일종의 프레임워크(?)의 형태로 제공하는 오픈소스입니다.
 
@@ -284,8 +284,7 @@ Istio의 주요 기능은 다음과 같습니다.
 ### **Service Mesh 고려사항**
 
 Service Mash Pattern에서 설명한 것처럼 Service Mesh 패턴은 다양합니다. 패턴들을 크게 두 가지로 크게 분류하면 호스트 공유 프록시 패턴과 Side car 컨테이너 방식이라 할 수 있습니다.
-
-
+        ">
 </mark-down>
         <g-image src="~/img/04_Library/04_MSA Outer 아키텍처/02_Service Mesh/image7.png"></g-image><br>
         <mark-down class="content">

@@ -68,7 +68,7 @@ API Gateway가 없는 경우 UI는 직접 LoadBalancer에 요청을 전달해야
 
         </mark-down>
         <g-image src="~/img/04_Library/04_MSA Outer 아키텍처/01_API Gateway/image3.png"></g-image><br>
-        <mark-down class="content">
+        <mark-down class="content" source="
 API Gateway는 클라이언트 앱의 다양하고 많은 요구사항을 기반으로 API가 추가되기 때문에 단일 API Gateway가 처리하는 API가 많아지면 사실상 기존 모놀리식 어플리케이션 아키텍처와 상당히 비슷하게 변모할 가능성이 있습니다.
 
 그렇기 때문에 API Gateway를 나누어서 클라이언트 앱당 하나씩 분할하는 것도 좋은 방법입니다.
@@ -115,7 +115,7 @@ API Gateway 때문에 클라이언트앱은 사용 중인 API가 내부 마이�
 
 ### **API Gateway 종류**
 
-#### **Amazon API ( https://aws.amazon.com/ko/api-gateway/ )**
+#### **<a href='https://aws.amazon.com/ko/api-gateway/' target='_blank' class='text-path'>Amazon API Gateway</a>**
 
 Amazon API Gateway는 어떤 규모에서든 개발자가 API를 손쉽게 생성, 게시, 유지 관리, 모니터링 및 보안할 수 있게 해주는 완전 관리형 서비스입니다.
 
@@ -142,7 +142,7 @@ API 게이트웨이는 트래픽 관리, 권한 부여 및 액세스 제어, 모
 >Amazon API 게이트웨이의 기본 보안은 특정 트래픽 관리 기능으로 제한되며, 다른 보안 기능을 사용하려면 AWS 서비스 또는 외부 기능을 사용해야 합니다.
 
 
-#### **Apigee Edge ( https://cloud.google.com/apigee/?hl=ko )**
+#### **<a href='https://cloud.google.com/apigee/?hl=ko' target='_blank' class='text-path'>Apigee Edge</a>**
 
 Apigee는 구글이 2016년 인수한 API관리 플랫폼으로 API 런타임/ 게이트웨이와 개발자 포탈이 포함되어 있으며, API 제공업체에서 API를 설계, 배포, 모니터링, 확장하고 보안을 적용할 수 있는 전체 수명 주기를 관리합니다.
 
@@ -161,7 +161,7 @@ Apigee는 런타임 API 트래픽에 맞게 배치되며 키 유효성 검사, �
 >Bot mitigation 및 행동 분석을 위해서는 추가 Apigee Sense 라이선스가 필요하며, 사설 클라우드 구축을 위한 Apigee Edge에는 Apigee Sense를 추가 할 수 없습니다.
 
 
-#### **IBM DataPower ( https://www.ibm.com/products/datapower-gateway )**
+#### **<a href='https://www.ibm.com/products/datapower-gateway' target='_blank' class='text-path'>IBM DataPower</a>**
 
 IBM DataPower Gateway를 통해 기업은 단일 멀티채널 게이트웨이를 활용한 디지털 비즈니스 보안 및 통합 요구사항을 충족할 수 있으며, 모바일, 웹, API(Application Programming Interface), SOA(Service-oriented Architecture), B2B 및 클라우드 워크로드에 대해 보안, 제어, 통합 및 최적화된 액세스를 가능하게 합니다.
 
@@ -174,7 +174,7 @@ IBM DataPower Gateway를 통해 기업은 단일 멀티채널 게이트웨이를
 > IBM DataPower Gateway는 하드웨어, OS 및 API 런타임 처리 스택이 처음부터 보안에 중점을 두고 구축된 특수 목적의 물리적 네트워크 어플라이언스 폼 팩터를 제공하는 유일한 제품입니다.
 
 
-#### **Kong API 게이트웨이 ( https://konghq.com/kong/ )**
+#### **<a href='https://konghq.com/kong/' target='_blank' class='text-path'>Kong API 게이트웨이</a>**
 
 Kong (이전 Mashape)은 NGINX를 기반으로 오픈 소스 API 및 마이크로 서비스 관리 솔루션을 제공합니다.
 
@@ -205,7 +205,7 @@ Kong Community Edition(CE)은 무료 오픈 소스 소프트웨어이지만 Kong
 - API Gateway는 추가 네트워크 호출로 인해 응답 시간 증가로 이어질 수 있습니다.
 
 - Scale-Out 기능이 적절하게 적용되지 않을 경우, API Gateway는 병목 상태가 될 수 있습니다.
-
+        ">
         </mark-down>
     </div>
 </template>

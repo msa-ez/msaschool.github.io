@@ -14,7 +14,8 @@ table td:last-child, table th:last-child {
 }
 
 .markdonw-page-box p a,
-.markdonw-page-box li a {
+.markdonw-page-box li a,
+.text-path {
     color: #5a67d8 !important;
     font-weight: 700 !important;
 }
