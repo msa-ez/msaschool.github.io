@@ -1,6 +1,8 @@
 <template>
     <!--    <div class="py-2 border-t-2 border-ui-primary" style="background-color: #1e88e5;">-->
-    <div class="pa-4 border-t-2 border-ui-primary">
+    <div class="border-t-2 border-ui-primary"
+        style="padding: 16px !important;"
+    >
         <a href="https://www.msaez.io" target="_blank" class="footer-banner">
             <g-image style="width:150px; height:150px; border-radius:15px; position:absolute; top:0; left:0;"
                 src="https://github.com/msa-ez/msaschool.github.io/assets/149130268/0dda67eb-8b79-4442-bdd9-c4526edaf6a8">
