@@ -12,7 +12,7 @@
                 </header>
 
                 <v-row class="ma-0 pa-0"
-                    style="width:100vw"
+                    style="width:100vw; margin: 0px !important; padding: 0px !important;"
                 >
                     <aside
                         v-if="hasSidebar"
