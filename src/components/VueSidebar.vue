@@ -42,7 +42,7 @@
                                 <div>
                                     {{child.props[0].name}}
                                 </div> 
-                                <div v-if="checkLinks(child)" style="display: inline-block; border: 1px solid #5a67d8; border-radius: 10%; font-size: 9px; color: #5a67d8; font-weight: 700; padding: 0 2px; margin-left: 2px;">
+                                <div v-if="checkLinks(child)" class="blink-animation">
                                     실습
                                 </div>
                             </div>
@@ -285,3 +285,23 @@
         },
     };
 </script>
+
+<style>
+.blink-animation {
+    display: inline-block;
+    border: 1px solid #5a67d8;
+    border-radius: 10%;
+    font-size: 9px;
+    color: #5a67d8;
+    font-weight: 700;
+    padding: 0 2px;
+    margin-left: 2px;
+}
+/* blink-animation 클래스에 깜빡이는 애니메이션 추가하고싶을 때 animation: blinker 3s linear infinite; */
+
+/* @keyframes blinker {
+    50% {
+        opacity: 0.3;
+    }
+} */
+</style>

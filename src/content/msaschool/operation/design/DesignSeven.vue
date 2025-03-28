@@ -1,8 +1,6 @@
 <template>
     <div>
-        <div class="Practice-card-box">
-                <VueSubLayoutCard lab="token-based-auth-2022-associate"></VueSubLayoutCard>
-        </div>
+        <VueSubLayoutCard lab="token-based-auth-2022-associate"></VueSubLayoutCard>
         <mark-down class="content">
 ## 마이크로서비스 보안설계
 

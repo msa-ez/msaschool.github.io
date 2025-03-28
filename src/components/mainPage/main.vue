@@ -1,5 +1,5 @@
 <template>
-    <div style="margin-top: 70px; font-family: system-ui,-apple-system;">
+    <div style="margin-top: 16px; font-family: system-ui,-apple-system;">
         <mainTopSlideVue />
         <mainIntroWebinarVue />
         <mainCurriculumVue />
