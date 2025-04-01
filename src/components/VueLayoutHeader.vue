@@ -19,15 +19,13 @@
                 <v-row style="margin: 0px; padding: 0px; margin-left: auto;">
                     <div style="flex-grow: 1 !important;"></div>
 
-                    <div class="" style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-right: 7px;">
-                        <g-link
-                            to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
-                            title="MSAEZ 체험하기"
+                    <div class="" style="display: flex; align-items: center; margin-right: 7px;">
+                        <v-btn class="experience-btn" 
+                            href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
+                            target="_blank"
                         >
-                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mr-2">
-                        </g-link>
-                        <v-btn class="experience-btn">
-                            <span style="color: white; font-weight: bold;">체험하기 》</span>
+                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mr-1">
+                            <span style="color: white; font-weight: bold;">체험하기</span>
                         </v-btn>
                     </div>
                     
@@ -60,15 +58,20 @@
                     </ClientOnly>
                 </div>  
                 <div style="display: flex; justify-content: space-between; align-items: center; ">
-                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-right: 10px;">
+                    <div class="experience-btn-box" style="">
                         <g-link
                             to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
                             title="MSAEZ 체험하기"
                         >
-                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mb-2"/>
+                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mb-1">
                         </g-link>
-                        <v-btn class="experience-btn">
-                            <span style="color: white; font-weight: bold;">체험하기 》</span>
+
+                        <v-btn class="experience-btn"
+                            style=""
+                            href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
+                            target="_blank"
+                        >
+                            <span style="display: block; color: white; font-weight: bold;">체험하기</span>
                         </v-btn>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: flex-end;">
@@ -176,19 +179,31 @@
     }
     
     .is-mobile-header {
-        display:none;
+        display: none;
     }
     .msaez-logo {
-        width: 80px;
-        height: 43px;
+        display: block !important;
+        width: 46px;
+        height: 25px;
+    }
+    .experience-btn-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+        background-color: #5a67d8;
+        border-radius: 4px;
+        width: 100px;
+        height: 78px;
     }
     .experience-btn {
-        background-color: #9775c0 !important;
-        width: 90px !important;
-        height: 30px !important;
+        background-color: #5a67d8 !important;
+        width: 135px !important;
+        
     }
     .modal-container #modal-toggle.active ~ .modal-content, .modal-container #modal-toggle:checked ~ .modal-content {
-        margin-top:80px;
+        margin-top: 80px;
     }
     @media only screen and (max-width:1024px){
         .is-pc-header {
@@ -197,26 +212,36 @@
         .is-mobile-header {
             display:block;
         }
-    }
-    @media screen and (max-width: 375px) {
-        /* .logo-image {
-            width: 150px !important;
-            height: 40px !important;
-        } */
         .msaez-logo {
-            width: 60px !important;
-            height: 32px !important;
-            margin-bottom: 2px;
+            width: 74px;
+            height: 40px;
+            margin-top: 5px;
+        }
+        .experience-btn {
+            width: 90px !important;
+            height: 30px !important;
+            box-shadow: none !important;
+            margin-top: -5px;
+        }
+    }
+    @media screen and (max-width: 376px) {
+        .msaez-logo {
+            width: 46px !important;
+            height: 25px !important;
+        }
+        .main-top-btn {
+            font-size: 12px !important;
+            height: 25px !important;
+            width: 90px !important;
+        }
+        .experience-btn-box {
+            width: 80px;
+            height: 58px;
         }
         .experience-btn {
             width: 70px !important;
             height: 25px !important;
             font-size: 12px !important;
-        }
-        .main-top-btn {
-            font-size: 12px !important;
-            height: 25px !important;
-            width: 80px !important;
         }
     }
 
