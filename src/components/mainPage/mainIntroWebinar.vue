@@ -66,7 +66,8 @@
                 설치가 필요없이 100% 브라우저 기반에서 동작하며 협업기반의 팀워크를 지원하는 최신의 OpenAI 엔진들이 탑재되어 비즈니스 기획자, 데브옵스 개발자, 클라우드 운영자를 위애 비즈니스 기획에서 구현, 테스트, 배포를 아우르는 클라우드 네이티브한 task들을 자동화하며 다양한 애자일한 경험들을 제공합니다.
             </div>
 
-            
+            <mainSampleExerciseVue />
+
             <h3 style="margin-top: 20px;">마이크로서비스 아키텍처 도구 비교</h3>
             <table class="tbl-ez" style="width:100%;">
                 <th style="padding: 0 !important;">
@@ -194,7 +195,7 @@
                 class="default-col text-center"
             >
                 <a :href="webinar.link" target="_blank">
-                    <v-card style="padding:10px; height:100%;"
+                    <v-card style="padding: 10px; height: 100%;"
                         class="clearfix"
                         outlined
                     >
@@ -215,42 +216,44 @@
 </template>
 
 <script>
+import mainSampleExerciseVue from './mainSampleExercise.vue';
+
 export default {
     props: {
 
     },
     components: {
-
+        mainSampleExerciseVue
     },
     data() {
         return {
             model: null,
-            webinarCard : [
-                {
-                    title: "11월 웨비나",
-                    subTitle: "오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개",
-                    youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-",
-                    imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/517e2fc5-3064-4534-9e9c-bce75838404f"
-                },
-                {
-                    title: "10월 웨비나",
-                    subTitle: "ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!",
-                    youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK",
-                    imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/a27eaa0b-1356-420c-91ed-7422e0935e1e"
-                },
-                {
-                    title: "8월 웨비나",
-                    subTitle: "ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기",
-                    youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X",
-                    imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/09ebe08a-9c29-4a93-a1e6-e607d5568257"
-                },
-                {
-                    title: "7월 웨비나",
-                    subTitle: "ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기",
-                    youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY",
-                    imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/4ab69e92-c87a-4acf-a722-0f175115ae81"
-                }
-            ],
+            // webinarCard : [
+            //     {
+            //         title: "11월 웨비나",
+            //         subTitle: "오픈소스 기반의 Private 온-프렘 클라우드 플랫폼 사례 및 소개",
+            //         youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW_N7xnmf4XDJv-G-APhjWa-",
+            //         imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/517e2fc5-3064-4534-9e9c-bce75838404f"
+            //     },
+            //     {
+            //         title: "10월 웨비나",
+            //         subTitle: "ChatGPT와 MSAEZ로 쉽고 빠르게 애견용품 사업을 디지털 비즈니스로 바꿔보자!",
+            //         youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW9sTeDiSY_D3x7q2NE1f7vK",
+            //         imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/a27eaa0b-1356-420c-91ed-7422e0935e1e"
+            //     },
+            //     {
+            //         title: "8월 웨비나",
+            //         subTitle: "ChatGPT와 MSAEZ를 활용해 1시간 만에 기업 기존 시스템을 SaaS로 전환해보기",
+            //         youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW8CYIuf52d06BHfpgS6Q0-X",
+            //         imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/09ebe08a-9c29-4a93-a1e6-e607d5568257"
+            //     },
+            //     {
+            //         title: "7월 웨비나",
+            //         subTitle: "ChatGPT를 활용하여 쉽고 빠르게 서비스 기획부터 사업 구현하기",
+            //         youtubeUrl: "https://www.youtube.com/playlist?list=PLEr96Fo5umW_-Ke68S8pmiq8x1pP9qVOY",
+            //         imgUrl: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/4ab69e92-c87a-4acf-a722-0f175115ae81"
+            //     }
+            // ],
             learningParishs: [
             {
                 link: "https://www.youtube.com/embed/FeQEKhKXrmQ",
@@ -282,6 +285,18 @@ export default {
             }
             ],
             webinars: [
+                {
+                    link: "https://www.youtube.com/playlist?list=PLEr96Fo5umW915F7tPJ4WBAXDMVssin2b",
+                    image: "https://www.uengine.org/images/blog/post-prev-10.jpg",
+                    mainText: "2025년 2월 웨비나",
+                    subText: "딥시크 R1과 MSA 개발 프로세스 자동화"
+                },
+                {
+                    link: "https://www.youtube.com/playlist?list=PLEr96Fo5umW-gUFl7a0mwpKnd_HsmTNyV",
+                    image: "https://www.uengine.org/images/blog/post-prev-9.jpg",
+                    mainText: "2024년 12월 웨비나",
+                    subText: "AI 기반 개발의 새로운 접근 : MSA Easy 무료 세미나 "
+                },
                 {
                     link: "https://www.youtube.com/playlist?list=PLEr96Fo5umW8ZWYu6M7agDdpuoiNXXSAe",
                     image: "https://github.com/msa-ez/msaschool.github.io/assets/149130268/b444ccb5-cfce-4abd-b2cd-0982edbb6394",

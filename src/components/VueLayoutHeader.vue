@@ -4,19 +4,33 @@
         <!-- pc 화면 -->
         <div class="is-pc-header">
             <div class="flex item-center justify-center">
-                <div class="flex flex-col items-center  sm:flex-row" style="margin-left:40px; place-self:center; ">
+                <div class="flex flex-col items-center sm:flex-row" style="margin-left: 40px; place-self: center; ">
                     <g-link
                         to="/operation/introduction/"
                         title="Home"
                     >
-                        <img src="../img/msa-school-logo.svg" style="width:200px; height:50px;">
+                        <img src="../img/msa-school-logo.svg" style="width: 200px; height: 50px;">
                     </g-link>
                     <ClientOnly>
                         <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
                 </div>
-                <v-row style="margin:0px; padding:0px;">
+                
+                <v-row style="margin: 0px; padding: 0px; margin-left: auto;">
                     <div style="flex-grow: 1 !important;"></div>
+
+                    <div class="" style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-right: 7px;">
+                        <g-link
+                            to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
+                            title="MSAEZ 체험하기"
+                        >
+                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mr-2">
+                        </g-link>
+                        <v-btn class="experience-btn">
+                            <span style="color: white; font-weight: bold;">체험하기 》</span>
+                        </v-btn>
+                    </div>
+                    
                     <v-btn class="main-top-btn"
                         :href="'/operation/introduction/one-point-lesson/'"
                         style="margin:7px 7px 0px 0px;"
@@ -33,29 +47,42 @@
         
         <!-- 모바일 화면  -->
         <div class="is-mobile-header">
-            <v-row class="ma-0 pa-0 pl-4 pr-2" style="display: flex; justify-content: space-between; align-items: center; margin:0px;">
-                <div style="padding:0px 0px 0px 30px; display: flex; align-items: center;">
+            <v-row class="ma-0 pa-0 pl-4 pr-2" style="display: flex; justify-content: space-between; align-items: center; margin: 0px;">
+                <div style="padding: 0px 0px 0px 30px; display: flex; align-items: center;">
                     <g-link
                         to="/operation/introduction/"
                         title="Home"
                     >
-                        <Logo/>
+                        <Logo src="../img/msa-school-logo.svg" style="width: 150px; height: 40px;"/>
                     </g-link>
                     <ClientOnly>
                         <VueSearch v-if="!isSmall"></VueSearch>
                     </ClientOnly>
-                </div>
-                <div style="display: flex; flex-direction: column; align-items: flex-end;">
-                    <v-btn class="main-top-btn mb-2"
-                        :href="'/operation/introduction/one-point-lesson/'"
-                    >
-                        <span style="color:white;">컨설팅 문의</span>
-                    </v-btn>
-                    <v-btn class="main-top-btn"
-                        :href="'/operation/introduction/schedule/'"
-                    >
-                        <span style="color:white;">교과정 안내</span>
-                    </v-btn>
+                </div>  
+                <div style="display: flex; justify-content: space-between; align-items: center; ">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-right: 10px;">
+                        <g-link
+                            to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
+                            title="MSAEZ 체험하기"
+                        >
+                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mb-2"/>
+                        </g-link>
+                        <v-btn class="experience-btn">
+                            <span style="color: white; font-weight: bold;">체험하기 》</span>
+                        </v-btn>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+                        <v-btn class="main-top-btn mb-2"
+                            :href="'/operation/introduction/one-point-lesson/'"
+                        >
+                            <span style="color:white;">컨설팅 문의</span>
+                        </v-btn>
+                        <v-btn class="main-top-btn"
+                            :href="'/operation/introduction/schedule/'"
+                        >
+                            <span style="color:white;">교과정 안내</span>
+                        </v-btn>
+                    </div>
                 </div>
             </v-row>
         </div>
@@ -151,7 +178,15 @@
     .is-mobile-header {
         display:none;
     }
-
+    .msaez-logo {
+        width: 80px;
+        height: 43px;
+    }
+    .experience-btn {
+        background-color: #9775c0 !important;
+        width: 90px !important;
+        height: 30px !important;
+    }
     .modal-container #modal-toggle.active ~ .modal-content, .modal-container #modal-toggle:checked ~ .modal-content {
         margin-top:80px;
     }
@@ -163,6 +198,28 @@
             display:block;
         }
     }
+    @media screen and (max-width: 375px) {
+        /* .logo-image {
+            width: 150px !important;
+            height: 40px !important;
+        } */
+        .msaez-logo {
+            width: 60px !important;
+            height: 32px !important;
+            margin-bottom: 2px;
+        }
+        .experience-btn {
+            width: 70px !important;
+            height: 25px !important;
+            font-size: 12px !important;
+        }
+        .main-top-btn {
+            font-size: 12px !important;
+            height: 25px !important;
+            width: 80px !important;
+        }
+    }
+
 </style>
 <style lang="scss">
     header {

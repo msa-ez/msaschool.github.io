@@ -5,7 +5,6 @@
         <mainCurriculumVue />
         <mainInstructorVue />
         <mainChartAndCompaniesVue />
-        <mainSampleExerciseVue />
 
         <div style="margin-top: 30px; margin-bottom: 15px;" class="content">
             <h3 class="con-tit w280">MSA School 교육 일정 확인</h3>
@@ -22,7 +21,6 @@ import mainCurriculumVue from './mainCurriculum.vue';
 import mainIntroWebinarVue from './mainIntroWebinar.vue';
 import mainInstructorVue from './mainInstructor.vue';
 import mainChartAndCompaniesVue from './mainChartAndCompanies.vue';
-import mainSampleExerciseVue from './mainSampleExercise.vue';
 
 export default {
     name: 'index',
@@ -37,8 +35,7 @@ export default {
         mainIntroWebinarVue,
         mainCurriculumVue,
         mainInstructorVue,
-        mainChartAndCompaniesVue,
-        mainSampleExerciseVue
+        mainChartAndCompaniesVue
     },
 }
 </script>
@@ -322,7 +319,7 @@ button:focus{
 }
 
 .youtube-card-image {
-    height: 180px;
+    height: 160px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;

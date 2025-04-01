@@ -291,7 +291,7 @@
     display: inline-block;
     border: 1px solid #5a67d8;
     border-radius: 10%;
-    font-size: 9px;
+    font-size: 10px;
     color: #5a67d8;
     font-weight: 700;
     padding: 0 2px;
