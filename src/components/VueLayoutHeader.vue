@@ -18,7 +18,7 @@
                 
                 <v-row style="margin: 0px; padding: 0px; margin-left: auto;">
                     <div style="flex-grow: 1 !important;"></div>
-                    <div style="display: flex; align-items: center; justify-content: center; margin: auto 0; margin-right: 7px; background-color: #5a67d8; border-radius: 4px; width: 145px; height: 33px;">
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 7px 7px 0 0; background-color: #5a67d8; border-radius: 4px; width: 145px; height: 33px;">
                         <g-link
                             to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
                             title="MSAEZ 체험하기"
