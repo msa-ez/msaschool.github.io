@@ -18,13 +18,18 @@
                 
                 <v-row style="margin: 0px; padding: 0px; margin-left: auto;">
                     <div style="flex-grow: 1 !important;"></div>
+                    <div style="display: flex; align-items: center; justify-content: center; margin: auto 0; margin-right: 7px; background-color: #5a67d8; border-radius: 4px; width: 145px; height: 33px;">
+                        <g-link
+                            to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
+                            title="MSAEZ 체험하기"
+                        >
+                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mr-1">
+                        </g-link>
 
-                    <div class="" style="display: flex; align-items: center; margin-right: 7px;">
-                        <v-btn class="experience-btn" 
+                        <v-btn style="background-color: #5a67d8 !important; width: 80px !important; hgieht: 25px !important; box-shadow: none;"
                             href="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
                             target="_blank"
                         >
-                            <img src="https://labs.msaez.io/static/image/logo.png" class="msaez-logo mr-1">
                             <span style="color: white; font-weight: bold;">체험하기</span>
                         </v-btn>
                     </div>
@@ -58,7 +63,7 @@
                     </ClientOnly>
                 </div>  
                 <div style="display: flex; justify-content: space-between; align-items: center; ">
-                    <div class="experience-btn-box" style="">
+                    <div class="experience-btn-box">
                         <g-link
                             to="https://labs.msaez.io/#/courses/fea33dd0-8030-11ed-9757-3db21672e322/1f2deec0-c856-11ed-aa53-950d34db487f/ddd-google-drive-associate"
                             title="MSAEZ 체험하기"
@@ -191,16 +196,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 5px;
+        margin-right: 7px;
         background-color: #5a67d8;
         border-radius: 4px;
         width: 100px;
-        height: 78px;
+        height: 74px;
     }
     .experience-btn {
         background-color: #5a67d8 !important;
-        width: 135px !important;
-        
+        width: 100px !important;
     }
     .modal-container #modal-toggle.active ~ .modal-content, .modal-container #modal-toggle:checked ~ .modal-content {
         margin-top: 80px;
