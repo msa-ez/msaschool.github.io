@@ -48,32 +48,11 @@ export default function (Vue, {appOptions, head}) {
     head.script.push({
         type: 'text/javascript',
         innerHTML: `
-            // IP 확인 및 추적 차단 로직
-            async function checkAndInitializeTracking() {
-                try {
-                    // localhost 확인
-                    const isLocalhost = window.location.hostname === 'localhost' || 
-                                        window.location.hostname === '127.0.0.1';
-                    
-                    // 개발 환경이나 localhost인 경우 추적하지 않음
-                    if (isLocalhost) {
-                        console.log('개발 환경에서는 추적이 비활성화됩니다.');
-                        return;
-                    }
-                    
-                    // 프로덕션 환경에서만 추적 초기화
-                    // UXLENS 추적 코드 초기화
-                    (function(w,d,n,u,o,t,m){w['SrecObject']=o;w[o]=w[o]||function(){
-                    (w[o].q=w[o].q||[]).push(arguments)},w[o].l=1*new Date();t=d.createElement(n),
-                    m=d.getElementsByTagName(n)[0];t.async=1;t.src=u;m.parentNode.insertBefore(t,m)
-                    })(window,document,'script','https://app.uxlens.com/collect/initialize.js','srec');
-                    srec('init', '4f6666e0-ff12-11ef-9a88-d5edc5c277ba');
-                } catch (error) {
-                    console.error('추적 초기화 중 오류가 발생했습니다:', error);
-                }
-            }
-            // 페이지 로드 시 추적 확인 함수 실행
-            checkAndInitializeTracking();
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "rma1lf6crr");
         `
     });
 
