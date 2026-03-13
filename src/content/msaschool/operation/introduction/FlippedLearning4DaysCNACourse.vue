@@ -450,34 +450,8 @@
 
             <br><br><br>
 
-            <h3 style="margin-top:20px;">실습강사(김근영 / 김규수)</h3>
+            <h3 style="margin-top:20px;">실습강사(김규수)</h3>
             <div class="gs-the-entire-package">
-                <div class="gs-instructor-card assistance">
-                    <figure class="g-image">
-                        <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden; border:1px solid #e6e9f9;">
-                            <g-image class="g-image--fallback" src="https://github.com/user-attachments/assets/7746204a-4a77-4aa2-bc65-e7a6414a75b4" alt="" style="margin-top:-20px; width: 100%;"/>
-                        </div>
-                    </figure>
-                    <div class="gs-instructor-card-name">
-                        <h3 style="margin-bottom:0; color:gray;">김근영</h3>
-                        <p style="color:gray; font-size:12px;">uEngine Cloud Platform Developer & Manager</p>
-                    </div>
-                    <div style="text-align:center; padding:10px 5px 20px 5px; opacity:0.7; font-size:14px;">
-                        • 現 MSA 정규 교과정 실습강사 및 코칭<br>
-                        • 現 MSA App. Engineering 기업과정 실습강사 및 코칭
-                        <hr  style="size:0.7; width:90%; margin:10px 0 10px 5%;"  color="black">
-                        • ‘24. 08 : 2e 컨설팅 Microservice Modeling/Developing CNA 과정<br>
-                        • ’23. 11 : KTDS Microservice Modeling/Developing CNA 과정<br>
-                        • ’23. 10 : GS Eventstorming 교육<br>
-                        • ’22. 09 : 아이티센 Microservice Modeling 과정<br>
-                        • ’22. 06 : 한화 Container Orchestration 과정<br>
-                        • ’22. 06 : SK C&C Microservice Modeling/Developing CNA<br>/Container Orchestration 과정<br>
-                        • ’22. 06 : 삼성 SDS Microservice Modeling/Developing CNA 과정<br>
-                        • ’22. 06 : 하나금융 Microservice Consulting 과정<br>
-                        • ‘22. 06 : 교보생명 Microservice Modeling 과정<br>
-                    </div>
-                </div>
-
                 <div class="gs-instructor-card assistance">
                     <figure class="g-image">
                         <div class="g-image--blur" style="width:150px; height:150px; border-radius:100%; margin:0 auto; margin-top:10px; overflow:hidden; border:1px solid #e6e9f9;">
