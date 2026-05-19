@@ -32,6 +32,29 @@ if (typeof window != 'undefined') {
 }
 
 export default function (Vue, {appOptions, head}) {
+    // [DEBUG] integration-one 페이지 사이드바/이미지 렌더 실패 추적용 — 원인 확정 후 제거
+    Vue.config.errorHandler = function (err, vm, info) {
+        try {
+            var name = (vm && vm.$options && (vm.$options.name || vm.$options._componentTag)) || 'unknown'
+            var route = (vm && vm.$route && vm.$route.path) || (typeof window !== 'undefined' ? window.location.pathname : 'n/a')
+            console.error('[VUE-ERR]', { route: route, component: name, info: info, message: err && err.message, stack: err && err.stack })
+        } catch (e) {
+            console.error('[VUE-ERR-FALLBACK]', err)
+        }
+    }
+    Vue.config.warnHandler = function (msg, vm, trace) {
+        var name = (vm && vm.$options && (vm.$options.name || vm.$options._componentTag)) || 'unknown'
+        console.warn('[VUE-WARN]', { component: name, msg: msg, trace: trace })
+    }
+    if (typeof window !== 'undefined') {
+        window.addEventListener('error', function (e) {
+            console.error('[WIN-ERR]', { route: window.location.pathname, message: e.message, filename: e.filename, line: e.lineno, col: e.colno })
+        })
+        window.addEventListener('unhandledrejection', function (e) {
+            console.error('[WIN-PROMISE-ERR]', { route: window.location.pathname, reason: e.reason })
+        })
+    }
+
     head.link.push({
         rel: "stylesheet",
         href:
